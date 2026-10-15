@@ -1,0 +1,11 @@
+{
+  "status": "complete",
+  "repo": "ganlinyang/EventVLA",
+  "revision": "55f0f3466c471ea7cf5c91248627d4256dd2e00a",
+  "destination": "/media/user/HDD_8T/eventvla_recoverability_phase1_20261014/checkpoints/EventVLA",
+  "files": 5,
+  "verified_bytes": 9798278279,
+  "group": "policy",
+  "pid": 493542,
+  "updated_utc": "2026-10-14T08:44:13.005963+00:00"
+}

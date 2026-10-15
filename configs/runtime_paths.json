@@ -1,0 +1,181 @@
+{
+  "created_utc": "2026-10-14T08:59:54.612977+00:00",
+  "paths": {
+    "project": "/home/user/workspace/HDD_8T/eventvla_recoverability_phase1_20261014",
+    "source": "/home/user/workspace/HDD_8T/eventvla_recoverability_phase1_20261014/third_party/EventVLA",
+    "policy_environment": "/home/user/workspace/HDD_8T/eventvla_recoverability_phase1_20261014/envs/policy",
+    "simulation_environment": "/home/user/workspace/HDD_8T/eventvla_recoverability_phase1_20261014/envs/sim",
+    "download_tools_environment": "/home/user/workspace/HDD_8T/eventvla_recoverability_phase1_20261014/envs/tools",
+    "qwen_backbone": "/home/user/workspace/HDD_8T/eventvla_recoverability_phase1_20261014/checkpoints/Qwen3-VL-4B-Instruct",
+    "eventvla_checkpoint": "/home/user/workspace/HDD_8T/eventvla_recoverability_phase1_20261014/checkpoints/EventVLA/RoboTwin-MeM/final_model/pytorch_model.pt",
+    "runtime_checkpoint": "/home/user/workspace/HDD_8T/eventvla_recoverability_phase1_20261014/checkpoints/runtime/EventVLA-RoboTwin-MeM/final_model/pytorch_model.pt",
+    "simulation_objects": "/home/user/workspace/HDD_8T/eventvla_recoverability_phase1_20261014/assets/objects",
+    "robot_embodiment": "/home/user/workspace/HDD_8T/eventvla_recoverability_phase1_20261014/assets/embodiments/aloha-agilex",
+    "experiments": "/home/user/workspace/HDD_8T/eventvla_recoverability_phase1_20261014/runs",
+    "logs": "/home/user/workspace/HDD_8T/eventvla_recoverability_phase1_20261014/logs"
+  },
+  "resources": [
+    {
+      "group": "policy",
+      "status": "complete",
+      "repo": "ganlinyang/EventVLA",
+      "revision": "55f0f3466c471ea7cf5c91248627d4256dd2e00a",
+      "files": 5,
+      "verified_bytes": 9798278279
+    },
+    {
+      "group": "backbone",
+      "status": "complete",
+      "repo": "Qwen/Qwen3-VL-4B-Instruct",
+      "revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+      "files": 14,
+      "verified_bytes": 8887292732
+    },
+    {
+      "group": "assets",
+      "status": "complete",
+      "repo": "ganlinyang/RoboTwin-MeM",
+      "revision": "f67a4ee99a20c65c86897b85d3f5309b205cc897",
+      "files": 366,
+      "verified_bytes": 1407813804
+    }
+  ],
+  "eventvla_commit": "a4e02f741f78ab01eb76f6a0bc6685f72f60ed24",
+  "curobo_commit": "d64c4b005459db10c5dd867d8b30a87d5bda9bdb",
+  "runtime": {
+    "physical_gpu": 1,
+    "torch": "2.7.1+cu128",
+    "attention": "sdpa",
+    "denoiser": "none",
+    "ray_samples": 128,
+    "published_checkpoint_event_capacity": 5,
+    "temporal_anchor_frames": 4,
+    "camera_views_per_anchor": 3
+  },
+  "training_datasets_downloaded": false,
+  "new_task_suite_implemented": false,
+  "learned_scorer_trained": true,
+  "multicue_pilot": {
+    "task": "multi_cue_versions_v1",
+    "shared_skill_library": "/home/user/workspace/HDD_8T/eventvla_recoverability_phase1_20261014/runs/20261014T111504Z_shared_skill_library/library.json",
+    "run": "/home/user/workspace/HDD_8T/eventvla_recoverability_phase1_20261014/runs/20261014T112024Z_multicue_eval",
+    "data": "/home/user/workspace/HDD_8T/eventvla_recoverability_phase1_20261014/data/pilots/20261014T112024Z_multicue_eval",
+    "episodes": 30,
+    "colour_seeds": 3,
+    "runtime_truth_access": false,
+    "controller_scope": "fixed_workstation_only",
+    "recovery_successes": 48,
+    "recovery_calls": 48,
+    "tests_passed": 63,
+    "training_eligible": false,
+    "report": "reports/multicue_validation.json"
+  },
+  "diagnostics": {
+    "task": "revisit_or_erase_cue_probe_v0",
+    "branch_run": "/home/user/workspace/HDD_8T/eventvla_recoverability_phase1_20261014/runs/20261014T101642Z_cue_branches",
+    "data": "/home/user/workspace/HDD_8T/eventvla_recoverability_phase1_20261014/data/diagnostics/20261014T101642Z_cue_branches",
+    "rebuild_validation_passed": true,
+    "native_snapshot_validation_passed": false,
+    "branches_executed": 16,
+    "paired_conditions": 4,
+    "training_eligible": false,
+    "tests_passed": 39,
+    "report": "reports/m1_validation.json"
+  },
+  "compatibility_patch_sha256": "76503129871ed5fe3b8c8a00ba35b0f70d6ed330fbf109bf605294925b77ae87",
+  "formal_eventvla_scorer_trained": false,
+  "action_stage_pilot": {
+    "status": "complete",
+    "paired_branches": 48,
+    "paired_labels": 32,
+    "families": 4,
+    "all_pairs_matched": true,
+    "all_repeated_R_matched": true,
+    "scorer_trained": true,
+    "scorer_models": {
+      "learned_action": {
+        "checkpoint": "/media/user/HDD_8T/eventvla_recoverability_phase1_20261014/checkpoints/scorers/20261015T020018Z_pilot_scorer/learned_action.pt",
+        "sha256": "5a85fa181089e0af1c8547d6db01b850e9057536342e336f9a17a0fd156d99ed",
+        "parameters": 60321,
+        "selected_epoch": 307,
+        "mse": {
+          "train": 0.0055867647752165794,
+          "validation": 0.018162213265895844,
+          "test": 0.052959855645895004
+        }
+      },
+      "learned_no_action": {
+        "checkpoint": "/media/user/HDD_8T/eventvla_recoverability_phase1_20261014/checkpoints/scorers/20261015T020018Z_pilot_scorer/learned_no_action.pt",
+        "sha256": "961ca6fb7783f194e8225767c258126333e8fdf087bcb38b64b17af5448f1024",
+        "parameters": 60321,
+        "selected_epoch": 1489,
+        "mse": {
+          "train": 0.125,
+          "validation": 0.1250600814819336,
+          "test": 0.1251257359981537
+        }
+      }
+    },
+    "actual_scorer_eval_episodes": 14,
+    "actual_results": {
+      "learned_action": {
+        "correct": 8,
+        "queries": 8,
+        "recovery_steps": 20051,
+        "max_images_bytes": 230400,
+        "max_semantic_bytes": 0
+      },
+      "learned_no_action": {
+        "correct": 7,
+        "queries": 8,
+        "recovery_steps": 20066,
+        "max_images_bytes": 230400,
+        "max_semantic_bytes": 0
+      },
+      "fifo": {
+        "correct": 6,
+        "queries": 8,
+        "recovery_steps": 19902,
+        "max_images_bytes": 230400,
+        "max_semantic_bytes": 0
+      },
+      "oldest": {
+        "correct": 7,
+        "queries": 8,
+        "recovery_steps": 20066,
+        "max_images_bytes": 230400,
+        "max_semantic_bytes": 0
+      },
+      "action_rule": {
+        "correct": 8,
+        "queries": 8,
+        "recovery_steps": 20051,
+        "max_images_bytes": 230400,
+        "max_semantic_bytes": 0
+      },
+      "archive": {
+        "correct": 8,
+        "queries": 8,
+        "recovery_steps": 0,
+        "max_images_bytes": 921600,
+        "max_semantic_bytes": 0
+      },
+      "structured": {
+        "correct": 8,
+        "queries": 8,
+        "recovery_steps": 0,
+        "max_images_bytes": 0,
+        "max_semantic_bytes": 54
+      }
+    },
+    "vla_episodes": 5,
+    "vla_actions_executed": 826,
+    "vla_intended_actuations": 0,
+    "audited_vla_requests": 17,
+    "deleted_image_leaks": 0,
+    "vla_repeated_trajectory_identical": true,
+    "formal_vla_scorer_training_complete": false,
+    "phase1_research_goal_achieved": false,
+    "formal_vla_labels_generated": false
+  }
+}

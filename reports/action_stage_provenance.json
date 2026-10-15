@@ -1,0 +1,30 @@
+{
+  "status": "complete",
+  "captured_utc": "2026-10-15T02:10:06.177155+00:00",
+  "experiment_sources": [
+    {
+      "report": "latest_action_pairs.json",
+      "run": "/media/user/HDD_8T/eventvla_recoverability_phase1_20261014/runs/20261015T013736Z_action_pairs",
+      "source_files": 9,
+      "all_hashes_match": true
+    },
+    {
+      "report": "latest_vla_action_probe.json",
+      "run": "/media/user/HDD_8T/eventvla_recoverability_phase1_20261014/runs/20261015T020021Z_vla_action_probe",
+      "source_files": 8,
+      "all_hashes_match": true
+    },
+    {
+      "report": "latest_scored_action_eval.json",
+      "run": "/media/user/HDD_8T/eventvla_recoverability_phase1_20261014/runs/20261015T020607Z_scored_action_eval",
+      "source_files": 5,
+      "all_hashes_match": true
+    }
+  ],
+  "training_sources": {
+    "scripts/train_pilot_scorer.py": "ddedd196a09d2b3ab2bdd50828910ed455ec4c1c3ad456f606b50490ac379aa9",
+    "src/recoverability/scorer.py": "801a08bfb63e6a0c54a56be9530fb52e0195b8f52ee9022154effe91ed28dc44",
+    "configs/action_latch_protocol.json": "90477eada363c680152777f5356a921795641d80b14877b25b0c95815f1523bd"
+  },
+  "training_source_capture": "Post-run snapshot of unchanged implementation; not a full environment capture"
+}

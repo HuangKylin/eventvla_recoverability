@@ -1,0 +1,42 @@
+{
+  "checked_utc": "2026-10-14T09:10:39.117407+00:00",
+  "scope": "M0 resource preparation and initial smoke, plus research interface groundwork",
+  "status": "passed",
+  "phase1_research_goal_complete": false,
+  "formal_20_episode_gate_complete": false,
+  "closed_loop": {
+    "task": "cover_blocks_hard",
+    "successes": 2,
+    "episodes": 2,
+    "seeds": [
+      100000,
+      100001
+    ],
+    "run_id": "20261014T084817Z_cover_blocks_hard",
+    "memory_policy": "upstream FIFO",
+    "capacity": 5
+  },
+  "checkpoint_matching": {
+    "missing_keys": [],
+    "unexpected_keys": [],
+    "shape_mismatches": [],
+    "matched_keys": 737
+  },
+  "research_interface_tests_passed": 24,
+  "dependency_checks": "all three environments passed",
+  "compatibility": {
+    "torch": "2.7.1+cu128",
+    "attention": "sdpa",
+    "ray_denoiser": "none",
+    "ray_samples": 128
+  },
+  "pending_research": [
+    "full simulator/controller/policy state restoration validation",
+    "three paired task families",
+    "nonprivileged shared recovery controller",
+    "paired rollout data collection",
+    "learned scorer training",
+    "strong heuristic and archive retrieval comparison"
+  ],
+  "no_training_started": true
+}

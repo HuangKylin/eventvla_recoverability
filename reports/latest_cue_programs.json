@@ -1,0 +1,85 @@
+{
+  "status": "complete",
+  "run_dir": "/media/user/HDD_8T/eventvla_recoverability_phase1_20261014/runs/20261014T101607Z_cue_programs",
+  "programs": [
+    {
+      "seed": 100000,
+      "task": "revisit_or_erase_cue_probe_v0",
+      "stages": {
+        "prefix": {
+          "tape": "/media/user/HDD_8T/eventvla_recoverability_phase1_20261014/runs/20261014T101607Z_cue_programs/100000_prefix.npz",
+          "tape_hash": "5342ada1c5a569495271f1b63e23e5dfff36c39ef4a96084547b5a88b73de85a",
+          "steps": 3290,
+          "observe_after_steps": 1283,
+          "rgb_read": {
+            "answer": "red",
+            "pixels": 439,
+            "confidence": 1.0
+          }
+        },
+        "recovery": {
+          "tape": "/media/user/HDD_8T/eventvla_recoverability_phase1_20261014/runs/20261014T101607Z_cue_programs/100000_recovery.npz",
+          "tape_hash": "4335bbc04e68a65cad9ac54163cf967e026737a56958fb6f49fd6101895ad28c",
+          "steps": 3297,
+          "observe_after_steps": 1296,
+          "rgb_read": {
+            "answer": "red",
+            "pixels": 439,
+            "confidence": 1.0
+          }
+        }
+      },
+      "privileged_compilation": true,
+      "truth_for_audit": "red",
+      "source_hashes": {
+        "src/recoverability/cue_probe_task.py": "53226573f8888aa7477a7ae873f52d17585e7b7e569548783a603423ff39e172",
+        "src/recoverability/snapshot.py": "56b93ac9000b8f19a7a0c928a4e573efc5f2c2df4821ec5b7608206158065adf",
+        "src/recoverability/sim_runtime.py": "b1a213b8d44b89cc38665f03694fc7c69de4c7277adfa87b18b318c28fd56bee",
+        "scripts/compile_cue_probe.py": "c5cfc9cc3f16f44797f0daeb2ab72c81378e3293173634ac8499923c2151e580"
+      }
+    },
+    {
+      "seed": 100001,
+      "task": "revisit_or_erase_cue_probe_v0",
+      "stages": {
+        "prefix": {
+          "tape": "/media/user/HDD_8T/eventvla_recoverability_phase1_20261014/runs/20261014T101607Z_cue_programs/100001_prefix.npz",
+          "tape_hash": "70f939c4db9ba3d9c372169fc73b41466045c3561192cd53ba9e7ac5cd892b04",
+          "steps": 3271,
+          "observe_after_steps": 1276,
+          "rgb_read": {
+            "answer": "green",
+            "pixels": 437,
+            "confidence": 1.0
+          }
+        },
+        "recovery": {
+          "tape": "/media/user/HDD_8T/eventvla_recoverability_phase1_20261014/runs/20261014T101607Z_cue_programs/100001_recovery.npz",
+          "tape_hash": "a4f4388c7ff7b475a76158ad74c9272df9feeb656fa051b933871b979534b7a0",
+          "steps": 3295,
+          "observe_after_steps": 1282,
+          "rgb_read": {
+            "answer": "green",
+            "pixels": 438,
+            "confidence": 1.0
+          }
+        }
+      },
+      "privileged_compilation": true,
+      "truth_for_audit": "green",
+      "source_hashes": {
+        "src/recoverability/cue_probe_task.py": "53226573f8888aa7477a7ae873f52d17585e7b7e569548783a603423ff39e172",
+        "src/recoverability/snapshot.py": "56b93ac9000b8f19a7a0c928a4e573efc5f2c2df4821ec5b7608206158065adf",
+        "src/recoverability/sim_runtime.py": "b1a213b8d44b89cc38665f03694fc7c69de4c7277adfa87b18b318c28fd56bee",
+        "scripts/compile_cue_probe.py": "c5cfc9cc3f16f44797f0daeb2ab72c81378e3293173634ac8499923c2151e580"
+      }
+    }
+  ],
+  "source_hashes": {
+    "src/recoverability/cue_probe_task.py": "53226573f8888aa7477a7ae873f52d17585e7b7e569548783a603423ff39e172",
+    "src/recoverability/snapshot.py": "56b93ac9000b8f19a7a0c928a4e573efc5f2c2df4821ec5b7608206158065adf",
+    "src/recoverability/sim_runtime.py": "b1a213b8d44b89cc38665f03694fc7c69de4c7277adfa87b18b318c28fd56bee",
+    "scripts/compile_cue_probe.py": "c5cfc9cc3f16f44797f0daeb2ab72c81378e3293173634ac8499923c2151e580"
+  },
+  "scope": "apparatus and branch-collector calibration, not VLA evaluation"
+}

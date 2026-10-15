@@ -1,0 +1,1836 @@
+{
+  "repo": "ganlinyang/RoboTwin-MeM",
+  "revision": "f67a4ee99a20c65c86897b85d3f5309b205cc897",
+  "files": [
+    {
+      "path": "assets/_download.py",
+      "bytes": 244,
+      "sha256": "a81f44518a588ee0bdafea11b7e13763c1f5e5260f999ec31bd6bba88ad3f8b1"
+    },
+    {
+      "path": "assets/embodiments/.gitattributes",
+      "bytes": 4302,
+      "sha256": "0d9b68180aca1fe7316b788b6dea9545c22410d6bed9531665309bb0225b2fe8"
+    },
+    {
+      "path": "assets/embodiments/.gitignore",
+      "bytes": 43,
+      "sha256": "22b67c8d6bf6b305aa3e857248f37fe30ffcfc630c789b876c293c9a0a46273f"
+    },
+    {
+      "path": "assets/embodiments/aloha-agilex/collision_aloha_left.yml",
+      "bytes": 4934,
+      "sha256": "19e21fbba8b6657ffc6d405ac53b277902ce118821b818aa77aad2e0b0d7f83d"
+    },
+    {
+      "path": "assets/embodiments/aloha-agilex/collision_aloha_right.yml",
+      "bytes": 2340,
+      "sha256": "d22850769a5c28fec35434e12ffb597837853cb4dd916b74969e6e615faf5cdd"
+    },
+    {
+      "path": "assets/embodiments/aloha-agilex/config.yml",
+      "bytes": 1210,
+      "sha256": "a4f043d2d4b44cca5ec47fb498a3194da3f87ff9530dcbfdcee1539a44423d57"
+    },
+    {
+      "path": "assets/embodiments/aloha-agilex/curobo_left.yml",
+      "bytes": 2431,
+      "sha256": "c4741edafc5996938b3a58edafd4b6f64246f1d1414250d87a447e1627c5bd6b"
+    },
+    {
+      "path": "assets/embodiments/aloha-agilex/curobo_left_tmp.yml",
+      "bytes": 2383,
+      "sha256": "5860346baf83c74da3dfacbc548f3165fe6caba5797fd28da158a618576556c8"
+    },
+    {
+      "path": "assets/embodiments/aloha-agilex/curobo_right.yml",
+      "bytes": 2439,
+      "sha256": "745d82f54120d64b7153b8e1aae9acfc7c2195ce04c66d643ceec3e6625f658a"
+    },
+    {
+      "path": "assets/embodiments/aloha-agilex/curobo_right_tmp.yml",
+      "bytes": 2391,
+      "sha256": "bebc418e0bb02cc70a4cb124b9cda6c4c12ce27c5bdbf1b4153654d781fb62f8"
+    },
+    {
+      "path": "assets/embodiments/aloha-agilex/meshes/Image_0.png",
+      "bytes": 263,
+      "sha256": "68be90aadacc218aa9ac4c2c4dd9dcda39e5a7b30c791ccfafce2c86fd6c1b0a"
+    },
+    {
+      "path": "assets/embodiments/aloha-agilex/meshes/Image_290.png",
+      "bytes": 245,
+      "sha256": "6c6a1150da771c04ede783ae05194b2d8359292196809fff137e76f31a5bf974"
+    },
+    {
+      "path": "assets/embodiments/aloha-agilex/meshes/Image_442.png",
+      "bytes": 243,
+      "sha256": "c7592ae2330254399b5dde4920302a5fe36468315e44ac496d1abdf8c97d913f"
+    },
+    {
+      "path": "assets/embodiments/aloha-agilex/meshes/base_arm.STL",
+      "bytes": 90384,
+      "sha256": "3d6524754df3c5b50ea4196c473b447cd7dc0c00afb9a31e7db3bb6d1cd52c60"
+    },
+    {
+      "path": "assets/embodiments/aloha-agilex/meshes/base_link.STL",
+      "bytes": 4593634,
+      "sha256": "e227e452102c9be1bb7effc579fd876771c9d075ee84f0368c5fed6f21cb58e6"
+    },
+    {
+      "path": "assets/embodiments/aloha-agilex/meshes/box1_Link.STL",
+      "bytes": 71584,
+      "sha256": "e48fbe760dc7c1d98c3e655ca5788dd09a1c1c6544b1ad3f0aeaaaa2c8121917"
+    },
+    {
+      "path": "assets/embodiments/aloha-agilex/meshes/box2_Link.STL",
+      "bytes": 1385984,
+      "sha256": "1df67ea5a9c57759ab51e54e23687a439e0598d478ca84c485b1a01eb5c7ea25"
+    },
+    {
+      "path": "assets/embodiments/aloha-agilex/meshes/box2_Link.dae",
+      "bytes": 215110363,
+      "sha256": "511af26229e2ec9c9c014c12b04bfda50253b800dbaa129aca69c2c2b81ecc74"
+    },
+    {
+      "path": "assets/embodiments/aloha-agilex/meshes/caster.stl",
+      "bytes": 50084,
+      "sha256": "481e84ec3f7c17fef8f8b74f0c6d821595dfecfcef137d37fc1a50b14e23eb3f"
+    },
+    {
+      "path": "assets/embodiments/aloha-agilex/meshes/caster_L.stl",
+      "bytes": 9484,
+      "sha256": "ccdcddd66710a71c5a04475aa16269ef73e5bdba6818d5632ca5c5d4e046497d"
+    },
+    {
+      "path": "assets/embodiments/aloha-agilex/meshes/castor.dae",
+      "bytes": 323187,
+      "sha256": "0a61bca6839f37ebebd89021474821abfd908d2b50867f221e3504db4d84a06a"
+    },
+    {
+      "path": "assets/embodiments/aloha-agilex/meshes/castor_joint.dae",
+      "bytes": 543388,
+      "sha256": "901cad2da533c8fd0f3e3ce25a4d5b5d1c689d5f852640cd7dab041dc647d629"
+    },
+    {
+      "path": "assets/embodiments/aloha-agilex/meshes/d435.dae",
+      "bytes": 21433515,
+      "sha256": "df2f22fce9f1865fe5a1597b16d43f6aca62b694c573b8d195c36c945bdf26a6"
+    },
+    {
+      "path": "assets/embodiments/aloha-agilex/meshes/d435.dae.backup",
+      "bytes": 15782439,
+      "sha256": "42f3b66f47a1f8f425a2e4dc07c1d9c283183167d8441f520a15623d98f9bf78"
+    },
+    {
+      "path": "assets/embodiments/aloha-agilex/meshes/link1.STL",
+      "bytes": 122284,
+      "sha256": "079a59fd0a94237c5042d6c7542b79bdc4c8db396758fdb7860f7b464e3c25ed"
+    },
+    {
+      "path": "assets/embodiments/aloha-agilex/meshes/link2.STL",
+      "bytes": 1212884,
+      "sha256": "87e1386ed2533e68743f50f448e8cbdc366c2b37f0df3ede1fa2de340666786c"
+    },
+    {
+      "path": "assets/embodiments/aloha-agilex/meshes/link3.STL",
+      "bytes": 1290084,
+      "sha256": "76ded14e5f919e7a77ae7501883d55fb349be5c3c16499f59c1de5b552cad842"
+    },
+    {
+      "path": "assets/embodiments/aloha-agilex/meshes/link4.STL",
+      "bytes": 207984,
+      "sha256": "d234f4b96822ecf8a2f62219031053f7950d685faa15b4d23f8115c1b434cbbd"
+    },
+    {
+      "path": "assets/embodiments/aloha-agilex/meshes/link5.STL",
+      "bytes": 467884,
+      "sha256": "dc58ea92599295aaa980e090a034c68397e505b79b681a223cd98ba7f10bab03"
+    },
+    {
+      "path": "assets/embodiments/aloha-agilex/meshes/link6.STL",
+      "bytes": 467084,
+      "sha256": "ffb2de0357066957db00fd7599dd4a7fbc147c8ef5916a492aa9070fdbdf5740"
+    },
+    {
+      "path": "assets/embodiments/aloha-agilex/meshes/link7.STL",
+      "bytes": 65284,
+      "sha256": "ec3d40b39cccde0075ca3d16603f14f180fce41a46b446473d384def7a1b0be0"
+    },
+    {
+      "path": "assets/embodiments/aloha-agilex/meshes/link8.STL",
+      "bytes": 65284,
+      "sha256": "29f7a8379cad81797e82e4ba099455cc275ac6ac5bb9e264ce46719fd7d2bb60"
+    },
+    {
+      "path": "assets/embodiments/aloha-agilex/meshes/right_cam_link.dae",
+      "bytes": 1965184,
+      "sha256": "58d9ac989e277bc14669990db5e89f317cf5d9cf0d7373de8ab27b056ce503e6"
+    },
+    {
+      "path": "assets/embodiments/aloha-agilex/meshes/tracer_base_link.dae",
+      "bytes": 21933502,
+      "sha256": "53c27a6f52d019e02f93748e463448e0c5173d256a9a5772a1b7267047d15c08"
+    },
+    {
+      "path": "assets/embodiments/aloha-agilex/meshes/tracer_base_link_no_wheel.dae",
+      "bytes": 13769590,
+      "sha256": "d3a1ee3b34dbc418e888d68148d04fccda589e00d5100fbd3cbc2f17154e0a08"
+    },
+    {
+      "path": "assets/embodiments/aloha-agilex/meshes/tracer_wheel.dae",
+      "bytes": 937442,
+      "sha256": "42784402bca05e9f406f4e08d8ea1cc7ff57db9fee0e0b0b557670d0ee1d10c1"
+    },
+    {
+      "path": "assets/embodiments/aloha-agilex/srdf/arx5_description_isaac.srdf",
+      "bytes": 26322,
+      "sha256": "ee5669f617d1d4806998da3ab890bc487d0eba06692f4b5498ac3d5c5fccff66"
+    },
+    {
+      "path": "assets/embodiments/aloha-agilex/urdf/aloha_maniskill_sim/meshes/BrushedAluminum_BaseColor.jpg",
+      "bytes": 49497,
+      "sha256": "10c220f63daf3f9be7bb0cac60a9584aec1090aa9949e280a5d7feb7519e1089"
+    },
+    {
+      "path": "assets/embodiments/aloha-agilex/urdf/aloha_maniskill_sim/meshes/Image_0.png",
+      "bytes": 263,
+      "sha256": "68be90aadacc218aa9ac4c2c4dd9dcda39e5a7b30c791ccfafce2c86fd6c1b0a"
+    },
+    {
+      "path": "assets/embodiments/aloha-agilex/urdf/aloha_maniskill_sim/meshes/Image_100.png",
+      "bytes": 250,
+      "sha256": "9e3510daf08a666c32cfcca0c91ac1ee9e2f042c1a4de1052e7f1aa100891061"
+    },
+    {
+      "path": "assets/embodiments/aloha-agilex/urdf/aloha_maniskill_sim/meshes/Image_269.png",
+      "bytes": 250,
+      "sha256": "372012c8cb6982b9a7ee254beb825aab80af143a832f664eaecf69fdbd9987e6"
+    },
+    {
+      "path": "assets/embodiments/aloha-agilex/urdf/aloha_maniskill_sim/meshes/Image_290.png",
+      "bytes": 245,
+      "sha256": "6c6a1150da771c04ede783ae05194b2d8359292196809fff137e76f31a5bf974"
+    },
+    {
+      "path": "assets/embodiments/aloha-agilex/urdf/aloha_maniskill_sim/meshes/Image_442.png",
+      "bytes": 243,
+      "sha256": "c7592ae2330254399b5dde4920302a5fe36468315e44ac496d1abdf8c97d913f"
+    },
+    {
+      "path": "assets/embodiments/aloha-agilex/urdf/aloha_maniskill_sim/meshes/back_link7.STL",
+      "bytes": 1445784,
+      "sha256": "baea38e3edf22c80d6cbe813bfdc01439dc51406fa176c1f62732fba380267c5"
+    },
+    {
+      "path": "assets/embodiments/aloha-agilex/urdf/aloha_maniskill_sim/meshes/back_link7.dae",
+      "bytes": 1836184,
+      "sha256": "5ef2f06e003b0463868460504951fc864130779cc35e87bb54a8ad7c524bc513"
+    },
+    {
+      "path": "assets/embodiments/aloha-agilex/urdf/aloha_maniskill_sim/meshes/base_arm.STL",
+      "bytes": 90384,
+      "sha256": "3d6524754df3c5b50ea4196c473b447cd7dc0c00afb9a31e7db3bb6d1cd52c60"
+    },
+    {
+      "path": "assets/embodiments/aloha-agilex/urdf/aloha_maniskill_sim/meshes/base_arm.dae",
+      "bytes": 103529,
+      "sha256": "cfe3f44bf9860d72acac2abd21a50422d72efd4de6fac72af44e02b2ea6a52df"
+    },
+    {
+      "path": "assets/embodiments/aloha-agilex/urdf/aloha_maniskill_sim/meshes/base_link.STL",
+      "bytes": 4593634,
+      "sha256": "e227e452102c9be1bb7effc579fd876771c9d075ee84f0368c5fed6f21cb58e6"
+    },
+    {
+      "path": "assets/embodiments/aloha-agilex/urdf/aloha_maniskill_sim/meshes/box1_Link.STL",
+      "bytes": 71584,
+      "sha256": "e48fbe760dc7c1d98c3e655ca5788dd09a1c1c6544b1ad3f0aeaaaa2c8121917"
+    },
+    {
+      "path": "assets/embodiments/aloha-agilex/urdf/aloha_maniskill_sim/meshes/box1_Link.STL.convex.stl",
+      "bytes": 71584,
+      "sha256": "e48fbe760dc7c1d98c3e655ca5788dd09a1c1c6544b1ad3f0aeaaaa2c8121917"
+    },
+    {
+      "path": "assets/embodiments/aloha-agilex/urdf/aloha_maniskill_sim/meshes/box2_Link.STL",
+      "bytes": 1385984,
+      "sha256": "1df67ea5a9c57759ab51e54e23687a439e0598d478ca84c485b1a01eb5c7ea25"
+    },
+    {
+      "path": "assets/embodiments/aloha-agilex/urdf/aloha_maniskill_sim/meshes/box2_Link.dae",
+      "bytes": 215110363,
+      "sha256": "511af26229e2ec9c9c014c12b04bfda50253b800dbaa129aca69c2c2b81ecc74"
+    },
+    {
+      "path": "assets/embodiments/aloha-agilex/urdf/aloha_maniskill_sim/meshes/camera_base_link.STL",
+      "bytes": 63384,
+      "sha256": "d4cf9f1b01727e55283b7ac1c311eca1e807908e2d2c8e9e43bf7f6936b6e847"
+    },
+    {
+      "path": "assets/embodiments/aloha-agilex/urdf/aloha_maniskill_sim/meshes/camera_base_link.dae",
+      "bytes": 71882,
+      "sha256": "2392dd35f69ea9f364e0acd30951cc0128ba51baa662513d7dbf52a87b2ba346"
+    },
+    {
+      "path": "assets/embodiments/aloha-agilex/urdf/aloha_maniskill_sim/meshes/camera_link1.STL",
+      "bytes": 11547734,
+      "sha256": "e37b71296958e665006034f3432ac4f74b25aea8268dfaa9bfb2164d452ac015"
+    },
+    {
+      "path": "assets/embodiments/aloha-agilex/urdf/aloha_maniskill_sim/meshes/camera_link1.dae",
+      "bytes": 43398455,
+      "sha256": "0692aa9f29f5d3aa9c21b81bff671e22128ae9110f3af809196a0d1f9a1b2e02"
+    },
+    {
+      "path": "assets/embodiments/aloha-agilex/urdf/aloha_maniskill_sim/meshes/camera_link2.STL",
+      "bytes": 11547734,
+      "sha256": "e37b71296958e665006034f3432ac4f74b25aea8268dfaa9bfb2164d452ac015"
+    },
+    {
+      "path": "assets/embodiments/aloha-agilex/urdf/aloha_maniskill_sim/meshes/camera_link2.dae",
+      "bytes": 43398455,
+      "sha256": "0692aa9f29f5d3aa9c21b81bff671e22128ae9110f3af809196a0d1f9a1b2e02"
+    },
+    {
+      "path": "assets/embodiments/aloha-agilex/urdf/aloha_maniskill_sim/meshes/caster.stl",
+      "bytes": 50084,
+      "sha256": "481e84ec3f7c17fef8f8b74f0c6d821595dfecfcef137d37fc1a50b14e23eb3f"
+    },
+    {
+      "path": "assets/embodiments/aloha-agilex/urdf/aloha_maniskill_sim/meshes/caster_L.stl",
+      "bytes": 9484,
+      "sha256": "ccdcddd66710a71c5a04475aa16269ef73e5bdba6818d5632ca5c5d4e046497d"
+    },
+    {
+      "path": "assets/embodiments/aloha-agilex/urdf/aloha_maniskill_sim/meshes/castor.dae",
+      "bytes": 323187,
+      "sha256": "0a61bca6839f37ebebd89021474821abfd908d2b50867f221e3504db4d84a06a"
+    },
+    {
+      "path": "assets/embodiments/aloha-agilex/urdf/aloha_maniskill_sim/meshes/castor_joint.dae",
+      "bytes": 543388,
+      "sha256": "901cad2da533c8fd0f3e3ce25a4d5b5d1c689d5f852640cd7dab041dc647d629"
+    },
+    {
+      "path": "assets/embodiments/aloha-agilex/urdf/aloha_maniskill_sim/meshes/d435.dae",
+      "bytes": 42224725,
+      "sha256": "552a84a19ffbce76329911860095f1b16e5f837cc4228d35d6481b178a721f8e"
+    },
+    {
+      "path": "assets/embodiments/aloha-agilex/urdf/aloha_maniskill_sim/meshes/d435_back.dae",
+      "bytes": 21433515,
+      "sha256": "df2f22fce9f1865fe5a1597b16d43f6aca62b694c573b8d195c36c945bdf26a6"
+    },
+    {
+      "path": "assets/embodiments/aloha-agilex/urdf/aloha_maniskill_sim/meshes/d435_back1.dae",
+      "bytes": 15782439,
+      "sha256": "42f3b66f47a1f8f425a2e4dc07c1d9c283183167d8441f520a15623d98f9bf78"
+    },
+    {
+      "path": "assets/embodiments/aloha-agilex/urdf/aloha_maniskill_sim/meshes/link1.STL",
+      "bytes": 122284,
+      "sha256": "079a59fd0a94237c5042d6c7542b79bdc4c8db396758fdb7860f7b464e3c25ed"
+    },
+    {
+      "path": "assets/embodiments/aloha-agilex/urdf/aloha_maniskill_sim/meshes/link1.dae",
+      "bytes": 141347,
+      "sha256": "49480bb69e5daffdd9092b33d9af6c6b3e6b9a069419e3e76fb9947e3e1753f9"
+    },
+    {
+      "path": "assets/embodiments/aloha-agilex/urdf/aloha_maniskill_sim/meshes/link2.STL",
+      "bytes": 1212884,
+      "sha256": "87e1386ed2533e68743f50f448e8cbdc366c2b37f0df3ede1fa2de340666786c"
+    },
+    {
+      "path": "assets/embodiments/aloha-agilex/urdf/aloha_maniskill_sim/meshes/link2.dae",
+      "bytes": 1529979,
+      "sha256": "9bb90c7a6c6d9bfab562349bf647f833433d71f2804a7981eba775f31e78723d"
+    },
+    {
+      "path": "assets/embodiments/aloha-agilex/urdf/aloha_maniskill_sim/meshes/link3.STL",
+      "bytes": 1290084,
+      "sha256": "76ded14e5f919e7a77ae7501883d55fb349be5c3c16499f59c1de5b552cad842"
+    },
+    {
+      "path": "assets/embodiments/aloha-agilex/urdf/aloha_maniskill_sim/meshes/link3.dae",
+      "bytes": 1620958,
+      "sha256": "1eabf99eb30c6cc9bf7c61bf650102fd22d35ac2ce67f36e42d700e3e2442318"
+    },
+    {
+      "path": "assets/embodiments/aloha-agilex/urdf/aloha_maniskill_sim/meshes/link4.STL",
+      "bytes": 207984,
+      "sha256": "d234f4b96822ecf8a2f62219031053f7950d685faa15b4d23f8115c1b434cbbd"
+    },
+    {
+      "path": "assets/embodiments/aloha-agilex/urdf/aloha_maniskill_sim/meshes/link4.dae",
+      "bytes": 249774,
+      "sha256": "3b50cf11a5271fe34aca0c186e623137875fd02c764cb7238c20b898f175f150"
+    },
+    {
+      "path": "assets/embodiments/aloha-agilex/urdf/aloha_maniskill_sim/meshes/link5.STL",
+      "bytes": 467884,
+      "sha256": "dc58ea92599295aaa980e090a034c68397e505b79b681a223cd98ba7f10bab03"
+    },
+    {
+      "path": "assets/embodiments/aloha-agilex/urdf/aloha_maniskill_sim/meshes/link5.dae",
+      "bytes": 568590,
+      "sha256": "c8a96bc00fa9c67723d0a2626bfd015b00a872d7be1588b61f0ae002dd189b13"
+    },
+    {
+      "path": "assets/embodiments/aloha-agilex/urdf/aloha_maniskill_sim/meshes/link6.STL",
+      "bytes": 467084,
+      "sha256": "ffb2de0357066957db00fd7599dd4a7fbc147c8ef5916a492aa9070fdbdf5740"
+    },
+    {
+      "path": "assets/embodiments/aloha-agilex/urdf/aloha_maniskill_sim/meshes/link6.dae",
+      "bytes": 562991,
+      "sha256": "e0c0f316065921fdab8704e5301baaa2b8c50867846a19c489393bc4ab83cbfa"
+    },
+    {
+      "path": "assets/embodiments/aloha-agilex/urdf/aloha_maniskill_sim/meshes/link7.STL",
+      "bytes": 65284,
+      "sha256": "ec3d40b39cccde0075ca3d16603f14f180fce41a46b446473d384def7a1b0be0"
+    },
+    {
+      "path": "assets/embodiments/aloha-agilex/urdf/aloha_maniskill_sim/meshes/link7.dae",
+      "bytes": 77172,
+      "sha256": "cf87ef550d6ab5d71058e7da63ba6ac4c492a9385b3ca0eed37eee0fd0cab97e"
+    },
+    {
+      "path": "assets/embodiments/aloha-agilex/urdf/aloha_maniskill_sim/meshes/link8.STL",
+      "bytes": 65284,
+      "sha256": "29f7a8379cad81797e82e4ba099455cc275ac6ac5bb9e264ce46719fd7d2bb60"
+    },
+    {
+      "path": "assets/embodiments/aloha-agilex/urdf/aloha_maniskill_sim/meshes/link8.dae",
+      "bytes": 77778,
+      "sha256": "e58e8cbc674bb7465ec81a2db6c4b1d08ccf1d63352e245739aa6418d62b0fd7"
+    },
+    {
+      "path": "assets/embodiments/aloha-agilex/urdf/aloha_maniskill_sim/meshes/right_cam_link.dae",
+      "bytes": 1965184,
+      "sha256": "58d9ac989e277bc14669990db5e89f317cf5d9cf0d7373de8ab27b056ce503e6"
+    },
+    {
+      "path": "assets/embodiments/aloha-agilex/urdf/aloha_maniskill_sim/meshes/tracer_base_link.STL",
+      "bytes": 15389684,
+      "sha256": "bf816a05cd083357ebd4ccc554b0bedf4d1459c60359db425b813a797bfec216"
+    },
+    {
+      "path": "assets/embodiments/aloha-agilex/urdf/aloha_maniskill_sim/meshes/tracer_base_link.dae",
+      "bytes": 21933502,
+      "sha256": "53c27a6f52d019e02f93748e463448e0c5173d256a9a5772a1b7267047d15c08"
+    },
+    {
+      "path": "assets/embodiments/aloha-agilex/urdf/aloha_maniskill_sim/meshes/tracer_base_link_no_wheel.dae",
+      "bytes": 13769590,
+      "sha256": "d3a1ee3b34dbc418e888d68148d04fccda589e00d5100fbd3cbc2f17154e0a08"
+    },
+    {
+      "path": "assets/embodiments/aloha-agilex/urdf/aloha_maniskill_sim/meshes/tracer_wheel.dae",
+      "bytes": 937442,
+      "sha256": "42784402bca05e9f406f4e08d8ea1cc7ff57db9fee0e0b0b557670d0ee1d10c1"
+    },
+    {
+      "path": "assets/embodiments/aloha-agilex/urdf/arx5_description_isaac.urdf",
+      "bytes": 61575,
+      "sha256": "65dc70ecd6c673b60b6a4cc79daa3587f2c4aac86409830037f03eb6b1a5e6db"
+    },
+    {
+      "path": "assets/objects/001_plasticbox/collision/base0.glb",
+      "bytes": 355328,
+      "sha256": "3a8d2074dbbc59b8e521469eb571e09c70864a18f57fef1c0711ff3569a7617c"
+    },
+    {
+      "path": "assets/objects/001_plasticbox/collision/base1.glb",
+      "bytes": 355328,
+      "sha256": "3a8d2074dbbc59b8e521469eb571e09c70864a18f57fef1c0711ff3569a7617c"
+    },
+    {
+      "path": "assets/objects/001_plasticbox/model_data0.json",
+      "bytes": 6893,
+      "sha256": "c1b9e849bf211b714325f69c55de616eeb4e04ba5f1a4c306a359ce7271159dd"
+    },
+    {
+      "path": "assets/objects/001_plasticbox/model_data1.json",
+      "bytes": 6892,
+      "sha256": "05a9ef770a278d8de3f40e82af168c48bfceb957a6af8f55b54c49c9fb6f471b"
+    },
+    {
+      "path": "assets/objects/001_plasticbox/points_info.json",
+      "bytes": 607,
+      "sha256": "311da3db6aab9050927e7784a16d183e567ebd658496a9eab60b089f5e3c72be"
+    },
+    {
+      "path": "assets/objects/001_plasticbox/visual/base0.glb",
+      "bytes": 8751960,
+      "sha256": "62e6dfc57c683c1357969a4457f3e98d88726a0afbb9f1ba93ff700c0030db2c"
+    },
+    {
+      "path": "assets/objects/001_plasticbox/visual/base1.glb",
+      "bytes": 8751960,
+      "sha256": "62e6dfc57c683c1357969a4457f3e98d88726a0afbb9f1ba93ff700c0030db2c"
+    },
+    {
+      "path": "assets/objects/002_breadbasket/collision/base0.glb",
+      "bytes": 280604,
+      "sha256": "43d74d1481c5358b0d308faf53c38358a8f7e75f4999ac5cf825ed6fabb91527"
+    },
+    {
+      "path": "assets/objects/002_breadbasket/collision/base1.glb",
+      "bytes": 280604,
+      "sha256": "43d74d1481c5358b0d308faf53c38358a8f7e75f4999ac5cf825ed6fabb91527"
+    },
+    {
+      "path": "assets/objects/002_breadbasket/model_data0.json",
+      "bytes": 1509,
+      "sha256": "0ef2b7e9cb4b619f851fe8df82bc14b01c3ed018681ff185f4b95c5b1e04a487"
+    },
+    {
+      "path": "assets/objects/002_breadbasket/model_data1.json",
+      "bytes": 1510,
+      "sha256": "a12d3f7dadfd7dc9242c7351b0143769ae84fd9dff58eacaa4447df29465be2a"
+    },
+    {
+      "path": "assets/objects/002_breadbasket/points_info.json",
+      "bytes": 271,
+      "sha256": "7542aa5a34639d9c849669e116362dbc16831a732b972e56e4fd2ec9251c64af"
+    },
+    {
+      "path": "assets/objects/002_breadbasket/visual/base0.glb",
+      "bytes": 8956948,
+      "sha256": "27d46868c2e670470927e9ddfa19c50c6720c8b79af3939a39160f3a9ed2cdf5"
+    },
+    {
+      "path": "assets/objects/002_breadbasket/visual/base1.glb",
+      "bytes": 8956948,
+      "sha256": "27d46868c2e670470927e9ddfa19c50c6720c8b79af3939a39160f3a9ed2cdf5"
+    },
+    {
+      "path": "assets/objects/003_cover/collision/base0.glb",
+      "bytes": 85872,
+      "sha256": "72f90ed74990866598cfae106735eacfaec9fa8603ba2e2ad2ade124e38b0049"
+    },
+    {
+      "path": "assets/objects/003_cover/model_data0.json",
+      "bytes": 1964,
+      "sha256": "77bb96d3ca42b6d7f7c371a99cc1cbf0055600fd0b4cb9c9ded560d2657910b8"
+    },
+    {
+      "path": "assets/objects/003_cover/visual/base0.glb",
+      "bytes": 3764,
+      "sha256": "4fa86111b84e35925e47e06345c09ef3deed99ae775519f3752fc4af1d0a2919"
+    },
+    {
+      "path": "assets/objects/004_numbercard/collision/base0.glb",
+      "bytes": 482460,
+      "sha256": "2d12967446b6996692f742980dd1f9921c559eecc5e160b480a7142a484ac77e"
+    },
+    {
+      "path": "assets/objects/004_numbercard/collision/base1.glb",
+      "bytes": 176432,
+      "sha256": "f54f4e6305334ab06a66cc890b1990d0f8f5c9d4439a8189ab60fc825884c5a3"
+    },
+    {
+      "path": "assets/objects/004_numbercard/collision/base2.glb",
+      "bytes": 249528,
+      "sha256": "78e2e9a7e1942cee05fdc6a9225f34899a93a84c885ecad586c965b0e4560980"
+    },
+    {
+      "path": "assets/objects/004_numbercard/collision/base3.glb",
+      "bytes": 276172,
+      "sha256": "150efa466382d052819225596d995f92cfe6f4fc88cdf7f773f61d6cdb3b05e8"
+    },
+    {
+      "path": "assets/objects/004_numbercard/collision/base4.glb",
+      "bytes": 455536,
+      "sha256": "6717e0287c32f405c632848b069b239833e4da54209437c87e302d797328324d"
+    },
+    {
+      "path": "assets/objects/004_numbercard/collision/base5.glb",
+      "bytes": 255152,
+      "sha256": "9f5ed27353f64485fd562d2480e5dabbd42565c810e1b86b723fcb5bcc1f2d45"
+    },
+    {
+      "path": "assets/objects/004_numbercard/collision/base6.glb",
+      "bytes": 575384,
+      "sha256": "dfc858432cfaf43e4b9b7959033a1d7d8ae46787f5696169f6f6ef879d8600bc"
+    },
+    {
+      "path": "assets/objects/004_numbercard/collision/base7.glb",
+      "bytes": 236948,
+      "sha256": "661c5c0e7016179f776cf76bda544e00c09963dfa186bcfcfd410f97e8b4d542"
+    },
+    {
+      "path": "assets/objects/004_numbercard/collision/base8.glb",
+      "bytes": 247980,
+      "sha256": "93f547500bb87fd02d31d0f06b922bc929c603d53385cffcb0dae0228a7d0090"
+    },
+    {
+      "path": "assets/objects/004_numbercard/collision/base9.glb",
+      "bytes": 256292,
+      "sha256": "5a65ff0208cb39c3a1dc4cc4831d570680bd5c3e2850c6a2f65a070bf4a0c958"
+    },
+    {
+      "path": "assets/objects/004_numbercard/model_data0.json",
+      "bytes": 994,
+      "sha256": "4f6ea0596e4a9d5b37e5a0a876207a6396e03942eaa3847a8a6c783471c01576"
+    },
+    {
+      "path": "assets/objects/004_numbercard/model_data1.json",
+      "bytes": 997,
+      "sha256": "c1f8b6b14cd933349bf429d3945809d46acc60f086b849d442fc77ffa94c5936"
+    },
+    {
+      "path": "assets/objects/004_numbercard/model_data2.json",
+      "bytes": 996,
+      "sha256": "831426e9af66636931fed48e6bff610add19eed210ebfe39d18f620d85dd61a1"
+    },
+    {
+      "path": "assets/objects/004_numbercard/model_data3.json",
+      "bytes": 997,
+      "sha256": "28bf79192261ac6f5afcb08c8123796c0b073581bcae0c80b166a4ac0f89e271"
+    },
+    {
+      "path": "assets/objects/004_numbercard/model_data4.json",
+      "bytes": 995,
+      "sha256": "609d7aa02f58e0f9eb8dcdfaee09bf44bb116d5359d58d3e15f7a3abd0bc1a65"
+    },
+    {
+      "path": "assets/objects/004_numbercard/model_data5.json",
+      "bytes": 994,
+      "sha256": "552085c4520d47f02e71ad9961cb444fc7b9a97dfa347ab12656a9ccc8385b78"
+    },
+    {
+      "path": "assets/objects/004_numbercard/model_data6.json",
+      "bytes": 996,
+      "sha256": "6fcc47891bfbe222a3b077d40c064cb178eb188d2b6135c0362532be9b9c9219"
+    },
+    {
+      "path": "assets/objects/004_numbercard/model_data7.json",
+      "bytes": 997,
+      "sha256": "e83029a0400097f6d730ab15acc5e474bbd46eac17fdc3d1555ba06eb93f953e"
+    },
+    {
+      "path": "assets/objects/004_numbercard/model_data8.json",
+      "bytes": 996,
+      "sha256": "c8dbdb858fd3d17b992bfc241717da372caf5194b293b29ce0169e239da0139d"
+    },
+    {
+      "path": "assets/objects/004_numbercard/model_data9.json",
+      "bytes": 993,
+      "sha256": "8aee6549ce43ea5db02b6d8b6a047f08ed2228aac678f74c861992deff3c8d16"
+    },
+    {
+      "path": "assets/objects/004_numbercard/visual/base0.glb",
+      "bytes": 30874796,
+      "sha256": "95cdcaf4df46c9403f2c4c90415634e071c69021a228ca2b6b1695ffc54bb87c"
+    },
+    {
+      "path": "assets/objects/004_numbercard/visual/base1.glb",
+      "bytes": 28350172,
+      "sha256": "6a98b48ba4e63dce5c78c859b4d900cd700a68caa2928d456d67ff7f01065da3"
+    },
+    {
+      "path": "assets/objects/004_numbercard/visual/base2.glb",
+      "bytes": 28169884,
+      "sha256": "427882b3bfcb8d4af941c85bc351940f22e02cbbc8cf115969ae27bef121d008"
+    },
+    {
+      "path": "assets/objects/004_numbercard/visual/base3.glb",
+      "bytes": 28784624,
+      "sha256": "bbbd9fa5fe9ab384df6a3001aa0f23263b2a726c1d1107ec4ab7b6a33bb6ccae"
+    },
+    {
+      "path": "assets/objects/004_numbercard/visual/base4.glb",
+      "bytes": 27845608,
+      "sha256": "faf4f3ad603ef32da8ca09dd0c48c70aff9f0018019d772d60a995b5b1888ef7"
+    },
+    {
+      "path": "assets/objects/004_numbercard/visual/base5.glb",
+      "bytes": 30616244,
+      "sha256": "170d390dfadbbfd44b34ec28f31c7ea0ef329282278c7b3789c8cc7cac605f7f"
+    },
+    {
+      "path": "assets/objects/004_numbercard/visual/base6.glb",
+      "bytes": 26035928,
+      "sha256": "67bfaf9a36066a37719e21bf93375fb1adfaa004bfafb0740ea152ad2e71500e"
+    },
+    {
+      "path": "assets/objects/004_numbercard/visual/base7.glb",
+      "bytes": 26458756,
+      "sha256": "817b2c73bf966e21415085e2173a65484587c9d49ec617ca79f16f9d88c36ab3"
+    },
+    {
+      "path": "assets/objects/004_numbercard/visual/base8.glb",
+      "bytes": 25495704,
+      "sha256": "d4196f318be18bf8f124a09fd02a23cf28c3498ddd72c3ac8f20640a24b1d4f3"
+    },
+    {
+      "path": "assets/objects/004_numbercard/visual/base9.glb",
+      "bytes": 29259216,
+      "sha256": "f4574228f4d4d4c0065733ba650e0e19a4fe8a7b735f9909957dde7bd02b1d07"
+    },
+    {
+      "path": "assets/objects/005_button/10124/mobility.urdf",
+      "bytes": 3080,
+      "sha256": "314deb09dca1832f0f5891fe9fddb641cb9a24dfb293ac27ee49dc727b06a30b"
+    },
+    {
+      "path": "assets/objects/005_button/10124/model_data.json",
+      "bytes": 1415,
+      "sha256": "c1c527d24aad902f815a706ce37951a2a971dc73adb5db3bf97073c738aa6123"
+    },
+    {
+      "path": "assets/objects/006_check_button/10124/mobility.urdf",
+      "bytes": 3078,
+      "sha256": "b3362b822ee95a9497ded09336d8d36a26e8e2e582e153d5b7e0fdc5213aca4d"
+    },
+    {
+      "path": "assets/objects/006_check_button/10124/model_data.json",
+      "bytes": 1415,
+      "sha256": "c1c527d24aad902f815a706ce37951a2a971dc73adb5db3bf97073c738aa6123"
+    },
+    {
+      "path": "assets/objects/007_T_block/collision/base0.glb",
+      "bytes": 109764,
+      "sha256": "c3a97036255304e6c03207bf71b0e5a3ca69e2ff073d3863e13322bd35116fb5"
+    },
+    {
+      "path": "assets/objects/007_T_block/collision/base1.glb",
+      "bytes": 156500,
+      "sha256": "7e22db15a979c2723a9723d1f70d459ca3a9e9fd69daa0164a716916782b686b"
+    },
+    {
+      "path": "assets/objects/007_T_block/model_data0.json",
+      "bytes": 1963,
+      "sha256": "9fdde18a237e035961ad4f09de7426e811c9d6fc6b87018e10e4aa710a627811"
+    },
+    {
+      "path": "assets/objects/007_T_block/model_data1.json",
+      "bytes": 2024,
+      "sha256": "fbf93fdde07ff1f3dcebeb3065525323120883d5471d4faa7c1fa801ed9ee2d9"
+    },
+    {
+      "path": "assets/objects/007_T_block/visual/base0.glb",
+      "bytes": 19726032,
+      "sha256": "89cdaf2acc1a0ef1e6b03ec28cf2d4a798736a4ed1bef72bfcaed2f0288046d9"
+    },
+    {
+      "path": "assets/objects/007_T_block/visual/base1.glb",
+      "bytes": 25028824,
+      "sha256": "8818f186bc09dc3fd54c80558a64e8477f1f92a8094d3cdd00b25bebaeec6a1c"
+    },
+    {
+      "path": "assets/objects/008_shelf/collision/base0.glb",
+      "bytes": 101576,
+      "sha256": "f0f29c18a288602347c3b05dec26cdc25c541ffa63ee35be87658af4c4d2f7cb"
+    },
+    {
+      "path": "assets/objects/008_shelf/model_data0.json",
+      "bytes": 997,
+      "sha256": "5caa3e365396a09a96f352b60f020e757e7d3a4a737b1000893f5fa98e1e7fa3"
+    },
+    {
+      "path": "assets/objects/008_shelf/visual/base0.glb",
+      "bytes": 19073732,
+      "sha256": "27abb363aa6e0ec8d72e44e8ccdea4f8d8fb38e282583014fb85bf55a1aaf53a"
+    },
+    {
+      "path": "assets/objects/009_toycar/collision/base0.glb",
+      "bytes": 960324,
+      "sha256": "1d2184f72e349195855b38184d4ecb1cd785ece0cf33cc5648b4e05cba2e783a"
+    },
+    {
+      "path": "assets/objects/009_toycar/collision/base1.glb",
+      "bytes": 304224,
+      "sha256": "6d5972a15755a436f114563f3f0eb6afe67e1e07a59963ad0f66a50c89f5dc38"
+    },
+    {
+      "path": "assets/objects/009_toycar/collision/base2.glb",
+      "bytes": 558500,
+      "sha256": "70c46f60249cf384f52ad4e6c75ced7dced04e4e5f1e438a35c841e6dac5b1cd"
+    },
+    {
+      "path": "assets/objects/009_toycar/collision/base3.glb",
+      "bytes": 301544,
+      "sha256": "d4166dfd44bcb3eda95339d7045544c58931f62dadaefcb215721fec5b97cd8c"
+    },
+    {
+      "path": "assets/objects/009_toycar/collision/base4.glb",
+      "bytes": 850580,
+      "sha256": "8034c548947a7b36b2ddbf76e07052ff77bd13b4fc11456884d7c4aa88b2d693"
+    },
+    {
+      "path": "assets/objects/009_toycar/collision/base5.glb",
+      "bytes": 747884,
+      "sha256": "4dd76276767e54136a1e1c63a4d412d676f8ef3ac04e23abbaf975a0853c4fa1"
+    },
+    {
+      "path": "assets/objects/009_toycar/model_data0.json",
+      "bytes": 2270,
+      "sha256": "64935f1c4536c66ac968405fc08fd7f355b5ba4354d6bf16a6ead2bda24b239f"
+    },
+    {
+      "path": "assets/objects/009_toycar/model_data1.json",
+      "bytes": 2271,
+      "sha256": "bce1e4881531853492cba11c6920a1e2904f768e6891d6ac18dfc3cd25594e46"
+    },
+    {
+      "path": "assets/objects/009_toycar/model_data2.json",
+      "bytes": 2272,
+      "sha256": "8fe847158cf784d485df12b28e07517cfc9795747fce7ef4b2609da86f495cff"
+    },
+    {
+      "path": "assets/objects/009_toycar/model_data3.json",
+      "bytes": 2270,
+      "sha256": "33d6d54b049450c725dd6b348f6ad55fa0b79dfd8ab9d3e90d5f9605d35f4140"
+    },
+    {
+      "path": "assets/objects/009_toycar/model_data4.json",
+      "bytes": 2271,
+      "sha256": "09508ad5bfdd361f52e10f62ade3f7da7b2069f14f0907d9f5696f1b7da9cac6"
+    },
+    {
+      "path": "assets/objects/009_toycar/model_data5.json",
+      "bytes": 2302,
+      "sha256": "acbc1b198d982173cb956984b499188145b0aa13de763f352a3bd9c35b3985c1"
+    },
+    {
+      "path": "assets/objects/009_toycar/points_info.json",
+      "bytes": 221,
+      "sha256": "0c340d7d32a9218b4acb06ac3f2d03b3973ce6e680ccb5fd036c8b3ba20b9ae8"
+    },
+    {
+      "path": "assets/objects/009_toycar/visual/base0.glb",
+      "bytes": 8445868,
+      "sha256": "25b11744c1797aebc2ef2e3d14b35fda588708f24ec987f4ad73b120c6f61a7a"
+    },
+    {
+      "path": "assets/objects/009_toycar/visual/base1.glb",
+      "bytes": 10507056,
+      "sha256": "c862a97a33a13c373cd8e504f405e5163b4505ab004fdccb08723109c7aa21cc"
+    },
+    {
+      "path": "assets/objects/009_toycar/visual/base2.glb",
+      "bytes": 8669148,
+      "sha256": "0eeb0eb2c37ad70e2335cb4f75daa5c477405f76a574bb43864a7a3baf32d6d3"
+    },
+    {
+      "path": "assets/objects/009_toycar/visual/base3.glb",
+      "bytes": 9284820,
+      "sha256": "b0668ed0a78b9d321f8e36ec2bd67f6628fa0914e25c8446a5d869557afef809"
+    },
+    {
+      "path": "assets/objects/009_toycar/visual/base4.glb",
+      "bytes": 8382756,
+      "sha256": "4826fc3bc805bd88188e252afc67699764516e2a5313501e07f14f877eeade10"
+    },
+    {
+      "path": "assets/objects/009_toycar/visual/base5.glb",
+      "bytes": 9835652,
+      "sha256": "7f14248ba2b298cd7e22caaafdd43da58741a3ae35f3503d1c79f83b7192034f"
+    },
+    {
+      "path": "assets/objects/010_mouse/collision/base0.glb",
+      "bytes": 556148,
+      "sha256": "bb489a586a323b9cda0303b00ae381235a7652d7c2936c314631927b7bf0edea"
+    },
+    {
+      "path": "assets/objects/010_mouse/collision/base1.glb",
+      "bytes": 629468,
+      "sha256": "cd2f4fb2fc5217939bbebe6c2aecc3a1e059be7edded5d82a75a56302e97845c"
+    },
+    {
+      "path": "assets/objects/010_mouse/collision/base2.glb",
+      "bytes": 782908,
+      "sha256": "0c96c8bfbe91f412260664aec22b918707195936718dbaf825445da020eeb57b"
+    },
+    {
+      "path": "assets/objects/010_mouse/model_data0.json",
+      "bytes": 2279,
+      "sha256": "ec9826adaf1ab0a950607cca52ae1f84be4f8713b58697c2b5992e58756853dd"
+    },
+    {
+      "path": "assets/objects/010_mouse/model_data1.json",
+      "bytes": 2202,
+      "sha256": "0a4a14550626bd9f992c53d64938a5986d76a834163c1d76743d835659153360"
+    },
+    {
+      "path": "assets/objects/010_mouse/model_data2.json",
+      "bytes": 2204,
+      "sha256": "b35034f1e20533d458123db0c6d417002d37e771544cc24ac0e648062d5da1ee"
+    },
+    {
+      "path": "assets/objects/010_mouse/points_info.json",
+      "bytes": 217,
+      "sha256": "f47125f605410a9109c64a800ecfdae6218d4f3971818ab400945bc32b081922"
+    },
+    {
+      "path": "assets/objects/010_mouse/visual/base0.glb",
+      "bytes": 6911804,
+      "sha256": "29ea5540e000591c21a7bc88a4b3a84f8c5482f9c4f8b560758004afc566209b"
+    },
+    {
+      "path": "assets/objects/010_mouse/visual/base1.glb",
+      "bytes": 4866944,
+      "sha256": "e255c9b5dae5262a919607907621e0fbe10f1360719e652f4172dddab8a60d24"
+    },
+    {
+      "path": "assets/objects/010_mouse/visual/base2.glb",
+      "bytes": 6308812,
+      "sha256": "ebd36e2177a80fc0b08848528132e02c33b3c8df1d8e5a9803c058719c52c0a1"
+    },
+    {
+      "path": "assets/objects/011_stapler/collision/base0.glb",
+      "bytes": 491552,
+      "sha256": "e7a723fdd2016d804b8b5b2ed94953036f2280ca6d29ca03b657429dbecb3102"
+    },
+    {
+      "path": "assets/objects/011_stapler/collision/base1.glb",
+      "bytes": 298096,
+      "sha256": "e2979f3255fccc8c04f9872134729bd0a42cae8429e0e3c045266bbb63631a2e"
+    },
+    {
+      "path": "assets/objects/011_stapler/collision/base2.glb",
+      "bytes": 400720,
+      "sha256": "6f67190620f5c3695ddfe4ffcb016a09fd94966182809f9a580127702dc1c8a6"
+    },
+    {
+      "path": "assets/objects/011_stapler/collision/base3.glb",
+      "bytes": 331100,
+      "sha256": "76d080ebc68e97e14e27b6066ad6fcffaec5b4083f4c23d41ce3a078ce787972"
+    },
+    {
+      "path": "assets/objects/011_stapler/collision/base4.glb",
+      "bytes": 428924,
+      "sha256": "709eba742564b0f289150ea1308653b5cd679d2fd502e7fdcf8a4e30f8f39731"
+    },
+    {
+      "path": "assets/objects/011_stapler/collision/base5.glb",
+      "bytes": 309724,
+      "sha256": "559af05b1a1a9cb07cbe2ce1c6e4bf06deead4585d83a6face362e7400d2284a"
+    },
+    {
+      "path": "assets/objects/011_stapler/collision/base6.glb",
+      "bytes": 428084,
+      "sha256": "09b3f16ba5c8c3fc160eb6919b41ed13a453d640726e555baa279f7651ba1bb8"
+    },
+    {
+      "path": "assets/objects/011_stapler/model_data0.json",
+      "bytes": 2821,
+      "sha256": "57600c0933f3375aefd0e403585d04dfd3c59041f4371d88d30212051d67a4db"
+    },
+    {
+      "path": "assets/objects/011_stapler/model_data1.json",
+      "bytes": 2746,
+      "sha256": "f6268b73a678763fd7129b89d7fa6833da76520ac83d4cd6c8de7f0673aebf4e"
+    },
+    {
+      "path": "assets/objects/011_stapler/model_data2.json",
+      "bytes": 2788,
+      "sha256": "6628636dc87fa391649c7930a9e74fa233c7ec5eaabea5346078db28c2fef0f0"
+    },
+    {
+      "path": "assets/objects/011_stapler/model_data3.json",
+      "bytes": 2818,
+      "sha256": "120d9e605b40006dd27eccd87f8f75a8178bafd9c7b22f571e6f6d6f118601d0"
+    },
+    {
+      "path": "assets/objects/011_stapler/model_data4.json",
+      "bytes": 2823,
+      "sha256": "d2a2d65fb346135984f43b4f799694a041b02e0dbbfbd9eac91a9837c2a06377"
+    },
+    {
+      "path": "assets/objects/011_stapler/model_data5.json",
+      "bytes": 2824,
+      "sha256": "b0702cb31e6d984e95978626c5bb83f9add38135221bdd888686817dcda9d3cd"
+    },
+    {
+      "path": "assets/objects/011_stapler/model_data6.json",
+      "bytes": 2820,
+      "sha256": "e42346a8d275eeb21660005e8fc35e34468453a319b3891a1fa02eafdd5e5bd3"
+    },
+    {
+      "path": "assets/objects/011_stapler/points_info.json",
+      "bytes": 402,
+      "sha256": "43e7e805354025a4a8bac53009be9c4f72d2165f31beefea3526c5e008339224"
+    },
+    {
+      "path": "assets/objects/011_stapler/visual/base0.glb",
+      "bytes": 9705776,
+      "sha256": "92f7f99b39160e18a6037263283f5f4d30e815822257e0d7e5a397f9afd4ce7c"
+    },
+    {
+      "path": "assets/objects/011_stapler/visual/base1.glb",
+      "bytes": 9489652,
+      "sha256": "9f353091192d97021ec3a0d849c85276e27a4189060a5b3fbc4e4ba4063e7e82"
+    },
+    {
+      "path": "assets/objects/011_stapler/visual/base2.glb",
+      "bytes": 9102028,
+      "sha256": "b20030751a708ba1ca5773bc3c7d1e674678b34e52a83c5147e6ea281a9239b8"
+    },
+    {
+      "path": "assets/objects/011_stapler/visual/base3.glb",
+      "bytes": 7658228,
+      "sha256": "b4e339585e3b223514d615749f029ef76be833c7dbfc10079a67cc187c89285f"
+    },
+    {
+      "path": "assets/objects/011_stapler/visual/base4.glb",
+      "bytes": 7538808,
+      "sha256": "005d8631c3ff0db170e648c6b733a5dcd1b77927b49231b54339dc9a3c3759db"
+    },
+    {
+      "path": "assets/objects/011_stapler/visual/base5.glb",
+      "bytes": 7192944,
+      "sha256": "c1d9223863485e7e4b4e6e403fc5e2f727d676f8fb961a78a91ffcc02a6a6c59"
+    },
+    {
+      "path": "assets/objects/011_stapler/visual/base6.glb",
+      "bytes": 8743232,
+      "sha256": "209937f954c7dfac964117133c26824e26bab09e88a855e3ec1b49abb923d75f"
+    },
+    {
+      "path": "assets/objects/012_bell/collision/base0.glb",
+      "bytes": 1103976,
+      "sha256": "c53dd199633820484c031ee9328e0de952adacccc44e48af49283ee5e7d29796"
+    },
+    {
+      "path": "assets/objects/012_bell/collision/base1.glb",
+      "bytes": 1042568,
+      "sha256": "145c3bc7c506ffc1d12ce47bc9e80579249c61551fcb1843ab3292d9bc01c7fd"
+    },
+    {
+      "path": "assets/objects/012_bell/model_data0.json",
+      "bytes": 1511,
+      "sha256": "cee44b84c415189c45f415e92f8708cbfadd5e350b311e06fbf9087f25eaadcb"
+    },
+    {
+      "path": "assets/objects/012_bell/model_data1.json",
+      "bytes": 1506,
+      "sha256": "7f41b440b9f49708b691994dc0e85d6c7ac70f51c16a4d88f3bae2a8d20bea93"
+    },
+    {
+      "path": "assets/objects/012_bell/points_info.json",
+      "bytes": 242,
+      "sha256": "ff6b142eb273c1159be99ef2c0ef16cd5e6475bf231361bac5fa21920341ed47"
+    },
+    {
+      "path": "assets/objects/012_bell/visual/base0.glb",
+      "bytes": 5561528,
+      "sha256": "c7983e86f99a94f7f07733f8b0712c5465dcf6dae13544522bb67868ee258e93"
+    },
+    {
+      "path": "assets/objects/012_bell/visual/base1.glb",
+      "bytes": 6254188,
+      "sha256": "d72f42e31444dd39bf46dc9147ea100ae9d069b8801b2f886135dd2968afba11"
+    },
+    {
+      "path": "assets/objects/013_playingcards/collision/base0.glb",
+      "bytes": 80388,
+      "sha256": "a998fa3cb2bc321070132e88de66ad1da112ff04b236726011eb26921446754f"
+    },
+    {
+      "path": "assets/objects/013_playingcards/collision/base1.glb",
+      "bytes": 42800,
+      "sha256": "e468199bc1962acb47f142b4d9f7d00cd30224d67398e0ecbe8c96439525c433"
+    },
+    {
+      "path": "assets/objects/013_playingcards/collision/base2.glb",
+      "bytes": 41788,
+      "sha256": "c411cf82b351df01c9f6dac8d6ad7d57ba0f7b5ecf53c533a3965dffb5a0cd83"
+    },
+    {
+      "path": "assets/objects/013_playingcards/model_data0.json",
+      "bytes": 2196,
+      "sha256": "ae60e2c2377edb3ab94ded0ef9f8254f87f6f2eb92a81b77d186d83faee6905d"
+    },
+    {
+      "path": "assets/objects/013_playingcards/model_data1.json",
+      "bytes": 2173,
+      "sha256": "1fad364b5a4af21b83e4a21b9d11c23d4965840a2835cbfaeac657c21e2cd114"
+    },
+    {
+      "path": "assets/objects/013_playingcards/model_data2.json",
+      "bytes": 2177,
+      "sha256": "471d179e93258b55e618b869eb62183c9c5565cb54e28229c54c20b55ad8d716"
+    },
+    {
+      "path": "assets/objects/013_playingcards/points_info.json",
+      "bytes": 250,
+      "sha256": "a9608bdaf4ea6bfdb4d4b73fbb5904f5a0e1b568f5c220982d6c04f4d4e0e565"
+    },
+    {
+      "path": "assets/objects/013_playingcards/visual/base0.glb",
+      "bytes": 8445520,
+      "sha256": "36b6ebe2bf80c97a34d14e2707014e1694f20fb94229c0e093a36368bbfc72f8"
+    },
+    {
+      "path": "assets/objects/013_playingcards/visual/base1.glb",
+      "bytes": 12314232,
+      "sha256": "7e631be493bfd74bf9287a79e846ac1ea5ca6c2cc2a88c5af24e2a4489de3287"
+    },
+    {
+      "path": "assets/objects/013_playingcards/visual/base2.glb",
+      "bytes": 10007008,
+      "sha256": "e8e9491f5888cd079a9cd8c6be77d031e72624f965181d0daf188f0293dbd0bf"
+    },
+    {
+      "path": "assets/objects/014_box/100129/bounding_box.json",
+      "bytes": 81,
+      "sha256": "2858bbdfb5b3af5c15dfe96b853f8931e803cb599fe0e4a561f0b8134c810a45"
+    },
+    {
+      "path": "assets/objects/014_box/100129/images/texture_0.jpg",
+      "bytes": 6267,
+      "sha256": "c8e2450782d3f0117de79f8f64be36f11045bf29392a98a508fcca504f91ed1f"
+    },
+    {
+      "path": "assets/objects/014_box/100129/meta.json",
+      "bytes": 143,
+      "sha256": "bbd80a7d16611c06e8297d1fa3dd9f44a8369d0a95db46699b331e2803dade9f"
+    },
+    {
+      "path": "assets/objects/014_box/100129/mobility.urdf",
+      "bytes": 3996,
+      "sha256": "6bba76b014a7c3487491259e950fa7229e9c3c7afa1964be982e7dcb1fea6d6a"
+    },
+    {
+      "path": "assets/objects/014_box/100129/mobility_v2.json",
+      "bytes": 984,
+      "sha256": "5a49986fbc8f13f9f41aabb04b22d09305721a3de25f2c666b8d93ee6f2bf4cd"
+    },
+    {
+      "path": "assets/objects/014_box/100129/model_data.json",
+      "bytes": 11876,
+      "sha256": "f2d167cf81519858e6eb73a46ed3c78ae0219918c42e2100858c17186fcc251b"
+    },
+    {
+      "path": "assets/objects/014_box/100129/result.json",
+      "bytes": 667,
+      "sha256": "42d78b0a85c358c5b4f717c232ea9682b83ca81871deeb0b703227208b9f134a"
+    },
+    {
+      "path": "assets/objects/014_box/100129/result_original.json",
+      "bytes": 575,
+      "sha256": "99142dc32161267509036aae93e29c9e61ad8b03802429c4e65a3c591f22280b"
+    },
+    {
+      "path": "assets/objects/014_box/100129/semantics.txt",
+      "bytes": 73,
+      "sha256": "52277b3761214326e261ba6e6a505a71f9f0d40205763e5107cb30c89fbd7adf"
+    },
+    {
+      "path": "assets/objects/014_box/100129/textured_objs/original-1.mtl",
+      "bytes": 144,
+      "sha256": "528606f9fb5946d038c5c2de873bc74d688b5c5de8769f31784841e2470dda70"
+    },
+    {
+      "path": "assets/objects/014_box/100129/textured_objs/original-1.obj",
+      "bytes": 1147,
+      "sha256": "6bfd15c639b53cacd1eb3658e956c3e2b252fd13f51355eeaeb07bbe11b014d2"
+    },
+    {
+      "path": "assets/objects/014_box/100129/textured_objs/original-10.mtl",
+      "bytes": 113,
+      "sha256": "a0001fb2e3a8adb6acc36a262359f9b325841518a5c91c6259a2ab884f477714"
+    },
+    {
+      "path": "assets/objects/014_box/100129/textured_objs/original-10.obj",
+      "bytes": 894,
+      "sha256": "38f4f4aa01eb08fc8b786d2cd1fcf0f13f1841c2aec6403bcf1f6a7105869672"
+    },
+    {
+      "path": "assets/objects/014_box/100129/textured_objs/original-11.mtl",
+      "bytes": 113,
+      "sha256": "a0001fb2e3a8adb6acc36a262359f9b325841518a5c91c6259a2ab884f477714"
+    },
+    {
+      "path": "assets/objects/014_box/100129/textured_objs/original-11.obj",
+      "bytes": 2904,
+      "sha256": "57d5f00c41a24f2a258541eb51c03969c3d6c9485ee477c99df72fc5f38be20f"
+    },
+    {
+      "path": "assets/objects/014_box/100129/textured_objs/original-12.mtl",
+      "bytes": 113,
+      "sha256": "a0001fb2e3a8adb6acc36a262359f9b325841518a5c91c6259a2ab884f477714"
+    },
+    {
+      "path": "assets/objects/014_box/100129/textured_objs/original-12.obj",
+      "bytes": 898,
+      "sha256": "7692cdf172a47a1f2e7771bcbdf90d75d10bf370bb77e71e510b54c35572e432"
+    },
+    {
+      "path": "assets/objects/014_box/100129/textured_objs/original-13.mtl",
+      "bytes": 113,
+      "sha256": "a0001fb2e3a8adb6acc36a262359f9b325841518a5c91c6259a2ab884f477714"
+    },
+    {
+      "path": "assets/objects/014_box/100129/textured_objs/original-13.obj",
+      "bytes": 2546,
+      "sha256": "aa3a629a2815eeda3e21e215dbe7b7e46b96c3ff385f54d59193b154642532a5"
+    },
+    {
+      "path": "assets/objects/014_box/100129/textured_objs/original-14.mtl",
+      "bytes": 113,
+      "sha256": "a0001fb2e3a8adb6acc36a262359f9b325841518a5c91c6259a2ab884f477714"
+    },
+    {
+      "path": "assets/objects/014_box/100129/textured_objs/original-14.obj",
+      "bytes": 2695,
+      "sha256": "c1d4980502beb94a19b0ce36e017055d69d12ef348082e4916ada3dcc2d0124d"
+    },
+    {
+      "path": "assets/objects/014_box/100129/textured_objs/original-16.mtl",
+      "bytes": 113,
+      "sha256": "a0001fb2e3a8adb6acc36a262359f9b325841518a5c91c6259a2ab884f477714"
+    },
+    {
+      "path": "assets/objects/014_box/100129/textured_objs/original-16.obj",
+      "bytes": 642,
+      "sha256": "0d982e130057a3131eba12c937b5440a1f34090b6d3a94712ba77157e28efa9f"
+    },
+    {
+      "path": "assets/objects/014_box/100129/textured_objs/original-17.mtl",
+      "bytes": 113,
+      "sha256": "a0001fb2e3a8adb6acc36a262359f9b325841518a5c91c6259a2ab884f477714"
+    },
+    {
+      "path": "assets/objects/014_box/100129/textured_objs/original-17.obj",
+      "bytes": 910,
+      "sha256": "6b9baf642f380d6f5b5cd56d7b41266b921c58585f12caabe3a441bbdab7a637"
+    },
+    {
+      "path": "assets/objects/014_box/100129/textured_objs/original-18.mtl",
+      "bytes": 113,
+      "sha256": "a0001fb2e3a8adb6acc36a262359f9b325841518a5c91c6259a2ab884f477714"
+    },
+    {
+      "path": "assets/objects/014_box/100129/textured_objs/original-18.obj",
+      "bytes": 906,
+      "sha256": "2acc75b22a0932918bd43afe04e91b3be8aed1661915856e96f2750f03d60092"
+    },
+    {
+      "path": "assets/objects/014_box/100129/textured_objs/original-19.mtl",
+      "bytes": 113,
+      "sha256": "a0001fb2e3a8adb6acc36a262359f9b325841518a5c91c6259a2ab884f477714"
+    },
+    {
+      "path": "assets/objects/014_box/100129/textured_objs/original-19.obj",
+      "bytes": 5098,
+      "sha256": "a48d6a1937bf41650d65add196645f0626c7c6558efc79269d193ffb0935cbbf"
+    },
+    {
+      "path": "assets/objects/014_box/100129/textured_objs/original-2.mtl",
+      "bytes": 144,
+      "sha256": "528606f9fb5946d038c5c2de873bc74d688b5c5de8769f31784841e2470dda70"
+    },
+    {
+      "path": "assets/objects/014_box/100129/textured_objs/original-2.obj",
+      "bytes": 1155,
+      "sha256": "2b0b7827d324ec54f5fa4cc2495ad2d8791c56275f77dec80aedff2b3d240750"
+    },
+    {
+      "path": "assets/objects/014_box/100129/textured_objs/original-20.mtl",
+      "bytes": 113,
+      "sha256": "a0001fb2e3a8adb6acc36a262359f9b325841518a5c91c6259a2ab884f477714"
+    },
+    {
+      "path": "assets/objects/014_box/100129/textured_objs/original-20.obj",
+      "bytes": 5098,
+      "sha256": "0a37a0c29b2c69aaffeb6d3e1c5383563eff00b67a88faa14192943016ff0738"
+    },
+    {
+      "path": "assets/objects/014_box/100129/textured_objs/original-21.mtl",
+      "bytes": 113,
+      "sha256": "a0001fb2e3a8adb6acc36a262359f9b325841518a5c91c6259a2ab884f477714"
+    },
+    {
+      "path": "assets/objects/014_box/100129/textured_objs/original-21.obj",
+      "bytes": 912,
+      "sha256": "d389cbb481d142228465e871b3f36e3e70680c953b302e2fd62e0921e3b66fda"
+    },
+    {
+      "path": "assets/objects/014_box/100129/textured_objs/original-22.mtl",
+      "bytes": 113,
+      "sha256": "a0001fb2e3a8adb6acc36a262359f9b325841518a5c91c6259a2ab884f477714"
+    },
+    {
+      "path": "assets/objects/014_box/100129/textured_objs/original-22.obj",
+      "bytes": 2984,
+      "sha256": "f29292572ca05437b68ac53b8a8282973f7b53ea475d243f6f5be344443cac87"
+    },
+    {
+      "path": "assets/objects/014_box/100129/textured_objs/original-23.mtl",
+      "bytes": 113,
+      "sha256": "a0001fb2e3a8adb6acc36a262359f9b325841518a5c91c6259a2ab884f477714"
+    },
+    {
+      "path": "assets/objects/014_box/100129/textured_objs/original-23.obj",
+      "bytes": 922,
+      "sha256": "50339fcaa68d983061ad46c9c0e36410918b41b0ac5b15abc0f327ab55d34560"
+    },
+    {
+      "path": "assets/objects/014_box/100129/textured_objs/original-24.mtl",
+      "bytes": 113,
+      "sha256": "a0001fb2e3a8adb6acc36a262359f9b325841518a5c91c6259a2ab884f477714"
+    },
+    {
+      "path": "assets/objects/014_box/100129/textured_objs/original-24.obj",
+      "bytes": 2618,
+      "sha256": "009a28ac8e5a3def7c25e63b53c5eccdacea49a4f805c3fa3bf84ac2c7ce8c80"
+    },
+    {
+      "path": "assets/objects/014_box/100129/textured_objs/original-25.mtl",
+      "bytes": 113,
+      "sha256": "a0001fb2e3a8adb6acc36a262359f9b325841518a5c91c6259a2ab884f477714"
+    },
+    {
+      "path": "assets/objects/014_box/100129/textured_objs/original-25.obj",
+      "bytes": 2769,
+      "sha256": "84d7d4c87953bbdc75531af1f8a8e5c5371e285e164348c3c8df0ad55309afaa"
+    },
+    {
+      "path": "assets/objects/014_box/100129/textured_objs/original-26.mtl",
+      "bytes": 257,
+      "sha256": "bbd6a3b373bf7b4492a4f5550a0dc430dbdec0cf3c95727655a804d7b6e6ef8d"
+    },
+    {
+      "path": "assets/objects/014_box/100129/textured_objs/original-26.obj",
+      "bytes": 6708,
+      "sha256": "4586948069d48a94fa34801a350418d816e223fefca19a1aa69ca41eb7ebb4da"
+    },
+    {
+      "path": "assets/objects/014_box/100129/textured_objs/original-3.mtl",
+      "bytes": 115,
+      "sha256": "f06f34a681bd5ab4f7d349047e6a66832299006d7cd8d7d4c70c6e14f5f2e779"
+    },
+    {
+      "path": "assets/objects/014_box/100129/textured_objs/original-3.obj",
+      "bytes": 525,
+      "sha256": "7df67997834191eb498b617d1568203be798633a58ce331aeb225c3f19ec00d5"
+    },
+    {
+      "path": "assets/objects/014_box/100129/textured_objs/original-5.mtl",
+      "bytes": 113,
+      "sha256": "a0001fb2e3a8adb6acc36a262359f9b325841518a5c91c6259a2ab884f477714"
+    },
+    {
+      "path": "assets/objects/014_box/100129/textured_objs/original-5.obj",
+      "bytes": 637,
+      "sha256": "5a35fa73b838591370aa6480ade0008918b8001a56ba91926dabc2835fe99f40"
+    },
+    {
+      "path": "assets/objects/014_box/100129/textured_objs/original-6.mtl",
+      "bytes": 113,
+      "sha256": "a0001fb2e3a8adb6acc36a262359f9b325841518a5c91c6259a2ab884f477714"
+    },
+    {
+      "path": "assets/objects/014_box/100129/textured_objs/original-6.obj",
+      "bytes": 905,
+      "sha256": "8572b8c46234d978ef9a0b5c0f8868958929861efe702399e66898fae69f1cca"
+    },
+    {
+      "path": "assets/objects/014_box/100129/textured_objs/original-7.mtl",
+      "bytes": 113,
+      "sha256": "a0001fb2e3a8adb6acc36a262359f9b325841518a5c91c6259a2ab884f477714"
+    },
+    {
+      "path": "assets/objects/014_box/100129/textured_objs/original-7.obj",
+      "bytes": 901,
+      "sha256": "af833555cdf27767baf561c64702a806d62d38d74bddeee416e5f67a1caadd8c"
+    },
+    {
+      "path": "assets/objects/014_box/100129/textured_objs/original-8.mtl",
+      "bytes": 113,
+      "sha256": "a0001fb2e3a8adb6acc36a262359f9b325841518a5c91c6259a2ab884f477714"
+    },
+    {
+      "path": "assets/objects/014_box/100129/textured_objs/original-8.obj",
+      "bytes": 5093,
+      "sha256": "44044b9a8f3694aa6919e79f37f24aabc8c4f339612c271eda349f8c7fd9a244"
+    },
+    {
+      "path": "assets/objects/014_box/100129/textured_objs/original-9.mtl",
+      "bytes": 113,
+      "sha256": "a0001fb2e3a8adb6acc36a262359f9b325841518a5c91c6259a2ab884f477714"
+    },
+    {
+      "path": "assets/objects/014_box/100129/textured_objs/original-9.obj",
+      "bytes": 5096,
+      "sha256": "38dbf3136b6ca12fddc15254004c9d72ff48e03888e72639194f668703a03090"
+    },
+    {
+      "path": "assets/objects/014_box/100129/textured_objs/part_0.obj",
+      "bytes": 2216,
+      "sha256": "d30035ab9f5fb5aa057b6ce0a2f3dc2ab065dc030d55072fe02e258abbc93e7c"
+    },
+    {
+      "path": "assets/objects/014_box/100129/textured_objs/part_1.obj",
+      "bytes": 1318,
+      "sha256": "b7a1841b6b7732dbd911f7a67f3fbb1aae574ffabf049d20c1f90dc105d8bd4e"
+    },
+    {
+      "path": "assets/objects/014_box/100129/textured_objs/part_10.obj",
+      "bytes": 2638,
+      "sha256": "1a3eea94009df1c3a9e37f6ed301eb42426569b1743d735724aff2fd59a20aa7"
+    },
+    {
+      "path": "assets/objects/014_box/100129/textured_objs/part_11.obj",
+      "bytes": 892,
+      "sha256": "3a25738eaef807a0ed9c4dc9510e694bcfbb47e17bb44dbc337dab546a6b88a0"
+    },
+    {
+      "path": "assets/objects/014_box/100129/textured_objs/part_12.obj",
+      "bytes": 1786,
+      "sha256": "caf9e4edd429a2fabff4d68053563a1a01f84e13f77a15c85c07cbf64a35be27"
+    },
+    {
+      "path": "assets/objects/014_box/100129/textured_objs/part_13.obj",
+      "bytes": 1104,
+      "sha256": "d24a71f4bdfb11098c23742edf39daa51da5151646e6dd305f0d29cec2d87339"
+    },
+    {
+      "path": "assets/objects/014_box/100129/textured_objs/part_14.obj",
+      "bytes": 2728,
+      "sha256": "ae87485a8fb168ce6196c6734f235fe77cb7090d98cce2fa19645d27a3b55b34"
+    },
+    {
+      "path": "assets/objects/014_box/100129/textured_objs/part_2.obj",
+      "bytes": 1645,
+      "sha256": "a42a818d1ebb3459c7de97378365994818e134197c7862a6b7eea960a71201ed"
+    },
+    {
+      "path": "assets/objects/014_box/100129/textured_objs/part_3.obj",
+      "bytes": 2891,
+      "sha256": "b48557cbfcefc0cb06eec987e8f5f7cd6dc41c7d16f795164fff9a0b015d09c0"
+    },
+    {
+      "path": "assets/objects/014_box/100129/textured_objs/part_4.obj",
+      "bytes": 1844,
+      "sha256": "b85a31e20f4de29c2706f659128f0d93a4c4d24d2b257326fe75e9ef924796ac"
+    },
+    {
+      "path": "assets/objects/014_box/100129/textured_objs/part_5.obj",
+      "bytes": 2347,
+      "sha256": "169b9327bfde464066f453e7fe98c97b1dc5cc9bddeba2ca4fec5a1b2ecae158"
+    },
+    {
+      "path": "assets/objects/014_box/100129/textured_objs/part_6.obj",
+      "bytes": 3420,
+      "sha256": "f4e6ede7f2aad54f0f8351fd189e05ecb6be3d7b0de297328e50b198fa052b18"
+    },
+    {
+      "path": "assets/objects/014_box/100129/textured_objs/part_7.obj",
+      "bytes": 425,
+      "sha256": "6d81ececb0bdc3169f5a5794a6dd1b67dd0228cd5ce57780d3f0debe114618b1"
+    },
+    {
+      "path": "assets/objects/014_box/100129/textured_objs/part_8.obj",
+      "bytes": 2084,
+      "sha256": "2abf89322ff45ad30fd1c5b1ec2e769453b3c2cbe7fe6b3bdd7d2ba8a580a539"
+    },
+    {
+      "path": "assets/objects/014_box/100129/textured_objs/part_9.obj",
+      "bytes": 1400,
+      "sha256": "23bec403c98aac3179423979958aff4b37c810b35dddc696380bbd47cca1311a"
+    },
+    {
+      "path": "assets/objects/014_box/100234/bounding_box.json",
+      "bytes": 80,
+      "sha256": "2bd1a099bca60967bab17e48178bd0edd96171e411b4c31ade0e45c4275da519"
+    },
+    {
+      "path": "assets/objects/014_box/100234/meta.json",
+      "bytes": 142,
+      "sha256": "5fa62407a4a86494e6ac99b9e5a198b2fcc3087f41bfe4e9a7d92b0e5050de64"
+    },
+    {
+      "path": "assets/objects/014_box/100234/mobility.urdf",
+      "bytes": 5923,
+      "sha256": "f407e221967d7c4ae2fc397f9ed0d9832c24724d5452f994c3e0b51a37ce12d7"
+    },
+    {
+      "path": "assets/objects/014_box/100234/mobility_v2.json",
+      "bytes": 631,
+      "sha256": "d947f7108237317361074b87be636105eaac7bb01018d29d8cd2637bd03cb9a6"
+    },
+    {
+      "path": "assets/objects/014_box/100234/model_data.json",
+      "bytes": 10228,
+      "sha256": "2e48d5937fc46e6c958e7e85542797f75f35138ae0da5992d12482e3ed8a600f"
+    },
+    {
+      "path": "assets/objects/014_box/100234/result.json",
+      "bytes": 503,
+      "sha256": "7a2b3d231a4b07cfdc56f41c02ff41288cb412c218287eddd1d7a45cc69cc82a"
+    },
+    {
+      "path": "assets/objects/014_box/100234/result_original.json",
+      "bytes": 221,
+      "sha256": "f7414a6074e1ff70caf68bb41cb292712effe1babdc0281ab85bedb2b1a5fdec"
+    },
+    {
+      "path": "assets/objects/014_box/100234/semantics.txt",
+      "bytes": 73,
+      "sha256": "52277b3761214326e261ba6e6a505a71f9f0d40205763e5107cb30c89fbd7adf"
+    },
+    {
+      "path": "assets/objects/014_box/100234/textured_objs/original-1.mtl",
+      "bytes": 113,
+      "sha256": "5a0e0067eb977aa7e645a9b459860c3a138b55e664f9ae856eb639106899d616"
+    },
+    {
+      "path": "assets/objects/014_box/100234/textured_objs/original-1.obj",
+      "bytes": 951,
+      "sha256": "36f9a7b9a4f3c73be97509dc02264fb46f75a557732a828edbc918838e50f7f4"
+    },
+    {
+      "path": "assets/objects/014_box/100234/textured_objs/original-10.mtl",
+      "bytes": 113,
+      "sha256": "5a0e0067eb977aa7e645a9b459860c3a138b55e664f9ae856eb639106899d616"
+    },
+    {
+      "path": "assets/objects/014_box/100234/textured_objs/original-10.obj",
+      "bytes": 15560,
+      "sha256": "e2727100edd8060b8a87b49b4bfff2a5a3ff1124f41361d2f68dd17296d5414d"
+    },
+    {
+      "path": "assets/objects/014_box/100234/textured_objs/original-11.mtl",
+      "bytes": 113,
+      "sha256": "5a0e0067eb977aa7e645a9b459860c3a138b55e664f9ae856eb639106899d616"
+    },
+    {
+      "path": "assets/objects/014_box/100234/textured_objs/original-11.obj",
+      "bytes": 18039,
+      "sha256": "f9280bbbb7cb093f91a2c95ab6ec555a084d73cf67fb807d9245114789a7b433"
+    },
+    {
+      "path": "assets/objects/014_box/100234/textured_objs/original-12.mtl",
+      "bytes": 113,
+      "sha256": "5a0e0067eb977aa7e645a9b459860c3a138b55e664f9ae856eb639106899d616"
+    },
+    {
+      "path": "assets/objects/014_box/100234/textured_objs/original-12.obj",
+      "bytes": 2130,
+      "sha256": "ec19ed9cf1bf35135823bb2ee0f39ba86938ad0fd5396e16e6bdd01e51f6e87f"
+    },
+    {
+      "path": "assets/objects/014_box/100234/textured_objs/original-13.mtl",
+      "bytes": 113,
+      "sha256": "5a0e0067eb977aa7e645a9b459860c3a138b55e664f9ae856eb639106899d616"
+    },
+    {
+      "path": "assets/objects/014_box/100234/textured_objs/original-13.obj",
+      "bytes": 17927,
+      "sha256": "541432064e3ab8e36e69075d62d108b9c086073509960a064e22e17f7abacbf1"
+    },
+    {
+      "path": "assets/objects/014_box/100234/textured_objs/original-14.mtl",
+      "bytes": 113,
+      "sha256": "5a0e0067eb977aa7e645a9b459860c3a138b55e664f9ae856eb639106899d616"
+    },
+    {
+      "path": "assets/objects/014_box/100234/textured_objs/original-14.obj",
+      "bytes": 8632,
+      "sha256": "2225e7e64e2d490a661f3cca6f1531d3b3bb13683343013651b493800e724581"
+    },
+    {
+      "path": "assets/objects/014_box/100234/textured_objs/original-15.mtl",
+      "bytes": 113,
+      "sha256": "5a0e0067eb977aa7e645a9b459860c3a138b55e664f9ae856eb639106899d616"
+    },
+    {
+      "path": "assets/objects/014_box/100234/textured_objs/original-15.obj",
+      "bytes": 17731,
+      "sha256": "634bb5e5fc1e3575fd26d865e011bc59547a1bc5ea9fcbeb1a8ce4317f9e3acf"
+    },
+    {
+      "path": "assets/objects/014_box/100234/textured_objs/original-16.mtl",
+      "bytes": 113,
+      "sha256": "5a0e0067eb977aa7e645a9b459860c3a138b55e664f9ae856eb639106899d616"
+    },
+    {
+      "path": "assets/objects/014_box/100234/textured_objs/original-16.obj",
+      "bytes": 19611,
+      "sha256": "0d37285df7afa7412d0c839e2c195b206cb41181ca95d04a152b40ff473cea88"
+    },
+    {
+      "path": "assets/objects/014_box/100234/textured_objs/original-17.mtl",
+      "bytes": 113,
+      "sha256": "5a0e0067eb977aa7e645a9b459860c3a138b55e664f9ae856eb639106899d616"
+    },
+    {
+      "path": "assets/objects/014_box/100234/textured_objs/original-17.obj",
+      "bytes": 3286,
+      "sha256": "a9f47c79ae094517e0425d1b1cf3000734115c86fd2de57f0b0a4eb7564f11b2"
+    },
+    {
+      "path": "assets/objects/014_box/100234/textured_objs/original-18.mtl",
+      "bytes": 261,
+      "sha256": "0ff0850fdd2e7e514a8e9b028e46780ebd29359277cb2e4dcc7f3a8f109f735c"
+    },
+    {
+      "path": "assets/objects/014_box/100234/textured_objs/original-18.obj",
+      "bytes": 1617,
+      "sha256": "dec457c6b95f62fff31bdc800cc762c029168633a2736f0ddc4f6de45b4a9d01"
+    },
+    {
+      "path": "assets/objects/014_box/100234/textured_objs/original-2.mtl",
+      "bytes": 113,
+      "sha256": "5a0e0067eb977aa7e645a9b459860c3a138b55e664f9ae856eb639106899d616"
+    },
+    {
+      "path": "assets/objects/014_box/100234/textured_objs/original-2.obj",
+      "bytes": 959,
+      "sha256": "cec0743a95cb0e3cf00dd7f6989dc76045f50b2cd2a6c1d97237eeb2adb6610f"
+    },
+    {
+      "path": "assets/objects/014_box/100234/textured_objs/original-4.mtl",
+      "bytes": 113,
+      "sha256": "5a0e0067eb977aa7e645a9b459860c3a138b55e664f9ae856eb639106899d616"
+    },
+    {
+      "path": "assets/objects/014_box/100234/textured_objs/original-4.obj",
+      "bytes": 17838,
+      "sha256": "36ee33de11436098925beab0bb9cefd2e78ff3bd7de743f0548aa6b2d57158ba"
+    },
+    {
+      "path": "assets/objects/014_box/100234/textured_objs/original-5.mtl",
+      "bytes": 113,
+      "sha256": "5a0e0067eb977aa7e645a9b459860c3a138b55e664f9ae856eb639106899d616"
+    },
+    {
+      "path": "assets/objects/014_box/100234/textured_objs/original-5.obj",
+      "bytes": 18034,
+      "sha256": "557acb3835cc8593c524499d0de1a560942c616a59337896b76ec8d7c8be7a6b"
+    },
+    {
+      "path": "assets/objects/014_box/100234/textured_objs/original-6.mtl",
+      "bytes": 113,
+      "sha256": "5a0e0067eb977aa7e645a9b459860c3a138b55e664f9ae856eb639106899d616"
+    },
+    {
+      "path": "assets/objects/014_box/100234/textured_objs/original-6.obj",
+      "bytes": 818,
+      "sha256": "cddff51f0efd68a6905285b6909e73bce4d92f126beef3c1de2b637eca552caf"
+    },
+    {
+      "path": "assets/objects/014_box/100234/textured_objs/original-7.mtl",
+      "bytes": 113,
+      "sha256": "5a0e0067eb977aa7e645a9b459860c3a138b55e664f9ae856eb639106899d616"
+    },
+    {
+      "path": "assets/objects/014_box/100234/textured_objs/original-7.obj",
+      "bytes": 818,
+      "sha256": "bc939ce2cdff254595128ec253e85ed28903512e7e10208c50b1a9e6b8793ebc"
+    },
+    {
+      "path": "assets/objects/014_box/100234/textured_objs/original-8.mtl",
+      "bytes": 113,
+      "sha256": "5a0e0067eb977aa7e645a9b459860c3a138b55e664f9ae856eb639106899d616"
+    },
+    {
+      "path": "assets/objects/014_box/100234/textured_objs/original-8.obj",
+      "bytes": 818,
+      "sha256": "c46de83c8ba663d70e160a9f66dabf6fdd70d79fd68583087aa16b03729c8dcb"
+    },
+    {
+      "path": "assets/objects/014_box/100234/textured_objs/original-9.mtl",
+      "bytes": 113,
+      "sha256": "5a0e0067eb977aa7e645a9b459860c3a138b55e664f9ae856eb639106899d616"
+    },
+    {
+      "path": "assets/objects/014_box/100234/textured_objs/original-9.obj",
+      "bytes": 3051,
+      "sha256": "3dc25d2db348eb531b2ff5eb23067f2e5a16d7824a2b22d3849a47b88592909b"
+    },
+    {
+      "path": "assets/objects/015_lamp/10125/mobility.urdf",
+      "bytes": 2782,
+      "sha256": "89c50a35235ccff84b4d83d0d9f8c0b79375e11c130156689dc2c66847aa64e0"
+    },
+    {
+      "path": "assets/objects/015_lamp/10125/model_data.json",
+      "bytes": 754,
+      "sha256": "804a81839ef38bb372272f9ba5d1032dd21be148ae3cfe0515447acb834df3db"
+    },
+    {
+      "path": "assets/objects/016_switch/10126/mobility.urdf",
+      "bytes": 2570,
+      "sha256": "76db4a39868da765955e587de5325be1c563b28b068a23985aa12bf36d49785c"
+    },
+    {
+      "path": "assets/objects/016_switch/10126/model_data.json",
+      "bytes": 2109,
+      "sha256": "6a998d986117f78a08a03cc7781dc4bf3d28e79a662eae12e96512a4e283f161"
+    },
+    {
+      "path": "assets/objects/017_battery_slot_gauge/10127/mobility.urdf",
+      "bytes": 7378,
+      "sha256": "a2b0da3e7752bc94f6cd6ef3b72950bb6b5ef9b10ed19a10be87b3512e7a5c66"
+    },
+    {
+      "path": "assets/objects/017_battery_slot_gauge/10127/model_data.json",
+      "bytes": 2069,
+      "sha256": "6dc60777c343d85903ac207aeeb3a53b211546b34398051d22297dc3af7e66f4"
+    },
+    {
+      "path": "assets/objects/018_battery/10128/mobility.urdf",
+      "bytes": 1916,
+      "sha256": "852618075e5ac268e2dc50eaf34a69e0747ecb5e4f4f541755a9b0551563632d"
+    },
+    {
+      "path": "assets/objects/018_battery/10128/model_data.json",
+      "bytes": 2680,
+      "sha256": "65e5ed163d305c7033279d95aca84b76bebf3a67d17ef9d0366afa9ef5f51353"
+    },
+    {
+      "path": "assets/objects/100_seal/collision/base0.glb",
+      "bytes": 583284,
+      "sha256": "07667ea7ddd4e83349bdc72c0d5273841bc46b3a1f9b2071e4480ffb2fefb698"
+    },
+    {
+      "path": "assets/objects/100_seal/collision/base1.glb",
+      "bytes": 334148,
+      "sha256": "7b3c26ba9a139af66db018a500885df650940a8db5f387406746ddf3dfa3e2cf"
+    },
+    {
+      "path": "assets/objects/100_seal/collision/base2.glb",
+      "bytes": 382200,
+      "sha256": "44bfa3cd190d9a22e4337396e5e8ddabb93a11aa5484c6bfe552c449d38b8a6a"
+    },
+    {
+      "path": "assets/objects/100_seal/collision/base3.glb",
+      "bytes": 96124,
+      "sha256": "4a287049451656db5b54fca52479cf3c1892450ed0a554ed5d61d2e6040efa0b"
+    },
+    {
+      "path": "assets/objects/100_seal/collision/base4.glb",
+      "bytes": 340148,
+      "sha256": "16dbd1b27fb95b56e9dc8b26c7fcca2a019cd446693a28e7c8ca9a90ddfb789e"
+    },
+    {
+      "path": "assets/objects/100_seal/collision/base6.glb",
+      "bytes": 376056,
+      "sha256": "4ae7cfe979f7441713518ff23f55e8607e19084c0b8cf0913f319318b5624a6f"
+    },
+    {
+      "path": "assets/objects/100_seal/model_data0.json",
+      "bytes": 5526,
+      "sha256": "c0b70d8882a565f529b510578ec7d2f1e0cfd6ba491f134bff970c27c194a3ff"
+    },
+    {
+      "path": "assets/objects/100_seal/model_data1.json",
+      "bytes": 5528,
+      "sha256": "fd351254a981501d697cd1fa76c0615285773abb07cca7c2294491d8d3a8a557"
+    },
+    {
+      "path": "assets/objects/100_seal/model_data2.json",
+      "bytes": 5530,
+      "sha256": "a67c36dbe6e85d22a81f9f2d75cbe18717ba784c4aca0f18e5a59af2dbcb575d"
+    },
+    {
+      "path": "assets/objects/100_seal/model_data3.json",
+      "bytes": 5531,
+      "sha256": "a8d820248727ce7e54206e4e94ad59d1f312d63f5a3ea4c8488fdf7c2eb79c3e"
+    },
+    {
+      "path": "assets/objects/100_seal/model_data4.json",
+      "bytes": 5527,
+      "sha256": "0560bdc5402807eb46c83b0fcfb90db9f8fc183ca17986c58a61cd15cb2f5d0e"
+    },
+    {
+      "path": "assets/objects/100_seal/model_data6.json",
+      "bytes": 5544,
+      "sha256": "0c30267e5d1f1e0351054c123f6d79224d7a32bc7b61521762d6da5b9af37d7a"
+    },
+    {
+      "path": "assets/objects/100_seal/points_info.json",
+      "bytes": 417,
+      "sha256": "0e877008bb60631c3c2e8243123624ebdf91e10f031bcf823e8aa79a88a6c244"
+    },
+    {
+      "path": "assets/objects/100_seal/visual/base0.glb",
+      "bytes": 5379612,
+      "sha256": "b2ef334be7543be02321961b32ba003ee0a3a5b7bb0674e0c51b8fffafd79374"
+    },
+    {
+      "path": "assets/objects/100_seal/visual/base1.glb",
+      "bytes": 9376564,
+      "sha256": "462131e9ff72186813faaaa30dee56177dba1d0dfe49d8c7af24297305dc081b"
+    },
+    {
+      "path": "assets/objects/100_seal/visual/base2.glb",
+      "bytes": 10272868,
+      "sha256": "92df1463ee053b59cbba63579d8860d5a05d2618b347533f9126054c19b91fe2"
+    },
+    {
+      "path": "assets/objects/100_seal/visual/base3.glb",
+      "bytes": 9533312,
+      "sha256": "0a3d159ded6aa425bfb35df1f340f4893327e5e39c6c19f549365e2340824323"
+    },
+    {
+      "path": "assets/objects/100_seal/visual/base4.glb",
+      "bytes": 11403524,
+      "sha256": "281b41c3e0975f1801e44beddf8f2d583f352174761458f189965f7039a8f111"
+    },
+    {
+      "path": "assets/objects/100_seal/visual/base6.glb",
+      "bytes": 6836736,
+      "sha256": "b2964d17f4ae8c4252a586309b4870e9b0ab302eade19f6c8989a6161fd418a7"
+    },
+    {
+      "path": "assets/objects/cube/base.mtl",
+      "bytes": 791,
+      "sha256": "1244d8c5b05c2ea6e710e539c638abb12d44e50580f3c4f97b2fff7b83787a3d"
+    },
+    {
+      "path": "assets/objects/cube/textured.obj",
+      "bytes": 1071,
+      "sha256": "858c5123059d9ba47948222880b13ec39d09dd9935efc4614da77588b880d158"
+    },
+    {
+      "path": "assets/objects/objaverse/list.json",
+      "bytes": 142,
+      "sha256": "76cbefc1b4587d740392ab2bcada2d6d9b0dc99b421c4e55a57e41fc9b1ddea4"
+    },
+    {
+      "path": "assets/objects/points_info.json",
+      "bytes": 57,
+      "sha256": "df586f8e0bc19eb320279f520fbadcfdf77a71b4be38e71b48bb7e74ee86354d"
+    },
+    {
+      "path": "assets/objects/same.json",
+      "bytes": 5964,
+      "sha256": "33df183cfdc61140a20d9677e82f051f2ed3bc92f27cb1a9d8cb664cd3f1a96b"
+    },
+    {
+      "path": "assets/objects/sapien-block1/points_info.json",
+      "bytes": 619,
+      "sha256": "ec7889da43ac7289ffd5bd022daa29742f1a65a7a9cebc853238eedd9bdc6de2"
+    },
+    {
+      "path": "assets/objects/sapien-block2/points_info.json",
+      "bytes": 805,
+      "sha256": "92808b801109834ea7f2d5f5b2fcf980e1bab41af9ab8bd0e62a8f971248db7f"
+    },
+    {
+      "path": "assets/objects/vis_box/base.glb",
+      "bytes": 4856,
+      "sha256": "8537e5ac1c85783ae2c5638ecf3fb55aed174f727a87ab747474e420e850350d"
+    },
+    {
+      "path": "assets/objects/vis_box/functional.glb",
+      "bytes": 132,
+      "sha256": "e47d024c30089d49d6836a129467c800065dcc3b392362c4a5688967c65d1919"
+    },
+    {
+      "path": "assets/objects/vis_box/gripper.glb",
+      "bytes": 572736,
+      "sha256": "e299d6783099fec802815e2831ee94c8c7af969b20ebf03095ed743556154fcc"
+    }
+  ]
+}

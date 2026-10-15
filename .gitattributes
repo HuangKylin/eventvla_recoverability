@@ -1,0 +1,4 @@
+# Preserve archived experiment artifacts byte-for-byte, including manifest hashes.
+* -text
+*.png binary
+*.pt binary

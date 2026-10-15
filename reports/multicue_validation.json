@@ -1,0 +1,176 @@
+{
+  "updated_utc": "2026-10-14T11:36:02.198441+00:00",
+  "status": "pilot_complete",
+  "run_dir": "/media/user/HDD_8T/eventvla_recoverability_phase1_20261014/runs/20261014T112024Z_multicue_eval",
+  "episodes": 30,
+  "independent_colour_scenes": 3,
+  "calibration_seed": 424242,
+  "cue_observations": 240,
+  "initial_cue_reads_correct": 240,
+  "total_query_decisions": 240,
+  "recovery_executions": 48,
+  "successful_recovery_queries": 48,
+  "runtime_forbidden_calls": 0,
+  "all_prefixes_matched": true,
+  "failures": {
+    "missing_evidence_abstention": 36
+  },
+  "paired_scene_differences": [
+    {
+      "seed": 200000,
+      "action_rule_minus_fifo": 4,
+      "action_rule_minus_oldest": 0
+    },
+    {
+      "seed": 200001,
+      "action_rule_minus_fifo": 4,
+      "action_rule_minus_oldest": 0
+    },
+    {
+      "seed": 200002,
+      "action_rule_minus_fifo": 4,
+      "action_rule_minus_oldest": 0
+    }
+  ],
+  "aggregate_results": [
+    {
+      "method": "action_aware",
+      "capacity": 4,
+      "episodes": 3,
+      "successful_episodes": 3,
+      "correct_queries": 24,
+      "queries": 24,
+      "recovery_calls": 12,
+      "recovery_physics_steps": 39939,
+      "max_image_payload_bytes": 921600,
+      "max_metadata_payload_bytes": 139
+    },
+    {
+      "method": "fifo",
+      "capacity": 4,
+      "episodes": 3,
+      "successful_episodes": 0,
+      "correct_queries": 12,
+      "queries": 24,
+      "recovery_calls": 0,
+      "recovery_physics_steps": 0,
+      "max_image_payload_bytes": 921600,
+      "max_metadata_payload_bytes": 131
+    },
+    {
+      "method": "oldest",
+      "capacity": 4,
+      "episodes": 3,
+      "successful_episodes": 3,
+      "correct_queries": 24,
+      "queries": 24,
+      "recovery_calls": 12,
+      "recovery_physics_steps": 39939,
+      "max_image_payload_bytes": 921600,
+      "max_metadata_payload_bytes": 133
+    },
+    {
+      "method": "uniform",
+      "capacity": 4,
+      "episodes": 3,
+      "successful_episodes": 0,
+      "correct_queries": 18,
+      "queries": 24,
+      "recovery_calls": 6,
+      "recovery_physics_steps": 19926,
+      "max_image_payload_bytes": 921600,
+      "max_metadata_payload_bytes": 134
+    },
+    {
+      "method": "archive",
+      "capacity": 4,
+      "episodes": 3,
+      "successful_episodes": 3,
+      "correct_queries": 24,
+      "queries": 24,
+      "recovery_calls": 0,
+      "recovery_physics_steps": 0,
+      "max_image_payload_bytes": 1843200,
+      "max_metadata_payload_bytes": 166
+    },
+    {
+      "method": "structured",
+      "capacity": 4,
+      "episodes": 3,
+      "successful_episodes": 3,
+      "correct_queries": 24,
+      "queries": 24,
+      "recovery_calls": 0,
+      "recovery_physics_steps": 0,
+      "max_image_payload_bytes": 0,
+      "max_metadata_payload_bytes": 212
+    },
+    {
+      "method": "fifo",
+      "capacity": 2,
+      "episodes": 3,
+      "successful_episodes": 0,
+      "correct_queries": 12,
+      "queries": 24,
+      "recovery_calls": 6,
+      "recovery_physics_steps": 19968,
+      "max_image_payload_bytes": 460800,
+      "max_metadata_payload_bytes": 115
+    },
+    {
+      "method": "action_aware",
+      "capacity": 2,
+      "episodes": 3,
+      "successful_episodes": 0,
+      "correct_queries": 18,
+      "queries": 24,
+      "recovery_calls": 12,
+      "recovery_physics_steps": 39939,
+      "max_image_payload_bytes": 460800,
+      "max_metadata_payload_bytes": 123
+    },
+    {
+      "method": "fifo",
+      "capacity": 8,
+      "episodes": 3,
+      "successful_episodes": 3,
+      "correct_queries": 24,
+      "queries": 24,
+      "recovery_calls": 0,
+      "recovery_physics_steps": 0,
+      "max_image_payload_bytes": 1843200,
+      "max_metadata_payload_bytes": 163
+    },
+    {
+      "method": "action_aware",
+      "capacity": 8,
+      "episodes": 3,
+      "successful_episodes": 3,
+      "correct_queries": 24,
+      "queries": 24,
+      "recovery_calls": 0,
+      "recovery_physics_steps": 0,
+      "max_image_payload_bytes": 1843200,
+      "max_metadata_payload_bytes": 171
+    }
+  ],
+  "shared_motor_parameter_bytes": 12354912,
+  "elapsed_seconds": 892.3427834390022,
+  "conclusions": {
+    "capacity_pressure_observed": true,
+    "fixed_workstation_recovery_verified": true,
+    "action_rule_exceeds_oldest": false,
+    "learned_scorer_trained": false,
+    "research_first_goal_achieved": false
+  },
+  "caveats": [
+    "Fixed geometry; seeds change colours only",
+    "Offline expert calibration, then no per-test geometry/planning access",
+    "Public apparatus advance is not a learned robot action",
+    "Final outcomes are colour queries, not end-to-end VLA manipulation success",
+    "Unknown historical values are abstentions; there is no guessing baseline",
+    "Queries within a scene are not independent samples",
+    "Payload bytes exclude Python containers and model/runtime overhead",
+    "Fixed-skill execution uses sparse observation points; wall time is not EventVLA throughput"
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "run_id": "20261014T084817Z_cover_blocks_hard",
+  "results": [
+    {
+      "path": "/media/user/HDD_8T/eventvla_recoverability_phase1_20261014/third_party/EventVLA/RoboTwin-Mem/eval_result/cover_blocks_hard/model2robotwin_mem_interface/demo_clean/20261014T084817Z_cover_blocks_hard/2026-10-14 16:48:36/_result.txt",
+      "text": "Timestamp: 2026-10-14 16:48:36\n\nInstruction Type: unseen\n\nSuccess Rate: 1.0\n\nReward: 1.0\n"
+    }
+  ]
+}

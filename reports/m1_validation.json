@@ -1,0 +1,67 @@
+{
+  "updated_utc": "2026-10-14T10:23:43.703721+00:00",
+  "status": "diagnostic_milestone_complete",
+  "native_snapshot": {
+    "accepted": false,
+    "run_dir": "/media/user/HDD_8T/eventvla_recoverability_phase1_20261014/runs/20261014T100321Z_snapshot_validation",
+    "reason": "Contact continuation diverged despite near-exact restored initial state",
+    "max_errors": [
+      1.9074479937553406,
+      2.5010303258895874
+    ]
+  },
+  "rebuild": {
+    "accepted": true,
+    "run_dir": "/media/user/HDD_8T/eventvla_recoverability_phase1_20261014/runs/20261014T100630Z_rebuild_validation",
+    "episodes": [
+      {
+        "seed": 100000,
+        "prefix_steps": 1646,
+        "physics_steps": 3293,
+        "repeats": 3,
+        "parent_error": 0.0,
+        "max_continuation_error": 0.0,
+        "image_max_absolute_error": 0.0,
+        "rng_exact": true,
+        "accepted": true
+      },
+      {
+        "seed": 100001,
+        "prefix_steps": 1636,
+        "physics_steps": 3273,
+        "repeats": 3,
+        "parent_error": 0.0,
+        "max_continuation_error": 0.0,
+        "image_max_absolute_error": 0.0,
+        "rng_exact": true,
+        "accepted": true
+      }
+    ]
+  },
+  "cue_probe": {
+    "run_dir": "/media/user/HDD_8T/eventvla_recoverability_phase1_20261014/runs/20261014T101642Z_cue_branches",
+    "branches_executed": 16,
+    "paired_conditions": 4,
+    "independent_scene_families": 2,
+    "accepted": true,
+    "training_eligible": false,
+    "elapsed_seconds": 326.8525881909882,
+    "data_dir": "/home/user/workspace/HDD_8T/eventvla_recoverability_phase1_20261014/data/diagnostics/20261014T101642Z_cue_branches"
+  },
+  "archive": {
+    "cases": 4,
+    "image_archive_successes": 4,
+    "structured_record_successes": 4
+  },
+  "tests": {
+    "passed": 39,
+    "report": "reports/research_interface_tests.txt"
+  },
+  "gpu_after": "0, NVIDIA RTX PRO 5000 72GB Blackwell, 55418 MiB, 0 %\n1, NVIDIA RTX PRO 5000 72GB Blackwell, 17 MiB, 0 %\n",
+  "open_work": [
+    "Multi-cue memory pressure and three formal paired task families",
+    "Nonprivileged common recovery and complete EventVLA state/cache audit",
+    "Larger baseline gate, strong retrieval comparison, actual training dataset and scorer training"
+  ],
+  "research_goal_achieved": false
+}

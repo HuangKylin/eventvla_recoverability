@@ -1,0 +1,78 @@
+{
+  "status": "complete",
+  "run_dir": "/media/user/HDD_8T/eventvla_recoverability_phase1_20261014/runs/20261014T111504Z_shared_skill_library",
+  "calibration_seed": 424242,
+  "controller_scope": "fixed_workstation",
+  "offline_expert_calibration": true,
+  "runtime_object_pose_access": false,
+  "skills": [
+    {
+      "slot": 0,
+      "file": "slot_0.npz",
+      "sha256": "dc6a3a6a40ff27dbe750207a9242889ac22764eae84af0b12a9bfc1a13b99817",
+      "physics_steps": 3280,
+      "observe_after_steps": 1280,
+      "colour_read": {
+        "answer": "green",
+        "pixels": 437,
+        "confidence": 1.0
+      },
+      "closed_read": {
+        "answer": null,
+        "pixels": 0,
+        "confidence": 0.0
+      }
+    },
+    {
+      "slot": 1,
+      "file": "slot_1.npz",
+      "sha256": "18d92445c41beee782b94e3aa8d5d4044631c9486c17f16c52b71f7f3597a7dc",
+      "physics_steps": 3376,
+      "observe_after_steps": 1332,
+      "colour_read": {
+        "answer": "green",
+        "pixels": 358,
+        "confidence": 1.0
+      },
+      "closed_read": {
+        "answer": null,
+        "pixels": 0,
+        "confidence": 0.0
+      }
+    },
+    {
+      "slot": 2,
+      "file": "slot_2.npz",
+      "sha256": "83e99697b91387edfbbe94dade5ef9480f8de73e189b2783cd1d4674608eea7f",
+      "physics_steps": 3362,
+      "observe_after_steps": 1322,
+      "colour_read": {
+        "answer": "yellow",
+        "pixels": 376,
+        "confidence": 1.0
+      },
+      "closed_read": {
+        "answer": null,
+        "pixels": 0,
+        "confidence": 0.0
+      }
+    },
+    {
+      "slot": 3,
+      "file": "slot_3.npz",
+      "sha256": "51d28f051be765a55e30f4b118ef1ea23ac0b286d46c9cb62076e15c75c0a999",
+      "physics_steps": 3295,
+      "observe_after_steps": 1284,
+      "colour_read": {
+        "answer": "red",
+        "pixels": 462,
+        "confidence": 1.0
+      },
+      "closed_read": {
+        "answer": null,
+        "pixels": 0,
+        "confidence": 0.0
+      }
+    }
+  ]
+}

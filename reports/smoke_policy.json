@@ -1,0 +1,114 @@
+{
+  "status": "complete",
+  "pid": 501416,
+  "stage": "finished",
+  "checkpoint": "/media/user/HDD_8T/eventvla_recoverability_phase1_20261014/checkpoints/runtime/EventVLA-RoboTwin-MeM/final_model/pytorch_model.pt",
+  "attention": "sdpa",
+  "torch_version": "2.7.1+cu128",
+  "cuda_version": "12.8",
+  "gpu": "NVIDIA RTX PRO 5000 72GB Blackwell",
+  "checkpoint_history_capacity": 5,
+  "load_seconds": 18.2685492610035,
+  "checkpoint_load_report": {
+    "missing_keys": [],
+    "unexpected_keys": [],
+    "shape_mismatches": [],
+    "matched_keys": 737
+  },
+  "history_images": 5,
+  "trials": [
+    {
+      "history_images": 0,
+      "seconds": 2.540624336019391,
+      "peak_allocated_MiB": 9268.7568359375,
+      "output_shapes": {
+        "normalized_actions": [
+          1,
+          50,
+          14
+        ],
+        "chunk_keyframe_prob": [
+          1,
+          50
+        ],
+        "pred_event_offset": [
+          1
+        ],
+        "pred_event_confidence": [
+          1
+        ],
+        "should_trigger_event": [
+          1
+        ],
+        "raw_pred_event_offset": [
+          1
+        ],
+        "raw_pred_event_confidence": [
+          1
+        ],
+        "raw_should_trigger_event": [
+          1
+        ],
+        "keyframe_event_suppressed_by_filter": [
+          1
+        ],
+        "keyframe_prob": [
+          1
+        ],
+        "predicted_is_keyframe": [
+          1
+        ],
+        "memory_is_keyframe": [
+          1
+        ]
+      }
+    },
+    {
+      "history_images": 5,
+      "seconds": 0.1948532249953132,
+      "peak_allocated_MiB": 9507.66357421875,
+      "output_shapes": {
+        "normalized_actions": [
+          1,
+          50,
+          14
+        ],
+        "chunk_keyframe_prob": [
+          1,
+          50
+        ],
+        "pred_event_offset": [
+          1
+        ],
+        "pred_event_confidence": [
+          1
+        ],
+        "should_trigger_event": [
+          1
+        ],
+        "raw_pred_event_offset": [
+          1
+        ],
+        "raw_pred_event_confidence": [
+          1
+        ],
+        "raw_should_trigger_event": [
+          1
+        ],
+        "keyframe_event_suppressed_by_filter": [
+          1
+        ],
+        "keyframe_prob": [
+          1
+        ],
+        "predicted_is_keyframe": [
+          1
+        ],
+        "memory_is_keyframe": [
+          1
+        ]
+      }
+    }
+  ],
+  "scope": "Inference smoke only; repeated real frames test the input pipeline, not task success"
+}

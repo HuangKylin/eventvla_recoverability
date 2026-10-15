@@ -1,0 +1,147 @@
+diff --git a/EventVLA/deployment/model_server/server_policy.py b/EventVLA/deployment/model_server/server_policy.py
+index 2904e53..14fdf6e 100644
+--- a/EventVLA/deployment/model_server/server_policy.py
++++ b/EventVLA/deployment/model_server/server_policy.py
+@@ -32,7 +32,7 @@ def main(args) -> None:
+     # start websocket server
+     server = WebsocketPolicyServer(
+         policy=vla,
+-        host="0.0.0.0",
++        host=args.host,
+         port=args.port,
+         idle_timeout=args.idle_timeout,
+         metadata={"env": "simpler_env"},
+@@ -50,6 +50,7 @@ def build_argparser():
+         default=None,
+         help="Local HuggingFace PaliGemma model directory. Defaults to /path/to/paligemma-3b-pt-224.",
+     )
++    parser.add_argument("--host", type=str, default="127.0.0.1")
+     parser.add_argument("--port", type=int, default=10093)
+     parser.add_argument("--use_bf16", action="store_true")
+     parser.add_argument("--idle_timeout" , type=int, default=1800, help="Idle timeout in seconds, -1 means never close")
+diff --git a/EventVLA/eventvla/model/framework/base_framework.py b/EventVLA/eventvla/model/framework/base_framework.py
+index ccb9c8d..70a82cc 100644
+--- a/EventVLA/eventvla/model/framework/base_framework.py
++++ b/EventVLA/eventvla/model/framework/base_framework.py
+@@ -148,6 +148,14 @@ class baseframework(PreTrainedModel):
+         if shape_mismatch_keys:
+             logger.warning(f"Shape-mismatched keys skipped during load: {shape_mismatch_keys}")
+ 
++        FrameworkModel.checkpoint_load_report = {
++            "missing_keys": sorted(missing_keys),
++            "unexpected_keys": sorted(unexpected_keys),
++            "shape_mismatches": shape_mismatch_keys,
++            "matched_keys": len(filtered_state_dict),
++        }
++        if kwargs.get("strict_checkpoint", False) and (missing_keys or unexpected_keys or shape_mismatch_keys):
++            raise RuntimeError(f"Checkpoint mismatch: {FrameworkModel.checkpoint_load_report}")
+         FrameworkModel.load_state_dict(filtered_state_dict, strict=False)
+ 
+         # **ensure model is on GPU**
+diff --git a/EventVLA/eventvla/model/modules/vlm/QWen3.py b/EventVLA/eventvla/model/modules/vlm/QWen3.py
+index f1002c1..ea5e9d4 100644
+--- a/EventVLA/eventvla/model/modules/vlm/QWen3.py
++++ b/EventVLA/eventvla/model/modules/vlm/QWen3.py
+@@ -33,7 +33,7 @@ class _QWen3_VL_Interface(nn.Module):
+ 
+         model = Qwen3VLForConditionalGeneration.from_pretrained(
+             model_id,
+-            attn_implementation="flash_attention_2",
++            attn_implementation=qwenvl_config.get("attn_implementation", "flash_attention_2"),
+             dtype=torch.bfloat16,
+         )
+         processor = AutoProcessor.from_pretrained(model_id)
+diff --git a/EventVLA/examples/RoboTwin-Mem/eval_files/eval.sh b/EventVLA/examples/RoboTwin-Mem/eval_files/eval.sh
+index 8064db7..5cc75ee 100644
+--- a/EventVLA/examples/RoboTwin-Mem/eval_files/eval.sh
++++ b/EventVLA/examples/RoboTwin-Mem/eval_files/eval.sh
+@@ -88,7 +88,7 @@ wait_for_spawned_server() {
+       return 0
+     fi
+     sleep 1
+-    ((elapsed++))
++    elapsed=$((elapsed + 1))
+   done
+ 
+   echo "[eval][error] Timed out waiting for policy server on ${host}:${port}."
+@@ -106,7 +106,7 @@ wait_for_existing_server() {
+       return 0
+     fi
+     sleep 1
+-    ((elapsed++))
++    elapsed=$((elapsed + 1))
+   done
+ 
+   echo "[eval][error] Timed out waiting for an existing policy server on ${host}:${port}."
+diff --git a/EventVLA/examples/RoboTwin-Mem/eval_files/model2robotwin_mem_interface.py b/EventVLA/examples/RoboTwin-Mem/eval_files/model2robotwin_mem_interface.py
+index 0981967..4bcfcf4 100644
+--- a/EventVLA/examples/RoboTwin-Mem/eval_files/model2robotwin_mem_interface.py
++++ b/EventVLA/examples/RoboTwin-Mem/eval_files/model2robotwin_mem_interface.py
+@@ -1,4 +1,5 @@
+ import atexit
++import os
+ import collections
+ import json
+ import logging
+@@ -573,7 +574,15 @@ class ModelClient:
+             self.keyframe_image_memory[-1] = entry
+         else:
+             self.keyframe_image_memory.append(entry)
+-        if self.max_keyframe_images > 0 and len(self.keyframe_image_memory) > int(self.max_keyframe_images):
++        memory_strategy = os.environ.get("RECOVERABILITY_MEMORY_POLICY")
++        if memory_strategy is not None:
++            from recoverability.memory import select_entries
++            self.keyframe_image_memory = select_entries(
++                self.keyframe_image_memory, int(self.max_keyframe_images),
++                strategy=memory_strategy,
++                seed=int(os.environ.get("RECOVERABILITY_MEMORY_SEED", "42")),
++            )
++        elif self.max_keyframe_images > 0 and len(self.keyframe_image_memory) > int(self.max_keyframe_images):
+             self.keyframe_image_memory = self.keyframe_image_memory[-int(self.max_keyframe_images):]
+ 
+     def _build_keyframe_memory_images(self, step: int) -> tuple[list[np.ndarray], list[dict], list[int]]:
+diff --git a/RoboTwin-Mem/envs/_base_task.py b/RoboTwin-Mem/envs/_base_task.py
+index 9a0edc4..b11e427 100644
+--- a/RoboTwin-Mem/envs/_base_task.py
++++ b/RoboTwin-Mem/envs/_base_task.py
+@@ -219,9 +219,9 @@ class Base_Task(gym.Env):
+         self.engine.set_renderer(self.renderer)
+ 
+         sapien.render.set_camera_shader_dir("rt")
+-        sapien.render.set_ray_tracing_samples_per_pixel(32)
++        sapien.render.set_ray_tracing_samples_per_pixel(int(os.environ.get("EVENTVLA_RT_SPP", "32")))
+         sapien.render.set_ray_tracing_path_depth(8)
+-        sapien.render.set_ray_tracing_denoiser("oidn")
++        sapien.render.set_ray_tracing_denoiser(os.environ.get("EVENTVLA_RAY_DENOISER", "oidn"))
+ 
+         # declare sapien scene
+         scene_config = sapien.SceneConfig()
+diff --git a/RoboTwin-Mem/script/eval_policy.py b/RoboTwin-Mem/script/eval_policy.py
+index 6f76c35..86ae9f6 100644
+--- a/RoboTwin-Mem/script/eval_policy.py
++++ b/RoboTwin-Mem/script/eval_policy.py
+@@ -1,4 +1,5 @@
+ import sys
++import random
+ import os
+ import subprocess
+ 
+@@ -74,6 +75,7 @@ def get_embodiment_config(robot_file):
+ 
+ 
+ def main(usr_args):
++    random.seed(int(usr_args["seed"]))
+     current_time = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+     task_name = usr_args["task_name"]
+     task_config = usr_args["task_config"]
+@@ -178,7 +180,9 @@ def main(usr_args):
+ 
+     st_seed = 100000 * (1 + seed)
+     suc_nums = []
+-    test_num = 100
++    test_num = int(os.environ.get("EVENTVLA_EVAL_EPISODES", "100"))
++    if test_num <= 0:
++        raise ValueError("EVENTVLA_EVAL_EPISODES must be positive")
+     topk = 1
+ 
+     model = get_model(usr_args)

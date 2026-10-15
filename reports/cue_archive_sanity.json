@@ -1,0 +1,50 @@
+{
+  "scope": "offline_single_cue_diagnostic_only",
+  "rows": [
+    {
+      "seed": 100000,
+      "command": "preserve",
+      "archive_success": true,
+      "structured_success": true,
+      "archived_images": 1,
+      "raw_rgb_bytes": 230400,
+      "png_bytes": 125180,
+      "semantic_payload_bytes": 25
+    },
+    {
+      "seed": 100000,
+      "command": "erase",
+      "archive_success": true,
+      "structured_success": true,
+      "archived_images": 1,
+      "raw_rgb_bytes": 230400,
+      "png_bytes": 125180,
+      "semantic_payload_bytes": 25
+    },
+    {
+      "seed": 100001,
+      "command": "preserve",
+      "archive_success": true,
+      "structured_success": true,
+      "archived_images": 1,
+      "raw_rgb_bytes": 230400,
+      "png_bytes": 125836,
+      "semantic_payload_bytes": 27
+    },
+    {
+      "seed": 100001,
+      "command": "erase",
+      "archive_success": true,
+      "structured_success": true,
+      "archived_images": 1,
+      "raw_rgb_bytes": 230400,
+      "png_bytes": 125836,
+      "semantic_payload_bytes": 27
+    }
+  ],
+  "archive_successes": 4,
+  "structured_successes": 4,
+  "cases": 4,
+  "warning": "One candidate fits in any positive-capacity FIFO. Forced deletion is a label intervention; this probe does not establish a memory-budget bottleneck or a learned-method advantage.",
+  "storage_note": "Payload bytes only; Python objects, indexing and encoder cost are not included."
+}

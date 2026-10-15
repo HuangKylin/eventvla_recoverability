@@ -1,0 +1,56 @@
+{
+  "status": "failed",
+  "pid": 523558,
+  "run_dir": "/media/user/HDD_8T/eventvla_recoverability_phase1_20261014/runs/20261014T100321Z_snapshot_validation",
+  "config": {
+    "seeds": [
+      100000,
+      100001
+    ],
+    "gpu": "1",
+    "restore_tolerance": 1e-05,
+    "rollout_tolerance": 0.001
+  },
+  "contract": "same_scene_fixed_drive_replay",
+  "episodes": [
+    {
+      "seed": 100000,
+      "physics_steps": 3293,
+      "trace_samples": 34,
+      "parent_hash": "725c82d2e32f87617e623bf7379823a4e82f6710acc9e7e4e75e4d0f5bcd18b6",
+      "tape_hash": "8b3691636725711a25ec441668e1921593ee4d19f96fb2c6eed353e43c50f6bb",
+      "restore_errors": [
+        1.1920928955078125e-07,
+        1.1920928955078125e-07,
+        1.1920928955078125e-07
+      ],
+      "max_continuation_error": 1.9074479937553406,
+      "rng_exact": true,
+      "controller_exact": true,
+      "image_repeat_mae": 0.0,
+      "image_branch_mae": 0.6496831597222222,
+      "accepted": false
+    },
+    {
+      "seed": 100001,
+      "physics_steps": 3273,
+      "trace_samples": 34,
+      "parent_hash": "dd3f00abc49b114a8a2e137a876d17616ae95e4a1d5ad3dc63ea897454931ab0",
+      "tape_hash": "3bdad327d918e01e940b9ab1858c694a68934f89a77239cf97d0c966b4da3fcf",
+      "restore_errors": [
+        1.1920928955078125e-07,
+        1.1920928955078125e-07,
+        1.1920928955078125e-07
+      ],
+      "max_continuation_error": 2.5010303258895874,
+      "rng_exact": true,
+      "controller_exact": true,
+      "image_repeat_mae": 0.0,
+      "image_branch_mae": 0.638515625,
+      "accepted": false
+    }
+  ],
+  "all_accepted": false,
+  "elapsed_seconds": 37.30561884198687,
+  "error": "Traceback (most recent call last):\n  File \"/home/user/workspace/HDD_8T/eventvla_recoverability_phase1_20261014/scripts/validate_snapshot.py\", line 85, in main\n    raise RuntimeError('Snapshot continuation gate failed; these states cannot produce labels')\nRuntimeError: Snapshot continuation gate failed; these states cannot produce labels\n"
+}

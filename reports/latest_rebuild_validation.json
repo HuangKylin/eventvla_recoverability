@@ -1,0 +1,39 @@
+{
+  "status": "complete",
+  "run_dir": "/media/user/HDD_8T/eventvla_recoverability_phase1_20261014/runs/20261014T100630Z_rebuild_validation",
+  "source_run": "/media/user/HDD_8T/eventvla_recoverability_phase1_20261014/runs/20261014T100321Z_snapshot_validation",
+  "contract": "fresh_process_prefix_replay",
+  "config": {
+    "source_run": "/media/user/HDD_8T/eventvla_recoverability_phase1_20261014/runs/20261014T100321Z_snapshot_validation",
+    "gpu": "1",
+    "repeats": 3,
+    "restore_tolerance": 1e-05,
+    "rollout_tolerance": 0.001
+  },
+  "episodes": [
+    {
+      "seed": 100000,
+      "prefix_steps": 1646,
+      "physics_steps": 3293,
+      "repeats": 3,
+      "parent_error": 0.0,
+      "max_continuation_error": 0.0,
+      "image_max_absolute_error": 0.0,
+      "rng_exact": true,
+      "accepted": true
+    },
+    {
+      "seed": 100001,
+      "prefix_steps": 1636,
+      "physics_steps": 3273,
+      "repeats": 3,
+      "parent_error": 0.0,
+      "max_continuation_error": 0.0,
+      "image_max_absolute_error": 0.0,
+      "rng_exact": true,
+      "accepted": true
+    }
+  ],
+  "all_accepted": true,
+  "elapsed_seconds": 117.07396119099576
+}

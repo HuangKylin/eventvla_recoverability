@@ -1,0 +1,196 @@
+{
+  "task": "cover_blocks_hard",
+  "seed": 100000,
+  "kind": "privileged_expert",
+  "status": "complete",
+  "pid": 498073,
+  "stage": "finished",
+  "observation_schema": {
+    "observation": {
+      "left_camera": {
+        "intrinsic_cv": {
+          "shape": [
+            3,
+            3
+          ],
+          "dtype": "float32"
+        },
+        "extrinsic_cv": {
+          "shape": [
+            3,
+            4
+          ],
+          "dtype": "float32"
+        },
+        "cam2world_gl": {
+          "shape": [
+            4,
+            4
+          ],
+          "dtype": "float32"
+        },
+        "rgb": {
+          "shape": [
+            240,
+            320,
+            3
+          ],
+          "dtype": "uint8"
+        }
+      },
+      "right_camera": {
+        "intrinsic_cv": {
+          "shape": [
+            3,
+            3
+          ],
+          "dtype": "float32"
+        },
+        "extrinsic_cv": {
+          "shape": [
+            3,
+            4
+          ],
+          "dtype": "float32"
+        },
+        "cam2world_gl": {
+          "shape": [
+            4,
+            4
+          ],
+          "dtype": "float32"
+        },
+        "rgb": {
+          "shape": [
+            240,
+            320,
+            3
+          ],
+          "dtype": "uint8"
+        }
+      },
+      "head_camera": {
+        "intrinsic_cv": {
+          "shape": [
+            3,
+            3
+          ],
+          "dtype": "float32"
+        },
+        "extrinsic_cv": {
+          "shape": [
+            3,
+            4
+          ],
+          "dtype": "float32"
+        },
+        "cam2world_gl": {
+          "shape": [
+            4,
+            4
+          ],
+          "dtype": "float32"
+        },
+        "rgb": {
+          "shape": [
+            240,
+            320,
+            3
+          ],
+          "dtype": "uint8"
+        }
+      },
+      "front_camera": {
+        "intrinsic_cv": {
+          "shape": [
+            3,
+            3
+          ],
+          "dtype": "float32"
+        },
+        "extrinsic_cv": {
+          "shape": [
+            3,
+            4
+          ],
+          "dtype": "float32"
+        },
+        "cam2world_gl": {
+          "shape": [
+            4,
+            4
+          ],
+          "dtype": "float32"
+        },
+        "rgb": {
+          "shape": [
+            240,
+            320,
+            3
+          ],
+          "dtype": "uint8"
+        }
+      }
+    },
+    "pointcloud": {
+      "type": "list",
+      "length": 0
+    },
+    "joint_action": {
+      "left_arm": {
+        "type": "list",
+        "length": 6
+      },
+      "left_gripper": {
+        "shape": [],
+        "dtype": "float64"
+      },
+      "right_arm": {
+        "type": "list",
+        "length": 6
+      },
+      "right_gripper": {
+        "shape": [],
+        "dtype": "float64"
+      },
+      "vector": {
+        "shape": [
+          14
+        ],
+        "dtype": "float64"
+      }
+    },
+    "endpose": {
+      "left_endpose": {
+        "type": "list",
+        "length": 7
+      },
+      "left_gripper": {
+        "shape": [],
+        "dtype": "float64"
+      },
+      "right_endpose": {
+        "type": "list",
+        "length": 7
+      },
+      "right_gripper": {
+        "shape": [],
+        "dtype": "float64"
+      }
+    },
+    "third_view_rgb": {
+      "shape": [
+        240,
+        320,
+        3
+      ],
+      "dtype": "uint8"
+    }
+  },
+  "observation_file": "/media/user/HDD_8T/eventvla_recoverability_phase1_20261014/reports/smoke_cover_blocks_hard_observation.npz",
+  "denoiser": "none",
+  "render_image": "/media/user/HDD_8T/eventvla_recoverability_phase1_20261014/reports/smoke_cover_blocks_hard.png",
+  "expert_plan_success": true,
+  "expert_task_success": true,
+  "elapsed_seconds": 26.38784605800174
+}

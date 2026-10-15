@@ -1,0 +1,79 @@
+{
+  "status": "complete",
+  "run_dir": "/media/user/HDD_8T/eventvla_recoverability_phase1_20261014/runs/20261015T020021Z_vla_action_probe",
+  "port": 48455,
+  "episodes": [
+    {
+      "action_slot": 0,
+      "branch": "K",
+      "result_file": "/media/user/HDD_8T/eventvla_recoverability_phase1_20261014/runs/20261015T020021Z_vla_action_probe/a0_K/result.json",
+      "actions_executed": 200,
+      "intended_cover_actuated": false,
+      "events": [],
+      "model_requests": 4
+    },
+    {
+      "action_slot": 0,
+      "branch": "R",
+      "result_file": "/media/user/HDD_8T/eventvla_recoverability_phase1_20261014/runs/20261015T020021Z_vla_action_probe/a0_R/result.json",
+      "actions_executed": 83,
+      "intended_cover_actuated": false,
+      "events": [
+        {
+          "slot": 2,
+          "tick": 7552,
+          "lift_m": 0.04002642631530762
+        }
+      ],
+      "model_requests": 2
+    },
+    {
+      "action_slot": 3,
+      "branch": "K",
+      "result_file": "/media/user/HDD_8T/eventvla_recoverability_phase1_20261014/runs/20261015T020021Z_vla_action_probe/a3_K/result.json",
+      "actions_executed": 200,
+      "intended_cover_actuated": false,
+      "events": [],
+      "model_requests": 4
+    },
+    {
+      "action_slot": 3,
+      "branch": "R",
+      "result_file": "/media/user/HDD_8T/eventvla_recoverability_phase1_20261014/runs/20261015T020021Z_vla_action_probe/a3_R/result.json",
+      "actions_executed": 143,
+      "intended_cover_actuated": false,
+      "events": [
+        {
+          "slot": 2,
+          "tick": 15438,
+          "lift_m": 0.040055692195892334
+        }
+      ],
+      "model_requests": 3
+    },
+    {
+      "action_slot": 0,
+      "branch": "K_repeat",
+      "result_file": "/media/user/HDD_8T/eventvla_recoverability_phase1_20261014/runs/20261015T020021Z_vla_action_probe/a0_K_repeat/result.json",
+      "actions_executed": 200,
+      "intended_cover_actuated": false,
+      "events": [],
+      "model_requests": 4
+    }
+  ],
+  "source_hashes": {
+    "scripts/run_vla_action_probe.py": "e09ffb322fcea7c97318425ad816196ee610b38ef2f7c1ca8b159173647064cb",
+    "scripts/vla_action_worker.py": "3fa2aef1ffbe73ca935758997d04342a5ae06de898b7939ea80bbc3515e2c4b5",
+    "scripts/seeded_policy_server.py": "9598798113b48f0fb93200be96f524494059e916ffeb8d69acdb2b0af149e6dc",
+    "src/recoverability/vla_intervention.py": "59e7683db95e84651717a8ba95645a70724090a778450999837487d0ffeecd15",
+    "src/recoverability/action_latch_task.py": "4299b303767b223f16305940df6b5dbf82dfca72c01cab686a9643ea3dbe919a",
+    "src/recoverability/fixed_skills.py": "797f3e4b4286616e415dcefc51a1611124f2a2ab401c0b833bf306e9bb2e3d1f",
+    "src/recoverability/sim_runtime.py": "b1a213b8d44b89cc38665f03694fc7c69de4c7277adfa87b18b318c28fd56bee",
+    "third_party/EventVLA/EventVLA/examples/RoboTwin-Mem/eval_files/model2robotwin_mem_interface.py": "7ea9d0bf0b42d3f8c89924346f91c678b7120560e56b1e4dcf757be216b619f2"
+  },
+  "formal_training_eligible": false,
+  "repeated_trajectory_identical": true,
+  "all_parent_states_matched": true,
+  "all_payload_deletion_audits_passed": true,
+  "control_gate_passed": false
+}

@@ -1,0 +1,94 @@
+{
+  "status": "complete",
+  "paired_branches": 48,
+  "paired_labels": 32,
+  "families": 4,
+  "all_pairs_matched": true,
+  "all_repeated_R_matched": true,
+  "scorer_trained": true,
+  "scorer_models": {
+    "learned_action": {
+      "checkpoint": "/media/user/HDD_8T/eventvla_recoverability_phase1_20261014/checkpoints/scorers/20261015T020018Z_pilot_scorer/learned_action.pt",
+      "sha256": "5a85fa181089e0af1c8547d6db01b850e9057536342e336f9a17a0fd156d99ed",
+      "parameters": 60321,
+      "selected_epoch": 307,
+      "mse": {
+        "train": 0.0055867647752165794,
+        "validation": 0.018162213265895844,
+        "test": 0.052959855645895004
+      }
+    },
+    "learned_no_action": {
+      "checkpoint": "/media/user/HDD_8T/eventvla_recoverability_phase1_20261014/checkpoints/scorers/20261015T020018Z_pilot_scorer/learned_no_action.pt",
+      "sha256": "961ca6fb7783f194e8225767c258126333e8fdf087bcb38b64b17af5448f1024",
+      "parameters": 60321,
+      "selected_epoch": 1489,
+      "mse": {
+        "train": 0.125,
+        "validation": 0.1250600814819336,
+        "test": 0.1251257359981537
+      }
+    }
+  },
+  "actual_scorer_eval_episodes": 14,
+  "actual_results": {
+    "learned_action": {
+      "correct": 8,
+      "queries": 8,
+      "recovery_steps": 20051,
+      "max_images_bytes": 230400,
+      "max_semantic_bytes": 0
+    },
+    "learned_no_action": {
+      "correct": 7,
+      "queries": 8,
+      "recovery_steps": 20066,
+      "max_images_bytes": 230400,
+      "max_semantic_bytes": 0
+    },
+    "fifo": {
+      "correct": 6,
+      "queries": 8,
+      "recovery_steps": 19902,
+      "max_images_bytes": 230400,
+      "max_semantic_bytes": 0
+    },
+    "oldest": {
+      "correct": 7,
+      "queries": 8,
+      "recovery_steps": 20066,
+      "max_images_bytes": 230400,
+      "max_semantic_bytes": 0
+    },
+    "action_rule": {
+      "correct": 8,
+      "queries": 8,
+      "recovery_steps": 20051,
+      "max_images_bytes": 230400,
+      "max_semantic_bytes": 0
+    },
+    "archive": {
+      "correct": 8,
+      "queries": 8,
+      "recovery_steps": 0,
+      "max_images_bytes": 921600,
+      "max_semantic_bytes": 0
+    },
+    "structured": {
+      "correct": 8,
+      "queries": 8,
+      "recovery_steps": 0,
+      "max_images_bytes": 0,
+      "max_semantic_bytes": 54
+    }
+  },
+  "vla_episodes": 5,
+  "vla_actions_executed": 826,
+  "vla_intended_actuations": 0,
+  "audited_vla_requests": 17,
+  "deleted_image_leaks": 0,
+  "vla_repeated_trajectory_identical": true,
+  "formal_vla_scorer_training_complete": false,
+  "phase1_research_goal_achieved": false,
+  "formal_vla_labels_generated": false
+}

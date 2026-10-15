@@ -1,0 +1,44 @@
+{
+  "checked_at_utc": "2026-10-14T07:18:38.514832+00:00",
+  "ssh_alias": "SOTA-Pro5000",
+  "host_address": "192.168.1.20",
+  "user": "user",
+  "requested_project_root": "/home/user/workspace/HDD_8T/eventvla_recoverability_phase1_20261014",
+  "resolved_project_root": "/media/user/HDD_8T/eventvla_recoverability_phase1_20261014",
+  "kernel": "6.8.0-40-generic",
+  "architecture": "x86_64",
+  "system_python": "3.10.12",
+  "logical_cpu_count": 24,
+  "memory": {
+    "MemTotal_KiB": 263379604,
+    "MemAvailable_KiB": 224653944
+  },
+  "gpus": [
+    {
+      "physical_index": 0,
+      "name": "NVIDIA RTX PRO 5000 72GB Blackwell",
+      "memory_total_MiB": 73415,
+      "memory_used_MiB": 55395,
+      "utilization_percent": 0,
+      "driver": "580.178.04"
+    },
+    {
+      "physical_index": 1,
+      "name": "NVIDIA RTX PRO 5000 72GB Blackwell",
+      "memory_total_MiB": 73415,
+      "memory_used_MiB": 15,
+      "utilization_percent": 0,
+      "driver": "580.178.04"
+    }
+  ],
+  "project_disk": {
+    "total_bytes": 7937303777280,
+    "used_bytes": 2635124027392,
+    "free_bytes": 4902084812800
+  },
+  "status": "resource_snapshot_only_no_gpu_reserved",
+  "project_subdirectories": [
+    "checkpoints", "configs", "data", "docs", "references", "reports",
+    "runs", "scripts", "src", "tests", "third_party"
+  ]
+}

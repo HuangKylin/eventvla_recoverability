@@ -1,0 +1,1156 @@
+{
+  "status": "complete",
+  "run_dir": "/media/user/HDD_8T/eventvla_recoverability_phase1_20261014/runs/20261015T013736Z_action_pairs",
+  "seeds": [
+    310000,
+    310001,
+    310002,
+    310003
+  ],
+  "actions": [
+    0,
+    3
+  ],
+  "source_hashes": {
+    "scripts/action_pair_worker.py": "2b31d90c523f2f0bc796e173f89f58a8ba786c2ce14c3a1f3d3f84fd85b320fe",
+    "scripts/collect_action_pairs.py": "9b1a4209d29eb4004fe9b29705af268d63a9be5bce5b256bd62c665f20a47c09",
+    "src/recoverability/action_latch_task.py": "4299b303767b223f16305940df6b5dbf82dfca72c01cab686a9643ea3dbe919a",
+    "src/recoverability/fixed_skills.py": "797f3e4b4286616e415dcefc51a1611124f2a2ab401c0b833bf306e9bb2e3d1f",
+    "src/recoverability/cue_probe_task.py": "53226573f8888aa7477a7ae873f52d17585e7b7e569548783a603423ff39e172",
+    "src/recoverability/cue_reader.py": "0b432e109dcdcf1f315d7ccb9ee4062223d635b954b618865ddc0bd27e88e41e",
+    "src/recoverability/snapshot.py": "56b93ac9000b8f19a7a0c928a4e573efc5f2c2df4821ec5b7608206158065adf",
+    "src/recoverability/sim_runtime.py": "b1a213b8d44b89cc38665f03694fc7c69de4c7277adfa87b18b318c28fd56bee",
+    "src/recoverability/branch_protocol.py": "4b6751d26e5e597de6bab7c19eb53798f752ddb2214659727905077cb5ce0749"
+  },
+  "episodes": [
+    {
+      "name": "s310000_a0_K",
+      "result_file": "/media/user/HDD_8T/eventvla_recoverability_phase1_20261014/runs/20261015T013736Z_action_pairs/s310000_a0_K/result.json"
+    },
+    {
+      "name": "s310000_a0_R0",
+      "result_file": "/media/user/HDD_8T/eventvla_recoverability_phase1_20261014/runs/20261015T013736Z_action_pairs/s310000_a0_R0/result.json"
+    },
+    {
+      "name": "s310000_a0_R1",
+      "result_file": "/media/user/HDD_8T/eventvla_recoverability_phase1_20261014/runs/20261015T013736Z_action_pairs/s310000_a0_R1/result.json"
+    },
+    {
+      "name": "s310000_a0_R2",
+      "result_file": "/media/user/HDD_8T/eventvla_recoverability_phase1_20261014/runs/20261015T013736Z_action_pairs/s310000_a0_R2/result.json"
+    },
+    {
+      "name": "s310000_a0_R3",
+      "result_file": "/media/user/HDD_8T/eventvla_recoverability_phase1_20261014/runs/20261015T013736Z_action_pairs/s310000_a0_R3/result.json"
+    },
+    {
+      "name": "s310000_a0_R0_repeat",
+      "result_file": "/media/user/HDD_8T/eventvla_recoverability_phase1_20261014/runs/20261015T013736Z_action_pairs/s310000_a0_R0_repeat/result.json"
+    },
+    {
+      "name": "s310000_a3_K",
+      "result_file": "/media/user/HDD_8T/eventvla_recoverability_phase1_20261014/runs/20261015T013736Z_action_pairs/s310000_a3_K/result.json"
+    },
+    {
+      "name": "s310000_a3_R0",
+      "result_file": "/media/user/HDD_8T/eventvla_recoverability_phase1_20261014/runs/20261015T013736Z_action_pairs/s310000_a3_R0/result.json"
+    },
+    {
+      "name": "s310000_a3_R1",
+      "result_file": "/media/user/HDD_8T/eventvla_recoverability_phase1_20261014/runs/20261015T013736Z_action_pairs/s310000_a3_R1/result.json"
+    },
+    {
+      "name": "s310000_a3_R2",
+      "result_file": "/media/user/HDD_8T/eventvla_recoverability_phase1_20261014/runs/20261015T013736Z_action_pairs/s310000_a3_R2/result.json"
+    },
+    {
+      "name": "s310000_a3_R3",
+      "result_file": "/media/user/HDD_8T/eventvla_recoverability_phase1_20261014/runs/20261015T013736Z_action_pairs/s310000_a3_R3/result.json"
+    },
+    {
+      "name": "s310000_a3_R3_repeat",
+      "result_file": "/media/user/HDD_8T/eventvla_recoverability_phase1_20261014/runs/20261015T013736Z_action_pairs/s310000_a3_R3_repeat/result.json"
+    },
+    {
+      "name": "s310001_a0_K",
+      "result_file": "/media/user/HDD_8T/eventvla_recoverability_phase1_20261014/runs/20261015T013736Z_action_pairs/s310001_a0_K/result.json"
+    },
+    {
+      "name": "s310001_a0_R0",
+      "result_file": "/media/user/HDD_8T/eventvla_recoverability_phase1_20261014/runs/20261015T013736Z_action_pairs/s310001_a0_R0/result.json"
+    },
+    {
+      "name": "s310001_a0_R1",
+      "result_file": "/media/user/HDD_8T/eventvla_recoverability_phase1_20261014/runs/20261015T013736Z_action_pairs/s310001_a0_R1/result.json"
+    },
+    {
+      "name": "s310001_a0_R2",
+      "result_file": "/media/user/HDD_8T/eventvla_recoverability_phase1_20261014/runs/20261015T013736Z_action_pairs/s310001_a0_R2/result.json"
+    },
+    {
+      "name": "s310001_a0_R3",
+      "result_file": "/media/user/HDD_8T/eventvla_recoverability_phase1_20261014/runs/20261015T013736Z_action_pairs/s310001_a0_R3/result.json"
+    },
+    {
+      "name": "s310001_a0_R0_repeat",
+      "result_file": "/media/user/HDD_8T/eventvla_recoverability_phase1_20261014/runs/20261015T013736Z_action_pairs/s310001_a0_R0_repeat/result.json"
+    },
+    {
+      "name": "s310001_a3_K",
+      "result_file": "/media/user/HDD_8T/eventvla_recoverability_phase1_20261014/runs/20261015T013736Z_action_pairs/s310001_a3_K/result.json"
+    },
+    {
+      "name": "s310001_a3_R0",
+      "result_file": "/media/user/HDD_8T/eventvla_recoverability_phase1_20261014/runs/20261015T013736Z_action_pairs/s310001_a3_R0/result.json"
+    },
+    {
+      "name": "s310001_a3_R1",
+      "result_file": "/media/user/HDD_8T/eventvla_recoverability_phase1_20261014/runs/20261015T013736Z_action_pairs/s310001_a3_R1/result.json"
+    },
+    {
+      "name": "s310001_a3_R2",
+      "result_file": "/media/user/HDD_8T/eventvla_recoverability_phase1_20261014/runs/20261015T013736Z_action_pairs/s310001_a3_R2/result.json"
+    },
+    {
+      "name": "s310001_a3_R3",
+      "result_file": "/media/user/HDD_8T/eventvla_recoverability_phase1_20261014/runs/20261015T013736Z_action_pairs/s310001_a3_R3/result.json"
+    },
+    {
+      "name": "s310001_a3_R3_repeat",
+      "result_file": "/media/user/HDD_8T/eventvla_recoverability_phase1_20261014/runs/20261015T013736Z_action_pairs/s310001_a3_R3_repeat/result.json"
+    },
+    {
+      "name": "s310002_a0_K",
+      "result_file": "/media/user/HDD_8T/eventvla_recoverability_phase1_20261014/runs/20261015T013736Z_action_pairs/s310002_a0_K/result.json"
+    },
+    {
+      "name": "s310002_a0_R0",
+      "result_file": "/media/user/HDD_8T/eventvla_recoverability_phase1_20261014/runs/20261015T013736Z_action_pairs/s310002_a0_R0/result.json"
+    },
+    {
+      "name": "s310002_a0_R1",
+      "result_file": "/media/user/HDD_8T/eventvla_recoverability_phase1_20261014/runs/20261015T013736Z_action_pairs/s310002_a0_R1/result.json"
+    },
+    {
+      "name": "s310002_a0_R2",
+      "result_file": "/media/user/HDD_8T/eventvla_recoverability_phase1_20261014/runs/20261015T013736Z_action_pairs/s310002_a0_R2/result.json"
+    },
+    {
+      "name": "s310002_a0_R3",
+      "result_file": "/media/user/HDD_8T/eventvla_recoverability_phase1_20261014/runs/20261015T013736Z_action_pairs/s310002_a0_R3/result.json"
+    },
+    {
+      "name": "s310002_a0_R0_repeat",
+      "result_file": "/media/user/HDD_8T/eventvla_recoverability_phase1_20261014/runs/20261015T013736Z_action_pairs/s310002_a0_R0_repeat/result.json"
+    },
+    {
+      "name": "s310002_a3_K",
+      "result_file": "/media/user/HDD_8T/eventvla_recoverability_phase1_20261014/runs/20261015T013736Z_action_pairs/s310002_a3_K/result.json"
+    },
+    {
+      "name": "s310002_a3_R0",
+      "result_file": "/media/user/HDD_8T/eventvla_recoverability_phase1_20261014/runs/20261015T013736Z_action_pairs/s310002_a3_R0/result.json"
+    },
+    {
+      "name": "s310002_a3_R1",
+      "result_file": "/media/user/HDD_8T/eventvla_recoverability_phase1_20261014/runs/20261015T013736Z_action_pairs/s310002_a3_R1/result.json"
+    },
+    {
+      "name": "s310002_a3_R2",
+      "result_file": "/media/user/HDD_8T/eventvla_recoverability_phase1_20261014/runs/20261015T013736Z_action_pairs/s310002_a3_R2/result.json"
+    },
+    {
+      "name": "s310002_a3_R3",
+      "result_file": "/media/user/HDD_8T/eventvla_recoverability_phase1_20261014/runs/20261015T013736Z_action_pairs/s310002_a3_R3/result.json"
+    },
+    {
+      "name": "s310002_a3_R3_repeat",
+      "result_file": "/media/user/HDD_8T/eventvla_recoverability_phase1_20261014/runs/20261015T013736Z_action_pairs/s310002_a3_R3_repeat/result.json"
+    },
+    {
+      "name": "s310003_a0_K",
+      "result_file": "/media/user/HDD_8T/eventvla_recoverability_phase1_20261014/runs/20261015T013736Z_action_pairs/s310003_a0_K/result.json"
+    },
+    {
+      "name": "s310003_a0_R0",
+      "result_file": "/media/user/HDD_8T/eventvla_recoverability_phase1_20261014/runs/20261015T013736Z_action_pairs/s310003_a0_R0/result.json"
+    },
+    {
+      "name": "s310003_a0_R1",
+      "result_file": "/media/user/HDD_8T/eventvla_recoverability_phase1_20261014/runs/20261015T013736Z_action_pairs/s310003_a0_R1/result.json"
+    },
+    {
+      "name": "s310003_a0_R2",
+      "result_file": "/media/user/HDD_8T/eventvla_recoverability_phase1_20261014/runs/20261015T013736Z_action_pairs/s310003_a0_R2/result.json"
+    },
+    {
+      "name": "s310003_a0_R3",
+      "result_file": "/media/user/HDD_8T/eventvla_recoverability_phase1_20261014/runs/20261015T013736Z_action_pairs/s310003_a0_R3/result.json"
+    },
+    {
+      "name": "s310003_a0_R0_repeat",
+      "result_file": "/media/user/HDD_8T/eventvla_recoverability_phase1_20261014/runs/20261015T013736Z_action_pairs/s310003_a0_R0_repeat/result.json"
+    },
+    {
+      "name": "s310003_a3_K",
+      "result_file": "/media/user/HDD_8T/eventvla_recoverability_phase1_20261014/runs/20261015T013736Z_action_pairs/s310003_a3_K/result.json"
+    },
+    {
+      "name": "s310003_a3_R0",
+      "result_file": "/media/user/HDD_8T/eventvla_recoverability_phase1_20261014/runs/20261015T013736Z_action_pairs/s310003_a3_R0/result.json"
+    },
+    {
+      "name": "s310003_a3_R1",
+      "result_file": "/media/user/HDD_8T/eventvla_recoverability_phase1_20261014/runs/20261015T013736Z_action_pairs/s310003_a3_R1/result.json"
+    },
+    {
+      "name": "s310003_a3_R2",
+      "result_file": "/media/user/HDD_8T/eventvla_recoverability_phase1_20261014/runs/20261015T013736Z_action_pairs/s310003_a3_R2/result.json"
+    },
+    {
+      "name": "s310003_a3_R3",
+      "result_file": "/media/user/HDD_8T/eventvla_recoverability_phase1_20261014/runs/20261015T013736Z_action_pairs/s310003_a3_R3/result.json"
+    },
+    {
+      "name": "s310003_a3_R3_repeat",
+      "result_file": "/media/user/HDD_8T/eventvla_recoverability_phase1_20261014/runs/20261015T013736Z_action_pairs/s310003_a3_R3_repeat/result.json"
+    }
+  ],
+  "labels": [
+    {
+      "family_id": "action_latch_310000",
+      "seed": 310000,
+      "action_slot": 0,
+      "evidence_slot": 0,
+      "ordinal": 1,
+      "delta_cost": 1.0328,
+      "keep": {
+        "slot": 0,
+        "answer": "yellow",
+        "success": true,
+        "recovery_steps": 0,
+        "recovery_allowed": true
+      },
+      "recover": {
+        "slot": 0,
+        "answer": null,
+        "success": false,
+        "recovery_steps": 3280,
+        "recovery_allowed": true
+      },
+      "parent_hash": "4c19ae0f2622a0666549ee4b85146f36e613e4a8c93f4e356e8fbd88d5dea56e",
+      "action_hash": "2f37508b590376434fb24b115ed027f6f26219a5aee584f74b86554e841afb4e",
+      "evidence_image": "/media/user/HDD_8T/eventvla_recoverability_phase1_20261014/runs/20261015T013736Z_action_pairs/s310000_a0_K/evidence_0.png",
+      "public_action": "/media/user/HDD_8T/eventvla_recoverability_phase1_20261014/runs/20261015T013736Z_action_pairs/s310000_a0_K/public_action.npz",
+      "keep_result": "/media/user/HDD_8T/eventvla_recoverability_phase1_20261014/runs/20261015T013736Z_action_pairs/s310000_a0_K/result.json",
+      "recover_result": "/media/user/HDD_8T/eventvla_recoverability_phase1_20261014/runs/20261015T013736Z_action_pairs/s310000_a0_R0/result.json",
+      "paired_prefix_and_continuation_validated": true
+    },
+    {
+      "family_id": "action_latch_310000",
+      "seed": 310000,
+      "action_slot": 0,
+      "evidence_slot": 1,
+      "ordinal": 0,
+      "delta_cost": 0.033760000000000005,
+      "keep": {
+        "slot": 1,
+        "answer": "red",
+        "success": true,
+        "recovery_steps": 0,
+        "recovery_allowed": true
+      },
+      "recover": {
+        "slot": 1,
+        "answer": "red",
+        "success": true,
+        "recovery_steps": 3376,
+        "recovery_allowed": true
+      },
+      "parent_hash": "4c19ae0f2622a0666549ee4b85146f36e613e4a8c93f4e356e8fbd88d5dea56e",
+      "action_hash": "2f37508b590376434fb24b115ed027f6f26219a5aee584f74b86554e841afb4e",
+      "evidence_image": "/media/user/HDD_8T/eventvla_recoverability_phase1_20261014/runs/20261015T013736Z_action_pairs/s310000_a0_K/evidence_1.png",
+      "public_action": "/media/user/HDD_8T/eventvla_recoverability_phase1_20261014/runs/20261015T013736Z_action_pairs/s310000_a0_K/public_action.npz",
+      "keep_result": "/media/user/HDD_8T/eventvla_recoverability_phase1_20261014/runs/20261015T013736Z_action_pairs/s310000_a0_K/result.json",
+      "recover_result": "/media/user/HDD_8T/eventvla_recoverability_phase1_20261014/runs/20261015T013736Z_action_pairs/s310000_a0_R1/result.json",
+      "paired_prefix_and_continuation_validated": true
+    },
+    {
+      "family_id": "action_latch_310000",
+      "seed": 310000,
+      "action_slot": 0,
+      "evidence_slot": 2,
+      "ordinal": 2,
+      "delta_cost": 0.033620000000000004,
+      "keep": {
+        "slot": 2,
+        "answer": "red",
+        "success": true,
+        "recovery_steps": 0,
+        "recovery_allowed": true
+      },
+      "recover": {
+        "slot": 2,
+        "answer": "red",
+        "success": true,
+        "recovery_steps": 3362,
+        "recovery_allowed": true
+      },
+      "parent_hash": "4c19ae0f2622a0666549ee4b85146f36e613e4a8c93f4e356e8fbd88d5dea56e",
+      "action_hash": "2f37508b590376434fb24b115ed027f6f26219a5aee584f74b86554e841afb4e",
+      "evidence_image": "/media/user/HDD_8T/eventvla_recoverability_phase1_20261014/runs/20261015T013736Z_action_pairs/s310000_a0_K/evidence_2.png",
+      "public_action": "/media/user/HDD_8T/eventvla_recoverability_phase1_20261014/runs/20261015T013736Z_action_pairs/s310000_a0_K/public_action.npz",
+      "keep_result": "/media/user/HDD_8T/eventvla_recoverability_phase1_20261014/runs/20261015T013736Z_action_pairs/s310000_a0_K/result.json",
+      "recover_result": "/media/user/HDD_8T/eventvla_recoverability_phase1_20261014/runs/20261015T013736Z_action_pairs/s310000_a0_R2/result.json",
+      "paired_prefix_and_continuation_validated": true
+    },
+    {
+      "family_id": "action_latch_310000",
+      "seed": 310000,
+      "action_slot": 0,
+      "evidence_slot": 3,
+      "ordinal": 3,
+      "delta_cost": 0.03295,
+      "keep": {
+        "slot": 3,
+        "answer": "red",
+        "success": true,
+        "recovery_steps": 0,
+        "recovery_allowed": true
+      },
+      "recover": {
+        "slot": 3,
+        "answer": "red",
+        "success": true,
+        "recovery_steps": 3295,
+        "recovery_allowed": true
+      },
+      "parent_hash": "4c19ae0f2622a0666549ee4b85146f36e613e4a8c93f4e356e8fbd88d5dea56e",
+      "action_hash": "2f37508b590376434fb24b115ed027f6f26219a5aee584f74b86554e841afb4e",
+      "evidence_image": "/media/user/HDD_8T/eventvla_recoverability_phase1_20261014/runs/20261015T013736Z_action_pairs/s310000_a0_K/evidence_3.png",
+      "public_action": "/media/user/HDD_8T/eventvla_recoverability_phase1_20261014/runs/20261015T013736Z_action_pairs/s310000_a0_K/public_action.npz",
+      "keep_result": "/media/user/HDD_8T/eventvla_recoverability_phase1_20261014/runs/20261015T013736Z_action_pairs/s310000_a0_K/result.json",
+      "recover_result": "/media/user/HDD_8T/eventvla_recoverability_phase1_20261014/runs/20261015T013736Z_action_pairs/s310000_a0_R3/result.json",
+      "paired_prefix_and_continuation_validated": true
+    },
+    {
+      "family_id": "action_latch_310000",
+      "seed": 310000,
+      "action_slot": 3,
+      "evidence_slot": 0,
+      "ordinal": 1,
+      "delta_cost": 0.0328,
+      "keep": {
+        "slot": 0,
+        "answer": "yellow",
+        "success": true,
+        "recovery_steps": 0,
+        "recovery_allowed": true
+      },
+      "recover": {
+        "slot": 0,
+        "answer": "yellow",
+        "success": true,
+        "recovery_steps": 3280,
+        "recovery_allowed": true
+      },
+      "parent_hash": "4c19ae0f2622a0666549ee4b85146f36e613e4a8c93f4e356e8fbd88d5dea56e",
+      "action_hash": "741c1ae100602a3940a7fc0c224c34029909ff817a17e73a3d3c519e6724cc67",
+      "evidence_image": "/media/user/HDD_8T/eventvla_recoverability_phase1_20261014/runs/20261015T013736Z_action_pairs/s310000_a3_K/evidence_0.png",
+      "public_action": "/media/user/HDD_8T/eventvla_recoverability_phase1_20261014/runs/20261015T013736Z_action_pairs/s310000_a3_K/public_action.npz",
+      "keep_result": "/media/user/HDD_8T/eventvla_recoverability_phase1_20261014/runs/20261015T013736Z_action_pairs/s310000_a3_K/result.json",
+      "recover_result": "/media/user/HDD_8T/eventvla_recoverability_phase1_20261014/runs/20261015T013736Z_action_pairs/s310000_a3_R0/result.json",
+      "paired_prefix_and_continuation_validated": true
+    },
+    {
+      "family_id": "action_latch_310000",
+      "seed": 310000,
+      "action_slot": 3,
+      "evidence_slot": 1,
+      "ordinal": 0,
+      "delta_cost": 0.033760000000000005,
+      "keep": {
+        "slot": 1,
+        "answer": "red",
+        "success": true,
+        "recovery_steps": 0,
+        "recovery_allowed": true
+      },
+      "recover": {
+        "slot": 1,
+        "answer": "red",
+        "success": true,
+        "recovery_steps": 3376,
+        "recovery_allowed": true
+      },
+      "parent_hash": "4c19ae0f2622a0666549ee4b85146f36e613e4a8c93f4e356e8fbd88d5dea56e",
+      "action_hash": "741c1ae100602a3940a7fc0c224c34029909ff817a17e73a3d3c519e6724cc67",
+      "evidence_image": "/media/user/HDD_8T/eventvla_recoverability_phase1_20261014/runs/20261015T013736Z_action_pairs/s310000_a3_K/evidence_1.png",
+      "public_action": "/media/user/HDD_8T/eventvla_recoverability_phase1_20261014/runs/20261015T013736Z_action_pairs/s310000_a3_K/public_action.npz",
+      "keep_result": "/media/user/HDD_8T/eventvla_recoverability_phase1_20261014/runs/20261015T013736Z_action_pairs/s310000_a3_K/result.json",
+      "recover_result": "/media/user/HDD_8T/eventvla_recoverability_phase1_20261014/runs/20261015T013736Z_action_pairs/s310000_a3_R1/result.json",
+      "paired_prefix_and_continuation_validated": true
+    },
+    {
+      "family_id": "action_latch_310000",
+      "seed": 310000,
+      "action_slot": 3,
+      "evidence_slot": 2,
+      "ordinal": 2,
+      "delta_cost": 0.033620000000000004,
+      "keep": {
+        "slot": 2,
+        "answer": "red",
+        "success": true,
+        "recovery_steps": 0,
+        "recovery_allowed": true
+      },
+      "recover": {
+        "slot": 2,
+        "answer": "red",
+        "success": true,
+        "recovery_steps": 3362,
+        "recovery_allowed": true
+      },
+      "parent_hash": "4c19ae0f2622a0666549ee4b85146f36e613e4a8c93f4e356e8fbd88d5dea56e",
+      "action_hash": "741c1ae100602a3940a7fc0c224c34029909ff817a17e73a3d3c519e6724cc67",
+      "evidence_image": "/media/user/HDD_8T/eventvla_recoverability_phase1_20261014/runs/20261015T013736Z_action_pairs/s310000_a3_K/evidence_2.png",
+      "public_action": "/media/user/HDD_8T/eventvla_recoverability_phase1_20261014/runs/20261015T013736Z_action_pairs/s310000_a3_K/public_action.npz",
+      "keep_result": "/media/user/HDD_8T/eventvla_recoverability_phase1_20261014/runs/20261015T013736Z_action_pairs/s310000_a3_K/result.json",
+      "recover_result": "/media/user/HDD_8T/eventvla_recoverability_phase1_20261014/runs/20261015T013736Z_action_pairs/s310000_a3_R2/result.json",
+      "paired_prefix_and_continuation_validated": true
+    },
+    {
+      "family_id": "action_latch_310000",
+      "seed": 310000,
+      "action_slot": 3,
+      "evidence_slot": 3,
+      "ordinal": 3,
+      "delta_cost": 1.03295,
+      "keep": {
+        "slot": 3,
+        "answer": "red",
+        "success": true,
+        "recovery_steps": 0,
+        "recovery_allowed": true
+      },
+      "recover": {
+        "slot": 3,
+        "answer": null,
+        "success": false,
+        "recovery_steps": 3295,
+        "recovery_allowed": true
+      },
+      "parent_hash": "4c19ae0f2622a0666549ee4b85146f36e613e4a8c93f4e356e8fbd88d5dea56e",
+      "action_hash": "741c1ae100602a3940a7fc0c224c34029909ff817a17e73a3d3c519e6724cc67",
+      "evidence_image": "/media/user/HDD_8T/eventvla_recoverability_phase1_20261014/runs/20261015T013736Z_action_pairs/s310000_a3_K/evidence_3.png",
+      "public_action": "/media/user/HDD_8T/eventvla_recoverability_phase1_20261014/runs/20261015T013736Z_action_pairs/s310000_a3_K/public_action.npz",
+      "keep_result": "/media/user/HDD_8T/eventvla_recoverability_phase1_20261014/runs/20261015T013736Z_action_pairs/s310000_a3_K/result.json",
+      "recover_result": "/media/user/HDD_8T/eventvla_recoverability_phase1_20261014/runs/20261015T013736Z_action_pairs/s310000_a3_R3/result.json",
+      "paired_prefix_and_continuation_validated": true
+    },
+    {
+      "family_id": "action_latch_310001",
+      "seed": 310001,
+      "action_slot": 0,
+      "evidence_slot": 0,
+      "ordinal": 1,
+      "delta_cost": 1.0328,
+      "keep": {
+        "slot": 0,
+        "answer": "red",
+        "success": true,
+        "recovery_steps": 0,
+        "recovery_allowed": true
+      },
+      "recover": {
+        "slot": 0,
+        "answer": null,
+        "success": false,
+        "recovery_steps": 3280,
+        "recovery_allowed": true
+      },
+      "parent_hash": "24d60497bab84fff924be3604a2ab8de079781d5dbe295676d643f9b60dff1e1",
+      "action_hash": "2f37508b590376434fb24b115ed027f6f26219a5aee584f74b86554e841afb4e",
+      "evidence_image": "/media/user/HDD_8T/eventvla_recoverability_phase1_20261014/runs/20261015T013736Z_action_pairs/s310001_a0_K/evidence_0.png",
+      "public_action": "/media/user/HDD_8T/eventvla_recoverability_phase1_20261014/runs/20261015T013736Z_action_pairs/s310001_a0_K/public_action.npz",
+      "keep_result": "/media/user/HDD_8T/eventvla_recoverability_phase1_20261014/runs/20261015T013736Z_action_pairs/s310001_a0_K/result.json",
+      "recover_result": "/media/user/HDD_8T/eventvla_recoverability_phase1_20261014/runs/20261015T013736Z_action_pairs/s310001_a0_R0/result.json",
+      "paired_prefix_and_continuation_validated": true
+    },
+    {
+      "family_id": "action_latch_310001",
+      "seed": 310001,
+      "action_slot": 0,
+      "evidence_slot": 1,
+      "ordinal": 2,
+      "delta_cost": 0.033760000000000005,
+      "keep": {
+        "slot": 1,
+        "answer": "green",
+        "success": true,
+        "recovery_steps": 0,
+        "recovery_allowed": true
+      },
+      "recover": {
+        "slot": 1,
+        "answer": "green",
+        "success": true,
+        "recovery_steps": 3376,
+        "recovery_allowed": true
+      },
+      "parent_hash": "24d60497bab84fff924be3604a2ab8de079781d5dbe295676d643f9b60dff1e1",
+      "action_hash": "2f37508b590376434fb24b115ed027f6f26219a5aee584f74b86554e841afb4e",
+      "evidence_image": "/media/user/HDD_8T/eventvla_recoverability_phase1_20261014/runs/20261015T013736Z_action_pairs/s310001_a0_K/evidence_1.png",
+      "public_action": "/media/user/HDD_8T/eventvla_recoverability_phase1_20261014/runs/20261015T013736Z_action_pairs/s310001_a0_K/public_action.npz",
+      "keep_result": "/media/user/HDD_8T/eventvla_recoverability_phase1_20261014/runs/20261015T013736Z_action_pairs/s310001_a0_K/result.json",
+      "recover_result": "/media/user/HDD_8T/eventvla_recoverability_phase1_20261014/runs/20261015T013736Z_action_pairs/s310001_a0_R1/result.json",
+      "paired_prefix_and_continuation_validated": true
+    },
+    {
+      "family_id": "action_latch_310001",
+      "seed": 310001,
+      "action_slot": 0,
+      "evidence_slot": 2,
+      "ordinal": 0,
+      "delta_cost": 0.033620000000000004,
+      "keep": {
+        "slot": 2,
+        "answer": "yellow",
+        "success": true,
+        "recovery_steps": 0,
+        "recovery_allowed": true
+      },
+      "recover": {
+        "slot": 2,
+        "answer": "yellow",
+        "success": true,
+        "recovery_steps": 3362,
+        "recovery_allowed": true
+      },
+      "parent_hash": "24d60497bab84fff924be3604a2ab8de079781d5dbe295676d643f9b60dff1e1",
+      "action_hash": "2f37508b590376434fb24b115ed027f6f26219a5aee584f74b86554e841afb4e",
+      "evidence_image": "/media/user/HDD_8T/eventvla_recoverability_phase1_20261014/runs/20261015T013736Z_action_pairs/s310001_a0_K/evidence_2.png",
+      "public_action": "/media/user/HDD_8T/eventvla_recoverability_phase1_20261014/runs/20261015T013736Z_action_pairs/s310001_a0_K/public_action.npz",
+      "keep_result": "/media/user/HDD_8T/eventvla_recoverability_phase1_20261014/runs/20261015T013736Z_action_pairs/s310001_a0_K/result.json",
+      "recover_result": "/media/user/HDD_8T/eventvla_recoverability_phase1_20261014/runs/20261015T013736Z_action_pairs/s310001_a0_R2/result.json",
+      "paired_prefix_and_continuation_validated": true
+    },
+    {
+      "family_id": "action_latch_310001",
+      "seed": 310001,
+      "action_slot": 0,
+      "evidence_slot": 3,
+      "ordinal": 3,
+      "delta_cost": 0.03295,
+      "keep": {
+        "slot": 3,
+        "answer": "blue",
+        "success": true,
+        "recovery_steps": 0,
+        "recovery_allowed": true
+      },
+      "recover": {
+        "slot": 3,
+        "answer": "blue",
+        "success": true,
+        "recovery_steps": 3295,
+        "recovery_allowed": true
+      },
+      "parent_hash": "24d60497bab84fff924be3604a2ab8de079781d5dbe295676d643f9b60dff1e1",
+      "action_hash": "2f37508b590376434fb24b115ed027f6f26219a5aee584f74b86554e841afb4e",
+      "evidence_image": "/media/user/HDD_8T/eventvla_recoverability_phase1_20261014/runs/20261015T013736Z_action_pairs/s310001_a0_K/evidence_3.png",
+      "public_action": "/media/user/HDD_8T/eventvla_recoverability_phase1_20261014/runs/20261015T013736Z_action_pairs/s310001_a0_K/public_action.npz",
+      "keep_result": "/media/user/HDD_8T/eventvla_recoverability_phase1_20261014/runs/20261015T013736Z_action_pairs/s310001_a0_K/result.json",
+      "recover_result": "/media/user/HDD_8T/eventvla_recoverability_phase1_20261014/runs/20261015T013736Z_action_pairs/s310001_a0_R3/result.json",
+      "paired_prefix_and_continuation_validated": true
+    },
+    {
+      "family_id": "action_latch_310001",
+      "seed": 310001,
+      "action_slot": 3,
+      "evidence_slot": 0,
+      "ordinal": 1,
+      "delta_cost": 0.0328,
+      "keep": {
+        "slot": 0,
+        "answer": "red",
+        "success": true,
+        "recovery_steps": 0,
+        "recovery_allowed": true
+      },
+      "recover": {
+        "slot": 0,
+        "answer": "red",
+        "success": true,
+        "recovery_steps": 3280,
+        "recovery_allowed": true
+      },
+      "parent_hash": "24d60497bab84fff924be3604a2ab8de079781d5dbe295676d643f9b60dff1e1",
+      "action_hash": "741c1ae100602a3940a7fc0c224c34029909ff817a17e73a3d3c519e6724cc67",
+      "evidence_image": "/media/user/HDD_8T/eventvla_recoverability_phase1_20261014/runs/20261015T013736Z_action_pairs/s310001_a3_K/evidence_0.png",
+      "public_action": "/media/user/HDD_8T/eventvla_recoverability_phase1_20261014/runs/20261015T013736Z_action_pairs/s310001_a3_K/public_action.npz",
+      "keep_result": "/media/user/HDD_8T/eventvla_recoverability_phase1_20261014/runs/20261015T013736Z_action_pairs/s310001_a3_K/result.json",
+      "recover_result": "/media/user/HDD_8T/eventvla_recoverability_phase1_20261014/runs/20261015T013736Z_action_pairs/s310001_a3_R0/result.json",
+      "paired_prefix_and_continuation_validated": true
+    },
+    {
+      "family_id": "action_latch_310001",
+      "seed": 310001,
+      "action_slot": 3,
+      "evidence_slot": 1,
+      "ordinal": 2,
+      "delta_cost": 0.033760000000000005,
+      "keep": {
+        "slot": 1,
+        "answer": "green",
+        "success": true,
+        "recovery_steps": 0,
+        "recovery_allowed": true
+      },
+      "recover": {
+        "slot": 1,
+        "answer": "green",
+        "success": true,
+        "recovery_steps": 3376,
+        "recovery_allowed": true
+      },
+      "parent_hash": "24d60497bab84fff924be3604a2ab8de079781d5dbe295676d643f9b60dff1e1",
+      "action_hash": "741c1ae100602a3940a7fc0c224c34029909ff817a17e73a3d3c519e6724cc67",
+      "evidence_image": "/media/user/HDD_8T/eventvla_recoverability_phase1_20261014/runs/20261015T013736Z_action_pairs/s310001_a3_K/evidence_1.png",
+      "public_action": "/media/user/HDD_8T/eventvla_recoverability_phase1_20261014/runs/20261015T013736Z_action_pairs/s310001_a3_K/public_action.npz",
+      "keep_result": "/media/user/HDD_8T/eventvla_recoverability_phase1_20261014/runs/20261015T013736Z_action_pairs/s310001_a3_K/result.json",
+      "recover_result": "/media/user/HDD_8T/eventvla_recoverability_phase1_20261014/runs/20261015T013736Z_action_pairs/s310001_a3_R1/result.json",
+      "paired_prefix_and_continuation_validated": true
+    },
+    {
+      "family_id": "action_latch_310001",
+      "seed": 310001,
+      "action_slot": 3,
+      "evidence_slot": 2,
+      "ordinal": 0,
+      "delta_cost": 0.033620000000000004,
+      "keep": {
+        "slot": 2,
+        "answer": "yellow",
+        "success": true,
+        "recovery_steps": 0,
+        "recovery_allowed": true
+      },
+      "recover": {
+        "slot": 2,
+        "answer": "yellow",
+        "success": true,
+        "recovery_steps": 3362,
+        "recovery_allowed": true
+      },
+      "parent_hash": "24d60497bab84fff924be3604a2ab8de079781d5dbe295676d643f9b60dff1e1",
+      "action_hash": "741c1ae100602a3940a7fc0c224c34029909ff817a17e73a3d3c519e6724cc67",
+      "evidence_image": "/media/user/HDD_8T/eventvla_recoverability_phase1_20261014/runs/20261015T013736Z_action_pairs/s310001_a3_K/evidence_2.png",
+      "public_action": "/media/user/HDD_8T/eventvla_recoverability_phase1_20261014/runs/20261015T013736Z_action_pairs/s310001_a3_K/public_action.npz",
+      "keep_result": "/media/user/HDD_8T/eventvla_recoverability_phase1_20261014/runs/20261015T013736Z_action_pairs/s310001_a3_K/result.json",
+      "recover_result": "/media/user/HDD_8T/eventvla_recoverability_phase1_20261014/runs/20261015T013736Z_action_pairs/s310001_a3_R2/result.json",
+      "paired_prefix_and_continuation_validated": true
+    },
+    {
+      "family_id": "action_latch_310001",
+      "seed": 310001,
+      "action_slot": 3,
+      "evidence_slot": 3,
+      "ordinal": 3,
+      "delta_cost": 1.03295,
+      "keep": {
+        "slot": 3,
+        "answer": "blue",
+        "success": true,
+        "recovery_steps": 0,
+        "recovery_allowed": true
+      },
+      "recover": {
+        "slot": 3,
+        "answer": null,
+        "success": false,
+        "recovery_steps": 3295,
+        "recovery_allowed": true
+      },
+      "parent_hash": "24d60497bab84fff924be3604a2ab8de079781d5dbe295676d643f9b60dff1e1",
+      "action_hash": "741c1ae100602a3940a7fc0c224c34029909ff817a17e73a3d3c519e6724cc67",
+      "evidence_image": "/media/user/HDD_8T/eventvla_recoverability_phase1_20261014/runs/20261015T013736Z_action_pairs/s310001_a3_K/evidence_3.png",
+      "public_action": "/media/user/HDD_8T/eventvla_recoverability_phase1_20261014/runs/20261015T013736Z_action_pairs/s310001_a3_K/public_action.npz",
+      "keep_result": "/media/user/HDD_8T/eventvla_recoverability_phase1_20261014/runs/20261015T013736Z_action_pairs/s310001_a3_K/result.json",
+      "recover_result": "/media/user/HDD_8T/eventvla_recoverability_phase1_20261014/runs/20261015T013736Z_action_pairs/s310001_a3_R3/result.json",
+      "paired_prefix_and_continuation_validated": true
+    },
+    {
+      "family_id": "action_latch_310002",
+      "seed": 310002,
+      "action_slot": 0,
+      "evidence_slot": 0,
+      "ordinal": 0,
+      "delta_cost": 1.0328,
+      "keep": {
+        "slot": 0,
+        "answer": "red",
+        "success": true,
+        "recovery_steps": 0,
+        "recovery_allowed": true
+      },
+      "recover": {
+        "slot": 0,
+        "answer": null,
+        "success": false,
+        "recovery_steps": 3280,
+        "recovery_allowed": true
+      },
+      "parent_hash": "4209d678c2c85c967fd352d9419bbc76007442e18a577ed659bc10ab2360d8cc",
+      "action_hash": "2f37508b590376434fb24b115ed027f6f26219a5aee584f74b86554e841afb4e",
+      "evidence_image": "/media/user/HDD_8T/eventvla_recoverability_phase1_20261014/runs/20261015T013736Z_action_pairs/s310002_a0_K/evidence_0.png",
+      "public_action": "/media/user/HDD_8T/eventvla_recoverability_phase1_20261014/runs/20261015T013736Z_action_pairs/s310002_a0_K/public_action.npz",
+      "keep_result": "/media/user/HDD_8T/eventvla_recoverability_phase1_20261014/runs/20261015T013736Z_action_pairs/s310002_a0_K/result.json",
+      "recover_result": "/media/user/HDD_8T/eventvla_recoverability_phase1_20261014/runs/20261015T013736Z_action_pairs/s310002_a0_R0/result.json",
+      "paired_prefix_and_continuation_validated": true
+    },
+    {
+      "family_id": "action_latch_310002",
+      "seed": 310002,
+      "action_slot": 0,
+      "evidence_slot": 1,
+      "ordinal": 2,
+      "delta_cost": 0.033760000000000005,
+      "keep": {
+        "slot": 1,
+        "answer": "red",
+        "success": true,
+        "recovery_steps": 0,
+        "recovery_allowed": true
+      },
+      "recover": {
+        "slot": 1,
+        "answer": "red",
+        "success": true,
+        "recovery_steps": 3376,
+        "recovery_allowed": true
+      },
+      "parent_hash": "4209d678c2c85c967fd352d9419bbc76007442e18a577ed659bc10ab2360d8cc",
+      "action_hash": "2f37508b590376434fb24b115ed027f6f26219a5aee584f74b86554e841afb4e",
+      "evidence_image": "/media/user/HDD_8T/eventvla_recoverability_phase1_20261014/runs/20261015T013736Z_action_pairs/s310002_a0_K/evidence_1.png",
+      "public_action": "/media/user/HDD_8T/eventvla_recoverability_phase1_20261014/runs/20261015T013736Z_action_pairs/s310002_a0_K/public_action.npz",
+      "keep_result": "/media/user/HDD_8T/eventvla_recoverability_phase1_20261014/runs/20261015T013736Z_action_pairs/s310002_a0_K/result.json",
+      "recover_result": "/media/user/HDD_8T/eventvla_recoverability_phase1_20261014/runs/20261015T013736Z_action_pairs/s310002_a0_R1/result.json",
+      "paired_prefix_and_continuation_validated": true
+    },
+    {
+      "family_id": "action_latch_310002",
+      "seed": 310002,
+      "action_slot": 0,
+      "evidence_slot": 2,
+      "ordinal": 3,
+      "delta_cost": 0.033620000000000004,
+      "keep": {
+        "slot": 2,
+        "answer": "green",
+        "success": true,
+        "recovery_steps": 0,
+        "recovery_allowed": true
+      },
+      "recover": {
+        "slot": 2,
+        "answer": "green",
+        "success": true,
+        "recovery_steps": 3362,
+        "recovery_allowed": true
+      },
+      "parent_hash": "4209d678c2c85c967fd352d9419bbc76007442e18a577ed659bc10ab2360d8cc",
+      "action_hash": "2f37508b590376434fb24b115ed027f6f26219a5aee584f74b86554e841afb4e",
+      "evidence_image": "/media/user/HDD_8T/eventvla_recoverability_phase1_20261014/runs/20261015T013736Z_action_pairs/s310002_a0_K/evidence_2.png",
+      "public_action": "/media/user/HDD_8T/eventvla_recoverability_phase1_20261014/runs/20261015T013736Z_action_pairs/s310002_a0_K/public_action.npz",
+      "keep_result": "/media/user/HDD_8T/eventvla_recoverability_phase1_20261014/runs/20261015T013736Z_action_pairs/s310002_a0_K/result.json",
+      "recover_result": "/media/user/HDD_8T/eventvla_recoverability_phase1_20261014/runs/20261015T013736Z_action_pairs/s310002_a0_R2/result.json",
+      "paired_prefix_and_continuation_validated": true
+    },
+    {
+      "family_id": "action_latch_310002",
+      "seed": 310002,
+      "action_slot": 0,
+      "evidence_slot": 3,
+      "ordinal": 1,
+      "delta_cost": 0.03295,
+      "keep": {
+        "slot": 3,
+        "answer": "yellow",
+        "success": true,
+        "recovery_steps": 0,
+        "recovery_allowed": true
+      },
+      "recover": {
+        "slot": 3,
+        "answer": "yellow",
+        "success": true,
+        "recovery_steps": 3295,
+        "recovery_allowed": true
+      },
+      "parent_hash": "4209d678c2c85c967fd352d9419bbc76007442e18a577ed659bc10ab2360d8cc",
+      "action_hash": "2f37508b590376434fb24b115ed027f6f26219a5aee584f74b86554e841afb4e",
+      "evidence_image": "/media/user/HDD_8T/eventvla_recoverability_phase1_20261014/runs/20261015T013736Z_action_pairs/s310002_a0_K/evidence_3.png",
+      "public_action": "/media/user/HDD_8T/eventvla_recoverability_phase1_20261014/runs/20261015T013736Z_action_pairs/s310002_a0_K/public_action.npz",
+      "keep_result": "/media/user/HDD_8T/eventvla_recoverability_phase1_20261014/runs/20261015T013736Z_action_pairs/s310002_a0_K/result.json",
+      "recover_result": "/media/user/HDD_8T/eventvla_recoverability_phase1_20261014/runs/20261015T013736Z_action_pairs/s310002_a0_R3/result.json",
+      "paired_prefix_and_continuation_validated": true
+    },
+    {
+      "family_id": "action_latch_310002",
+      "seed": 310002,
+      "action_slot": 3,
+      "evidence_slot": 0,
+      "ordinal": 0,
+      "delta_cost": 0.0328,
+      "keep": {
+        "slot": 0,
+        "answer": "red",
+        "success": true,
+        "recovery_steps": 0,
+        "recovery_allowed": true
+      },
+      "recover": {
+        "slot": 0,
+        "answer": "red",
+        "success": true,
+        "recovery_steps": 3280,
+        "recovery_allowed": true
+      },
+      "parent_hash": "4209d678c2c85c967fd352d9419bbc76007442e18a577ed659bc10ab2360d8cc",
+      "action_hash": "741c1ae100602a3940a7fc0c224c34029909ff817a17e73a3d3c519e6724cc67",
+      "evidence_image": "/media/user/HDD_8T/eventvla_recoverability_phase1_20261014/runs/20261015T013736Z_action_pairs/s310002_a3_K/evidence_0.png",
+      "public_action": "/media/user/HDD_8T/eventvla_recoverability_phase1_20261014/runs/20261015T013736Z_action_pairs/s310002_a3_K/public_action.npz",
+      "keep_result": "/media/user/HDD_8T/eventvla_recoverability_phase1_20261014/runs/20261015T013736Z_action_pairs/s310002_a3_K/result.json",
+      "recover_result": "/media/user/HDD_8T/eventvla_recoverability_phase1_20261014/runs/20261015T013736Z_action_pairs/s310002_a3_R0/result.json",
+      "paired_prefix_and_continuation_validated": true
+    },
+    {
+      "family_id": "action_latch_310002",
+      "seed": 310002,
+      "action_slot": 3,
+      "evidence_slot": 1,
+      "ordinal": 2,
+      "delta_cost": 0.033760000000000005,
+      "keep": {
+        "slot": 1,
+        "answer": "red",
+        "success": true,
+        "recovery_steps": 0,
+        "recovery_allowed": true
+      },
+      "recover": {
+        "slot": 1,
+        "answer": "red",
+        "success": true,
+        "recovery_steps": 3376,
+        "recovery_allowed": true
+      },
+      "parent_hash": "4209d678c2c85c967fd352d9419bbc76007442e18a577ed659bc10ab2360d8cc",
+      "action_hash": "741c1ae100602a3940a7fc0c224c34029909ff817a17e73a3d3c519e6724cc67",
+      "evidence_image": "/media/user/HDD_8T/eventvla_recoverability_phase1_20261014/runs/20261015T013736Z_action_pairs/s310002_a3_K/evidence_1.png",
+      "public_action": "/media/user/HDD_8T/eventvla_recoverability_phase1_20261014/runs/20261015T013736Z_action_pairs/s310002_a3_K/public_action.npz",
+      "keep_result": "/media/user/HDD_8T/eventvla_recoverability_phase1_20261014/runs/20261015T013736Z_action_pairs/s310002_a3_K/result.json",
+      "recover_result": "/media/user/HDD_8T/eventvla_recoverability_phase1_20261014/runs/20261015T013736Z_action_pairs/s310002_a3_R1/result.json",
+      "paired_prefix_and_continuation_validated": true
+    },
+    {
+      "family_id": "action_latch_310002",
+      "seed": 310002,
+      "action_slot": 3,
+      "evidence_slot": 2,
+      "ordinal": 3,
+      "delta_cost": 0.033620000000000004,
+      "keep": {
+        "slot": 2,
+        "answer": "green",
+        "success": true,
+        "recovery_steps": 0,
+        "recovery_allowed": true
+      },
+      "recover": {
+        "slot": 2,
+        "answer": "green",
+        "success": true,
+        "recovery_steps": 3362,
+        "recovery_allowed": true
+      },
+      "parent_hash": "4209d678c2c85c967fd352d9419bbc76007442e18a577ed659bc10ab2360d8cc",
+      "action_hash": "741c1ae100602a3940a7fc0c224c34029909ff817a17e73a3d3c519e6724cc67",
+      "evidence_image": "/media/user/HDD_8T/eventvla_recoverability_phase1_20261014/runs/20261015T013736Z_action_pairs/s310002_a3_K/evidence_2.png",
+      "public_action": "/media/user/HDD_8T/eventvla_recoverability_phase1_20261014/runs/20261015T013736Z_action_pairs/s310002_a3_K/public_action.npz",
+      "keep_result": "/media/user/HDD_8T/eventvla_recoverability_phase1_20261014/runs/20261015T013736Z_action_pairs/s310002_a3_K/result.json",
+      "recover_result": "/media/user/HDD_8T/eventvla_recoverability_phase1_20261014/runs/20261015T013736Z_action_pairs/s310002_a3_R2/result.json",
+      "paired_prefix_and_continuation_validated": true
+    },
+    {
+      "family_id": "action_latch_310002",
+      "seed": 310002,
+      "action_slot": 3,
+      "evidence_slot": 3,
+      "ordinal": 1,
+      "delta_cost": 1.03295,
+      "keep": {
+        "slot": 3,
+        "answer": "yellow",
+        "success": true,
+        "recovery_steps": 0,
+        "recovery_allowed": true
+      },
+      "recover": {
+        "slot": 3,
+        "answer": null,
+        "success": false,
+        "recovery_steps": 3295,
+        "recovery_allowed": true
+      },
+      "parent_hash": "4209d678c2c85c967fd352d9419bbc76007442e18a577ed659bc10ab2360d8cc",
+      "action_hash": "741c1ae100602a3940a7fc0c224c34029909ff817a17e73a3d3c519e6724cc67",
+      "evidence_image": "/media/user/HDD_8T/eventvla_recoverability_phase1_20261014/runs/20261015T013736Z_action_pairs/s310002_a3_K/evidence_3.png",
+      "public_action": "/media/user/HDD_8T/eventvla_recoverability_phase1_20261014/runs/20261015T013736Z_action_pairs/s310002_a3_K/public_action.npz",
+      "keep_result": "/media/user/HDD_8T/eventvla_recoverability_phase1_20261014/runs/20261015T013736Z_action_pairs/s310002_a3_K/result.json",
+      "recover_result": "/media/user/HDD_8T/eventvla_recoverability_phase1_20261014/runs/20261015T013736Z_action_pairs/s310002_a3_R3/result.json",
+      "paired_prefix_and_continuation_validated": true
+    },
+    {
+      "family_id": "action_latch_310003",
+      "seed": 310003,
+      "action_slot": 0,
+      "evidence_slot": 0,
+      "ordinal": 0,
+      "delta_cost": 1.0328,
+      "keep": {
+        "slot": 0,
+        "answer": "blue",
+        "success": true,
+        "recovery_steps": 0,
+        "recovery_allowed": true
+      },
+      "recover": {
+        "slot": 0,
+        "answer": null,
+        "success": false,
+        "recovery_steps": 3280,
+        "recovery_allowed": true
+      },
+      "parent_hash": "4209d678c2c85c967fd352d9419bbc76007442e18a577ed659bc10ab2360d8cc",
+      "action_hash": "2f37508b590376434fb24b115ed027f6f26219a5aee584f74b86554e841afb4e",
+      "evidence_image": "/media/user/HDD_8T/eventvla_recoverability_phase1_20261014/runs/20261015T013736Z_action_pairs/s310003_a0_K/evidence_0.png",
+      "public_action": "/media/user/HDD_8T/eventvla_recoverability_phase1_20261014/runs/20261015T013736Z_action_pairs/s310003_a0_K/public_action.npz",
+      "keep_result": "/media/user/HDD_8T/eventvla_recoverability_phase1_20261014/runs/20261015T013736Z_action_pairs/s310003_a0_K/result.json",
+      "recover_result": "/media/user/HDD_8T/eventvla_recoverability_phase1_20261014/runs/20261015T013736Z_action_pairs/s310003_a0_R0/result.json",
+      "paired_prefix_and_continuation_validated": true
+    },
+    {
+      "family_id": "action_latch_310003",
+      "seed": 310003,
+      "action_slot": 0,
+      "evidence_slot": 1,
+      "ordinal": 2,
+      "delta_cost": 0.033760000000000005,
+      "keep": {
+        "slot": 1,
+        "answer": "yellow",
+        "success": true,
+        "recovery_steps": 0,
+        "recovery_allowed": true
+      },
+      "recover": {
+        "slot": 1,
+        "answer": "yellow",
+        "success": true,
+        "recovery_steps": 3376,
+        "recovery_allowed": true
+      },
+      "parent_hash": "4209d678c2c85c967fd352d9419bbc76007442e18a577ed659bc10ab2360d8cc",
+      "action_hash": "2f37508b590376434fb24b115ed027f6f26219a5aee584f74b86554e841afb4e",
+      "evidence_image": "/media/user/HDD_8T/eventvla_recoverability_phase1_20261014/runs/20261015T013736Z_action_pairs/s310003_a0_K/evidence_1.png",
+      "public_action": "/media/user/HDD_8T/eventvla_recoverability_phase1_20261014/runs/20261015T013736Z_action_pairs/s310003_a0_K/public_action.npz",
+      "keep_result": "/media/user/HDD_8T/eventvla_recoverability_phase1_20261014/runs/20261015T013736Z_action_pairs/s310003_a0_K/result.json",
+      "recover_result": "/media/user/HDD_8T/eventvla_recoverability_phase1_20261014/runs/20261015T013736Z_action_pairs/s310003_a0_R1/result.json",
+      "paired_prefix_and_continuation_validated": true
+    },
+    {
+      "family_id": "action_latch_310003",
+      "seed": 310003,
+      "action_slot": 0,
+      "evidence_slot": 2,
+      "ordinal": 3,
+      "delta_cost": 0.033620000000000004,
+      "keep": {
+        "slot": 2,
+        "answer": "green",
+        "success": true,
+        "recovery_steps": 0,
+        "recovery_allowed": true
+      },
+      "recover": {
+        "slot": 2,
+        "answer": "green",
+        "success": true,
+        "recovery_steps": 3362,
+        "recovery_allowed": true
+      },
+      "parent_hash": "4209d678c2c85c967fd352d9419bbc76007442e18a577ed659bc10ab2360d8cc",
+      "action_hash": "2f37508b590376434fb24b115ed027f6f26219a5aee584f74b86554e841afb4e",
+      "evidence_image": "/media/user/HDD_8T/eventvla_recoverability_phase1_20261014/runs/20261015T013736Z_action_pairs/s310003_a0_K/evidence_2.png",
+      "public_action": "/media/user/HDD_8T/eventvla_recoverability_phase1_20261014/runs/20261015T013736Z_action_pairs/s310003_a0_K/public_action.npz",
+      "keep_result": "/media/user/HDD_8T/eventvla_recoverability_phase1_20261014/runs/20261015T013736Z_action_pairs/s310003_a0_K/result.json",
+      "recover_result": "/media/user/HDD_8T/eventvla_recoverability_phase1_20261014/runs/20261015T013736Z_action_pairs/s310003_a0_R2/result.json",
+      "paired_prefix_and_continuation_validated": true
+    },
+    {
+      "family_id": "action_latch_310003",
+      "seed": 310003,
+      "action_slot": 0,
+      "evidence_slot": 3,
+      "ordinal": 1,
+      "delta_cost": 0.03295,
+      "keep": {
+        "slot": 3,
+        "answer": "red",
+        "success": true,
+        "recovery_steps": 0,
+        "recovery_allowed": true
+      },
+      "recover": {
+        "slot": 3,
+        "answer": "red",
+        "success": true,
+        "recovery_steps": 3295,
+        "recovery_allowed": true
+      },
+      "parent_hash": "4209d678c2c85c967fd352d9419bbc76007442e18a577ed659bc10ab2360d8cc",
+      "action_hash": "2f37508b590376434fb24b115ed027f6f26219a5aee584f74b86554e841afb4e",
+      "evidence_image": "/media/user/HDD_8T/eventvla_recoverability_phase1_20261014/runs/20261015T013736Z_action_pairs/s310003_a0_K/evidence_3.png",
+      "public_action": "/media/user/HDD_8T/eventvla_recoverability_phase1_20261014/runs/20261015T013736Z_action_pairs/s310003_a0_K/public_action.npz",
+      "keep_result": "/media/user/HDD_8T/eventvla_recoverability_phase1_20261014/runs/20261015T013736Z_action_pairs/s310003_a0_K/result.json",
+      "recover_result": "/media/user/HDD_8T/eventvla_recoverability_phase1_20261014/runs/20261015T013736Z_action_pairs/s310003_a0_R3/result.json",
+      "paired_prefix_and_continuation_validated": true
+    },
+    {
+      "family_id": "action_latch_310003",
+      "seed": 310003,
+      "action_slot": 3,
+      "evidence_slot": 0,
+      "ordinal": 0,
+      "delta_cost": 0.0328,
+      "keep": {
+        "slot": 0,
+        "answer": "blue",
+        "success": true,
+        "recovery_steps": 0,
+        "recovery_allowed": true
+      },
+      "recover": {
+        "slot": 0,
+        "answer": "blue",
+        "success": true,
+        "recovery_steps": 3280,
+        "recovery_allowed": true
+      },
+      "parent_hash": "4209d678c2c85c967fd352d9419bbc76007442e18a577ed659bc10ab2360d8cc",
+      "action_hash": "741c1ae100602a3940a7fc0c224c34029909ff817a17e73a3d3c519e6724cc67",
+      "evidence_image": "/media/user/HDD_8T/eventvla_recoverability_phase1_20261014/runs/20261015T013736Z_action_pairs/s310003_a3_K/evidence_0.png",
+      "public_action": "/media/user/HDD_8T/eventvla_recoverability_phase1_20261014/runs/20261015T013736Z_action_pairs/s310003_a3_K/public_action.npz",
+      "keep_result": "/media/user/HDD_8T/eventvla_recoverability_phase1_20261014/runs/20261015T013736Z_action_pairs/s310003_a3_K/result.json",
+      "recover_result": "/media/user/HDD_8T/eventvla_recoverability_phase1_20261014/runs/20261015T013736Z_action_pairs/s310003_a3_R0/result.json",
+      "paired_prefix_and_continuation_validated": true
+    },
+    {
+      "family_id": "action_latch_310003",
+      "seed": 310003,
+      "action_slot": 3,
+      "evidence_slot": 1,
+      "ordinal": 2,
+      "delta_cost": 0.033760000000000005,
+      "keep": {
+        "slot": 1,
+        "answer": "yellow",
+        "success": true,
+        "recovery_steps": 0,
+        "recovery_allowed": true
+      },
+      "recover": {
+        "slot": 1,
+        "answer": "yellow",
+        "success": true,
+        "recovery_steps": 3376,
+        "recovery_allowed": true
+      },
+      "parent_hash": "4209d678c2c85c967fd352d9419bbc76007442e18a577ed659bc10ab2360d8cc",
+      "action_hash": "741c1ae100602a3940a7fc0c224c34029909ff817a17e73a3d3c519e6724cc67",
+      "evidence_image": "/media/user/HDD_8T/eventvla_recoverability_phase1_20261014/runs/20261015T013736Z_action_pairs/s310003_a3_K/evidence_1.png",
+      "public_action": "/media/user/HDD_8T/eventvla_recoverability_phase1_20261014/runs/20261015T013736Z_action_pairs/s310003_a3_K/public_action.npz",
+      "keep_result": "/media/user/HDD_8T/eventvla_recoverability_phase1_20261014/runs/20261015T013736Z_action_pairs/s310003_a3_K/result.json",
+      "recover_result": "/media/user/HDD_8T/eventvla_recoverability_phase1_20261014/runs/20261015T013736Z_action_pairs/s310003_a3_R1/result.json",
+      "paired_prefix_and_continuation_validated": true
+    },
+    {
+      "family_id": "action_latch_310003",
+      "seed": 310003,
+      "action_slot": 3,
+      "evidence_slot": 2,
+      "ordinal": 3,
+      "delta_cost": 0.033620000000000004,
+      "keep": {
+        "slot": 2,
+        "answer": "green",
+        "success": true,
+        "recovery_steps": 0,
+        "recovery_allowed": true
+      },
+      "recover": {
+        "slot": 2,
+        "answer": "green",
+        "success": true,
+        "recovery_steps": 3362,
+        "recovery_allowed": true
+      },
+      "parent_hash": "4209d678c2c85c967fd352d9419bbc76007442e18a577ed659bc10ab2360d8cc",
+      "action_hash": "741c1ae100602a3940a7fc0c224c34029909ff817a17e73a3d3c519e6724cc67",
+      "evidence_image": "/media/user/HDD_8T/eventvla_recoverability_phase1_20261014/runs/20261015T013736Z_action_pairs/s310003_a3_K/evidence_2.png",
+      "public_action": "/media/user/HDD_8T/eventvla_recoverability_phase1_20261014/runs/20261015T013736Z_action_pairs/s310003_a3_K/public_action.npz",
+      "keep_result": "/media/user/HDD_8T/eventvla_recoverability_phase1_20261014/runs/20261015T013736Z_action_pairs/s310003_a3_K/result.json",
+      "recover_result": "/media/user/HDD_8T/eventvla_recoverability_phase1_20261014/runs/20261015T013736Z_action_pairs/s310003_a3_R2/result.json",
+      "paired_prefix_and_continuation_validated": true
+    },
+    {
+      "family_id": "action_latch_310003",
+      "seed": 310003,
+      "action_slot": 3,
+      "evidence_slot": 3,
+      "ordinal": 1,
+      "delta_cost": 1.03295,
+      "keep": {
+        "slot": 3,
+        "answer": "red",
+        "success": true,
+        "recovery_steps": 0,
+        "recovery_allowed": true
+      },
+      "recover": {
+        "slot": 3,
+        "answer": null,
+        "success": false,
+        "recovery_steps": 3295,
+        "recovery_allowed": true
+      },
+      "parent_hash": "4209d678c2c85c967fd352d9419bbc76007442e18a577ed659bc10ab2360d8cc",
+      "action_hash": "741c1ae100602a3940a7fc0c224c34029909ff817a17e73a3d3c519e6724cc67",
+      "evidence_image": "/media/user/HDD_8T/eventvla_recoverability_phase1_20261014/runs/20261015T013736Z_action_pairs/s310003_a3_K/evidence_3.png",
+      "public_action": "/media/user/HDD_8T/eventvla_recoverability_phase1_20261014/runs/20261015T013736Z_action_pairs/s310003_a3_K/public_action.npz",
+      "keep_result": "/media/user/HDD_8T/eventvla_recoverability_phase1_20261014/runs/20261015T013736Z_action_pairs/s310003_a3_K/result.json",
+      "recover_result": "/media/user/HDD_8T/eventvla_recoverability_phase1_20261014/runs/20261015T013736Z_action_pairs/s310003_a3_R3/result.json",
+      "paired_prefix_and_continuation_validated": true
+    }
+  ],
+  "planned_episodes": 48,
+  "scope": "fixed_geometry_physical_latch_mechanism_pilot",
+  "formal_eventvla_training_eligible": false,
+  "data_file": "/media/user/HDD_8T/eventvla_recoverability_phase1_20261014/data/mechanism_pilot/20261015T013736Z_action_pairs/labels.jsonl",
+  "elapsed_seconds": 1360.463200033002,
+  "all_pairs_matched": true,
+  "all_repeated_R_matched": true
+}

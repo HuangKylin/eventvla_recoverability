@@ -1,0 +1,750 @@
+{
+  "status": "complete",
+  "run_dir": "/media/user/HDD_8T/eventvla_recoverability_phase1_20261014/runs/20261014T112024Z_multicue_eval",
+  "seeds": [
+    200000,
+    200001,
+    200002
+  ],
+  "library": "/media/user/HDD_8T/eventvla_recoverability_phase1_20261014/runs/20261014T111504Z_shared_skill_library/library.json",
+  "source_hashes": {
+    "src/recoverability/multi_cue_task.py": "5cff345f51e388ce1feb63a0d64661a541281bc6500505f35ff0bbc66201a087",
+    "src/recoverability/fixed_skills.py": "797f3e4b4286616e415dcefc51a1611124f2a2ab401c0b833bf306e9bb2e3d1f",
+    "src/recoverability/versioned_memory.py": "3a54dbd66c4c4af887103964f6b4989444ab0ce4c69e1433ad96799ad89ce9f5",
+    "src/recoverability/cue_reader.py": "0b432e109dcdcf1f315d7ccb9ee4062223d635b954b618865ddc0bd27e88e41e",
+    "src/recoverability/cue_probe_task.py": "53226573f8888aa7477a7ae873f52d17585e7b7e569548783a603423ff39e172",
+    "src/recoverability/snapshot.py": "56b93ac9000b8f19a7a0c928a4e573efc5f2c2df4821ec5b7608206158065adf",
+    "src/recoverability/sim_runtime.py": "b1a213b8d44b89cc38665f03694fc7c69de4c7277adfa87b18b318c28fd56bee",
+    "scripts/multicue_worker.py": "5e3541e941312e42b1f6f0d2e07fffaeecec5475048f497eb63abfc19554abe0",
+    "scripts/run_multicue_eval.py": "66f38a4a709e2ea6be287af515a83333ebee4eb1ec891e188f18dac803ced517"
+  },
+  "planned_episodes": 30,
+  "episodes": [
+    {
+      "seed": 200000,
+      "method": "action_aware",
+      "capacity": 4,
+      "result_file": "/media/user/HDD_8T/eventvla_recoverability_phase1_20261014/runs/20261014T112024Z_multicue_eval/seed_200000_action_aware_b4/result.json",
+      "correct_queries": 8,
+      "query_count": 8,
+      "episode_success": true,
+      "recovery_calls": 4,
+      "recovery_physics_steps": 13313,
+      "storage": {
+        "image_count": 4,
+        "image_payload_bytes": 921600,
+        "metadata_payload_bytes": 139,
+        "bounded": true
+      },
+      "same_prefix_validated": true,
+      "forbidden_calls": 0,
+      "elapsed_seconds": 28.103880284994375
+    },
+    {
+      "seed": 200000,
+      "method": "fifo",
+      "capacity": 4,
+      "result_file": "/media/user/HDD_8T/eventvla_recoverability_phase1_20261014/runs/20261014T112024Z_multicue_eval/seed_200000_fifo_b4/result.json",
+      "correct_queries": 4,
+      "query_count": 8,
+      "episode_success": false,
+      "recovery_calls": 0,
+      "recovery_physics_steps": 0,
+      "storage": {
+        "image_count": 4,
+        "image_payload_bytes": 921600,
+        "metadata_payload_bytes": 131,
+        "bounded": true
+      },
+      "same_prefix_validated": true,
+      "forbidden_calls": 0,
+      "elapsed_seconds": 23.71062338599586
+    },
+    {
+      "seed": 200000,
+      "method": "oldest",
+      "capacity": 4,
+      "result_file": "/media/user/HDD_8T/eventvla_recoverability_phase1_20261014/runs/20261014T112024Z_multicue_eval/seed_200000_oldest_b4/result.json",
+      "correct_queries": 8,
+      "query_count": 8,
+      "episode_success": true,
+      "recovery_calls": 4,
+      "recovery_physics_steps": 13313,
+      "storage": {
+        "image_count": 4,
+        "image_payload_bytes": 921600,
+        "metadata_payload_bytes": 133,
+        "bounded": true
+      },
+      "same_prefix_validated": true,
+      "forbidden_calls": 0,
+      "elapsed_seconds": 28.045612937014084
+    },
+    {
+      "seed": 200000,
+      "method": "uniform",
+      "capacity": 4,
+      "result_file": "/media/user/HDD_8T/eventvla_recoverability_phase1_20261014/runs/20261014T112024Z_multicue_eval/seed_200000_uniform_b4/result.json",
+      "correct_queries": 6,
+      "query_count": 8,
+      "episode_success": false,
+      "recovery_calls": 2,
+      "recovery_physics_steps": 6642,
+      "storage": {
+        "image_count": 4,
+        "image_payload_bytes": 921600,
+        "metadata_payload_bytes": 134,
+        "bounded": true
+      },
+      "same_prefix_validated": true,
+      "forbidden_calls": 0,
+      "elapsed_seconds": 25.546278123016236
+    },
+    {
+      "seed": 200000,
+      "method": "archive",
+      "capacity": 4,
+      "result_file": "/media/user/HDD_8T/eventvla_recoverability_phase1_20261014/runs/20261014T112024Z_multicue_eval/seed_200000_archive_b4/result.json",
+      "correct_queries": 8,
+      "query_count": 8,
+      "episode_success": true,
+      "recovery_calls": 0,
+      "recovery_physics_steps": 0,
+      "storage": {
+        "image_count": 8,
+        "image_payload_bytes": 1843200,
+        "metadata_payload_bytes": 166,
+        "bounded": false
+      },
+      "same_prefix_validated": true,
+      "forbidden_calls": 0,
+      "elapsed_seconds": 23.660207235981943
+    },
+    {
+      "seed": 200000,
+      "method": "structured",
+      "capacity": 4,
+      "result_file": "/media/user/HDD_8T/eventvla_recoverability_phase1_20261014/runs/20261014T112024Z_multicue_eval/seed_200000_structured_b4/result.json",
+      "correct_queries": 8,
+      "query_count": 8,
+      "episode_success": true,
+      "recovery_calls": 0,
+      "recovery_physics_steps": 0,
+      "storage": {
+        "image_count": 0,
+        "image_payload_bytes": 0,
+        "metadata_payload_bytes": 210,
+        "bounded": false
+      },
+      "same_prefix_validated": true,
+      "forbidden_calls": 0,
+      "elapsed_seconds": 23.617172417987604
+    },
+    {
+      "seed": 200000,
+      "method": "fifo",
+      "capacity": 2,
+      "result_file": "/media/user/HDD_8T/eventvla_recoverability_phase1_20261014/runs/20261014T112024Z_multicue_eval/seed_200000_fifo_b2/result.json",
+      "correct_queries": 4,
+      "query_count": 8,
+      "episode_success": false,
+      "recovery_calls": 2,
+      "recovery_physics_steps": 6656,
+      "storage": {
+        "image_count": 2,
+        "image_payload_bytes": 460800,
+        "metadata_payload_bytes": 115,
+        "bounded": true
+      },
+      "same_prefix_validated": true,
+      "forbidden_calls": 0,
+      "elapsed_seconds": 25.864300308021484
+    },
+    {
+      "seed": 200000,
+      "method": "action_aware",
+      "capacity": 2,
+      "result_file": "/media/user/HDD_8T/eventvla_recoverability_phase1_20261014/runs/20261014T112024Z_multicue_eval/seed_200000_action_aware_b2/result.json",
+      "correct_queries": 6,
+      "query_count": 8,
+      "episode_success": false,
+      "recovery_calls": 4,
+      "recovery_physics_steps": 13313,
+      "storage": {
+        "image_count": 2,
+        "image_payload_bytes": 460800,
+        "metadata_payload_bytes": 123,
+        "bounded": true
+      },
+      "same_prefix_validated": true,
+      "forbidden_calls": 0,
+      "elapsed_seconds": 28.051157478999812
+    },
+    {
+      "seed": 200000,
+      "method": "fifo",
+      "capacity": 8,
+      "result_file": "/media/user/HDD_8T/eventvla_recoverability_phase1_20261014/runs/20261014T112024Z_multicue_eval/seed_200000_fifo_b8/result.json",
+      "correct_queries": 8,
+      "query_count": 8,
+      "episode_success": true,
+      "recovery_calls": 0,
+      "recovery_physics_steps": 0,
+      "storage": {
+        "image_count": 8,
+        "image_payload_bytes": 1843200,
+        "metadata_payload_bytes": 163,
+        "bounded": true
+      },
+      "same_prefix_validated": true,
+      "forbidden_calls": 0,
+      "elapsed_seconds": 23.659637495991774
+    },
+    {
+      "seed": 200000,
+      "method": "action_aware",
+      "capacity": 8,
+      "result_file": "/media/user/HDD_8T/eventvla_recoverability_phase1_20261014/runs/20261014T112024Z_multicue_eval/seed_200000_action_aware_b8/result.json",
+      "correct_queries": 8,
+      "query_count": 8,
+      "episode_success": true,
+      "recovery_calls": 0,
+      "recovery_physics_steps": 0,
+      "storage": {
+        "image_count": 8,
+        "image_payload_bytes": 1843200,
+        "metadata_payload_bytes": 171,
+        "bounded": true
+      },
+      "same_prefix_validated": true,
+      "forbidden_calls": 0,
+      "elapsed_seconds": 23.827444063004805
+    },
+    {
+      "seed": 200001,
+      "method": "action_aware",
+      "capacity": 4,
+      "result_file": "/media/user/HDD_8T/eventvla_recoverability_phase1_20261014/runs/20261014T112024Z_multicue_eval/seed_200001_action_aware_b4/result.json",
+      "correct_queries": 8,
+      "query_count": 8,
+      "episode_success": true,
+      "recovery_calls": 4,
+      "recovery_physics_steps": 13313,
+      "storage": {
+        "image_count": 4,
+        "image_payload_bytes": 921600,
+        "metadata_payload_bytes": 139,
+        "bounded": true
+      },
+      "same_prefix_validated": true,
+      "forbidden_calls": 0,
+      "elapsed_seconds": 28.229164694988867
+    },
+    {
+      "seed": 200001,
+      "method": "fifo",
+      "capacity": 4,
+      "result_file": "/media/user/HDD_8T/eventvla_recoverability_phase1_20261014/runs/20261014T112024Z_multicue_eval/seed_200001_fifo_b4/result.json",
+      "correct_queries": 4,
+      "query_count": 8,
+      "episode_success": false,
+      "recovery_calls": 0,
+      "recovery_physics_steps": 0,
+      "storage": {
+        "image_count": 4,
+        "image_payload_bytes": 921600,
+        "metadata_payload_bytes": 131,
+        "bounded": true
+      },
+      "same_prefix_validated": true,
+      "forbidden_calls": 0,
+      "elapsed_seconds": 23.500720726995496
+    },
+    {
+      "seed": 200001,
+      "method": "oldest",
+      "capacity": 4,
+      "result_file": "/media/user/HDD_8T/eventvla_recoverability_phase1_20261014/runs/20261014T112024Z_multicue_eval/seed_200001_oldest_b4/result.json",
+      "correct_queries": 8,
+      "query_count": 8,
+      "episode_success": true,
+      "recovery_calls": 4,
+      "recovery_physics_steps": 13313,
+      "storage": {
+        "image_count": 4,
+        "image_payload_bytes": 921600,
+        "metadata_payload_bytes": 133,
+        "bounded": true
+      },
+      "same_prefix_validated": true,
+      "forbidden_calls": 0,
+      "elapsed_seconds": 27.973648435989162
+    },
+    {
+      "seed": 200001,
+      "method": "uniform",
+      "capacity": 4,
+      "result_file": "/media/user/HDD_8T/eventvla_recoverability_phase1_20261014/runs/20261014T112024Z_multicue_eval/seed_200001_uniform_b4/result.json",
+      "correct_queries": 6,
+      "query_count": 8,
+      "episode_success": false,
+      "recovery_calls": 2,
+      "recovery_physics_steps": 6642,
+      "storage": {
+        "image_count": 4,
+        "image_payload_bytes": 921600,
+        "metadata_payload_bytes": 134,
+        "bounded": true
+      },
+      "same_prefix_validated": true,
+      "forbidden_calls": 0,
+      "elapsed_seconds": 25.939942531986162
+    },
+    {
+      "seed": 200001,
+      "method": "archive",
+      "capacity": 4,
+      "result_file": "/media/user/HDD_8T/eventvla_recoverability_phase1_20261014/runs/20261014T112024Z_multicue_eval/seed_200001_archive_b4/result.json",
+      "correct_queries": 8,
+      "query_count": 8,
+      "episode_success": true,
+      "recovery_calls": 0,
+      "recovery_physics_steps": 0,
+      "storage": {
+        "image_count": 8,
+        "image_payload_bytes": 1843200,
+        "metadata_payload_bytes": 166,
+        "bounded": false
+      },
+      "same_prefix_validated": true,
+      "forbidden_calls": 0,
+      "elapsed_seconds": 23.73299139799201
+    },
+    {
+      "seed": 200001,
+      "method": "structured",
+      "capacity": 4,
+      "result_file": "/media/user/HDD_8T/eventvla_recoverability_phase1_20261014/runs/20261014T112024Z_multicue_eval/seed_200001_structured_b4/result.json",
+      "correct_queries": 8,
+      "query_count": 8,
+      "episode_success": true,
+      "recovery_calls": 0,
+      "recovery_physics_steps": 0,
+      "storage": {
+        "image_count": 0,
+        "image_payload_bytes": 0,
+        "metadata_payload_bytes": 212,
+        "bounded": false
+      },
+      "same_prefix_validated": true,
+      "forbidden_calls": 0,
+      "elapsed_seconds": 23.62588199300808
+    },
+    {
+      "seed": 200001,
+      "method": "fifo",
+      "capacity": 2,
+      "result_file": "/media/user/HDD_8T/eventvla_recoverability_phase1_20261014/runs/20261014T112024Z_multicue_eval/seed_200001_fifo_b2/result.json",
+      "correct_queries": 4,
+      "query_count": 8,
+      "episode_success": false,
+      "recovery_calls": 2,
+      "recovery_physics_steps": 6656,
+      "storage": {
+        "image_count": 2,
+        "image_payload_bytes": 460800,
+        "metadata_payload_bytes": 115,
+        "bounded": true
+      },
+      "same_prefix_validated": true,
+      "forbidden_calls": 0,
+      "elapsed_seconds": 26.445883697015233
+    },
+    {
+      "seed": 200001,
+      "method": "action_aware",
+      "capacity": 2,
+      "result_file": "/media/user/HDD_8T/eventvla_recoverability_phase1_20261014/runs/20261014T112024Z_multicue_eval/seed_200001_action_aware_b2/result.json",
+      "correct_queries": 6,
+      "query_count": 8,
+      "episode_success": false,
+      "recovery_calls": 4,
+      "recovery_physics_steps": 13313,
+      "storage": {
+        "image_count": 2,
+        "image_payload_bytes": 460800,
+        "metadata_payload_bytes": 123,
+        "bounded": true
+      },
+      "same_prefix_validated": true,
+      "forbidden_calls": 0,
+      "elapsed_seconds": 28.029520212992793
+    },
+    {
+      "seed": 200001,
+      "method": "fifo",
+      "capacity": 8,
+      "result_file": "/media/user/HDD_8T/eventvla_recoverability_phase1_20261014/runs/20261014T112024Z_multicue_eval/seed_200001_fifo_b8/result.json",
+      "correct_queries": 8,
+      "query_count": 8,
+      "episode_success": true,
+      "recovery_calls": 0,
+      "recovery_physics_steps": 0,
+      "storage": {
+        "image_count": 8,
+        "image_payload_bytes": 1843200,
+        "metadata_payload_bytes": 163,
+        "bounded": true
+      },
+      "same_prefix_validated": true,
+      "forbidden_calls": 0,
+      "elapsed_seconds": 23.620905379997566
+    },
+    {
+      "seed": 200001,
+      "method": "action_aware",
+      "capacity": 8,
+      "result_file": "/media/user/HDD_8T/eventvla_recoverability_phase1_20261014/runs/20261014T112024Z_multicue_eval/seed_200001_action_aware_b8/result.json",
+      "correct_queries": 8,
+      "query_count": 8,
+      "episode_success": true,
+      "recovery_calls": 0,
+      "recovery_physics_steps": 0,
+      "storage": {
+        "image_count": 8,
+        "image_payload_bytes": 1843200,
+        "metadata_payload_bytes": 171,
+        "bounded": true
+      },
+      "same_prefix_validated": true,
+      "forbidden_calls": 0,
+      "elapsed_seconds": 23.624868395010708
+    },
+    {
+      "seed": 200002,
+      "method": "action_aware",
+      "capacity": 4,
+      "result_file": "/media/user/HDD_8T/eventvla_recoverability_phase1_20261014/runs/20261014T112024Z_multicue_eval/seed_200002_action_aware_b4/result.json",
+      "correct_queries": 8,
+      "query_count": 8,
+      "episode_success": true,
+      "recovery_calls": 4,
+      "recovery_physics_steps": 13313,
+      "storage": {
+        "image_count": 4,
+        "image_payload_bytes": 921600,
+        "metadata_payload_bytes": 139,
+        "bounded": true
+      },
+      "same_prefix_validated": true,
+      "forbidden_calls": 0,
+      "elapsed_seconds": 28.098985551012447
+    },
+    {
+      "seed": 200002,
+      "method": "fifo",
+      "capacity": 4,
+      "result_file": "/media/user/HDD_8T/eventvla_recoverability_phase1_20261014/runs/20261014T112024Z_multicue_eval/seed_200002_fifo_b4/result.json",
+      "correct_queries": 4,
+      "query_count": 8,
+      "episode_success": false,
+      "recovery_calls": 0,
+      "recovery_physics_steps": 0,
+      "storage": {
+        "image_count": 4,
+        "image_payload_bytes": 921600,
+        "metadata_payload_bytes": 131,
+        "bounded": true
+      },
+      "same_prefix_validated": true,
+      "forbidden_calls": 0,
+      "elapsed_seconds": 23.50837197501096
+    },
+    {
+      "seed": 200002,
+      "method": "oldest",
+      "capacity": 4,
+      "result_file": "/media/user/HDD_8T/eventvla_recoverability_phase1_20261014/runs/20261014T112024Z_multicue_eval/seed_200002_oldest_b4/result.json",
+      "correct_queries": 8,
+      "query_count": 8,
+      "episode_success": true,
+      "recovery_calls": 4,
+      "recovery_physics_steps": 13313,
+      "storage": {
+        "image_count": 4,
+        "image_payload_bytes": 921600,
+        "metadata_payload_bytes": 133,
+        "bounded": true
+      },
+      "same_prefix_validated": true,
+      "forbidden_calls": 0,
+      "elapsed_seconds": 28.136570247996133
+    },
+    {
+      "seed": 200002,
+      "method": "uniform",
+      "capacity": 4,
+      "result_file": "/media/user/HDD_8T/eventvla_recoverability_phase1_20261014/runs/20261014T112024Z_multicue_eval/seed_200002_uniform_b4/result.json",
+      "correct_queries": 6,
+      "query_count": 8,
+      "episode_success": false,
+      "recovery_calls": 2,
+      "recovery_physics_steps": 6642,
+      "storage": {
+        "image_count": 4,
+        "image_payload_bytes": 921600,
+        "metadata_payload_bytes": 134,
+        "bounded": true
+      },
+      "same_prefix_validated": true,
+      "forbidden_calls": 0,
+      "elapsed_seconds": 26.080613464000635
+    },
+    {
+      "seed": 200002,
+      "method": "archive",
+      "capacity": 4,
+      "result_file": "/media/user/HDD_8T/eventvla_recoverability_phase1_20261014/runs/20261014T112024Z_multicue_eval/seed_200002_archive_b4/result.json",
+      "correct_queries": 8,
+      "query_count": 8,
+      "episode_success": true,
+      "recovery_calls": 0,
+      "recovery_physics_steps": 0,
+      "storage": {
+        "image_count": 8,
+        "image_payload_bytes": 1843200,
+        "metadata_payload_bytes": 166,
+        "bounded": false
+      },
+      "same_prefix_validated": true,
+      "forbidden_calls": 0,
+      "elapsed_seconds": 23.838955307990545
+    },
+    {
+      "seed": 200002,
+      "method": "structured",
+      "capacity": 4,
+      "result_file": "/media/user/HDD_8T/eventvla_recoverability_phase1_20261014/runs/20261014T112024Z_multicue_eval/seed_200002_structured_b4/result.json",
+      "correct_queries": 8,
+      "query_count": 8,
+      "episode_success": true,
+      "recovery_calls": 0,
+      "recovery_physics_steps": 0,
+      "storage": {
+        "image_count": 0,
+        "image_payload_bytes": 0,
+        "metadata_payload_bytes": 207,
+        "bounded": false
+      },
+      "same_prefix_validated": true,
+      "forbidden_calls": 0,
+      "elapsed_seconds": 30.395357208006317
+    },
+    {
+      "seed": 200002,
+      "method": "fifo",
+      "capacity": 2,
+      "result_file": "/media/user/HDD_8T/eventvla_recoverability_phase1_20261014/runs/20261014T112024Z_multicue_eval/seed_200002_fifo_b2/result.json",
+      "correct_queries": 4,
+      "query_count": 8,
+      "episode_success": false,
+      "recovery_calls": 2,
+      "recovery_physics_steps": 6656,
+      "storage": {
+        "image_count": 2,
+        "image_payload_bytes": 460800,
+        "metadata_payload_bytes": 115,
+        "bounded": true
+      },
+      "same_prefix_validated": true,
+      "forbidden_calls": 0,
+      "elapsed_seconds": 33.09004758798983
+    },
+    {
+      "seed": 200002,
+      "method": "action_aware",
+      "capacity": 2,
+      "result_file": "/media/user/HDD_8T/eventvla_recoverability_phase1_20261014/runs/20261014T112024Z_multicue_eval/seed_200002_action_aware_b2/result.json",
+      "correct_queries": 6,
+      "query_count": 8,
+      "episode_success": false,
+      "recovery_calls": 4,
+      "recovery_physics_steps": 13313,
+      "storage": {
+        "image_count": 2,
+        "image_payload_bytes": 460800,
+        "metadata_payload_bytes": 123,
+        "bounded": true
+      },
+      "same_prefix_validated": true,
+      "forbidden_calls": 0,
+      "elapsed_seconds": 28.09941305097891
+    },
+    {
+      "seed": 200002,
+      "method": "fifo",
+      "capacity": 8,
+      "result_file": "/media/user/HDD_8T/eventvla_recoverability_phase1_20261014/runs/20261014T112024Z_multicue_eval/seed_200002_fifo_b8/result.json",
+      "correct_queries": 8,
+      "query_count": 8,
+      "episode_success": true,
+      "recovery_calls": 0,
+      "recovery_physics_steps": 0,
+      "storage": {
+        "image_count": 8,
+        "image_payload_bytes": 1843200,
+        "metadata_payload_bytes": 163,
+        "bounded": true
+      },
+      "same_prefix_validated": true,
+      "forbidden_calls": 0,
+      "elapsed_seconds": 23.731081153004197
+    },
+    {
+      "seed": 200002,
+      "method": "action_aware",
+      "capacity": 8,
+      "result_file": "/media/user/HDD_8T/eventvla_recoverability_phase1_20261014/runs/20261014T112024Z_multicue_eval/seed_200002_action_aware_b8/result.json",
+      "correct_queries": 8,
+      "query_count": 8,
+      "episode_success": true,
+      "recovery_calls": 0,
+      "recovery_physics_steps": 0,
+      "storage": {
+        "image_count": 8,
+        "image_payload_bytes": 1843200,
+        "metadata_payload_bytes": 171,
+        "bounded": true
+      },
+      "same_prefix_validated": true,
+      "forbidden_calls": 0,
+      "elapsed_seconds": 23.62395152298268
+    }
+  ],
+  "experiment_scope": "fixed_workstation_versioned_colour_pilot",
+  "training_eligible": false,
+  "aggregates": [
+    {
+      "method": "action_aware",
+      "capacity": 4,
+      "episodes": 3,
+      "successful_episodes": 3,
+      "correct_queries": 24,
+      "queries": 24,
+      "recovery_calls": 12,
+      "recovery_physics_steps": 39939,
+      "max_image_payload_bytes": 921600,
+      "max_metadata_payload_bytes": 139
+    },
+    {
+      "method": "fifo",
+      "capacity": 4,
+      "episodes": 3,
+      "successful_episodes": 0,
+      "correct_queries": 12,
+      "queries": 24,
+      "recovery_calls": 0,
+      "recovery_physics_steps": 0,
+      "max_image_payload_bytes": 921600,
+      "max_metadata_payload_bytes": 131
+    },
+    {
+      "method": "oldest",
+      "capacity": 4,
+      "episodes": 3,
+      "successful_episodes": 3,
+      "correct_queries": 24,
+      "queries": 24,
+      "recovery_calls": 12,
+      "recovery_physics_steps": 39939,
+      "max_image_payload_bytes": 921600,
+      "max_metadata_payload_bytes": 133
+    },
+    {
+      "method": "uniform",
+      "capacity": 4,
+      "episodes": 3,
+      "successful_episodes": 0,
+      "correct_queries": 18,
+      "queries": 24,
+      "recovery_calls": 6,
+      "recovery_physics_steps": 19926,
+      "max_image_payload_bytes": 921600,
+      "max_metadata_payload_bytes": 134
+    },
+    {
+      "method": "archive",
+      "capacity": 4,
+      "episodes": 3,
+      "successful_episodes": 3,
+      "correct_queries": 24,
+      "queries": 24,
+      "recovery_calls": 0,
+      "recovery_physics_steps": 0,
+      "max_image_payload_bytes": 1843200,
+      "max_metadata_payload_bytes": 166
+    },
+    {
+      "method": "structured",
+      "capacity": 4,
+      "episodes": 3,
+      "successful_episodes": 3,
+      "correct_queries": 24,
+      "queries": 24,
+      "recovery_calls": 0,
+      "recovery_physics_steps": 0,
+      "max_image_payload_bytes": 0,
+      "max_metadata_payload_bytes": 212
+    },
+    {
+      "method": "fifo",
+      "capacity": 2,
+      "episodes": 3,
+      "successful_episodes": 0,
+      "correct_queries": 12,
+      "queries": 24,
+      "recovery_calls": 6,
+      "recovery_physics_steps": 19968,
+      "max_image_payload_bytes": 460800,
+      "max_metadata_payload_bytes": 115
+    },
+    {
+      "method": "action_aware",
+      "capacity": 2,
+      "episodes": 3,
+      "successful_episodes": 0,
+      "correct_queries": 18,
+      "queries": 24,
+      "recovery_calls": 12,
+      "recovery_physics_steps": 39939,
+      "max_image_payload_bytes": 460800,
+      "max_metadata_payload_bytes": 123
+    },
+    {
+      "method": "fifo",
+      "capacity": 8,
+      "episodes": 3,
+      "successful_episodes": 3,
+      "correct_queries": 24,
+      "queries": 24,
+      "recovery_calls": 0,
+      "recovery_physics_steps": 0,
+      "max_image_payload_bytes": 1843200,
+      "max_metadata_payload_bytes": 163
+    },
+    {
+      "method": "action_aware",
+      "capacity": 8,
+      "episodes": 3,
+      "successful_episodes": 3,
+      "correct_queries": 24,
+      "queries": 24,
+      "recovery_calls": 0,
+      "recovery_physics_steps": 0,
+      "max_image_payload_bytes": 1843200,
+      "max_metadata_payload_bytes": 171
+    }
+  ],
+  "elapsed_seconds": 892.3427834390022,
+  "all_prefixes_matched": true
+}

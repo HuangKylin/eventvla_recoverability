@@ -1,0 +1,23 @@
+{
+  "status": "complete",
+  "run_id": "20261014T084817Z_cover_blocks_hard",
+  "pid": 502703,
+  "task": "cover_blocks_hard",
+  "requested_episodes": 2,
+  "seed": 0,
+  "physical_gpu": 1,
+  "checkpoint": "/media/user/HDD_8T/eventvla_recoverability_phase1_20261014/checkpoints/runtime/EventVLA-RoboTwin-MeM/final_model/pytorch_model.pt",
+  "memory_policy": "upstream",
+  "history_capacity": 5,
+  "attention": "sdpa",
+  "denoiser": "none",
+  "ray_samples": 128,
+  "benchmark_caveat": "Local compatibility configuration; not an exact published-score reproduction",
+  "server_pid": 502704,
+  "port": 37585,
+  "client_pid": 502843,
+  "result_files": [
+    "/media/user/HDD_8T/eventvla_recoverability_phase1_20261014/third_party/EventVLA/RoboTwin-Mem/eval_result/cover_blocks_hard/model2robotwin_mem_interface/demo_clean/20261014T084817Z_cover_blocks_hard/2026-10-14 16:48:36/_result.txt"
+  ],
+  "exit_code": 0
+}

@@ -1,0 +1,31 @@
+{
+  "repo": "ganlinyang/EventVLA",
+  "revision": "55f0f3466c471ea7cf5c91248627d4256dd2e00a",
+  "files": [
+    {
+      "path": "checkpoints/EventVLA/RoboTwin-MeM/config.yaml",
+      "bytes": 3221,
+      "sha256": "b87b801aee13b0942791a6a14fe10c25212c7dd3bd0187df464b253e59b97685"
+    },
+    {
+      "path": "checkpoints/EventVLA/RoboTwin-MeM/dataset_statistics.json",
+      "bytes": 5262,
+      "sha256": "6110f649e1355213512ec01af5d4d5559655bce8d580a448a0fa5aea5164fb4c"
+    },
+    {
+      "path": "checkpoints/EventVLA/RoboTwin-MeM/final_model/pytorch_model.pt",
+      "bytes": 9798262770,
+      "sha256": "45878c1bb1c3ba7dab4718f6d6fef0ee0bad3d9a1925d1f24496240fcf665493"
+    },
+    {
+      "path": "checkpoints/EventVLA/RoboTwin-MeM/run_eventvla_train.sh",
+      "bytes": 6855,
+      "sha256": "6470135f3d3bfefb67f687affe6afb6dd7861752a27777ab357fb8e9f041e428"
+    },
+    {
+      "path": "checkpoints/EventVLA/RoboTwin-MeM/summary.jsonl",
+      "bytes": 171,
+      "sha256": "e2b8df5d43239c4392a2f278cd3276bf8d641545c7eb3c06566f656c1e620ab6"
+    }
+  ]
+}

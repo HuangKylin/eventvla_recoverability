@@ -1,0 +1,33 @@
+# Local environments and external dependencies
+envs/
+.venv/
+third_party/
+assets/
+models/
+.cache/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+*.egg-info/
+
+# Full simulation outputs and downloaded foundation-model weights
+runs/
+logs/
+downloads/
+checkpoints/*
+!checkpoints/scorers/
+checkpoints/scorers/*
+!checkpoints/scorers/20261015T020018Z_pilot_scorer/
+
+# Credentials and machine-local configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+.vscode/
+.idea/
+Thumbs.db
+.DS_Store

@@ -1,0 +1,12 @@
+[
+  {
+    "file": "/home/user/workspace/HDD_8T/eventvla_recoverability_phase1_20261014/assets/embodiments/aloha-agilex/curobo_left.yml",
+    "source_template": "/home/user/workspace/HDD_8T/eventvla_recoverability_phase1_20261014/assets/embodiments/aloha-agilex/curobo_left_tmp.yml",
+    "sha256": "84622999da5c7e2cf820b1df8b30ad2929e261032a700e3c7de5f2e239e35df6"
+  },
+  {
+    "file": "/home/user/workspace/HDD_8T/eventvla_recoverability_phase1_20261014/assets/embodiments/aloha-agilex/curobo_right.yml",
+    "source_template": "/home/user/workspace/HDD_8T/eventvla_recoverability_phase1_20261014/assets/embodiments/aloha-agilex/curobo_right_tmp.yml",
+    "sha256": "f4df3ab31d6091d1b06669a9fb4622c7977f3f1536f4ebad0d7b7006ac3c4f49"
+  }
+]

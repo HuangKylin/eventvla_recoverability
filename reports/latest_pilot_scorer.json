@@ -1,0 +1,263 @@
+{
+  "status": "complete",
+  "run_dir": "/media/user/HDD_8T/eventvla_recoverability_phase1_20261014/runs/20261015T020018Z_pilot_scorer",
+  "collection": "/media/user/HDD_8T/eventvla_recoverability_phase1_20261014/runs/20261015T013736Z_action_pairs/status.json",
+  "collection_sha256": "10ac52e421ec98bd2c65f82c216ff743dae78c2502535c6ee686da4428bb938c",
+  "scope": "tiny_fixed_geometry_mechanism_pilot_not_formal_EventVLA_training",
+  "families_by_split": {
+    "train": [
+      "action_latch_310000",
+      "action_latch_310001"
+    ],
+    "validation": [
+      "action_latch_310002"
+    ],
+    "test": [
+      "action_latch_310003"
+    ]
+  },
+  "examples_by_split": {
+    "train": 16,
+    "validation": 8,
+    "test": 8
+  },
+  "inputs": "RGB ROI statistics, public evidence slot and age, 16 sampled motor target vectors",
+  "no_action_slot_label_input": true,
+  "backbone_updated": false,
+  "models": {
+    "learned_action": {
+      "checkpoint": "/media/user/HDD_8T/eventvla_recoverability_phase1_20261014/checkpoints/scorers/20261015T020018Z_pilot_scorer/learned_action.pt",
+      "sha256": "5a85fa181089e0af1c8547d6db01b850e9057536342e336f9a17a0fd156d99ed",
+      "parameters": 60321,
+      "selected_epoch": 307,
+      "mse": {
+        "train": 0.0055867647752165794,
+        "validation": 0.018162213265895844,
+        "test": 0.052959855645895004
+      }
+    },
+    "learned_no_action": {
+      "checkpoint": "/media/user/HDD_8T/eventvla_recoverability_phase1_20261014/checkpoints/scorers/20261015T020018Z_pilot_scorer/learned_no_action.pt",
+      "sha256": "961ca6fb7783f194e8225767c258126333e8fdf087bcb38b64b17af5448f1024",
+      "parameters": 60321,
+      "selected_epoch": 1489,
+      "mse": {
+        "train": 0.125,
+        "validation": 0.1250600814819336,
+        "test": 0.1251257359981537
+      }
+    }
+  },
+  "comparisons": [
+    {
+      "seed": 310003,
+      "action_slot": 0,
+      "method": "fifo",
+      "kept_slots": [
+        2
+      ],
+      "correct": 3,
+      "queries": 4,
+      "recovery_steps": 9951,
+      "comparison_scope": "offline_composition_of_independent_query_branches"
+    },
+    {
+      "seed": 310003,
+      "action_slot": 0,
+      "method": "oldest",
+      "kept_slots": [
+        0
+      ],
+      "correct": 4,
+      "queries": 4,
+      "recovery_steps": 10033,
+      "comparison_scope": "offline_composition_of_independent_query_branches"
+    },
+    {
+      "seed": 310003,
+      "action_slot": 0,
+      "method": "action_rule",
+      "kept_slots": [
+        0
+      ],
+      "correct": 4,
+      "queries": 4,
+      "recovery_steps": 10033,
+      "comparison_scope": "offline_composition_of_independent_query_branches"
+    },
+    {
+      "seed": 310003,
+      "action_slot": 0,
+      "method": "archive",
+      "kept_slots": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "correct": 4,
+      "queries": 4,
+      "recovery_steps": 0,
+      "comparison_scope": "offline_composition_of_independent_query_branches"
+    },
+    {
+      "seed": 310003,
+      "action_slot": 0,
+      "method": "structured",
+      "kept_slots": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "correct": 4,
+      "queries": 4,
+      "recovery_steps": 0,
+      "comparison_scope": "offline_composition_of_independent_query_branches"
+    },
+    {
+      "seed": 310003,
+      "action_slot": 0,
+      "method": "learned_action",
+      "kept_slots": [
+        0
+      ],
+      "correct": 4,
+      "queries": 4,
+      "recovery_steps": 10033,
+      "comparison_scope": "offline_composition_of_independent_query_branches"
+    },
+    {
+      "seed": 310003,
+      "action_slot": 0,
+      "method": "learned_no_action",
+      "kept_slots": [
+        0
+      ],
+      "correct": 4,
+      "queries": 4,
+      "recovery_steps": 10033,
+      "comparison_scope": "offline_composition_of_independent_query_branches"
+    },
+    {
+      "seed": 310003,
+      "action_slot": 0,
+      "method": "learned_shuffled_action",
+      "kept_slots": [
+        3
+      ],
+      "correct": 3,
+      "queries": 4,
+      "recovery_steps": 10018,
+      "comparison_scope": "offline_composition_of_independent_query_branches"
+    },
+    {
+      "seed": 310003,
+      "action_slot": 3,
+      "method": "fifo",
+      "kept_slots": [
+        2
+      ],
+      "correct": 3,
+      "queries": 4,
+      "recovery_steps": 9951,
+      "comparison_scope": "offline_composition_of_independent_query_branches"
+    },
+    {
+      "seed": 310003,
+      "action_slot": 3,
+      "method": "oldest",
+      "kept_slots": [
+        0
+      ],
+      "correct": 3,
+      "queries": 4,
+      "recovery_steps": 10033,
+      "comparison_scope": "offline_composition_of_independent_query_branches"
+    },
+    {
+      "seed": 310003,
+      "action_slot": 3,
+      "method": "action_rule",
+      "kept_slots": [
+        3
+      ],
+      "correct": 4,
+      "queries": 4,
+      "recovery_steps": 10018,
+      "comparison_scope": "offline_composition_of_independent_query_branches"
+    },
+    {
+      "seed": 310003,
+      "action_slot": 3,
+      "method": "archive",
+      "kept_slots": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "correct": 4,
+      "queries": 4,
+      "recovery_steps": 0,
+      "comparison_scope": "offline_composition_of_independent_query_branches"
+    },
+    {
+      "seed": 310003,
+      "action_slot": 3,
+      "method": "structured",
+      "kept_slots": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "correct": 4,
+      "queries": 4,
+      "recovery_steps": 0,
+      "comparison_scope": "offline_composition_of_independent_query_branches"
+    },
+    {
+      "seed": 310003,
+      "action_slot": 3,
+      "method": "learned_action",
+      "kept_slots": [
+        3
+      ],
+      "correct": 4,
+      "queries": 4,
+      "recovery_steps": 10018,
+      "comparison_scope": "offline_composition_of_independent_query_branches"
+    },
+    {
+      "seed": 310003,
+      "action_slot": 3,
+      "method": "learned_no_action",
+      "kept_slots": [
+        0
+      ],
+      "correct": 3,
+      "queries": 4,
+      "recovery_steps": 10033,
+      "comparison_scope": "offline_composition_of_independent_query_branches"
+    },
+    {
+      "seed": 310003,
+      "action_slot": 3,
+      "method": "learned_shuffled_action",
+      "kept_slots": [
+        0
+      ],
+      "correct": 3,
+      "queries": 4,
+      "recovery_steps": 10033,
+      "comparison_scope": "offline_composition_of_independent_query_branches"
+    }
+  ],
+  "limitations": [
+    "Only four color/order families at one fixed geometry and two motor programs.",
+    "No held-out action or geometry generalization claim.",
+    "Strong action rule solves the designed mechanism; archives retain every color.",
+    "Formal EventVLA K/R labels and scorer integration remain separate work."
+  ]
+}

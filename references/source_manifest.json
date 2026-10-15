@@ -1,0 +1,41 @@
+{
+  "created_at": "2026-10-14T15:19:31.2950725+08:00",
+  "source_brief": {
+    "original_path": "E:\\05_文献\\EventVLA相关论文\\论文总结与改进方向.md",
+    "copied_to": "references/research_brief.md",
+    "sha256": "3831fad88086515c2079c0c711fdfa665000ce1b5028e4d413f34187aaa4d09b",
+    "verbatim_copy": true
+  },
+  "upstream_review": {
+    "reviewed_on": "2026-10-14",
+    "branch": "main",
+    "pinned_commit": null,
+    "note": "Read-only source review; pin exact commit and model revision during M0 before implementation"
+  },
+  "sources": [
+    {
+      "purpose": "Official repository, checkpoints and integration instructions",
+      "url": "https://github.com/InternRobotics/EventVLA"
+    },
+    {
+      "purpose": "Distributed launcher defaults",
+      "url": "https://github.com/InternRobotics/EventVLA/blob/main/EventVLA/examples/RoboTwin-Mem/train_files/run_eventvla_train.sh"
+    },
+    {
+      "purpose": "Image memory and model configuration",
+      "url": "https://github.com/InternRobotics/EventVLA/blob/main/EventVLA/examples/RoboTwin-Mem/train_files/eventvla_robotwin_mem.yaml"
+    },
+    {
+      "purpose": "Original task transition and oracle inspection",
+      "url": "https://github.com/InternRobotics/EventVLA/blob/main/RoboTwin-Mem/envs/cover_blocks_hard.py"
+    },
+    {
+      "purpose": "Simulator observation and state interface inspection",
+      "url": "https://github.com/InternRobotics/EventVLA/blob/main/RoboTwin-Mem/envs/_base_task.py"
+    },
+    {
+      "purpose": "Fallback model documentation",
+      "url": "https://huggingface.co/docs/lerobot/smolvla"
+    }
+  ]
+}

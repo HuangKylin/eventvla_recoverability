@@ -1,0 +1,21 @@
+{
+  "version": "physical_latch_pilot_v1",
+  "scope": "Mechanism and training-pipeline pilot, not a formal EventVLA experiment",
+  "environment_rule": "After memory intervention, lifting an armed cover by more than 0.04 m resets its indicator to grey. Latches are disarmed before recovery.",
+  "actions": [0, 3],
+  "action_source": "One frozen offline-calibrated motor library; no per-evaluation expert planning",
+  "proposed_action_input": "16 equally spaced samples of actual motor drive targets",
+  "evidence": "Four independent RGB color observations in a seed-shuffled order",
+  "train_seeds": [310000, 310001],
+  "validation_seeds": [310002],
+  "test_seeds": [310003],
+  "separate_vla_interface_seed": 310010,
+  "split_unit": "All actions and branches from a color/order family; geometry is shared across all families",
+  "labels": "J(R)-J(K), where J = failure + 0.1 * min(recovery_physics_steps/10000, 1)",
+  "recovery_permission": "Both K and R can call the same frozen RGB/proprioceptive recovery controller",
+  "prefix_validation": "Exact physical trace, current RGB/proprioception, evidence RGB hashes and RNG state",
+  "continuation_validation": "K/R identical physical action completion and latch events, repeated R",
+  "capacity_evaluation": "Common four-image prefix followed by one-shot compression to one retained image before action; not a continuously one-image online budget",
+  "unbounded_baselines": ["all four image archive", "RGB-derived color table"],
+  "formal_EventVLA_training_eligible": false
+}

@@ -1,0 +1,16 @@
+{
+  "policy": {
+    "exit_code": 0,
+    "output": "Using Python 3.10.12 environment at: workspace/HDD_8T/eventvla_recoverability_phase1_20261014/envs/policy\nChecked 111 packages in 0.91ms\nAll installed packages are compatible\n"
+  },
+  "sim": {
+    "exit_code": 0,
+    "output": "Using Python 3.10.12 environment at: workspace/HDD_8T/eventvla_recoverability_phase1_20261014/envs/sim\nChecked 183 packages in 8ms\nAll installed packages are compatible\n"
+  },
+  "tools": {
+    "exit_code": 0,
+    "output": "Using Python 3.10.12 environment at: workspace/HDD_8T/eventvla_recoverability_phase1_20261014/envs/tools\nChecked 13 packages in 0.23ms\nAll installed packages are compatible\n"
+  },
+  "checked_utc": "2026-10-14T09:03:56.737493+00:00",
+  "optional_decord": "Removed unused wheel with cp36 ABI metadata; configured video backend is PyAV"
+}

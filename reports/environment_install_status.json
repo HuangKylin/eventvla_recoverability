@@ -1,0 +1,12 @@
+{
+  "stage": "base_environments",
+  "state": "complete",
+  "pid": 484237,
+  "time_utc": "2026-10-14T08:19:46.043323+00:00",
+  "pending": [
+    "cuRobo build",
+    "runtime imports",
+    "rendering",
+    "model inference"
+  ]
+}
