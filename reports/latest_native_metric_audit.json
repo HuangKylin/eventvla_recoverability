@@ -1,0 +1,114 @@
+{
+  "status": "complete",
+  "run_dir": "/media/user/HDD_8T/eventvla_recoverability_phase1_20261014/runs/20261015T080412Z_native_metric_audit",
+  "pid": 37738,
+  "source_branch": "/media/user/HDD_8T/eventvla_recoverability_phase1_20261014/runs/20261015T072322Z_native_controls_resumed/100001_native",
+  "gpu": 1,
+  "started_utc": "2026-10-15T08:04:12.139668+00:00",
+  "source_hashes": {
+    "scripts/audit_native_replay_worker.py": "f0b1644f1644d6433f114a428d171120605ba1f49edd8b73466272e3b6821400",
+    "scripts/run_native_replay_audit.py": "5e328a2a82479dc2874a10f73c1bc52275786e8c4dedbaee7bc02c183c7e910e",
+    "scripts/native_control_worker.py": "ce9354a7493dc0b6254b89bfaf086feda5f74baa4c0f07fee22d6fe0e3f6cb64",
+    "scripts/resume_native_controls.py": "e0ab56dd0c83762042e593765726b94551c2494d5f8f0d894a6f6f974e873d0d",
+    "src/recoverability/sim_runtime.py": "b1a213b8d44b89cc38665f03694fc7c69de4c7277adfa87b18b318c28fd56bee"
+  },
+  "formal_training_eligible": false,
+  "worker_pid": 37741,
+  "result": {
+    "status": "complete",
+    "job": {
+      "branch": "/media/user/HDD_8T/eventvla_recoverability_phase1_20261014/runs/20261015T072322Z_native_controls_resumed/100001_native",
+      "output": "/media/user/HDD_8T/eventvla_recoverability_phase1_20261014/runs/20261015T080412Z_native_metric_audit/audit",
+      "gpu": 1
+    },
+    "original_condition": "native",
+    "original_metric": false,
+    "formal_training_eligible": false,
+    "stage": "branch_replay",
+    "actions": 300,
+    "parent_checks": {
+      "physics": true,
+      "observation": true
+    },
+    "initial_cover_z": [
+      0.7405716180801392,
+      0.7405726909637451,
+      0.7405729293823242,
+      0.7405730485916138
+    ],
+    "parent_cover_z": [
+      0.7405719757080078,
+      0.7405717372894287,
+      0.7405717372894287,
+      0.8200597763061523
+    ],
+    "parent_cover_lift_m": [
+      3.5762786865234375e-07,
+      -9.5367431640625e-07,
+      -1.1920928955078125e-06,
+      0.07948672771453857
+    ],
+    "target_slot": 3,
+    "parent_task_phase": "final",
+    "parent_final_pointer": 0,
+    "original_parent_step": 720,
+    "transitions": [
+      {
+        "branch_action": 1,
+        "task_step": 721,
+        "state": [
+          "final",
+          4,
+          0,
+          false
+        ]
+      },
+      {
+        "branch_action": 182,
+        "task_step": 902,
+        "state": [
+          "final",
+          4,
+          1,
+          false
+        ]
+      }
+    ],
+    "final_physics_match": true,
+    "original_metric_events_match": true,
+    "relative_lift_events": [],
+    "task_transitions": [
+      {
+        "branch_action": 1,
+        "task_step": 721,
+        "state": [
+          "final",
+          4,
+          0,
+          false
+        ]
+      },
+      {
+        "branch_action": 182,
+        "task_step": 902,
+        "state": [
+          "final",
+          4,
+          1,
+          false
+        ]
+      }
+    ],
+    "native_first_target_opened": true,
+    "native_first_target_false_negative": true,
+    "final_task_state": [
+      "final",
+      4,
+      1,
+      false
+    ],
+    "oracle_calls": 0
+  },
+  "completed_utc": "2026-10-15T08:08:51.743676+00:00",
+  "process_cleanup_completed": true
+}

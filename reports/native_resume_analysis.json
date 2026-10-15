@@ -1,0 +1,391 @@
+{
+  "status": "complete",
+  "run_dir": "/media/user/HDD_8T/eventvla_recoverability_phase1_20261014/runs/20261015T072322Z_native_controls_resumed",
+  "resumed_from": "/media/user/HDD_8T/eventvla_recoverability_phase1_20261014/runs/20261015T033613Z_native_controls",
+  "requested_suite_complete": true,
+  "formal_training_eligible": false,
+  "rows": [
+    {
+      "seed": 100000,
+      "condition": "rollout",
+      "success": true,
+      "actions": 1425,
+      "requests": 32,
+      "elapsed_seconds": 395.30641707900213,
+      "instruction": null,
+      "target_slot": null,
+      "events": null
+    },
+    {
+      "seed": 100000,
+      "condition": "native",
+      "success": true,
+      "actions": 172,
+      "requests": 4,
+      "elapsed_seconds": 232.62056657898938,
+      "instruction": "Open the covers one by one, close it after inspection, then reopen them in the order: red, green, blue, yellow.",
+      "target_slot": 2,
+      "events": [
+        {
+          "slot": 2,
+          "tick": 13176,
+          "lift_m": 0.0400083065032959
+        }
+      ]
+    },
+    {
+      "seed": 100000,
+      "condition": "position",
+      "success": true,
+      "actions": 172,
+      "requests": 4,
+      "elapsed_seconds": 265.8328206240003,
+      "instruction": "Open the right-middle cover to inspect the block color, then place the cover back.",
+      "target_slot": 2,
+      "events": [
+        {
+          "slot": 2,
+          "tick": 13170,
+          "lift_m": 0.04003453254699707
+        }
+      ]
+    },
+    {
+      "seed": 100000,
+      "condition": "color",
+      "success": true,
+      "actions": 177,
+      "requests": 4,
+      "elapsed_seconds": 247.70745379100026,
+      "instruction": "Finally open the cover hiding the red block.",
+      "target_slot": 2,
+      "events": [
+        {
+          "slot": 2,
+          "tick": 13362,
+          "lift_m": 0.040089190006256104
+        }
+      ]
+    },
+    {
+      "seed": 100000,
+      "condition": "native_repeat",
+      "success": true,
+      "actions": 172,
+      "requests": 4,
+      "elapsed_seconds": 246.19934768099984,
+      "instruction": "Open the covers one by one, close it after inspection, then reopen them in the order: red, green, blue, yellow.",
+      "target_slot": 2,
+      "events": [
+        {
+          "slot": 2,
+          "tick": 13176,
+          "lift_m": 0.0400083065032959
+        }
+      ]
+    },
+    {
+      "seed": 100001,
+      "condition": "rollout",
+      "success": false,
+      "actions": 1238,
+      "requests": 28,
+      "elapsed_seconds": 341.99544335799965,
+      "instruction": null,
+      "target_slot": null,
+      "events": null
+    },
+    {
+      "seed": 100001,
+      "condition": "native",
+      "success": false,
+      "actions": 300,
+      "requests": 6,
+      "elapsed_seconds": 279.2776424350004,
+      "instruction": "Open the covers one by one, close it after inspection, then reopen them in the order: red, green, blue, yellow.",
+      "target_slot": 3,
+      "events": []
+    },
+    {
+      "seed": 100001,
+      "condition": "position",
+      "success": false,
+      "actions": 300,
+      "requests": 6,
+      "elapsed_seconds": 281.7068969840002,
+      "instruction": "Open the rightmost cover to inspect the block color, then place the cover back.",
+      "target_slot": 3,
+      "events": []
+    },
+    {
+      "seed": 100001,
+      "condition": "color",
+      "success": false,
+      "actions": 300,
+      "requests": 6,
+      "elapsed_seconds": 280.2982000660004,
+      "instruction": "Finally open the cover hiding the red block.",
+      "target_slot": 3,
+      "events": []
+    },
+    {
+      "seed": 100001,
+      "condition": "native_repeat",
+      "success": false,
+      "actions": 300,
+      "requests": 6,
+      "elapsed_seconds": 279.3275022409998,
+      "instruction": "Open the covers one by one, close it after inspection, then reopen them in the order: red, green, blue, yellow.",
+      "target_slot": 3,
+      "events": []
+    }
+  ],
+  "counts": {
+    "rollout": {
+      "successes": 1,
+      "episodes": 2
+    },
+    "native": {
+      "successes": 1,
+      "episodes": 2
+    },
+    "position": {
+      "successes": 1,
+      "episodes": 2
+    },
+    "color": {
+      "successes": 1,
+      "episodes": 2
+    },
+    "native_repeat": {
+      "successes": 1,
+      "episodes": 2
+    }
+  },
+  "missing_conditions": [],
+  "paired_first_request_checks": [
+    {
+      "seed": 100000,
+      "condition": "position",
+      "checks": {
+        "physics": true,
+        "observation": true,
+        "history": true,
+        "event_history": true,
+        "first_model_images": true,
+        "first_model_timestep": true,
+        "first_payload_bytes": true
+      },
+      "all_passed": true
+    },
+    {
+      "seed": 100000,
+      "condition": "color",
+      "checks": {
+        "physics": true,
+        "observation": true,
+        "history": true,
+        "event_history": true,
+        "first_model_images": true,
+        "first_model_timestep": true,
+        "first_payload_bytes": true
+      },
+      "all_passed": true
+    },
+    {
+      "seed": 100000,
+      "condition": "native_repeat",
+      "checks": {
+        "physics": true,
+        "observation": true,
+        "history": true,
+        "event_history": true,
+        "first_model_images": true,
+        "first_model_timestep": true,
+        "first_payload_bytes": true
+      },
+      "all_passed": true
+    },
+    {
+      "seed": 100001,
+      "condition": "position",
+      "checks": {
+        "physics": true,
+        "observation": true,
+        "history": true,
+        "event_history": true,
+        "first_model_images": true,
+        "first_model_timestep": true,
+        "first_payload_bytes": true
+      },
+      "all_passed": true
+    },
+    {
+      "seed": 100001,
+      "condition": "color",
+      "checks": {
+        "physics": true,
+        "observation": true,
+        "history": true,
+        "event_history": true,
+        "first_model_images": true,
+        "first_model_timestep": true,
+        "first_payload_bytes": true
+      },
+      "all_passed": true
+    },
+    {
+      "seed": 100001,
+      "condition": "native_repeat",
+      "checks": {
+        "physics": true,
+        "observation": true,
+        "history": true,
+        "event_history": true,
+        "first_model_images": true,
+        "first_model_timestep": true,
+        "first_payload_bytes": true
+      },
+      "all_passed": true
+    }
+  ],
+  "repeated_trajectories": [
+    {
+      "seed": 100000,
+      "checks": {
+        "action_hash": true,
+        "final_physics_hash": true,
+        "events": true,
+        "actions_executed": true
+      },
+      "identical": true
+    },
+    {
+      "seed": 100001,
+      "checks": {
+        "action_hash": true,
+        "final_physics_hash": true,
+        "events": true,
+        "actions_executed": true
+      },
+      "identical": true
+    }
+  ],
+  "all_oracle_tripwires_clean": true,
+  "monitoring": {
+    "samples": 237,
+    "first_sample": "2026-10-15T07:23:22.238383+00:00",
+    "last_sample": "2026-10-15T08:03:11.769675+00:00",
+    "minimum_available_GiB": 208.69113159179688,
+    "peak_used_swap_GiB": 0.0,
+    "peak_cpu_C": 60.0,
+    "peak_selected_gpu_C": 81.0,
+    "peak_selected_gpu_memory_MiB": 16029.0,
+    "alarm_samples": 0
+  },
+  "limitations": [
+    "Two seeds are a diagnostic set, not a benchmark.",
+    "A short position instruction supplies target location; it does not test the same memory demand as color instructions.",
+    "Full native success differs from first target-cover lift in branch continuation.",
+    "The parent observation may expose the fourth block; this is not a valid formal forgetting boundary.",
+    "Visual payload hashes cover images and time; they do not capture every RPC field.",
+    "No formal K/R collection or online learned eviction was run.",
+    "The seed 100001 native first-cover metric was independently audited; consult independent_metric_audit before interpreting raw continuation counts."
+  ],
+  "independent_metric_audit": {
+    "status": "complete",
+    "job": {
+      "branch": "/media/user/HDD_8T/eventvla_recoverability_phase1_20261014/runs/20261015T072322Z_native_controls_resumed/100001_native",
+      "output": "/media/user/HDD_8T/eventvla_recoverability_phase1_20261014/runs/20261015T080412Z_native_metric_audit/audit",
+      "gpu": 1
+    },
+    "original_condition": "native",
+    "original_metric": false,
+    "formal_training_eligible": false,
+    "stage": "branch_replay",
+    "actions": 300,
+    "parent_checks": {
+      "physics": true,
+      "observation": true
+    },
+    "initial_cover_z": [
+      0.7405716180801392,
+      0.7405726909637451,
+      0.7405729293823242,
+      0.7405730485916138
+    ],
+    "parent_cover_z": [
+      0.7405719757080078,
+      0.7405717372894287,
+      0.7405717372894287,
+      0.8200597763061523
+    ],
+    "parent_cover_lift_m": [
+      3.5762786865234375e-07,
+      -9.5367431640625e-07,
+      -1.1920928955078125e-06,
+      0.07948672771453857
+    ],
+    "target_slot": 3,
+    "parent_task_phase": "final",
+    "parent_final_pointer": 0,
+    "original_parent_step": 720,
+    "transitions": [
+      {
+        "branch_action": 1,
+        "task_step": 721,
+        "state": [
+          "final",
+          4,
+          0,
+          false
+        ]
+      },
+      {
+        "branch_action": 182,
+        "task_step": 902,
+        "state": [
+          "final",
+          4,
+          1,
+          false
+        ]
+      }
+    ],
+    "final_physics_match": true,
+    "original_metric_events_match": true,
+    "relative_lift_events": [],
+    "task_transitions": [
+      {
+        "branch_action": 1,
+        "task_step": 721,
+        "state": [
+          "final",
+          4,
+          0,
+          false
+        ]
+      },
+      {
+        "branch_action": 182,
+        "task_step": 902,
+        "state": [
+          "final",
+          4,
+          1,
+          false
+        ]
+      }
+    ],
+    "native_first_target_opened": true,
+    "native_first_target_false_negative": true,
+    "final_task_state": [
+      "final",
+      4,
+      1,
+      false
+    ],
+    "oracle_calls": 0
+  },
+  "counts_are_unmodified_original_metric": true
+}

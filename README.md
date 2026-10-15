@@ -4,7 +4,7 @@
 
 ## GitHub 发布范围
 
-本仓库保存第一阶段实现快照：研究代码、配置、测试、实验报告、已整理的 K/R 标签，以及两份轻量评分器权重。当前实验因等待可用 GPU 暂停；发布仓库不代表恢复运行。
+本仓库保存第一阶段实现快照：研究代码、配置、测试、实验报告、已整理的机制先导 K/R 标签，以及两份轻量评分器权重。2026-10-15 已完成服务器重启后的原生控制对照与评价指标审计；本次发布同步这些已完成的工作。
 
 ```bash
 git clone https://github.com/HuangKylin/eventvla_recoverability.git
@@ -17,7 +17,9 @@ cd eventvla_recoverability
 
 `manifest.sha256` 记录本次发布文件的 SHA-256（不含自身及 Git 元数据），在 Linux 仓库根目录可执行 `sha256sum -c manifest.sha256` 校验。历史报告中的绝对路径和测试结果保留原始实验记录；本次上传未重新运行 GPU 实验。
 
-**2026-10-15 实施进度：已新增物理动作触发的 T3 任务，完成 48 个独立分支、32 个 K/R 标签和首版 60,321 参数评分器训练；接口测试 66 项通过。** 原任务两个 VLA 回合及上一轮 30 回合容量先导保留。新评分器是固定工位机制原型，正式 EventVLA 评分器训练与第一研究目标尚未完成。
+**2026-10-15 最新进度：完成两种子的原生任务及续接对照，共 10 项完成记录（含两项明确复用的历史结果），并通过精确动作回放确认原相对高度指标存在漏判。** 正式 EventVLA K/R 数据尚未采集；下一步需修正父状态选择与评价协议，并确认当前观察不暴露待删除证据。详见 [原生控制对照与审计结果](docs/native_control_results_20261015.md)。
+
+此前 T3 机制先导完成 48 个独立分支、32 个 K/R 标签和首版 60,321 参数评分器训练。评分器仍是固定工位机制原型，正式 EventVLA 在线淘汰训练及第一研究目标尚未完成。早期两回合冒烟结果与本轮控制对照的运行配置不同，不合并统计。
 
 ## 文档与实际路径
 
@@ -29,7 +31,9 @@ cd eventvla_recoverability
 - [严格加载与推理验证](reports/smoke_policy.json)
 - [首轮闭环结果](reports/baseline_initial_results.json)
 - [状态恢复与分支采集进展](docs/m1_progress.md)
-- [最新：T3、真实 VLA 接线与首版评分器](docs/action_stage_progress.md)
+- [最新：原生控制对照与评价指标审计](docs/native_control_results_20261015.md)
+- [原生控制对照协议](docs/native_control_protocol.md)
+- [T3、真实 VLA 接线与首版评分器](docs/action_stage_progress.md)
 - [上一轮：多证据容量与共享回看结果](docs/multicue_progress.md)
 - [回看控制器的输入与边界](docs/recovery_controller_contract.md)
 - [重建回放验证](reports/latest_rebuild_validation.json)

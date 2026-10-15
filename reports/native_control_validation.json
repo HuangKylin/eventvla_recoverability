@@ -1,0 +1,553 @@
+{
+  "status": "complete",
+  "source_status": "/media/user/HDD_8T/eventvla_recoverability_phase1_20261014/runs/20261015T072322Z_native_controls_resumed/status.json",
+  "formal_training_eligible": false,
+  "counts_are_raw_diagnostic_metric": true,
+  "closed_parent_boundary_verified": false,
+  "requested_suite_complete": true,
+  "missing_conditions": [],
+  "rows": [
+    {
+      "seed": 100000,
+      "condition": "rollout",
+      "status": "complete",
+      "actions": 1425,
+      "requests": 32,
+      "forbidden_calls": 0,
+      "success": true,
+      "parent_saved": true,
+      "phases": [
+        {
+          "step": 1,
+          "state": [
+            "inspect",
+            0,
+            0,
+            false
+          ]
+        },
+        {
+          "step": 105,
+          "state": [
+            "inspect",
+            1,
+            0,
+            false
+          ]
+        },
+        {
+          "step": 311,
+          "state": [
+            "inspect",
+            2,
+            0,
+            false
+          ]
+        },
+        {
+          "step": 518,
+          "state": [
+            "inspect",
+            3,
+            0,
+            false
+          ]
+        },
+        {
+          "step": 718,
+          "state": [
+            "final",
+            4,
+            0,
+            false
+          ]
+        },
+        {
+          "step": 911,
+          "state": [
+            "final",
+            4,
+            1,
+            false
+          ]
+        },
+        {
+          "step": 1081,
+          "state": [
+            "final",
+            4,
+            2,
+            false
+          ]
+        },
+        {
+          "step": 1250,
+          "state": [
+            "final",
+            4,
+            3,
+            false
+          ]
+        },
+        {
+          "step": 1425,
+          "state": [
+            "final",
+            4,
+            4,
+            false
+          ]
+        }
+      ],
+      "parent": {
+        "step": 718,
+        "target_slot": 2,
+        "physics_hash": "a85840e39c94c14ab0fb02440ecc977e5fbb40a8da14efaf925d1ec09119961c",
+        "observation_hash": "e1f63757fda129315aad01c5c1bd61d61c04c68ab5e09c6e7bf4379fb8bba1a2",
+        "history_hash": "bdae1730d46a0fdf57f7ef5c302921a121c638e3b6ed808ab86428d11a739f51",
+        "event_hash": "ec102f8b595948baea1c2efcaa83f9a4f730f9d53d8acf41f0460a9e745efd94",
+        "event_steps": [
+          97,
+          303,
+          510,
+          709
+        ],
+        "native_instruction": "Open the covers one by one, close it after inspection, then reopen them in the order: red, green, blue, yellow.",
+        "seed": 100000
+      }
+    },
+    {
+      "seed": 100000,
+      "condition": "native",
+      "status": "complete",
+      "actions": 172,
+      "requests": 4,
+      "forbidden_calls": 0,
+      "event_serialization_audit": {
+        "verified": true,
+        "snapshot_sha256": "3cc05d032080fd2585bacd09002f7b71f4d16e332f9b8cf98e4de2080cd1b59b",
+        "restored_events_hash": "f6c9747dbf595e0d0266accc1eecfb094a6eddc6cb3e8b57928b47df951ba613",
+        "readonly_events_hash": "ec102f8b595948baea1c2efcaa83f9a4f730f9d53d8acf41f0460a9e745efd94",
+        "original_events_hash": "ec102f8b595948baea1c2efcaa83f9a4f730f9d53d8acf41f0460a9e745efd94",
+        "restored_writeable_flags": [
+          true,
+          true,
+          true,
+          true
+        ],
+        "image_values_unchanged": true,
+        "explanation": "Protocol-4 snapshot restoration makes originally readonly NumPy images writeable; protocol-5 hashing records that flag."
+      },
+      "success": true,
+      "parent_checks": {
+        "physics_hash": true,
+        "observation_hash": true,
+        "history": true,
+        "events": true
+      },
+      "target_slot": 2,
+      "events": [
+        {
+          "slot": 2,
+          "tick": 13176,
+          "lift_m": 0.0400083065032959
+        }
+      ],
+      "action_hash": "a2fc704bbe9b1041e83187ffc1ec2591863abb02ad5655b800cb99a15e8130f6",
+      "final_physics_hash": "67dbb8f55e6d9e28505d169fbee1ba25f223b1caebe4b6e8718dc84b29818686"
+    },
+    {
+      "seed": 100000,
+      "condition": "position",
+      "status": "complete",
+      "actions": 172,
+      "requests": 4,
+      "forbidden_calls": 0,
+      "event_serialization_audit": {
+        "verified": true,
+        "snapshot_sha256": "3cc05d032080fd2585bacd09002f7b71f4d16e332f9b8cf98e4de2080cd1b59b",
+        "restored_events_hash": "f6c9747dbf595e0d0266accc1eecfb094a6eddc6cb3e8b57928b47df951ba613",
+        "readonly_events_hash": "ec102f8b595948baea1c2efcaa83f9a4f730f9d53d8acf41f0460a9e745efd94",
+        "original_events_hash": "ec102f8b595948baea1c2efcaa83f9a4f730f9d53d8acf41f0460a9e745efd94",
+        "restored_writeable_flags": [
+          true,
+          true,
+          true,
+          true
+        ],
+        "image_values_unchanged": true,
+        "explanation": "Protocol-4 snapshot restoration makes originally readonly NumPy images writeable; protocol-5 hashing records that flag."
+      },
+      "success": true,
+      "parent_checks": {
+        "physics_hash": true,
+        "observation_hash": true,
+        "history": true,
+        "events": true
+      },
+      "target_slot": 2,
+      "events": [
+        {
+          "slot": 2,
+          "tick": 13170,
+          "lift_m": 0.04003453254699707
+        }
+      ],
+      "action_hash": "6b35cbfda5ce028003c9c88b0d15dd78d32cfa7428cae8e5ae8fbc30a1708b31",
+      "final_physics_hash": "49e17342e462c5b2decdaa434f854c2ef3488001404df9758c673ab70615cdb4"
+    },
+    {
+      "seed": 100000,
+      "condition": "color",
+      "status": "complete",
+      "actions": 177,
+      "requests": 4,
+      "forbidden_calls": 0,
+      "event_serialization_audit": {
+        "verified": true,
+        "snapshot_sha256": "3cc05d032080fd2585bacd09002f7b71f4d16e332f9b8cf98e4de2080cd1b59b",
+        "restored_events_hash": "f6c9747dbf595e0d0266accc1eecfb094a6eddc6cb3e8b57928b47df951ba613",
+        "readonly_events_hash": "ec102f8b595948baea1c2efcaa83f9a4f730f9d53d8acf41f0460a9e745efd94",
+        "original_events_hash": "ec102f8b595948baea1c2efcaa83f9a4f730f9d53d8acf41f0460a9e745efd94",
+        "restored_writeable_flags": [
+          true,
+          true,
+          true,
+          true
+        ],
+        "image_values_unchanged": true,
+        "explanation": "Protocol-4 snapshot restoration makes originally readonly NumPy images writeable; protocol-5 hashing records that flag."
+      },
+      "success": true,
+      "parent_checks": {
+        "physics_hash": true,
+        "observation_hash": true,
+        "history": true,
+        "events": true
+      },
+      "target_slot": 2,
+      "events": [
+        {
+          "slot": 2,
+          "tick": 13362,
+          "lift_m": 0.040089190006256104
+        }
+      ],
+      "action_hash": "d7a444b77a556f55e454867863744b08cb36447383e883980bb60498ce463828",
+      "final_physics_hash": "819cfba55c2ac80a9863f454d1e0355e52007b27763df0b387828e5698de8a41"
+    },
+    {
+      "seed": 100000,
+      "condition": "native_repeat",
+      "status": "complete",
+      "actions": 172,
+      "requests": 4,
+      "forbidden_calls": 0,
+      "event_serialization_audit": {
+        "verified": true,
+        "snapshot_sha256": "3cc05d032080fd2585bacd09002f7b71f4d16e332f9b8cf98e4de2080cd1b59b",
+        "restored_events_hash": "f6c9747dbf595e0d0266accc1eecfb094a6eddc6cb3e8b57928b47df951ba613",
+        "readonly_events_hash": "ec102f8b595948baea1c2efcaa83f9a4f730f9d53d8acf41f0460a9e745efd94",
+        "original_events_hash": "ec102f8b595948baea1c2efcaa83f9a4f730f9d53d8acf41f0460a9e745efd94",
+        "restored_writeable_flags": [
+          true,
+          true,
+          true,
+          true
+        ],
+        "image_values_unchanged": true,
+        "explanation": "Protocol-4 snapshot restoration makes originally readonly NumPy images writeable; protocol-5 hashing records that flag."
+      },
+      "success": true,
+      "parent_checks": {
+        "physics_hash": true,
+        "observation_hash": true,
+        "history": true,
+        "events": true
+      },
+      "target_slot": 2,
+      "events": [
+        {
+          "slot": 2,
+          "tick": 13176,
+          "lift_m": 0.0400083065032959
+        }
+      ],
+      "action_hash": "a2fc704bbe9b1041e83187ffc1ec2591863abb02ad5655b800cb99a15e8130f6",
+      "final_physics_hash": "67dbb8f55e6d9e28505d169fbee1ba25f223b1caebe4b6e8718dc84b29818686"
+    },
+    {
+      "seed": 100001,
+      "condition": "rollout",
+      "status": "complete",
+      "actions": 1238,
+      "requests": 28,
+      "forbidden_calls": 0,
+      "success": false,
+      "parent_saved": true,
+      "phases": [
+        {
+          "step": 1,
+          "state": [
+            "inspect",
+            0,
+            0,
+            false
+          ]
+        },
+        {
+          "step": 106,
+          "state": [
+            "inspect",
+            1,
+            0,
+            false
+          ]
+        },
+        {
+          "step": 310,
+          "state": [
+            "inspect",
+            2,
+            0,
+            false
+          ]
+        },
+        {
+          "step": 515,
+          "state": [
+            "inspect",
+            3,
+            0,
+            false
+          ]
+        },
+        {
+          "step": 720,
+          "state": [
+            "final",
+            4,
+            0,
+            false
+          ]
+        },
+        {
+          "step": 909,
+          "state": [
+            "final",
+            4,
+            1,
+            false
+          ]
+        },
+        {
+          "step": 1238,
+          "state": [
+            "final",
+            4,
+            1,
+            true
+          ]
+        }
+      ],
+      "parent": {
+        "step": 720,
+        "target_slot": 3,
+        "physics_hash": "2937991028e2c4b978ebf62732cd3c1821e5c9abfc6d5b96c9f62432f308c1ff",
+        "observation_hash": "2f339d8c14e95751744030e5cbdd0736b8a76a592014618bdce65d854af438a0",
+        "history_hash": "ad3b7710a5f28c2f58a30fbc07628696c54b1f88ade10f08ddd9ab80e0cd4867",
+        "event_hash": "1395672116884d6af44e6936699865cd85ad92ddd03865d7b3afa2edc00c4fb3",
+        "event_steps": [
+          97,
+          303,
+          508,
+          711
+        ],
+        "native_instruction": "Open the covers one by one, close it after inspection, then reopen them in the order: red, green, blue, yellow.",
+        "seed": 100001
+      }
+    },
+    {
+      "seed": 100001,
+      "condition": "native",
+      "status": "complete",
+      "actions": 300,
+      "requests": 6,
+      "forbidden_calls": 0,
+      "event_serialization_audit": {
+        "verified": true,
+        "snapshot_sha256": "d4cf50542a4bf11e890febe198ce9b548ae62c373b02508065f1d16db3dcd569",
+        "restored_events_hash": "1e6ad4f2f31ffd1c4d1142ab57765fbc2408230f20248761bff4033be4e9d986",
+        "readonly_events_hash": "1395672116884d6af44e6936699865cd85ad92ddd03865d7b3afa2edc00c4fb3",
+        "original_events_hash": "1395672116884d6af44e6936699865cd85ad92ddd03865d7b3afa2edc00c4fb3",
+        "restored_writeable_flags": [
+          true,
+          true,
+          true,
+          true
+        ],
+        "image_values_unchanged": true,
+        "explanation": "Protocol-4 snapshot restoration makes originally readonly NumPy images writeable; protocol-5 hashing records that flag."
+      },
+      "success": false,
+      "parent_checks": {
+        "physics_hash": true,
+        "observation_hash": true,
+        "history": true,
+        "events": true
+      },
+      "target_slot": 3,
+      "events": [],
+      "action_hash": "8ff0a84461b3a2a6f9b57053eb3d2f966a4f58140765b0067c28904870d8b9fc",
+      "final_physics_hash": "1eca79570696127ea0ce47fffdc29a98d62bdded47c21fc9b4001d6574585c0d"
+    },
+    {
+      "seed": 100001,
+      "condition": "position",
+      "status": "complete",
+      "actions": 300,
+      "requests": 6,
+      "forbidden_calls": 0,
+      "event_serialization_audit": {
+        "verified": true,
+        "snapshot_sha256": "d4cf50542a4bf11e890febe198ce9b548ae62c373b02508065f1d16db3dcd569",
+        "restored_events_hash": "1e6ad4f2f31ffd1c4d1142ab57765fbc2408230f20248761bff4033be4e9d986",
+        "readonly_events_hash": "1395672116884d6af44e6936699865cd85ad92ddd03865d7b3afa2edc00c4fb3",
+        "original_events_hash": "1395672116884d6af44e6936699865cd85ad92ddd03865d7b3afa2edc00c4fb3",
+        "restored_writeable_flags": [
+          true,
+          true,
+          true,
+          true
+        ],
+        "image_values_unchanged": true,
+        "explanation": "Protocol-4 snapshot restoration makes originally readonly NumPy images writeable; protocol-5 hashing records that flag."
+      },
+      "success": false,
+      "parent_checks": {
+        "physics_hash": true,
+        "observation_hash": true,
+        "history": true,
+        "events": true
+      },
+      "target_slot": 3,
+      "events": [],
+      "action_hash": "6df0a8f60ecc5a7d449ba14fcbba6c2356cdbc5d32cb9450b98cac4c82d5dcb5",
+      "final_physics_hash": "f1d2f9c4d3f2cae1924a613a1c67934f7349a45ee120ecc5f6dc43bb6691fac6"
+    },
+    {
+      "seed": 100001,
+      "condition": "color",
+      "status": "complete",
+      "actions": 300,
+      "requests": 6,
+      "forbidden_calls": 0,
+      "event_serialization_audit": {
+        "verified": true,
+        "snapshot_sha256": "d4cf50542a4bf11e890febe198ce9b548ae62c373b02508065f1d16db3dcd569",
+        "restored_events_hash": "1e6ad4f2f31ffd1c4d1142ab57765fbc2408230f20248761bff4033be4e9d986",
+        "readonly_events_hash": "1395672116884d6af44e6936699865cd85ad92ddd03865d7b3afa2edc00c4fb3",
+        "original_events_hash": "1395672116884d6af44e6936699865cd85ad92ddd03865d7b3afa2edc00c4fb3",
+        "restored_writeable_flags": [
+          true,
+          true,
+          true,
+          true
+        ],
+        "image_values_unchanged": true,
+        "explanation": "Protocol-4 snapshot restoration makes originally readonly NumPy images writeable; protocol-5 hashing records that flag."
+      },
+      "success": false,
+      "parent_checks": {
+        "physics_hash": true,
+        "observation_hash": true,
+        "history": true,
+        "events": true
+      },
+      "target_slot": 3,
+      "events": [],
+      "action_hash": "a8daef3c9a388099fec686d59c2388db40c545a25a0d753263a30d2d0877cc5a",
+      "final_physics_hash": "b4c93ee63ad5887c74ce596349a5297b3dc97f4288fc05f2cc504baf5518a4b6"
+    },
+    {
+      "seed": 100001,
+      "condition": "native_repeat",
+      "status": "complete",
+      "actions": 300,
+      "requests": 6,
+      "forbidden_calls": 0,
+      "event_serialization_audit": {
+        "verified": true,
+        "snapshot_sha256": "d4cf50542a4bf11e890febe198ce9b548ae62c373b02508065f1d16db3dcd569",
+        "restored_events_hash": "1e6ad4f2f31ffd1c4d1142ab57765fbc2408230f20248761bff4033be4e9d986",
+        "readonly_events_hash": "1395672116884d6af44e6936699865cd85ad92ddd03865d7b3afa2edc00c4fb3",
+        "original_events_hash": "1395672116884d6af44e6936699865cd85ad92ddd03865d7b3afa2edc00c4fb3",
+        "restored_writeable_flags": [
+          true,
+          true,
+          true,
+          true
+        ],
+        "image_values_unchanged": true,
+        "explanation": "Protocol-4 snapshot restoration makes originally readonly NumPy images writeable; protocol-5 hashing records that flag."
+      },
+      "success": false,
+      "parent_checks": {
+        "physics_hash": true,
+        "observation_hash": true,
+        "history": true,
+        "events": true
+      },
+      "target_slot": 3,
+      "events": [],
+      "action_hash": "8ff0a84461b3a2a6f9b57053eb3d2f966a4f58140765b0067c28904870d8b9fc",
+      "final_physics_hash": "1eca79570696127ea0ce47fffdc29a98d62bdded47c21fc9b4001d6574585c0d"
+    }
+  ],
+  "counts": {
+    "rollout": {
+      "successes": 1,
+      "episodes": 2
+    },
+    "native": {
+      "successes": 1,
+      "episodes": 2
+    },
+    "position": {
+      "successes": 1,
+      "episodes": 2
+    },
+    "color": {
+      "successes": 1,
+      "episodes": 2
+    },
+    "native_repeat": {
+      "successes": 1,
+      "episodes": 2
+    }
+  },
+  "repeated_trajectories": [
+    {
+      "seed": 100000,
+      "identical": true
+    },
+    {
+      "seed": 100001,
+      "identical": true
+    }
+  ],
+  "all_oracle_tripwires_clean": true,
+  "paired_parent_checks_passed": true,
+  "caveats": [
+    "Small diagnostic set; not a benchmark score or formal K/R dataset.",
+    "Native rollout success and first-cover actuation measure different outcomes.",
+    "Server resets memory and RNG on each inference in every condition.",
+    "Language interventions preserve native visual history explicitly.",
+    "Lift is measured from the parent height; already raised parent covers can produce false negatives. Closed-parent evaluation is not yet validated.",
+    "No new duplicate colors, latch mutation, or manual prefix in this control."
+  ],
+  "validation_source_hashes": {
+    "summarize_native_controls.py": "5de378fe9b6238f9803fc86abca3239ad11c4734a2740cea3d912a3d459e90c5",
+    "native_snapshot_audit.py": "ee369178b878004a28e459b868db7cc004ef11e47fc3a8fd06d90d05cc9a9a21"
+  }
+}

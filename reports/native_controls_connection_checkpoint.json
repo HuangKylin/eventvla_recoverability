@@ -1,0 +1,55 @@
+{
+  "status": "remote_connection_lost_results_pending",
+  "run_dir": "/media/user/HDD_8T/eventvla_recoverability_phase1_20261014/runs/20261015T033613Z_native_controls",
+  "physical_gpu": 1,
+  "runner_pid_at_launch": 961716,
+  "server_pid_at_launch": 961717,
+  "last_successful_poll_utc": "2026-10-15T03:50:03.422542+00:00",
+  "confirmed_completed": [
+    {
+      "seed": 100000,
+      "condition": "rollout",
+      "native_success": true,
+      "actions_executed": 1425,
+      "parent_step": 718,
+      "native_event_steps": [
+        97,
+        303,
+        510,
+        709
+      ]
+    },
+    {
+      "seed": 100000,
+      "condition": "native",
+      "intended_cover_actuated": true,
+      "actions_executed": 172,
+      "target_slot": 2,
+      "physics_and_observation_parent_match": true
+    }
+  ],
+  "last_observed_current_job": {
+    "seed": 100000,
+    "condition": "position",
+    "stage": "replay",
+    "replay_actions": 301
+  },
+  "verification": {
+    "existing_remote_tests_passed": 66,
+    "new_remote_summary_tests_passed": 3,
+    "local_summary_and_history_tests_passed": 6,
+    "completed_suite_summary_retrieved": false,
+    "formal_training_eligible": false
+  },
+  "note": "This is a local record of successfully observed tool outputs, not the remote final status. The remote jobs were launched with nohup. Their current state is unknown until connection is restored; do not launch a duplicate suite or count unfinished conditions as successes.",
+  "resolution": {
+    "status": "recovered_and_completed",
+    "run_dir": "/media/user/HDD_8T/eventvla_recoverability_phase1_20261014/runs/20261015T072322Z_native_controls_resumed",
+    "completed_utc": "2026-10-15T08:03:12.815557+00:00",
+    "completed_records": 10,
+    "repeat_trajectories_identical": 2,
+    "formal_training_eligible": false,
+    "metric_audit": "Native first-target opening at continuation action 182 was missed by parent-relative lift metric; fix parent boundary before formal labels.",
+    "report": "docs/native_control_results_20261015.md"
+  }
+}

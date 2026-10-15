@@ -1,0 +1,4693 @@
+{
+  "state": {
+    "status": "complete",
+    "run_dir": "/media/user/HDD_8T/eventvla_recoverability_phase1_20261014/runs/20261015T080412Z_native_metric_audit",
+    "pid": 37738,
+    "source_branch": "/media/user/HDD_8T/eventvla_recoverability_phase1_20261014/runs/20261015T072322Z_native_controls_resumed/100001_native",
+    "gpu": 1,
+    "started_utc": "2026-10-15T08:04:12.139668+00:00",
+    "source_hashes": {
+      "scripts/audit_native_replay_worker.py": "f0b1644f1644d6433f114a428d171120605ba1f49edd8b73466272e3b6821400",
+      "scripts/run_native_replay_audit.py": "5e328a2a82479dc2874a10f73c1bc52275786e8c4dedbaee7bc02c183c7e910e",
+      "scripts/native_control_worker.py": "ce9354a7493dc0b6254b89bfaf086feda5f74baa4c0f07fee22d6fe0e3f6cb64",
+      "scripts/resume_native_controls.py": "e0ab56dd0c83762042e593765726b94551c2494d5f8f0d894a6f6f974e873d0d",
+      "src/recoverability/sim_runtime.py": "b1a213b8d44b89cc38665f03694fc7c69de4c7277adfa87b18b318c28fd56bee"
+    },
+    "formal_training_eligible": false,
+    "worker_pid": 37741,
+    "result": {
+      "status": "complete",
+      "job": {
+        "branch": "/media/user/HDD_8T/eventvla_recoverability_phase1_20261014/runs/20261015T072322Z_native_controls_resumed/100001_native",
+        "output": "/media/user/HDD_8T/eventvla_recoverability_phase1_20261014/runs/20261015T080412Z_native_metric_audit/audit",
+        "gpu": 1
+      },
+      "original_condition": "native",
+      "original_metric": false,
+      "formal_training_eligible": false,
+      "stage": "branch_replay",
+      "actions": 300,
+      "parent_checks": {
+        "physics": true,
+        "observation": true
+      },
+      "initial_cover_z": [
+        0.7405716180801392,
+        0.7405726909637451,
+        0.7405729293823242,
+        0.7405730485916138
+      ],
+      "parent_cover_z": [
+        0.7405719757080078,
+        0.7405717372894287,
+        0.7405717372894287,
+        0.8200597763061523
+      ],
+      "parent_cover_lift_m": [
+        3.5762786865234375e-07,
+        -9.5367431640625e-07,
+        -1.1920928955078125e-06,
+        0.07948672771453857
+      ],
+      "target_slot": 3,
+      "parent_task_phase": "final",
+      "parent_final_pointer": 0,
+      "original_parent_step": 720,
+      "transitions": [
+        {
+          "branch_action": 1,
+          "task_step": 721,
+          "state": [
+            "final",
+            4,
+            0,
+            false
+          ]
+        },
+        {
+          "branch_action": 182,
+          "task_step": 902,
+          "state": [
+            "final",
+            4,
+            1,
+            false
+          ]
+        }
+      ],
+      "final_physics_match": true,
+      "original_metric_events_match": true,
+      "relative_lift_events": [],
+      "task_transitions": [
+        {
+          "branch_action": 1,
+          "task_step": 721,
+          "state": [
+            "final",
+            4,
+            0,
+            false
+          ]
+        },
+        {
+          "branch_action": 182,
+          "task_step": 902,
+          "state": [
+            "final",
+            4,
+            1,
+            false
+          ]
+        }
+      ],
+      "native_first_target_opened": true,
+      "native_first_target_false_negative": true,
+      "final_task_state": [
+        "final",
+        4,
+        1,
+        false
+      ],
+      "oracle_calls": 0
+    },
+    "completed_utc": "2026-10-15T08:08:51.743676+00:00",
+    "process_cleanup_completed": true
+  },
+  "result": {
+    "status": "complete",
+    "job": {
+      "branch": "/media/user/HDD_8T/eventvla_recoverability_phase1_20261014/runs/20261015T072322Z_native_controls_resumed/100001_native",
+      "output": "/media/user/HDD_8T/eventvla_recoverability_phase1_20261014/runs/20261015T080412Z_native_metric_audit/audit",
+      "gpu": 1
+    },
+    "original_condition": "native",
+    "original_metric": false,
+    "formal_training_eligible": false,
+    "stage": "branch_replay",
+    "actions": 300,
+    "parent_checks": {
+      "physics": true,
+      "observation": true
+    },
+    "initial_cover_z": [
+      0.7405716180801392,
+      0.7405726909637451,
+      0.7405729293823242,
+      0.7405730485916138
+    ],
+    "parent_cover_z": [
+      0.7405719757080078,
+      0.7405717372894287,
+      0.7405717372894287,
+      0.8200597763061523
+    ],
+    "parent_cover_lift_m": [
+      3.5762786865234375e-07,
+      -9.5367431640625e-07,
+      -1.1920928955078125e-06,
+      0.07948672771453857
+    ],
+    "target_slot": 3,
+    "parent_task_phase": "final",
+    "parent_final_pointer": 0,
+    "original_parent_step": 720,
+    "transitions": [
+      {
+        "branch_action": 1,
+        "task_step": 721,
+        "state": [
+          "final",
+          4,
+          0,
+          false
+        ]
+      },
+      {
+        "branch_action": 182,
+        "task_step": 902,
+        "state": [
+          "final",
+          4,
+          1,
+          false
+        ]
+      }
+    ],
+    "final_physics_match": true,
+    "original_metric_events_match": true,
+    "relative_lift_events": [],
+    "task_transitions": [
+      {
+        "branch_action": 1,
+        "task_step": 721,
+        "state": [
+          "final",
+          4,
+          0,
+          false
+        ]
+      },
+      {
+        "branch_action": 182,
+        "task_step": 902,
+        "state": [
+          "final",
+          4,
+          1,
+          false
+        ]
+      }
+    ],
+    "native_first_target_opened": true,
+    "native_first_target_false_negative": true,
+    "final_task_state": [
+      "final",
+      4,
+      1,
+      false
+    ],
+    "oracle_calls": 0
+  },
+  "resources": [
+    {
+      "time_utc": "2026-10-15T08:04:12.313234+00:00",
+      "memory": {
+        "MemTotal_KiB": 263379608,
+        "MemAvailable_KiB": 235547220,
+        "SwapTotal_KiB": 31250428,
+        "SwapFree_KiB": 31250428
+      },
+      "load_average": [
+        0.25390625,
+        0.44775390625,
+        0.625
+      ],
+      "gpus": [
+        {
+          "index": "0",
+          "memory_MiB": "280",
+          "total_MiB": "73415",
+          "utilization": "0",
+          "temperature_C": "40",
+          "power_W": "14.19"
+        },
+        {
+          "index": "1",
+          "memory_MiB": "16",
+          "total_MiB": "73415",
+          "utilization": "0",
+          "temperature_C": "56",
+          "power_W": "11.51"
+        }
+      ],
+      "temperatures": [
+        {
+          "device": "coretemp",
+          "label": "Core 40",
+          "celsius": 36.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 24",
+          "celsius": 36.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 34",
+          "celsius": 36.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 4",
+          "celsius": 38.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 44",
+          "celsius": 36.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 11",
+          "celsius": 34.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 15",
+          "celsius": 38.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 8",
+          "celsius": 34.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 35",
+          "celsius": 36.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 28",
+          "celsius": 36.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 12",
+          "celsius": 38.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 38",
+          "celsius": 36.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 32",
+          "celsius": 36.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 16",
+          "celsius": 36.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 9",
+          "celsius": 36.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 36",
+          "celsius": 36.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Package id 0",
+          "celsius": 40.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 13",
+          "celsius": 38.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 39",
+          "celsius": 36.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 33",
+          "celsius": 36.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 10",
+          "celsius": 34.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 37",
+          "celsius": 36.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 20",
+          "celsius": 38.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 0",
+          "celsius": 36.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 14",
+          "celsius": 38.0
+        }
+      ],
+      "alarms": []
+    },
+    {
+      "time_utc": "2026-10-15T08:04:22.455299+00:00",
+      "memory": {
+        "MemTotal_KiB": 263379608,
+        "MemAvailable_KiB": 231075332,
+        "SwapTotal_KiB": 31250428,
+        "SwapFree_KiB": 31250428
+      },
+      "load_average": [
+        0.5966796875,
+        0.515625,
+        0.6455078125
+      ],
+      "gpus": [
+        {
+          "index": "0",
+          "memory_MiB": "295",
+          "total_MiB": "73415",
+          "utilization": "0",
+          "temperature_C": "40",
+          "power_W": "19.55"
+        },
+        {
+          "index": "1",
+          "memory_MiB": "1827",
+          "total_MiB": "73415",
+          "utilization": "28",
+          "temperature_C": "57",
+          "power_W": "66.32"
+        }
+      ],
+      "temperatures": [
+        {
+          "device": "coretemp",
+          "label": "Core 40",
+          "celsius": 36.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 24",
+          "celsius": 36.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 34",
+          "celsius": 36.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 4",
+          "celsius": 50.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 44",
+          "celsius": 36.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 11",
+          "celsius": 36.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 15",
+          "celsius": 42.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 8",
+          "celsius": 36.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 35",
+          "celsius": 34.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 28",
+          "celsius": 36.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 12",
+          "celsius": 38.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 38",
+          "celsius": 34.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 32",
+          "celsius": 34.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 16",
+          "celsius": 36.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 9",
+          "celsius": 34.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 36",
+          "celsius": 36.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Package id 0",
+          "celsius": 53.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 13",
+          "celsius": 42.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 39",
+          "celsius": 36.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 33",
+          "celsius": 34.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 10",
+          "celsius": 34.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 37",
+          "celsius": 36.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 20",
+          "celsius": 54.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 0",
+          "celsius": 40.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 14",
+          "celsius": 42.0
+        }
+      ],
+      "alarms": []
+    },
+    {
+      "time_utc": "2026-10-15T08:04:32.552149+00:00",
+      "memory": {
+        "MemTotal_KiB": 263379608,
+        "MemAvailable_KiB": 229500880,
+        "SwapTotal_KiB": 31250428,
+        "SwapFree_KiB": 31250428
+      },
+      "load_average": [
+        0.74169921875,
+        0.55517578125,
+        0.65625
+      ],
+      "gpus": [
+        {
+          "index": "0",
+          "memory_MiB": "295",
+          "total_MiB": "73415",
+          "utilization": "0",
+          "temperature_C": "40",
+          "power_W": "14.20"
+        },
+        {
+          "index": "1",
+          "memory_MiB": "5674",
+          "total_MiB": "73415",
+          "utilization": "82",
+          "temperature_C": "61",
+          "power_W": "168.55"
+        }
+      ],
+      "temperatures": [
+        {
+          "device": "coretemp",
+          "label": "Core 40",
+          "celsius": 36.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 24",
+          "celsius": 52.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 34",
+          "celsius": 34.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 4",
+          "celsius": 36.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 44",
+          "celsius": 36.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 11",
+          "celsius": 34.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 15",
+          "celsius": 34.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 8",
+          "celsius": 32.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 35",
+          "celsius": 34.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 28",
+          "celsius": 34.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 12",
+          "celsius": 34.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 38",
+          "celsius": 34.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 32",
+          "celsius": 34.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 16",
+          "celsius": 34.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 9",
+          "celsius": 34.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 36",
+          "celsius": 36.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Package id 0",
+          "celsius": 52.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 13",
+          "celsius": 34.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 39",
+          "celsius": 36.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 33",
+          "celsius": 34.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 10",
+          "celsius": 34.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 37",
+          "celsius": 36.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 20",
+          "celsius": 44.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 0",
+          "celsius": 36.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 14",
+          "celsius": 36.0
+        }
+      ],
+      "alarms": []
+    },
+    {
+      "time_utc": "2026-10-15T08:04:42.665274+00:00",
+      "memory": {
+        "MemTotal_KiB": 263379608,
+        "MemAvailable_KiB": 229667376,
+        "SwapTotal_KiB": 31250428,
+        "SwapFree_KiB": 31250428
+      },
+      "load_average": [
+        0.62744140625,
+        0.53662109375,
+        0.6484375
+      ],
+      "gpus": [
+        {
+          "index": "0",
+          "memory_MiB": "295",
+          "total_MiB": "73415",
+          "utilization": "0",
+          "temperature_C": "40",
+          "power_W": "14.96"
+        },
+        {
+          "index": "1",
+          "memory_MiB": "5674",
+          "total_MiB": "73415",
+          "utilization": "87",
+          "temperature_C": "64",
+          "power_W": "185.20"
+        }
+      ],
+      "temperatures": [
+        {
+          "device": "coretemp",
+          "label": "Core 40",
+          "celsius": 36.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 24",
+          "celsius": 36.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 34",
+          "celsius": 34.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 4",
+          "celsius": 34.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 44",
+          "celsius": 36.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 11",
+          "celsius": 34.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 15",
+          "celsius": 34.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 8",
+          "celsius": 34.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 35",
+          "celsius": 34.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 28",
+          "celsius": 34.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 12",
+          "celsius": 34.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 38",
+          "celsius": 34.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 32",
+          "celsius": 34.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 16",
+          "celsius": 34.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 9",
+          "celsius": 32.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 36",
+          "celsius": 36.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Package id 0",
+          "celsius": 37.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 13",
+          "celsius": 34.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 39",
+          "celsius": 36.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 33",
+          "celsius": 34.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 10",
+          "celsius": 34.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 37",
+          "celsius": 36.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 20",
+          "celsius": 36.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 0",
+          "celsius": 34.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 14",
+          "celsius": 36.0
+        }
+      ],
+      "alarms": []
+    },
+    {
+      "time_utc": "2026-10-15T08:04:52.753402+00:00",
+      "memory": {
+        "MemTotal_KiB": 263379608,
+        "MemAvailable_KiB": 229721160,
+        "SwapTotal_KiB": 31250428,
+        "SwapFree_KiB": 31250428
+      },
+      "load_average": [
+        0.53076171875,
+        0.5185546875,
+        0.640625
+      ],
+      "gpus": [
+        {
+          "index": "0",
+          "memory_MiB": "295",
+          "total_MiB": "73415",
+          "utilization": "0",
+          "temperature_C": "40",
+          "power_W": "14.21"
+        },
+        {
+          "index": "1",
+          "memory_MiB": "5674",
+          "total_MiB": "73415",
+          "utilization": "50",
+          "temperature_C": "68",
+          "power_W": "175.22"
+        }
+      ],
+      "temperatures": [
+        {
+          "device": "coretemp",
+          "label": "Core 40",
+          "celsius": 36.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 24",
+          "celsius": 34.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 34",
+          "celsius": 34.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 4",
+          "celsius": 34.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 44",
+          "celsius": 36.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 11",
+          "celsius": 34.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 15",
+          "celsius": 36.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 8",
+          "celsius": 34.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 35",
+          "celsius": 34.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 28",
+          "celsius": 34.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 12",
+          "celsius": 36.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 38",
+          "celsius": 34.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 32",
+          "celsius": 34.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 16",
+          "celsius": 34.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 9",
+          "celsius": 34.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 36",
+          "celsius": 34.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Package id 0",
+          "celsius": 38.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 13",
+          "celsius": 36.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 39",
+          "celsius": 36.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 33",
+          "celsius": 34.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 10",
+          "celsius": 34.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 37",
+          "celsius": 34.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 20",
+          "celsius": 36.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 0",
+          "celsius": 34.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 14",
+          "celsius": 36.0
+        }
+      ],
+      "alarms": []
+    },
+    {
+      "time_utc": "2026-10-15T08:05:02.875063+00:00",
+      "memory": {
+        "MemTotal_KiB": 263379608,
+        "MemAvailable_KiB": 229738640,
+        "SwapTotal_KiB": 31250428,
+        "SwapFree_KiB": 31250428
+      },
+      "load_average": [
+        0.529296875,
+        0.51806640625,
+        0.638671875
+      ],
+      "gpus": [
+        {
+          "index": "0",
+          "memory_MiB": "295",
+          "total_MiB": "73415",
+          "utilization": "0",
+          "temperature_C": "40",
+          "power_W": "14.19"
+        },
+        {
+          "index": "1",
+          "memory_MiB": "5674",
+          "total_MiB": "73415",
+          "utilization": "57",
+          "temperature_C": "71",
+          "power_W": "192.67"
+        }
+      ],
+      "temperatures": [
+        {
+          "device": "coretemp",
+          "label": "Core 40",
+          "celsius": 36.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 24",
+          "celsius": 34.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 34",
+          "celsius": 34.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 4",
+          "celsius": 34.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 44",
+          "celsius": 36.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 11",
+          "celsius": 34.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 15",
+          "celsius": 34.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 8",
+          "celsius": 32.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 35",
+          "celsius": 34.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 28",
+          "celsius": 34.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 12",
+          "celsius": 34.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 38",
+          "celsius": 34.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 32",
+          "celsius": 34.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 16",
+          "celsius": 34.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 9",
+          "celsius": 34.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 36",
+          "celsius": 34.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Package id 0",
+          "celsius": 35.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 13",
+          "celsius": 34.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 39",
+          "celsius": 34.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 33",
+          "celsius": 34.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 10",
+          "celsius": 34.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 37",
+          "celsius": 34.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 20",
+          "celsius": 34.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 0",
+          "celsius": 34.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 14",
+          "celsius": 36.0
+        }
+      ],
+      "alarms": []
+    },
+    {
+      "time_utc": "2026-10-15T08:05:13.004949+00:00",
+      "memory": {
+        "MemTotal_KiB": 263379608,
+        "MemAvailable_KiB": 229718388,
+        "SwapTotal_KiB": 31250428,
+        "SwapFree_KiB": 31250428
+      },
+      "load_average": [
+        0.6689453125,
+        0.5498046875,
+        0.6474609375
+      ],
+      "gpus": [
+        {
+          "index": "0",
+          "memory_MiB": "295",
+          "total_MiB": "73415",
+          "utilization": "0",
+          "temperature_C": "40",
+          "power_W": "14.65"
+        },
+        {
+          "index": "1",
+          "memory_MiB": "5674",
+          "total_MiB": "73415",
+          "utilization": "100",
+          "temperature_C": "72",
+          "power_W": "196.38"
+        }
+      ],
+      "temperatures": [
+        {
+          "device": "coretemp",
+          "label": "Core 40",
+          "celsius": 36.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 24",
+          "celsius": 34.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 34",
+          "celsius": 34.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 4",
+          "celsius": 36.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 44",
+          "celsius": 50.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 11",
+          "celsius": 34.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 15",
+          "celsius": 34.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 8",
+          "celsius": 34.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 35",
+          "celsius": 34.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 28",
+          "celsius": 34.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 12",
+          "celsius": 34.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 38",
+          "celsius": 38.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 32",
+          "celsius": 34.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 16",
+          "celsius": 34.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 9",
+          "celsius": 34.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 36",
+          "celsius": 36.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Package id 0",
+          "celsius": 47.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 13",
+          "celsius": 34.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 39",
+          "celsius": 36.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 33",
+          "celsius": 34.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 10",
+          "celsius": 34.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 37",
+          "celsius": 38.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 20",
+          "celsius": 36.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 0",
+          "celsius": 34.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 14",
+          "celsius": 34.0
+        }
+      ],
+      "alarms": []
+    },
+    {
+      "time_utc": "2026-10-15T08:05:23.134642+00:00",
+      "memory": {
+        "MemTotal_KiB": 263379608,
+        "MemAvailable_KiB": 229697544,
+        "SwapTotal_KiB": 31250428,
+        "SwapFree_KiB": 31250428
+      },
+      "load_average": [
+        0.646484375,
+        0.54833984375,
+        0.6455078125
+      ],
+      "gpus": [
+        {
+          "index": "0",
+          "memory_MiB": "295",
+          "total_MiB": "73415",
+          "utilization": "0",
+          "temperature_C": "40",
+          "power_W": "14.08"
+        },
+        {
+          "index": "1",
+          "memory_MiB": "5674",
+          "total_MiB": "73415",
+          "utilization": "59",
+          "temperature_C": "72",
+          "power_W": "183.76"
+        }
+      ],
+      "temperatures": [
+        {
+          "device": "coretemp",
+          "label": "Core 40",
+          "celsius": 34.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 24",
+          "celsius": 36.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 34",
+          "celsius": 34.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 4",
+          "celsius": 38.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 44",
+          "celsius": 34.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 11",
+          "celsius": 34.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 15",
+          "celsius": 36.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 8",
+          "celsius": 34.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 35",
+          "celsius": 34.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 28",
+          "celsius": 34.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 12",
+          "celsius": 34.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 38",
+          "celsius": 34.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 32",
+          "celsius": 34.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 16",
+          "celsius": 34.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 9",
+          "celsius": 34.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 36",
+          "celsius": 34.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Package id 0",
+          "celsius": 37.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 13",
+          "celsius": 34.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 39",
+          "celsius": 34.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 33",
+          "celsius": 34.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 10",
+          "celsius": 34.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 37",
+          "celsius": 34.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 20",
+          "celsius": 38.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 0",
+          "celsius": 34.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 14",
+          "celsius": 34.0
+        }
+      ],
+      "alarms": []
+    },
+    {
+      "time_utc": "2026-10-15T08:05:33.248038+00:00",
+      "memory": {
+        "MemTotal_KiB": 263379608,
+        "MemAvailable_KiB": 229717480,
+        "SwapTotal_KiB": 31250428,
+        "SwapFree_KiB": 31250428
+      },
+      "load_average": [
+        0.54638671875,
+        0.52978515625,
+        0.6376953125
+      ],
+      "gpus": [
+        {
+          "index": "0",
+          "memory_MiB": "295",
+          "total_MiB": "73415",
+          "utilization": "0",
+          "temperature_C": "40",
+          "power_W": "15.52"
+        },
+        {
+          "index": "1",
+          "memory_MiB": "5674",
+          "total_MiB": "73415",
+          "utilization": "100",
+          "temperature_C": "75",
+          "power_W": "198.76"
+        }
+      ],
+      "temperatures": [
+        {
+          "device": "coretemp",
+          "label": "Core 40",
+          "celsius": 34.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 24",
+          "celsius": 36.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 34",
+          "celsius": 34.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 4",
+          "celsius": 34.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 44",
+          "celsius": 36.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 11",
+          "celsius": 32.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 15",
+          "celsius": 34.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 8",
+          "celsius": 34.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 35",
+          "celsius": 34.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 28",
+          "celsius": 34.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 12",
+          "celsius": 34.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 38",
+          "celsius": 34.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 32",
+          "celsius": 34.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 16",
+          "celsius": 34.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 9",
+          "celsius": 34.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 36",
+          "celsius": 34.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Package id 0",
+          "celsius": 37.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 13",
+          "celsius": 34.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 39",
+          "celsius": 34.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 33",
+          "celsius": 34.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 10",
+          "celsius": 34.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 37",
+          "celsius": 34.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 20",
+          "celsius": 36.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 0",
+          "celsius": 34.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 14",
+          "celsius": 34.0
+        }
+      ],
+      "alarms": []
+    },
+    {
+      "time_utc": "2026-10-15T08:05:43.327717+00:00",
+      "memory": {
+        "MemTotal_KiB": 263379608,
+        "MemAvailable_KiB": 229706584,
+        "SwapTotal_KiB": 31250428,
+        "SwapFree_KiB": 31250428
+      },
+      "load_average": [
+        0.54248046875,
+        0.52880859375,
+        0.63623046875
+      ],
+      "gpus": [
+        {
+          "index": "0",
+          "memory_MiB": "295",
+          "total_MiB": "73415",
+          "utilization": "0",
+          "temperature_C": "40",
+          "power_W": "13.91"
+        },
+        {
+          "index": "1",
+          "memory_MiB": "5674",
+          "total_MiB": "73415",
+          "utilization": "98",
+          "temperature_C": "76",
+          "power_W": "203.68"
+        }
+      ],
+      "temperatures": [
+        {
+          "device": "coretemp",
+          "label": "Core 40",
+          "celsius": 36.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 24",
+          "celsius": 36.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 34",
+          "celsius": 34.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 4",
+          "celsius": 36.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 44",
+          "celsius": 36.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 11",
+          "celsius": 34.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 15",
+          "celsius": 36.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 8",
+          "celsius": 34.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 35",
+          "celsius": 34.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 28",
+          "celsius": 36.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 12",
+          "celsius": 36.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 38",
+          "celsius": 36.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 32",
+          "celsius": 34.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 16",
+          "celsius": 34.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 9",
+          "celsius": 34.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 36",
+          "celsius": 36.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Package id 0",
+          "celsius": 40.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 13",
+          "celsius": 34.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 39",
+          "celsius": 36.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 33",
+          "celsius": 34.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 10",
+          "celsius": 34.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 37",
+          "celsius": 34.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 20",
+          "celsius": 38.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 0",
+          "celsius": 36.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 14",
+          "celsius": 36.0
+        }
+      ],
+      "alarms": []
+    },
+    {
+      "time_utc": "2026-10-15T08:05:53.432347+00:00",
+      "memory": {
+        "MemTotal_KiB": 263379608,
+        "MemAvailable_KiB": 229715948,
+        "SwapTotal_KiB": 31250428,
+        "SwapFree_KiB": 31250428
+      },
+      "load_average": [
+        0.458984375,
+        0.51123046875,
+        0.62939453125
+      ],
+      "gpus": [
+        {
+          "index": "0",
+          "memory_MiB": "295",
+          "total_MiB": "73415",
+          "utilization": "0",
+          "temperature_C": "40",
+          "power_W": "13.91"
+        },
+        {
+          "index": "1",
+          "memory_MiB": "5674",
+          "total_MiB": "73415",
+          "utilization": "100",
+          "temperature_C": "76",
+          "power_W": "205.49"
+        }
+      ],
+      "temperatures": [
+        {
+          "device": "coretemp",
+          "label": "Core 40",
+          "celsius": 34.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 24",
+          "celsius": 34.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 34",
+          "celsius": 36.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 4",
+          "celsius": 34.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 44",
+          "celsius": 34.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 11",
+          "celsius": 32.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 15",
+          "celsius": 34.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 8",
+          "celsius": 34.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 35",
+          "celsius": 36.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 28",
+          "celsius": 34.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 12",
+          "celsius": 34.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 38",
+          "celsius": 34.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 32",
+          "celsius": 36.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 16",
+          "celsius": 34.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 9",
+          "celsius": 34.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 36",
+          "celsius": 34.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Package id 0",
+          "celsius": 36.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 13",
+          "celsius": 34.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 39",
+          "celsius": 34.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 33",
+          "celsius": 36.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 10",
+          "celsius": 34.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 37",
+          "celsius": 36.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 20",
+          "celsius": 34.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 0",
+          "celsius": 36.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 14",
+          "celsius": 34.0
+        }
+      ],
+      "alarms": []
+    },
+    {
+      "time_utc": "2026-10-15T08:06:03.529079+00:00",
+      "memory": {
+        "MemTotal_KiB": 263379608,
+        "MemAvailable_KiB": 229727548,
+        "SwapTotal_KiB": 31250428,
+        "SwapFree_KiB": 31250428
+      },
+      "load_average": [
+        0.3876953125,
+        0.49365234375,
+        0.62255859375
+      ],
+      "gpus": [
+        {
+          "index": "0",
+          "memory_MiB": "295",
+          "total_MiB": "73415",
+          "utilization": "0",
+          "temperature_C": "40",
+          "power_W": "14.53"
+        },
+        {
+          "index": "1",
+          "memory_MiB": "5674",
+          "total_MiB": "73415",
+          "utilization": "100",
+          "temperature_C": "78",
+          "power_W": "200.21"
+        }
+      ],
+      "temperatures": [
+        {
+          "device": "coretemp",
+          "label": "Core 40",
+          "celsius": 34.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 24",
+          "celsius": 36.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 34",
+          "celsius": 34.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 4",
+          "celsius": 40.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 44",
+          "celsius": 36.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 11",
+          "celsius": 34.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 15",
+          "celsius": 34.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 8",
+          "celsius": 34.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 35",
+          "celsius": 32.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 28",
+          "celsius": 34.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 12",
+          "celsius": 34.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 38",
+          "celsius": 34.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 32",
+          "celsius": 34.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 16",
+          "celsius": 34.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 9",
+          "celsius": 34.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 36",
+          "celsius": 34.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Package id 0",
+          "celsius": 40.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 13",
+          "celsius": 34.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 39",
+          "celsius": 34.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 33",
+          "celsius": 34.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 10",
+          "celsius": 34.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 37",
+          "celsius": 34.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 20",
+          "celsius": 34.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 0",
+          "celsius": 34.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 14",
+          "celsius": 34.0
+        }
+      ],
+      "alarms": []
+    },
+    {
+      "time_utc": "2026-10-15T08:06:13.667036+00:00",
+      "memory": {
+        "MemTotal_KiB": 263379608,
+        "MemAvailable_KiB": 229725112,
+        "SwapTotal_KiB": 31250428,
+        "SwapFree_KiB": 31250428
+      },
+      "load_average": [
+        0.408203125,
+        0.494140625,
+        0.62158203125
+      ],
+      "gpus": [
+        {
+          "index": "0",
+          "memory_MiB": "295",
+          "total_MiB": "73415",
+          "utilization": "0",
+          "temperature_C": "40",
+          "power_W": "14.08"
+        },
+        {
+          "index": "1",
+          "memory_MiB": "5674",
+          "total_MiB": "73415",
+          "utilization": "96",
+          "temperature_C": "78",
+          "power_W": "188.20"
+        }
+      ],
+      "temperatures": [
+        {
+          "device": "coretemp",
+          "label": "Core 40",
+          "celsius": 34.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 24",
+          "celsius": 36.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 34",
+          "celsius": 34.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 4",
+          "celsius": 34.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 44",
+          "celsius": 36.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 11",
+          "celsius": 34.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 15",
+          "celsius": 34.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 8",
+          "celsius": 34.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 35",
+          "celsius": 34.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 28",
+          "celsius": 34.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 12",
+          "celsius": 34.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 38",
+          "celsius": 36.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 32",
+          "celsius": 34.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 16",
+          "celsius": 34.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 9",
+          "celsius": 32.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 36",
+          "celsius": 36.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Package id 0",
+          "celsius": 37.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 13",
+          "celsius": 34.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 39",
+          "celsius": 34.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 33",
+          "celsius": 34.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 10",
+          "celsius": 34.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 37",
+          "celsius": 36.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 20",
+          "celsius": 36.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 0",
+          "celsius": 34.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 14",
+          "celsius": 34.0
+        }
+      ],
+      "alarms": []
+    },
+    {
+      "time_utc": "2026-10-15T08:06:23.780393+00:00",
+      "memory": {
+        "MemTotal_KiB": 263379608,
+        "MemAvailable_KiB": 229712952,
+        "SwapTotal_KiB": 31250428,
+        "SwapFree_KiB": 31250428
+      },
+      "load_average": [
+        0.34521484375,
+        0.4775390625,
+        0.61474609375
+      ],
+      "gpus": [
+        {
+          "index": "0",
+          "memory_MiB": "295",
+          "total_MiB": "73415",
+          "utilization": "0",
+          "temperature_C": "40",
+          "power_W": "17.83"
+        },
+        {
+          "index": "1",
+          "memory_MiB": "5674",
+          "total_MiB": "73415",
+          "utilization": "45",
+          "temperature_C": "76",
+          "power_W": "202.04"
+        }
+      ],
+      "temperatures": [
+        {
+          "device": "coretemp",
+          "label": "Core 40",
+          "celsius": 34.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 24",
+          "celsius": 36.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 34",
+          "celsius": 34.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 4",
+          "celsius": 34.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 44",
+          "celsius": 36.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 11",
+          "celsius": 36.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 15",
+          "celsius": 34.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 8",
+          "celsius": 34.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 35",
+          "celsius": 34.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 28",
+          "celsius": 34.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 12",
+          "celsius": 34.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 38",
+          "celsius": 36.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 32",
+          "celsius": 34.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 16",
+          "celsius": 42.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 9",
+          "celsius": 34.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 36",
+          "celsius": 36.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Package id 0",
+          "celsius": 40.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 13",
+          "celsius": 34.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 39",
+          "celsius": 34.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 33",
+          "celsius": 34.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 10",
+          "celsius": 34.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 37",
+          "celsius": 34.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 20",
+          "celsius": 34.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 0",
+          "celsius": 34.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 14",
+          "celsius": 34.0
+        }
+      ],
+      "alarms": []
+    },
+    {
+      "time_utc": "2026-10-15T08:06:33.902027+00:00",
+      "memory": {
+        "MemTotal_KiB": 263379608,
+        "MemAvailable_KiB": 229685416,
+        "SwapTotal_KiB": 31250428,
+        "SwapFree_KiB": 31250428
+      },
+      "load_average": [
+        0.36572265625,
+        0.47802734375,
+        0.61376953125
+      ],
+      "gpus": [
+        {
+          "index": "0",
+          "memory_MiB": "295",
+          "total_MiB": "73415",
+          "utilization": "0",
+          "temperature_C": "40",
+          "power_W": "14.10"
+        },
+        {
+          "index": "1",
+          "memory_MiB": "5674",
+          "total_MiB": "73415",
+          "utilization": "65",
+          "temperature_C": "76",
+          "power_W": "203.60"
+        }
+      ],
+      "temperatures": [
+        {
+          "device": "coretemp",
+          "label": "Core 40",
+          "celsius": 34.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 24",
+          "celsius": 36.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 34",
+          "celsius": 34.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 4",
+          "celsius": 34.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 44",
+          "celsius": 34.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 11",
+          "celsius": 34.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 15",
+          "celsius": 34.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 8",
+          "celsius": 34.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 35",
+          "celsius": 34.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 28",
+          "celsius": 34.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 12",
+          "celsius": 34.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 38",
+          "celsius": 34.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 32",
+          "celsius": 34.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 16",
+          "celsius": 34.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 9",
+          "celsius": 34.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 36",
+          "celsius": 34.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Package id 0",
+          "celsius": 37.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 13",
+          "celsius": 34.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 39",
+          "celsius": 34.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 33",
+          "celsius": 34.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 10",
+          "celsius": 34.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 37",
+          "celsius": 34.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 20",
+          "celsius": 36.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 0",
+          "celsius": 34.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 14",
+          "celsius": 34.0
+        }
+      ],
+      "alarms": []
+    },
+    {
+      "time_utc": "2026-10-15T08:06:44.031555+00:00",
+      "memory": {
+        "MemTotal_KiB": 263379608,
+        "MemAvailable_KiB": 229699532,
+        "SwapTotal_KiB": 31250428,
+        "SwapFree_KiB": 31250428
+      },
+      "load_average": [
+        0.30908203125,
+        0.4619140625,
+        0.60693359375
+      ],
+      "gpus": [
+        {
+          "index": "0",
+          "memory_MiB": "295",
+          "total_MiB": "73415",
+          "utilization": "0",
+          "temperature_C": "40",
+          "power_W": "14.04"
+        },
+        {
+          "index": "1",
+          "memory_MiB": "5674",
+          "total_MiB": "73415",
+          "utilization": "99",
+          "temperature_C": "79",
+          "power_W": "201.82"
+        }
+      ],
+      "temperatures": [
+        {
+          "device": "coretemp",
+          "label": "Core 40",
+          "celsius": 36.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 24",
+          "celsius": 34.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 34",
+          "celsius": 34.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 4",
+          "celsius": 36.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 44",
+          "celsius": 34.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 11",
+          "celsius": 34.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 15",
+          "celsius": 34.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 8",
+          "celsius": 34.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 35",
+          "celsius": 34.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 28",
+          "celsius": 34.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 12",
+          "celsius": 34.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 38",
+          "celsius": 34.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 32",
+          "celsius": 36.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 16",
+          "celsius": 34.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 9",
+          "celsius": 34.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 36",
+          "celsius": 34.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Package id 0",
+          "celsius": 36.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 13",
+          "celsius": 34.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 39",
+          "celsius": 34.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 33",
+          "celsius": 34.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 10",
+          "celsius": 34.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 37",
+          "celsius": 34.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 20",
+          "celsius": 36.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 0",
+          "celsius": 34.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 14",
+          "celsius": 34.0
+        }
+      ],
+      "alarms": []
+    },
+    {
+      "time_utc": "2026-10-15T08:06:54.119897+00:00",
+      "memory": {
+        "MemTotal_KiB": 263379608,
+        "MemAvailable_KiB": 229696616,
+        "SwapTotal_KiB": 31250428,
+        "SwapFree_KiB": 31250428
+      },
+      "load_average": [
+        0.7421875,
+        0.54638671875,
+        0.6328125
+      ],
+      "gpus": [
+        {
+          "index": "0",
+          "memory_MiB": "295",
+          "total_MiB": "73415",
+          "utilization": "0",
+          "temperature_C": "40",
+          "power_W": "14.23"
+        },
+        {
+          "index": "1",
+          "memory_MiB": "5674",
+          "total_MiB": "73415",
+          "utilization": "74",
+          "temperature_C": "79",
+          "power_W": "210.38"
+        }
+      ],
+      "temperatures": [
+        {
+          "device": "coretemp",
+          "label": "Core 40",
+          "celsius": 34.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 24",
+          "celsius": 34.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 34",
+          "celsius": 34.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 4",
+          "celsius": 38.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 44",
+          "celsius": 36.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 11",
+          "celsius": 34.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 15",
+          "celsius": 34.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 8",
+          "celsius": 34.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 35",
+          "celsius": 34.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 28",
+          "celsius": 34.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 12",
+          "celsius": 34.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 38",
+          "celsius": 34.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 32",
+          "celsius": 34.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 16",
+          "celsius": 34.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 9",
+          "celsius": 34.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 36",
+          "celsius": 34.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Package id 0",
+          "celsius": 40.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 13",
+          "celsius": 34.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 39",
+          "celsius": 34.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 33",
+          "celsius": 34.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 10",
+          "celsius": 34.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 37",
+          "celsius": 34.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 20",
+          "celsius": 34.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 0",
+          "celsius": 38.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 14",
+          "celsius": 34.0
+        }
+      ],
+      "alarms": []
+    },
+    {
+      "time_utc": "2026-10-15T08:07:04.242085+00:00",
+      "memory": {
+        "MemTotal_KiB": 263379608,
+        "MemAvailable_KiB": 229690284,
+        "SwapTotal_KiB": 31250428,
+        "SwapFree_KiB": 31250428
+      },
+      "load_average": [
+        0.70166015625,
+        0.544921875,
+        0.6318359375
+      ],
+      "gpus": [
+        {
+          "index": "0",
+          "memory_MiB": "295",
+          "total_MiB": "73415",
+          "utilization": "0",
+          "temperature_C": "40",
+          "power_W": "13.98"
+        },
+        {
+          "index": "1",
+          "memory_MiB": "5674",
+          "total_MiB": "73415",
+          "utilization": "91",
+          "temperature_C": "78",
+          "power_W": "192.71"
+        }
+      ],
+      "temperatures": [
+        {
+          "device": "coretemp",
+          "label": "Core 40",
+          "celsius": 34.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 24",
+          "celsius": 34.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 34",
+          "celsius": 34.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 4",
+          "celsius": 42.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 44",
+          "celsius": 36.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 11",
+          "celsius": 34.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 15",
+          "celsius": 34.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 8",
+          "celsius": 34.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 35",
+          "celsius": 34.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 28",
+          "celsius": 34.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 12",
+          "celsius": 34.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 38",
+          "celsius": 34.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 32",
+          "celsius": 34.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 16",
+          "celsius": 34.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 9",
+          "celsius": 34.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 36",
+          "celsius": 36.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Package id 0",
+          "celsius": 38.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 13",
+          "celsius": 34.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 39",
+          "celsius": 34.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 33",
+          "celsius": 34.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 10",
+          "celsius": 34.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 37",
+          "celsius": 36.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 20",
+          "celsius": 34.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 0",
+          "celsius": 36.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 14",
+          "celsius": 34.0
+        }
+      ],
+      "alarms": []
+    },
+    {
+      "time_utc": "2026-10-15T08:07:14.362892+00:00",
+      "memory": {
+        "MemTotal_KiB": 263379608,
+        "MemAvailable_KiB": 229687172,
+        "SwapTotal_KiB": 31250428,
+        "SwapFree_KiB": 31250428
+      },
+      "load_average": [
+        0.673828125,
+        0.54345703125,
+        0.630859375
+      ],
+      "gpus": [
+        {
+          "index": "0",
+          "memory_MiB": "295",
+          "total_MiB": "73415",
+          "utilization": "0",
+          "temperature_C": "40",
+          "power_W": "17.23"
+        },
+        {
+          "index": "1",
+          "memory_MiB": "5674",
+          "total_MiB": "73415",
+          "utilization": "100",
+          "temperature_C": "79",
+          "power_W": "203.48"
+        }
+      ],
+      "temperatures": [
+        {
+          "device": "coretemp",
+          "label": "Core 40",
+          "celsius": 34.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 24",
+          "celsius": 34.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 34",
+          "celsius": 34.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 4",
+          "celsius": 38.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 44",
+          "celsius": 34.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 11",
+          "celsius": 34.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 15",
+          "celsius": 34.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 8",
+          "celsius": 34.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 35",
+          "celsius": 34.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 28",
+          "celsius": 34.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 12",
+          "celsius": 34.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 38",
+          "celsius": 34.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 32",
+          "celsius": 34.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 16",
+          "celsius": 34.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 9",
+          "celsius": 34.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 36",
+          "celsius": 34.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Package id 0",
+          "celsius": 36.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 13",
+          "celsius": 34.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 39",
+          "celsius": 34.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 33",
+          "celsius": 34.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 10",
+          "celsius": 34.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 37",
+          "celsius": 34.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 20",
+          "celsius": 34.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 0",
+          "celsius": 34.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 14",
+          "celsius": 34.0
+        }
+      ],
+      "alarms": []
+    },
+    {
+      "time_utc": "2026-10-15T08:07:24.492889+00:00",
+      "memory": {
+        "MemTotal_KiB": 263379608,
+        "MemAvailable_KiB": 229678792,
+        "SwapTotal_KiB": 31250428,
+        "SwapFree_KiB": 31250428
+      },
+      "load_average": [
+        0.87841796875,
+        0.591796875,
+        0.64599609375
+      ],
+      "gpus": [
+        {
+          "index": "0",
+          "memory_MiB": "295",
+          "total_MiB": "73415",
+          "utilization": "0",
+          "temperature_C": "40",
+          "power_W": "13.99"
+        },
+        {
+          "index": "1",
+          "memory_MiB": "5674",
+          "total_MiB": "73415",
+          "utilization": "85",
+          "temperature_C": "79",
+          "power_W": "193.95"
+        }
+      ],
+      "temperatures": [
+        {
+          "device": "coretemp",
+          "label": "Core 40",
+          "celsius": 34.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 24",
+          "celsius": 34.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 34",
+          "celsius": 34.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 4",
+          "celsius": 38.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 44",
+          "celsius": 34.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 11",
+          "celsius": 34.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 15",
+          "celsius": 34.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 8",
+          "celsius": 34.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 35",
+          "celsius": 34.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 28",
+          "celsius": 34.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 12",
+          "celsius": 36.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 38",
+          "celsius": 36.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 32",
+          "celsius": 34.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 16",
+          "celsius": 34.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 9",
+          "celsius": 34.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 36",
+          "celsius": 36.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Package id 0",
+          "celsius": 37.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 13",
+          "celsius": 36.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 39",
+          "celsius": 36.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 33",
+          "celsius": 34.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 10",
+          "celsius": 34.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 37",
+          "celsius": 36.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 20",
+          "celsius": 36.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 0",
+          "celsius": 34.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 14",
+          "celsius": 34.0
+        }
+      ],
+      "alarms": []
+    },
+    {
+      "time_utc": "2026-10-15T08:07:34.622779+00:00",
+      "memory": {
+        "MemTotal_KiB": 263379608,
+        "MemAvailable_KiB": 229660604,
+        "SwapTotal_KiB": 31250428,
+        "SwapFree_KiB": 31250428
+      },
+      "load_average": [
+        0.8232421875,
+        0.5888671875,
+        0.64404296875
+      ],
+      "gpus": [
+        {
+          "index": "0",
+          "memory_MiB": "295",
+          "total_MiB": "73415",
+          "utilization": "0",
+          "temperature_C": "40",
+          "power_W": "14.67"
+        },
+        {
+          "index": "1",
+          "memory_MiB": "5674",
+          "total_MiB": "73415",
+          "utilization": "63",
+          "temperature_C": "80",
+          "power_W": "207.49"
+        }
+      ],
+      "temperatures": [
+        {
+          "device": "coretemp",
+          "label": "Core 40",
+          "celsius": 34.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 24",
+          "celsius": 34.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 34",
+          "celsius": 34.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 4",
+          "celsius": 38.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 44",
+          "celsius": 34.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 11",
+          "celsius": 34.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 15",
+          "celsius": 34.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 8",
+          "celsius": 34.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 35",
+          "celsius": 34.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 28",
+          "celsius": 34.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 12",
+          "celsius": 34.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 38",
+          "celsius": 34.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 32",
+          "celsius": 34.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 16",
+          "celsius": 34.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 9",
+          "celsius": 32.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 36",
+          "celsius": 36.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Package id 0",
+          "celsius": 37.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 13",
+          "celsius": 34.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 39",
+          "celsius": 36.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 33",
+          "celsius": 34.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 10",
+          "celsius": 34.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 37",
+          "celsius": 36.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 20",
+          "celsius": 34.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 0",
+          "celsius": 34.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 14",
+          "celsius": 34.0
+        }
+      ],
+      "alarms": []
+    },
+    {
+      "time_utc": "2026-10-15T08:07:44.752619+00:00",
+      "memory": {
+        "MemTotal_KiB": 263379608,
+        "MemAvailable_KiB": 229668040,
+        "SwapTotal_KiB": 31250428,
+        "SwapFree_KiB": 31250428
+      },
+      "load_average": [
+        0.77001953125,
+        0.58544921875,
+        0.64208984375
+      ],
+      "gpus": [
+        {
+          "index": "0",
+          "memory_MiB": "295",
+          "total_MiB": "73415",
+          "utilization": "0",
+          "temperature_C": "40",
+          "power_W": "13.97"
+        },
+        {
+          "index": "1",
+          "memory_MiB": "5674",
+          "total_MiB": "73415",
+          "utilization": "100",
+          "temperature_C": "81",
+          "power_W": "207.27"
+        }
+      ],
+      "temperatures": [
+        {
+          "device": "coretemp",
+          "label": "Core 40",
+          "celsius": 34.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 24",
+          "celsius": 34.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 34",
+          "celsius": 34.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 4",
+          "celsius": 38.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 44",
+          "celsius": 36.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 11",
+          "celsius": 34.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 15",
+          "celsius": 34.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 8",
+          "celsius": 32.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 35",
+          "celsius": 34.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 28",
+          "celsius": 34.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 12",
+          "celsius": 34.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 38",
+          "celsius": 34.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 32",
+          "celsius": 34.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 16",
+          "celsius": 36.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 9",
+          "celsius": 34.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 36",
+          "celsius": 34.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Package id 0",
+          "celsius": 37.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 13",
+          "celsius": 34.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 39",
+          "celsius": 34.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 33",
+          "celsius": 34.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 10",
+          "celsius": 34.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 37",
+          "celsius": 34.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 20",
+          "celsius": 34.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 0",
+          "celsius": 34.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 14",
+          "celsius": 34.0
+        }
+      ],
+      "alarms": []
+    },
+    {
+      "time_utc": "2026-10-15T08:07:54.874673+00:00",
+      "memory": {
+        "MemTotal_KiB": 263379608,
+        "MemAvailable_KiB": 229649624,
+        "SwapTotal_KiB": 31250428,
+        "SwapFree_KiB": 31250428
+      },
+      "load_average": [
+        0.65087890625,
+        0.56591796875,
+        0.63427734375
+      ],
+      "gpus": [
+        {
+          "index": "0",
+          "memory_MiB": "295",
+          "total_MiB": "73415",
+          "utilization": "0",
+          "temperature_C": "40",
+          "power_W": "13.94"
+        },
+        {
+          "index": "1",
+          "memory_MiB": "5674",
+          "total_MiB": "73415",
+          "utilization": "100",
+          "temperature_C": "80",
+          "power_W": "193.02"
+        }
+      ],
+      "temperatures": [
+        {
+          "device": "coretemp",
+          "label": "Core 40",
+          "celsius": 34.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 24",
+          "celsius": 34.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 34",
+          "celsius": 34.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 4",
+          "celsius": 40.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 44",
+          "celsius": 34.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 11",
+          "celsius": 32.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 15",
+          "celsius": 34.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 8",
+          "celsius": 34.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 35",
+          "celsius": 34.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 28",
+          "celsius": 34.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 12",
+          "celsius": 34.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 38",
+          "celsius": 34.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 32",
+          "celsius": 34.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 16",
+          "celsius": 34.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 9",
+          "celsius": 34.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 36",
+          "celsius": 34.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Package id 0",
+          "celsius": 38.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 13",
+          "celsius": 34.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 39",
+          "celsius": 34.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 33",
+          "celsius": 34.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 10",
+          "celsius": 32.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 37",
+          "celsius": 34.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 20",
+          "celsius": 34.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 0",
+          "celsius": 34.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 14",
+          "celsius": 34.0
+        }
+      ],
+      "alarms": []
+    },
+    {
+      "time_utc": "2026-10-15T08:08:04.979678+00:00",
+      "memory": {
+        "MemTotal_KiB": 263379608,
+        "MemAvailable_KiB": 229658112,
+        "SwapTotal_KiB": 31250428,
+        "SwapFree_KiB": 31250428
+      },
+      "load_average": [
+        0.7109375,
+        0.58056640625,
+        0.638671875
+      ],
+      "gpus": [
+        {
+          "index": "0",
+          "memory_MiB": "295",
+          "total_MiB": "73415",
+          "utilization": "0",
+          "temperature_C": "40",
+          "power_W": "17.79"
+        },
+        {
+          "index": "1",
+          "memory_MiB": "5674",
+          "total_MiB": "73415",
+          "utilization": "38",
+          "temperature_C": "77",
+          "power_W": "198.38"
+        }
+      ],
+      "temperatures": [
+        {
+          "device": "coretemp",
+          "label": "Core 40",
+          "celsius": 36.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 24",
+          "celsius": 34.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 34",
+          "celsius": 34.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 4",
+          "celsius": 36.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 44",
+          "celsius": 36.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 11",
+          "celsius": 32.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 15",
+          "celsius": 34.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 8",
+          "celsius": 34.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 35",
+          "celsius": 34.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 28",
+          "celsius": 34.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 12",
+          "celsius": 34.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 38",
+          "celsius": 34.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 32",
+          "celsius": 34.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 16",
+          "celsius": 34.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 9",
+          "celsius": 34.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 36",
+          "celsius": 36.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Package id 0",
+          "celsius": 36.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 13",
+          "celsius": 34.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 39",
+          "celsius": 34.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 33",
+          "celsius": 34.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 10",
+          "celsius": 34.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 37",
+          "celsius": 34.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 20",
+          "celsius": 36.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 0",
+          "celsius": 34.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 14",
+          "celsius": 34.0
+        }
+      ],
+      "alarms": []
+    },
+    {
+      "time_utc": "2026-10-15T08:08:15.101509+00:00",
+      "memory": {
+        "MemTotal_KiB": 263379608,
+        "MemAvailable_KiB": 229651792,
+        "SwapTotal_KiB": 31250428,
+        "SwapFree_KiB": 31250428
+      },
+      "load_average": [
+        0.60107421875,
+        0.56103515625,
+        0.63134765625
+      ],
+      "gpus": [
+        {
+          "index": "0",
+          "memory_MiB": "295",
+          "total_MiB": "73415",
+          "utilization": "0",
+          "temperature_C": "40",
+          "power_W": "14.14"
+        },
+        {
+          "index": "1",
+          "memory_MiB": "5674",
+          "total_MiB": "73415",
+          "utilization": "91",
+          "temperature_C": "80",
+          "power_W": "205.99"
+        }
+      ],
+      "temperatures": [
+        {
+          "device": "coretemp",
+          "label": "Core 40",
+          "celsius": 34.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 24",
+          "celsius": 34.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 34",
+          "celsius": 34.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 4",
+          "celsius": 36.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 44",
+          "celsius": 36.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 11",
+          "celsius": 34.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 15",
+          "celsius": 34.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 8",
+          "celsius": 34.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 35",
+          "celsius": 34.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 28",
+          "celsius": 34.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 12",
+          "celsius": 34.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 38",
+          "celsius": 34.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 32",
+          "celsius": 34.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 16",
+          "celsius": 34.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 9",
+          "celsius": 34.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 36",
+          "celsius": 36.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Package id 0",
+          "celsius": 37.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 13",
+          "celsius": 34.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 39",
+          "celsius": 34.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 33",
+          "celsius": 34.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 10",
+          "celsius": 34.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 37",
+          "celsius": 34.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 20",
+          "celsius": 34.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 0",
+          "celsius": 34.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 14",
+          "celsius": 34.0
+        }
+      ],
+      "alarms": []
+    },
+    {
+      "time_utc": "2026-10-15T08:08:25.214754+00:00",
+      "memory": {
+        "MemTotal_KiB": 263379608,
+        "MemAvailable_KiB": 229651100,
+        "SwapTotal_KiB": 31250428,
+        "SwapFree_KiB": 31250428
+      },
+      "load_average": [
+        0.5888671875,
+        0.55908203125,
+        0.63037109375
+      ],
+      "gpus": [
+        {
+          "index": "0",
+          "memory_MiB": "295",
+          "total_MiB": "73415",
+          "utilization": "0",
+          "temperature_C": "40",
+          "power_W": "15.35"
+        },
+        {
+          "index": "1",
+          "memory_MiB": "5674",
+          "total_MiB": "73415",
+          "utilization": "45",
+          "temperature_C": "77",
+          "power_W": "203.56"
+        }
+      ],
+      "temperatures": [
+        {
+          "device": "coretemp",
+          "label": "Core 40",
+          "celsius": 34.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 24",
+          "celsius": 36.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 34",
+          "celsius": 34.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 4",
+          "celsius": 34.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 44",
+          "celsius": 34.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 11",
+          "celsius": 36.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 15",
+          "celsius": 34.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 8",
+          "celsius": 36.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 35",
+          "celsius": 34.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 28",
+          "celsius": 34.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 12",
+          "celsius": 34.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 38",
+          "celsius": 36.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 32",
+          "celsius": 34.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 16",
+          "celsius": 52.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 9",
+          "celsius": 36.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 36",
+          "celsius": 36.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Package id 0",
+          "celsius": 51.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 13",
+          "celsius": 34.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 39",
+          "celsius": 38.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 33",
+          "celsius": 34.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 10",
+          "celsius": 36.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 37",
+          "celsius": 36.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 20",
+          "celsius": 36.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 0",
+          "celsius": 34.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 14",
+          "celsius": 34.0
+        }
+      ],
+      "alarms": []
+    },
+    {
+      "time_utc": "2026-10-15T08:08:35.319657+00:00",
+      "memory": {
+        "MemTotal_KiB": 263379608,
+        "MemAvailable_KiB": 229657140,
+        "SwapTotal_KiB": 31250428,
+        "SwapFree_KiB": 31250428
+      },
+      "load_average": [
+        0.498046875,
+        0.5400390625,
+        0.62353515625
+      ],
+      "gpus": [
+        {
+          "index": "0",
+          "memory_MiB": "295",
+          "total_MiB": "73415",
+          "utilization": "0",
+          "temperature_C": "40",
+          "power_W": "13.94"
+        },
+        {
+          "index": "1",
+          "memory_MiB": "5674",
+          "total_MiB": "73415",
+          "utilization": "100",
+          "temperature_C": "81",
+          "power_W": "209.41"
+        }
+      ],
+      "temperatures": [
+        {
+          "device": "coretemp",
+          "label": "Core 40",
+          "celsius": 36.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 24",
+          "celsius": 36.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 34",
+          "celsius": 34.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 4",
+          "celsius": 40.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 44",
+          "celsius": 36.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 11",
+          "celsius": 34.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 15",
+          "celsius": 34.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 8",
+          "celsius": 34.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 35",
+          "celsius": 34.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 28",
+          "celsius": 34.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 12",
+          "celsius": 34.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 38",
+          "celsius": 34.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 32",
+          "celsius": 34.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 16",
+          "celsius": 32.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 9",
+          "celsius": 34.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 36",
+          "celsius": 36.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Package id 0",
+          "celsius": 38.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 13",
+          "celsius": 34.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 39",
+          "celsius": 36.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 33",
+          "celsius": 34.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 10",
+          "celsius": 32.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 37",
+          "celsius": 34.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 20",
+          "celsius": 34.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 0",
+          "celsius": 34.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 14",
+          "celsius": 34.0
+        }
+      ],
+      "alarms": []
+    },
+    {
+      "time_utc": "2026-10-15T08:08:45.458766+00:00",
+      "memory": {
+        "MemTotal_KiB": 263379608,
+        "MemAvailable_KiB": 229667848,
+        "SwapTotal_KiB": 31250428,
+        "SwapFree_KiB": 31250428
+      },
+      "load_average": [
+        0.4208984375,
+        0.521484375,
+        0.61669921875
+      ],
+      "gpus": [
+        {
+          "index": "0",
+          "memory_MiB": "295",
+          "total_MiB": "73415",
+          "utilization": "0",
+          "temperature_C": "40",
+          "power_W": "14.01"
+        },
+        {
+          "index": "1",
+          "memory_MiB": "5674",
+          "total_MiB": "73415",
+          "utilization": "71",
+          "temperature_C": "79",
+          "power_W": "183.72"
+        }
+      ],
+      "temperatures": [
+        {
+          "device": "coretemp",
+          "label": "Core 40",
+          "celsius": 34.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 24",
+          "celsius": 36.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 34",
+          "celsius": 34.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 4",
+          "celsius": 34.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 44",
+          "celsius": 34.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 11",
+          "celsius": 34.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 15",
+          "celsius": 36.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 8",
+          "celsius": 34.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 35",
+          "celsius": 34.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 28",
+          "celsius": 34.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 12",
+          "celsius": 36.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 38",
+          "celsius": 34.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 32",
+          "celsius": 34.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 16",
+          "celsius": 34.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 9",
+          "celsius": 34.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 36",
+          "celsius": 34.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Package id 0",
+          "celsius": 38.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 13",
+          "celsius": 36.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 39",
+          "celsius": 34.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 33",
+          "celsius": 34.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 10",
+          "celsius": 34.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 37",
+          "celsius": 34.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 20",
+          "celsius": 36.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 0",
+          "celsius": 34.0
+        },
+        {
+          "device": "coretemp",
+          "label": "Core 14",
+          "celsius": 36.0
+        }
+      ],
+      "alarms": []
+    }
+  ]
+}
