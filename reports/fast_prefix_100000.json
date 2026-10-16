@@ -1,0 +1,15 @@
+{
+  "seed": 100000,
+  "status": "complete",
+  "source": "/media/user/HDD_8T/eventvla_recoverability_phase1_20261014/runs/20261015T092610Z_native_boundary_controls/100000_prepare",
+  "actions": 810,
+  "checks": {
+    "physics": true,
+    "observation": true,
+    "phase": true
+  },
+  "passed": true,
+  "forbidden_calls": 0,
+  "elapsed_seconds": 33.68585300900304,
+  "prefix_rgb_captures": 0
+}

@@ -1,0 +1,282 @@
+{
+  "status": "validated",
+  "source_status": "/home/user/workspace/HDD_8T/eventvla_recoverability_phase1_20261014/runs/20261015T092610Z_native_boundary_controls/status.json",
+  "pairs": [
+    {
+      "seed": 100000,
+      "checks": {
+        "natural_boundary": true,
+        "identical_actions": true,
+        "identical_final_physics": true,
+        "target_changed": true,
+        "same_first_payload": true,
+        "first_request_at_parent": true,
+        "same_history": true,
+        "same_events": true,
+        "instructions_applied": true
+      },
+      "parent_step": 810,
+      "source_parent_step": 718,
+      "visibility": {
+        "status": "measured",
+        "actor_ids": [
+          72,
+          73,
+          74,
+          75
+        ],
+        "pixels": {
+          "head_camera": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "left_camera": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "right_camera": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "all_hidden": true
+      }
+    },
+    {
+      "seed": 100001,
+      "checks": {
+        "natural_boundary": true,
+        "identical_actions": true,
+        "identical_final_physics": true,
+        "target_changed": true,
+        "same_first_payload": true,
+        "first_request_at_parent": true,
+        "same_history": true,
+        "same_events": true,
+        "instructions_applied": true
+      },
+      "parent_step": 808,
+      "source_parent_step": 720,
+      "visibility": {
+        "status": "measured",
+        "actor_ids": [
+          72,
+          73,
+          74,
+          75
+        ],
+        "pixels": {
+          "head_camera": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "left_camera": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "right_camera": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "all_hidden": true
+      }
+    }
+  ],
+  "outcomes": [
+    {
+      "seed": 100000,
+      "condition": "native",
+      "parent_step": 810,
+      "target_slot": 2,
+      "native_target_slot": 2,
+      "first_lift_correct": true,
+      "first_reveal_correct": true,
+      "native_first_target_opened": true,
+      "native_failed": false,
+      "actions": 101,
+      "model_requests": 3,
+      "lift_events": [
+        {
+          "tick": 6947,
+          "slots": [
+            2
+          ],
+          "lifts_m": [
+            0.040063560009002686
+          ]
+        }
+      ],
+      "revealed_events": [
+        {
+          "action": 101,
+          "slots": [
+            2
+          ]
+        }
+      ]
+    },
+    {
+      "seed": 100000,
+      "condition": "native_repeat",
+      "parent_step": 810,
+      "target_slot": 2,
+      "native_target_slot": 2,
+      "first_lift_correct": true,
+      "first_reveal_correct": true,
+      "native_first_target_opened": true,
+      "native_failed": false,
+      "actions": 101,
+      "model_requests": 3,
+      "lift_events": [
+        {
+          "tick": 6947,
+          "slots": [
+            2
+          ],
+          "lifts_m": [
+            0.040063560009002686
+          ]
+        }
+      ],
+      "revealed_events": [
+        {
+          "action": 101,
+          "slots": [
+            2
+          ]
+        }
+      ]
+    },
+    {
+      "seed": 100000,
+      "condition": "position_other",
+      "parent_step": 810,
+      "target_slot": 3,
+      "native_target_slot": 2,
+      "first_lift_correct": false,
+      "first_reveal_correct": false,
+      "native_first_target_opened": false,
+      "native_failed": false,
+      "actions": 88,
+      "model_requests": 2,
+      "lift_events": [
+        {
+          "tick": 6984,
+          "slots": [
+            2
+          ],
+          "lifts_m": [
+            0.040368497371673584
+          ]
+        }
+      ],
+      "revealed_events": []
+    },
+    {
+      "seed": 100001,
+      "condition": "native",
+      "parent_step": 808,
+      "target_slot": 3,
+      "native_target_slot": 3,
+      "first_lift_correct": true,
+      "first_reveal_correct": true,
+      "native_first_target_opened": true,
+      "native_failed": false,
+      "actions": 101,
+      "model_requests": 3,
+      "lift_events": [
+        {
+          "tick": 6747,
+          "slots": [
+            3
+          ],
+          "lifts_m": [
+            0.040068745613098145
+          ]
+        }
+      ],
+      "revealed_events": [
+        {
+          "action": 101,
+          "slots": [
+            3
+          ]
+        }
+      ]
+    },
+    {
+      "seed": 100001,
+      "condition": "native_repeat",
+      "parent_step": 808,
+      "target_slot": 3,
+      "native_target_slot": 3,
+      "first_lift_correct": true,
+      "first_reveal_correct": true,
+      "native_first_target_opened": true,
+      "native_failed": false,
+      "actions": 101,
+      "model_requests": 3,
+      "lift_events": [
+        {
+          "tick": 6747,
+          "slots": [
+            3
+          ],
+          "lifts_m": [
+            0.040068745613098145
+          ]
+        }
+      ],
+      "revealed_events": [
+        {
+          "action": 101,
+          "slots": [
+            3
+          ]
+        }
+      ]
+    },
+    {
+      "seed": 100001,
+      "condition": "position_other",
+      "parent_step": 808,
+      "target_slot": 0,
+      "native_target_slot": 3,
+      "first_lift_correct": false,
+      "first_reveal_correct": false,
+      "native_first_target_opened": false,
+      "native_failed": false,
+      "actions": 87,
+      "model_requests": 2,
+      "lift_events": [
+        {
+          "tick": 6761,
+          "slots": [
+            3
+          ],
+          "lifts_m": [
+            0.040261149406433105
+          ]
+        }
+      ],
+      "revealed_events": []
+    }
+  ],
+  "skipped": [],
+  "formal_training_eligible": false,
+  "deletion_or_recovery_performed": false,
+  "note": "Unique-seed outcomes exclude repeat runs; position controls are not equivalent memory tasks."
+}

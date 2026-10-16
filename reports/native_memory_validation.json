@@ -1,0 +1,272 @@
+{
+  "status": "verified",
+  "run_dir": "/media/user/HDD_8T/eventvla_recoverability_phase1_20261014/runs/20261015T110030Z_native_memory_controls_resume",
+  "rows": [
+    {
+      "seed": 100000,
+      "condition": "keep",
+      "result_file": "/media/user/HDD_8T/eventvla_recoverability_phase1_20261014/runs/20261015T103233Z_native_memory_controls/100000_keep/result.json",
+      "target_slot": 2,
+      "donor_target_slot": 3,
+      "first_lift_slots": [
+        2
+      ],
+      "first_reveal_slots": [
+        2
+      ],
+      "all_lift_events": [
+        {
+          "tick": 6947,
+          "slots": [
+            2
+          ],
+          "lifts_m": [
+            0.040063560009002686
+          ]
+        }
+      ],
+      "first_lift_correct": true,
+      "first_reveal_correct": true,
+      "first_lift_matches_donor": false,
+      "actions_executed": 101,
+      "model_requests": 3,
+      "first_input_bytes": 2408448,
+      "first_event_count": 4,
+      "native_failed": false,
+      "action_hash": "36e7eadf43be5c031a2cbde71f00893e7519a6a97be6d193cfc4c9e3f9840797",
+      "reached_action_limit": false,
+      "stopped_after_wrong_lift": false
+    },
+    {
+      "seed": 100000,
+      "condition": "drop_all",
+      "result_file": "/media/user/HDD_8T/eventvla_recoverability_phase1_20261014/runs/20261015T103233Z_native_memory_controls/100000_drop_all/result.json",
+      "target_slot": 2,
+      "donor_target_slot": 3,
+      "first_lift_slots": [
+        0
+      ],
+      "first_reveal_slots": [],
+      "all_lift_events": [
+        {
+          "tick": 7041,
+          "slots": [
+            0
+          ],
+          "lifts_m": [
+            0.04018431901931763
+          ]
+        }
+      ],
+      "first_lift_correct": false,
+      "first_reveal_correct": false,
+      "first_lift_matches_donor": false,
+      "actions_executed": 86,
+      "model_requests": 2,
+      "first_input_bytes": 1806336,
+      "first_event_count": 0,
+      "native_failed": false,
+      "action_hash": "ffbc03bc09184af51c59377d85cac0532dd171fade21b1320e68ee545104d6de",
+      "reached_action_limit": false,
+      "stopped_after_wrong_lift": true
+    },
+    {
+      "seed": 100000,
+      "condition": "mismatch",
+      "result_file": "/media/user/HDD_8T/eventvla_recoverability_phase1_20261014/runs/20261015T103233Z_native_memory_controls/100000_mismatch/result.json",
+      "target_slot": 2,
+      "donor_target_slot": 3,
+      "first_lift_slots": [
+        3
+      ],
+      "first_reveal_slots": [],
+      "all_lift_events": [
+        {
+          "tick": 6670,
+          "slots": [
+            3
+          ],
+          "lifts_m": [
+            0.04024648666381836
+          ]
+        }
+      ],
+      "first_lift_correct": false,
+      "first_reveal_correct": false,
+      "first_lift_matches_donor": true,
+      "actions_executed": 86,
+      "model_requests": 2,
+      "first_input_bytes": 2408448,
+      "first_event_count": 4,
+      "native_failed": false,
+      "action_hash": "202f7895ee899f703d3e88b015721f1f8eaa200a98cad50d62785808620fa2d8",
+      "reached_action_limit": false,
+      "stopped_after_wrong_lift": true
+    },
+    {
+      "seed": 100001,
+      "condition": "keep",
+      "result_file": "/media/user/HDD_8T/eventvla_recoverability_phase1_20261014/runs/20261015T103233Z_native_memory_controls/100001_keep/result.json",
+      "target_slot": 3,
+      "donor_target_slot": 2,
+      "first_lift_slots": [
+        3
+      ],
+      "first_reveal_slots": [
+        3
+      ],
+      "all_lift_events": [
+        {
+          "tick": 6747,
+          "slots": [
+            3
+          ],
+          "lifts_m": [
+            0.040068745613098145
+          ]
+        }
+      ],
+      "first_lift_correct": true,
+      "first_reveal_correct": true,
+      "first_lift_matches_donor": false,
+      "actions_executed": 101,
+      "model_requests": 3,
+      "first_input_bytes": 2408448,
+      "first_event_count": 4,
+      "native_failed": false,
+      "action_hash": "3c373cdd7396b4af40e57cf3cf385f9fecd399ba3a7689c1e18956bb8e2aa02a",
+      "reached_action_limit": false,
+      "stopped_after_wrong_lift": false
+    },
+    {
+      "seed": 100001,
+      "condition": "drop_all",
+      "result_file": "/media/user/HDD_8T/eventvla_recoverability_phase1_20261014/runs/20261015T110030Z_native_memory_controls_resume/100001_drop_all/result.json",
+      "target_slot": 3,
+      "donor_target_slot": 2,
+      "first_lift_slots": [
+        0
+      ],
+      "first_reveal_slots": [],
+      "all_lift_events": [
+        {
+          "tick": 6889,
+          "slots": [
+            0
+          ],
+          "lifts_m": [
+            0.04220682382583618
+          ]
+        },
+        {
+          "tick": 6891,
+          "slots": [
+            1
+          ],
+          "lifts_m": [
+            0.04118549823760986
+          ]
+        }
+      ],
+      "first_lift_correct": false,
+      "first_reveal_correct": false,
+      "first_lift_matches_donor": false,
+      "actions_executed": 75,
+      "model_requests": 2,
+      "first_input_bytes": 1806336,
+      "first_event_count": 0,
+      "native_failed": false,
+      "action_hash": "4895d391f4040aaa0fde0a8f5bf428fb73bb2913cc83d2f01fc0d872b92273bb",
+      "reached_action_limit": false,
+      "stopped_after_wrong_lift": true
+    },
+    {
+      "seed": 100001,
+      "condition": "mismatch",
+      "result_file": "/media/user/HDD_8T/eventvla_recoverability_phase1_20261014/runs/20261015T110030Z_native_memory_controls_resume/100001_mismatch/result.json",
+      "target_slot": 3,
+      "donor_target_slot": 2,
+      "first_lift_slots": [
+        2
+      ],
+      "first_reveal_slots": [],
+      "all_lift_events": [
+        {
+          "tick": 7186,
+          "slots": [
+            2
+          ],
+          "lifts_m": [
+            0.04042613506317139
+          ]
+        }
+      ],
+      "first_lift_correct": false,
+      "first_reveal_correct": false,
+      "first_lift_matches_donor": true,
+      "actions_executed": 89,
+      "model_requests": 2,
+      "first_input_bytes": 2408448,
+      "first_event_count": 4,
+      "native_failed": false,
+      "action_hash": "c505c296e2178e5f54167e03d1f3466e39f46e45e614817ff52d5bde2795d313",
+      "reached_action_limit": false,
+      "stopped_after_wrong_lift": true
+    }
+  ],
+  "counts": {
+    "keep": {
+      "n": 2,
+      "first_lift_correct": 2,
+      "first_reveal_correct": 2,
+      "first_lift_matches_donor": 0
+    },
+    "drop_all": {
+      "n": 2,
+      "first_lift_correct": 0,
+      "first_reveal_correct": 0,
+      "first_lift_matches_donor": 0
+    },
+    "mismatch": {
+      "n": 2,
+      "first_lift_correct": 0,
+      "first_reveal_correct": 0,
+      "first_lift_matches_donor": 2
+    }
+  },
+  "audited_model_requests": 14,
+  "keep_reproductions": [
+    {
+      "seed": 100000,
+      "action_hash_matches_previous": true,
+      "final_physics_matches_previous": true
+    },
+    {
+      "seed": 100001,
+      "action_hash_matches_previous": true,
+      "final_physics_matches_previous": true
+    }
+  ],
+  "resume_audit": {
+    "previous_run": "/media/user/HDD_8T/eventvla_recoverability_phase1_20261014/runs/20261015T103233Z_native_memory_controls",
+    "unchanged_shared_sources": 12,
+    "inherited_episode_count": 4,
+    "infrastructure_interruptions": 1,
+    "saved_request_prefix_matches_retry": true,
+    "saved_request_count": 2
+  },
+  "formal_training_eligible": false,
+  "limitation": "Two selected native parents; first-choice diagnostics only, whole-history donor swap; no recovery or K/R labels.",
+  "resources": {
+    "run_dirs": [
+      "/media/user/HDD_8T/eventvla_recoverability_phase1_20261014/runs/20261015T110030Z_native_memory_controls_resume",
+      "/media/user/HDD_8T/eventvla_recoverability_phase1_20261014/runs/20261015T103233Z_native_memory_controls"
+    ],
+    "samples": 206,
+    "alarm_samples": 0,
+    "min_available_GiB": 206.6069793701172,
+    "max_cpu_C": 64.0,
+    "max_gpu_C": 81.0,
+    "max_gpu_memory_MiB": 16128.0
+  }
+}

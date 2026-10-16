@@ -1,0 +1,13 @@
+{
+  "status": "validated_development_only",
+  "run_dir": "/media/user/HDD_8T/eventvla_recoverability_phase1_20261014/runs/20261016T070153Z_native_recovery_item_pilot_resume",
+  "run_complete": true,
+  "missing_pairs": [],
+  "independent_parents": 2,
+  "candidate_pairs": 8,
+  "actual_branches": 18,
+  "formal_training_eligible": false,
+  "split_rule": "All sibling candidates and action conditions of a parent stay together; these tuned parents are excluded from formal validation/test.",
+  "endpoint": "First target reveal only; not full native task success",
+  "randomness": "Current client uses 91000+timestep, so R and K may use different random streams after elapsed recovery. Common-random-number control remains required for formal labels."
+}

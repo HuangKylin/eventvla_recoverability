@@ -1,0 +1,4 @@
+Recorded actual deployment test output, 2026-10-16.
+envs/sim/bin/python -m pytest -q tests/test_native_recovery.py tests/test_native_memory.py tests/test_native_boundary.py tests/test_camera_capture.py
+29 passed in 0.60s
+Subsequent real model validation is recorded separately in native_recovery_validation.json and native_recovery_original_probe_validation.json.

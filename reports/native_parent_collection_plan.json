@@ -1,0 +1,41 @@
+{
+  "seed_pool": [
+    410000,
+    410001,
+    410002,
+    410003,
+    410004,
+    410005,
+    410006,
+    410007,
+    410008,
+    410009,
+    410010,
+    410011,
+    410012,
+    410013,
+    410014,
+    410015,
+    410016,
+    410017,
+    410018,
+    410019
+  ],
+  "run_manifests": [
+    "runs/20261016T073957Z_native_parent_collection/status.json",
+    "runs/20261016T074712Z_native_parent_collection/status.json"
+  ],
+  "last_observed_status": "evaluating",
+  "active_pid": 47818,
+  "last_observed_utc": "2026-10-16T15:48:14.197549+08:00",
+  "verified_attempts": 2,
+  "collection_only": true,
+  "formal_training_eligible": false,
+  "after_completion": "envs/tools/bin/python scripts/analyze_fresh_parents.py --reports runs/20261016T073957Z_native_parent_collection/status.json runs/20261016T074712Z_native_parent_collection/status.json",
+  "next_protocol_requirements": [
+    "Fixed event-slot and empty-slot representation",
+    "Request-index common randomness",
+    "Recovery trigger and cost accounting",
+    "Grouped scene/cost/action-pair pilot before formal scorer training"
+  ]
+}

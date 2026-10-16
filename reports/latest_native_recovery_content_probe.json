@@ -1,0 +1,165 @@
+{
+  "status": "complete",
+  "run_dir": "/media/user/HDD_8T/eventvla_recoverability_phase1_20261014/runs/20261016T072214Z_native_recovery_content_probe",
+  "pid": 23227,
+  "port": 43669,
+  "gpu": 1,
+  "started_utc": "2026-10-16T07:22:14.161592+00:00",
+  "source_hashes": {
+    "scripts/native_recovery_vla_worker.py": "467b30f1ca91af772aeae8a89e12faa4c511d0ef972902c72568bd36c7a733ef",
+    "scripts/run_native_recovery_vla.py": "c6453e129ace15e55caadb239af0bfe80e0f87fc311dba35530c2286fa525c8c",
+    "src/recoverability/native_recovery.py": "7442b68eb3ae211897c8cc6abac73e34ae930c596ec25efc49325af75cfa0ce0",
+    "src/recoverability/fixed_skills.py": "797f3e4b4286616e415dcefc51a1611124f2a2ab401c0b833bf306e9bb2e3d1f",
+    "src/recoverability/camera_capture.py": "aa7e56bdcfdc886c03f5c0c84e689495401f5d267d571a13d7104768cb60355a",
+    "src/recoverability/snapshot.py": "56b93ac9000b8f19a7a0c928a4e573efc5f2c2df4821ec5b7608206158065adf",
+    "src/recoverability/native_boundary.py": "616dc01f0422fb695fa845f5f3163406ebb8a05e6919e306128e323277bfe73a",
+    "src/recoverability/native_memory.py": "a5fc67a677cc2a5d3be3eefc8972bf0e5ba4c149d9be427db2a087d0012dcf27",
+    "src/recoverability/native_items.py": "61a9c2f2084105a700a72d9a47bb675067e68461d2e7d7955c215dbb79383b79",
+    "src/recoverability/cue_reader.py": "0b432e109dcdcf1f315d7ccb9ee4062223d635b954b618865ddc0bd27e88e41e",
+    "scripts/seeded_policy_server.py": "9598798113b48f0fb93200be96f524494059e916ffeb8d69acdb2b0af149e6dc",
+    "docs/native_recovery_protocol.md": "faa0e390adef35e2c452b93fa5dd7f56e82425b538bd09968bdf7654f4f0e913",
+    "scripts/analyze_native_recovery.py": "b816d4adf441a741b342f932ff14e55519fda7dac1fd09a1a54f56c1a0a3ac4c",
+    "scripts/validate_fast_prefix.py": "848258ee5f5124c445eb8275d811842326d2a806e3980a996b2b02487b229e31",
+    "scripts/resume_native_controls.py": "e0ab56dd0c83762042e593765726b94551c2494d5f8f0d894a6f6f974e873d0d",
+    "scripts/native_boundary_worker.py": "c20b1ad70481997dad814d4f232e229f4fbd7ae34eb37120fbef19cc4c64484d",
+    "src/recoverability/sim_runtime.py": "b1a213b8d44b89cc38665f03694fc7c69de4c7277adfa87b18b318c28fd56bee",
+    "src/recoverability/vla_intervention.py": "59e7683db95e84651717a8ba95645a70724090a778450999837487d0ffeecd15",
+    "third_party/EventVLA/EventVLA/examples/RoboTwin-Mem/eval_files/model2robotwin_mem_interface.py": "7ea9d0bf0b42d3f8c89924346f91c678b7120560e56b1e4dcf757be216b619f2",
+    "third_party/EventVLA/RoboTwin-Mem/envs/cover_blocks_hard.py": "3dfba3cefa137a804093bc9ba21a2bbb0f4e3d3dbd8ea57552cf2b96b1775e77"
+  },
+  "boot_id": "9e9b9d56-ee0c-4760-b593-7f2c7c5b7597",
+  "episodes": [
+    {
+      "first_lift_correct": true,
+      "first_reveal_correct": true,
+      "recovery_physics_steps": 0,
+      "commit_step": 810,
+      "native_first_target_opened": true,
+      "native_failed": false,
+      "actions_executed": 101,
+      "parent_match": {
+        "physics": true,
+        "observation": true,
+        "history": true,
+        "events": true
+      },
+      "action_hash": "36e7eadf43be5c031a2cbde71f00893e7519a6a97be6d193cfc4c9e3f9840797",
+      "final_physics_hash": "69478b326a7dd1519e52bb8bab49132766ae836860e542528bd4dfd7c918874d",
+      "forbidden_calls": 0,
+      "seed": 100000,
+      "condition": "keep",
+      "result_file": "/media/user/HDD_8T/eventvla_recoverability_phase1_20261014/runs/20261016T072214Z_native_recovery_content_probe/100000_keep/result.json",
+      "model_requests": 3,
+      "reference_match": {
+        "actions": true,
+        "physics": true,
+        "inputs": true
+      }
+    },
+    {
+      "first_lift_correct": true,
+      "first_reveal_correct": true,
+      "recovery_physics_steps": 0,
+      "commit_step": 810,
+      "native_first_target_opened": true,
+      "native_failed": false,
+      "actions_executed": 101,
+      "parent_match": {
+        "physics": true,
+        "observation": true,
+        "history": true,
+        "events": true
+      },
+      "action_hash": "b50e09e4e62ba9a91529ec48a01f57282abf8d0388e90baaa7beff25e3a55644",
+      "final_physics_hash": "8d0a84b75217fd48f3d7088ea2453873516dace9a306513772d67a23a288ccc1",
+      "forbidden_calls": 0,
+      "seed": 100000,
+      "condition": "mask_item_0",
+      "result_file": "/media/user/HDD_8T/eventvla_recoverability_phase1_20261014/runs/20261016T072214Z_native_recovery_content_probe/100000_mask_item_0/result.json",
+      "model_requests": 3
+    },
+    {
+      "first_lift_correct": false,
+      "first_reveal_correct": false,
+      "recovery_physics_steps": 0,
+      "commit_step": 810,
+      "native_first_target_opened": false,
+      "native_failed": false,
+      "actions_executed": 87,
+      "parent_match": {
+        "physics": true,
+        "observation": true,
+        "history": true,
+        "events": true
+      },
+      "action_hash": "d7f2836a8f76dcc06c93569188d3a40cdc2bc722b8d0b621b53baa0b5db4dc80",
+      "final_physics_hash": "daeb371f488799bdcc7080fa04e7ea396a0600c207a422339d735907bbdde26c",
+      "forbidden_calls": 0,
+      "seed": 100000,
+      "condition": "mask_item_2",
+      "result_file": "/media/user/HDD_8T/eventvla_recoverability_phase1_20261014/runs/20261016T072214Z_native_recovery_content_probe/100000_mask_item_2/result.json",
+      "model_requests": 2
+    }
+  ],
+  "seeds": [
+    100000
+  ],
+  "conditions": [
+    "keep",
+    "mask_item_0",
+    "mask_item_2"
+  ],
+  "parent_sources": {
+    "100000": "/media/user/HDD_8T/eventvla_recoverability_phase1_20261014/runs/20261015T092610Z_native_boundary_controls/100000_prepare",
+    "100001": "/media/user/HDD_8T/eventvla_recoverability_phase1_20261014/runs/20261015T092610Z_native_boundary_controls/100001_prepare"
+  },
+  "recovery_gate": "/media/user/HDD_8T/eventvla_recoverability_phase1_20261014/runs/20261016T015115Z_native_recovery_gate",
+  "matched_recovery_ticks": {},
+  "max_actions": 300,
+  "formal_training_eligible": false,
+  "fast_prefix": true,
+  "fast_prefix_validation": {
+    "status": "complete",
+    "source_hash": "848258ee5f5124c445eb8275d811842326d2a806e3980a996b2b02487b229e31",
+    "episodes": [
+      {
+        "seed": 100000,
+        "status": "complete",
+        "source": "/media/user/HDD_8T/eventvla_recoverability_phase1_20261014/runs/20261015T092610Z_native_boundary_controls/100000_prepare",
+        "actions": 810,
+        "checks": {
+          "physics": true,
+          "observation": true,
+          "phase": true
+        },
+        "passed": true,
+        "forbidden_calls": 0,
+        "elapsed_seconds": 33.68585300900304,
+        "prefix_rgb_captures": 0
+      },
+      {
+        "seed": 100001,
+        "status": "complete",
+        "source": "/media/user/HDD_8T/eventvla_recoverability_phase1_20261014/runs/20261015T092610Z_native_boundary_controls/100001_prepare",
+        "actions": 808,
+        "checks": {
+          "physics": true,
+          "observation": true,
+          "phase": true
+        },
+        "passed": true,
+        "forbidden_calls": 0,
+        "elapsed_seconds": 34.17333492000034,
+        "prefix_rgb_captures": 0
+      }
+    ]
+  },
+  "protocol": "Diagnostic only: keep four event positions/timestamps/metadata; replace one image with current cue-free head RGB. No physics/time intervention; no training labels.",
+  "candidate_indices": [
+    0,
+    2
+  ],
+  "server_pid": 23230,
+  "completed_utc": "2026-10-16T07:25:32.204599+00:00",
+  "process_cleanup_completed": true
+}

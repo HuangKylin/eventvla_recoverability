@@ -1,0 +1,178 @@
+{
+  "status": "complete",
+  "run_dir": "/media/user/HDD_8T/eventvla_recoverability_phase1_20261014/runs/20261015T110030Z_native_memory_controls_resume",
+  "pid": 103170,
+  "port": 45709,
+  "gpu": 1,
+  "started_utc": "2026-10-15T11:00:30.715251+00:00",
+  "source_hashes": {
+    "scripts/resume_native_memory_controls.py": "5aca84d9355a5d1f2e6b23c9bf7b65dfceb031c1785772ad0ddcead90bb66a99",
+    "scripts/diagnose_native_memory_worker.py": "c1eba432e4cf8c8765fc88725780128e6c46e2ec751646ffff07b9f5b042a39e",
+    "scripts/native_boundary_worker.py": "c20b1ad70481997dad814d4f232e229f4fbd7ae34eb37120fbef19cc4c64484d",
+    "scripts/run_native_memory_controls.py": "dcf63e7324167355a362c525b3dd569ffbeafe125171001e0753295f87b7347c",
+    "src/recoverability/native_boundary.py": "616dc01f0422fb695fa845f5f3163406ebb8a05e6919e306128e323277bfe73a",
+    "src/recoverability/native_memory.py": "a5fc67a677cc2a5d3be3eefc8972bf0e5ba4c149d9be427db2a087d0012dcf27",
+    "docs/native_memory_protocol.md": "45a13521a882056ab33135df549deeb9823b4e992b90b3f1e1c4502f625c0c3b",
+    "scripts/seeded_policy_server.py": "9598798113b48f0fb93200be96f524494059e916ffeb8d69acdb2b0af149e6dc",
+    "scripts/resume_native_controls.py": "e0ab56dd0c83762042e593765726b94551c2494d5f8f0d894a6f6f974e873d0d",
+    "scripts/native_snapshot_audit.py": "ee369178b878004a28e459b868db7cc004ef11e47fc3a8fd06d90d05cc9a9a21",
+    "src/recoverability/sim_runtime.py": "b1a213b8d44b89cc38665f03694fc7c69de4c7277adfa87b18b318c28fd56bee",
+    "src/recoverability/vla_intervention.py": "59e7683db95e84651717a8ba95645a70724090a778450999837487d0ffeecd15",
+    "third_party/EventVLA/EventVLA/examples/RoboTwin-Mem/eval_files/model2robotwin_mem_interface.py": "7ea9d0bf0b42d3f8c89924346f91c678b7120560e56b1e4dcf757be216b619f2",
+    "third_party/EventVLA/RoboTwin-Mem/envs/cover_blocks_hard.py": "3dfba3cefa137a804093bc9ba21a2bbb0f4e3d3dbd8ea57552cf2b96b1775e77"
+  },
+  "boot_id": "0855a889-6d67-442d-aed2-92f372ef701b",
+  "episodes": [
+    {
+      "first_lift_correct": true,
+      "first_reveal_correct": true,
+      "first_lift_matches_donor": false,
+      "native_first_target_opened": true,
+      "native_failed": false,
+      "actions_executed": 101,
+      "parent_match": {
+        "physics": true,
+        "observation": true,
+        "history": true,
+        "events": true
+      },
+      "action_hash": "36e7eadf43be5c031a2cbde71f00893e7519a6a97be6d193cfc4c9e3f9840797",
+      "final_physics_hash": "69478b326a7dd1519e52bb8bab49132766ae836860e542528bd4dfd7c918874d",
+      "forbidden_calls": 0,
+      "seed": 100000,
+      "condition": "keep",
+      "result_file": "/media/user/HDD_8T/eventvla_recoverability_phase1_20261014/runs/20261015T103233Z_native_memory_controls/100000_keep/result.json",
+      "model_requests": 3
+    },
+    {
+      "first_lift_correct": false,
+      "first_reveal_correct": false,
+      "first_lift_matches_donor": false,
+      "native_first_target_opened": false,
+      "native_failed": false,
+      "actions_executed": 86,
+      "parent_match": {
+        "physics": true,
+        "observation": true,
+        "history": true,
+        "events": true
+      },
+      "action_hash": "ffbc03bc09184af51c59377d85cac0532dd171fade21b1320e68ee545104d6de",
+      "final_physics_hash": "2847c8b97d8629410d287d1da0e4d8e58c5ebf3d4380f6e8d0cd5fcc810fc237",
+      "forbidden_calls": 0,
+      "seed": 100000,
+      "condition": "drop_all",
+      "result_file": "/media/user/HDD_8T/eventvla_recoverability_phase1_20261014/runs/20261015T103233Z_native_memory_controls/100000_drop_all/result.json",
+      "model_requests": 2
+    },
+    {
+      "first_lift_correct": false,
+      "first_reveal_correct": false,
+      "first_lift_matches_donor": true,
+      "native_first_target_opened": false,
+      "native_failed": false,
+      "actions_executed": 86,
+      "parent_match": {
+        "physics": true,
+        "observation": true,
+        "history": true,
+        "events": true
+      },
+      "action_hash": "202f7895ee899f703d3e88b015721f1f8eaa200a98cad50d62785808620fa2d8",
+      "final_physics_hash": "44a7175e2846a6d6f4665b6cd20d5551f0cd4da68fd9ef8c4d4018197d59538c",
+      "forbidden_calls": 0,
+      "seed": 100000,
+      "condition": "mismatch",
+      "result_file": "/media/user/HDD_8T/eventvla_recoverability_phase1_20261014/runs/20261015T103233Z_native_memory_controls/100000_mismatch/result.json",
+      "model_requests": 2
+    },
+    {
+      "first_lift_correct": true,
+      "first_reveal_correct": true,
+      "first_lift_matches_donor": false,
+      "native_first_target_opened": true,
+      "native_failed": false,
+      "actions_executed": 101,
+      "parent_match": {
+        "physics": true,
+        "observation": true,
+        "history": true,
+        "events": true
+      },
+      "action_hash": "3c373cdd7396b4af40e57cf3cf385f9fecd399ba3a7689c1e18956bb8e2aa02a",
+      "final_physics_hash": "c4afec039e9735377a1c31ad3f42ef88833514c364fcd24d2796ca769a642ba0",
+      "forbidden_calls": 0,
+      "seed": 100001,
+      "condition": "keep",
+      "result_file": "/media/user/HDD_8T/eventvla_recoverability_phase1_20261014/runs/20261015T103233Z_native_memory_controls/100001_keep/result.json",
+      "model_requests": 3
+    },
+    {
+      "first_lift_correct": false,
+      "first_reveal_correct": false,
+      "first_lift_matches_donor": false,
+      "native_first_target_opened": false,
+      "native_failed": false,
+      "actions_executed": 75,
+      "parent_match": {
+        "physics": true,
+        "observation": true,
+        "history": true,
+        "events": true
+      },
+      "action_hash": "4895d391f4040aaa0fde0a8f5bf428fb73bb2913cc83d2f01fc0d872b92273bb",
+      "final_physics_hash": "1f4244e2c857cc9d1382a74acad92353cd83953329679ae69dcc00ca318773c0",
+      "forbidden_calls": 0,
+      "seed": 100001,
+      "condition": "drop_all",
+      "result_file": "/media/user/HDD_8T/eventvla_recoverability_phase1_20261014/runs/20261015T110030Z_native_memory_controls_resume/100001_drop_all/result.json",
+      "model_requests": 2
+    },
+    {
+      "first_lift_correct": false,
+      "first_reveal_correct": false,
+      "first_lift_matches_donor": true,
+      "native_first_target_opened": false,
+      "native_failed": false,
+      "actions_executed": 89,
+      "parent_match": {
+        "physics": true,
+        "observation": true,
+        "history": true,
+        "events": true
+      },
+      "action_hash": "c505c296e2178e5f54167e03d1f3466e39f46e45e614817ff52d5bde2795d313",
+      "final_physics_hash": "d4c78f3324f661c270bf7b9ac0591c209772d1ddde53a76f5930936d7e816b12",
+      "forbidden_calls": 0,
+      "seed": 100001,
+      "condition": "mismatch",
+      "result_file": "/media/user/HDD_8T/eventvla_recoverability_phase1_20261014/runs/20261015T110030Z_native_memory_controls_resume/100001_mismatch/result.json",
+      "model_requests": 2
+    }
+  ],
+  "resumed_from": "/media/user/HDD_8T/eventvla_recoverability_phase1_20261014/runs/20261015T103233Z_native_memory_controls",
+  "inherited_episode_count": 4,
+  "seeds": [
+    100000,
+    100001
+  ],
+  "conditions": [
+    "keep",
+    "drop_all",
+    "mismatch"
+  ],
+  "donor_seeds": {
+    "100000": 100001,
+    "100001": 100000
+  },
+  "parent_sources": {
+    "100000": "/media/user/HDD_8T/eventvla_recoverability_phase1_20261014/runs/20261015T092610Z_native_boundary_controls/100000_prepare",
+    "100001": "/media/user/HDD_8T/eventvla_recoverability_phase1_20261014/runs/20261015T092610Z_native_boundary_controls/100001_prepare"
+  },
+  "max_actions": 300,
+  "formal_training_eligible": false,
+  "protocol": "Fixed native instruction and safe parent; equal cache reset; keep/drop_all/cross-seed donor event pixels; no K/R labels or training.",
+  "server_pid": 103173,
+  "completed_utc": "2026-10-15T11:08:57.488472+00:00",
+  "process_cleanup_completed": true
+}

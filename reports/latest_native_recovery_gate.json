@@ -1,0 +1,70 @@
+{
+  "status": "complete",
+  "run_dir": "/media/user/HDD_8T/eventvla_recoverability_phase1_20261014/runs/20261016T015115Z_native_recovery_gate",
+  "pid": 267154,
+  "gpu": 1,
+  "seeds": [
+    100001,
+    100000
+  ],
+  "episodes": [
+    {
+      "seed": 100001,
+      "result_file": "/media/user/HDD_8T/eventvla_recoverability_phase1_20261014/runs/20261016T015115Z_native_recovery_gate/100001/result.json",
+      "gate_passed": false,
+      "motion_gate_passed": true,
+      "all_evidence_recovered": false,
+      "recovered_slots": [
+        1,
+        2,
+        3
+      ],
+      "unrecovered_slots": [
+        0
+      ],
+      "recovery_physics_steps": 22331,
+      "reads_correct": [
+        null,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "seed": 100000,
+      "result_file": "/media/user/HDD_8T/eventvla_recoverability_phase1_20261014/runs/20261016T015115Z_native_recovery_gate/100000/result.json",
+      "gate_passed": true,
+      "motion_gate_passed": true,
+      "all_evidence_recovered": true,
+      "recovered_slots": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "unrecovered_slots": [],
+      "recovery_physics_steps": 15129,
+      "reads_correct": [
+        true,
+        true,
+        true,
+        true
+      ]
+    }
+  ],
+  "source_hashes": {
+    "scripts/native_recovery_worker.py": "d68e6bb27851f260905ee16c0e01d8429720b11987cfd4896a617b1fc3f7722d",
+    "scripts/run_native_recovery_gate.py": "37f74e2807e5f086bf4394501087c51dbdbd76f97e5157ccdad485d896c3c6e8",
+    "src/recoverability/native_recovery.py": "7442b68eb3ae211897c8cc6abac73e34ae930c596ec25efc49325af75cfa0ce0",
+    "src/recoverability/fixed_skills.py": "797f3e4b4286616e415dcefc51a1611124f2a2ab401c0b833bf306e9bb2e3d1f",
+    "src/recoverability/sim_runtime.py": "b1a213b8d44b89cc38665f03694fc7c69de4c7277adfa87b18b318c28fd56bee",
+    "src/recoverability/snapshot.py": "56b93ac9000b8f19a7a0c928a4e573efc5f2c2df4821ec5b7608206158065adf",
+    "src/recoverability/cue_reader.py": "0b432e109dcdcf1f315d7ccb9ee4062223d635b954b618865ddc0bd27e88e41e",
+    "src/recoverability/camera_capture.py": "aa7e56bdcfdc886c03f5c0c84e689495401f5d267d571a13d7104768cb60355a",
+    "third_party/EventVLA/RoboTwin-Mem/envs/cover_blocks_hard.py": "3dfba3cefa137a804093bc9ba21a2bbb0f4e3d3dbd8ea57552cf2b96b1775e77"
+  },
+  "started_utc": "2026-10-16T01:51:15.269033+00:00",
+  "formal_training_eligible": false,
+  "completed_utc": "2026-10-16T01:59:19.684563+00:00",
+  "process_cleanup_completed": true
+}

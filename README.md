@@ -1,10 +1,8 @@
 # EventVLA：证据可恢复性研究第一阶段
 
-远程项目：`SOTA-Pro5000:/home/user/workspace/HDD_8T/eventvla_recoverability_phase1_20261014`。
-
 ## GitHub 发布范围
 
-本仓库保存第一阶段实现快照：研究代码、配置、测试、实验报告、已整理的机制先导 K/R 标签，以及两份轻量评分器权重。2026-10-15 已完成服务器重启后的原生控制对照与评价指标审计；本次发布同步这些已完成的工作。
+本仓库保存第一阶段实现快照：研究代码、配置、测试、实验报告、已整理的机制先导 K/R 标签，以及两份轻量评分器权重。本次发布同步至 2026-10-16 的逐条开发先导、内容对照、新父状态验收及扩展批次断点。轻量评分器为此前机制原型，正式 EventVLA 评分器训练尚未开始。
 
 ```bash
 git clone https://github.com/HuangKylin/eventvla_recoverability.git
@@ -17,9 +15,17 @@ cd eventvla_recoverability
 
 `manifest.sha256` 记录本次发布文件的 SHA-256（不含自身及 Git 元数据），在 Linux 仓库根目录可执行 `sha256sum -c manifest.sha256` 校验。历史报告中的绝对路径和测试结果保留原始实验记录；本次上传未重新运行 GPU 实验。
 
-**2026-10-15 最新进度：完成两种子的原生任务及续接对照，共 10 项完成记录（含两项明确复用的历史结果），并通过精确动作回放确认原相对高度指标存在漏判。** 正式 EventVLA K/R 数据尚未采集；下一步需修正父状态选择与评价协议，并确认当前观察不暴露待删除证据。详见 [原生控制对照与审计结果](docs/native_control_results_20261015.md)。
+发布快照时间：`2026-10-16T07:59:04.776649+00:00`。新父状态扩展批次状态为 `evaluating`，已落盘 2 条采集/续接记录（两类分别计数）；完整运行资产仍在 Pro5000。此处为推送时快照，后续进度以服务器状态为准。
 
-此前 T3 机制先导完成 48 个独立分支、32 个 K/R 标签和首版 60,321 参数评分器训练。评分器仍是固定工位机制原型，正式 EventVLA 在线淘汰训练及第一研究目标尚未完成。早期两回合冒烟结果与本轮控制对照的运行配置不同，不合并统计。
+**最新（2026-10-16）：逐条开发先导 18/18 完成；内容对照发现目标证据差异，也发现直接删条的数量混杂。正在扩充新父场景，正式评分器训练未开始。** 详见 [逐条续跑与样本扩展](docs/native_item_resume_20261016.md)。
+
+**最新（2026-10-16）：六条真实 EventVLA 恢复对照及一条失败定位对照完成。保留原记忆正确揭盖 2/2，删除后回看 1/2，回看后删除新证据 0/2；第二场景未有效抬盖。共享控制器取回 4/4、3/4 条证据，部分恢复明确保留失败记录。仍在第二步，正式逐条 K/R 未开始。** 详见 [恢复闭环结果](docs/native_recovery_results_20261016.md)。
+
+**最新（2026-10-15 19:09）：原生记忆闭环对照完成。保留事件首次选对目标 2/2，全删除 0/2，错配 0/2；错配两次均跟随供体红块位置。第二步的记忆依赖诊断通过，正式 K/R 尚未采集。** 详见 [本轮实施结果](docs/native_memory_results_20261015.md)。
+
+远程项目：`SOTA-Pro5000:/home/user/workspace/HDD_8T/eventvla_recoverability_phase1_20261014`。
+
+**2026-10-15 实施进度：已新增物理动作触发的 T3 任务，完成 48 个独立分支、32 个 K/R 标签和首版 60,321 参数评分器训练；接口测试 66 项通过。** 原任务两个 VLA 回合及上一轮 30 回合容量先导保留。新评分器是固定工位机制原型，正式 EventVLA 评分器训练与第一研究目标尚未完成。
 
 ## 文档与实际路径
 
@@ -31,9 +37,7 @@ cd eventvla_recoverability
 - [严格加载与推理验证](reports/smoke_policy.json)
 - [首轮闭环结果](reports/baseline_initial_results.json)
 - [状态恢复与分支采集进展](docs/m1_progress.md)
-- [最新：原生控制对照与评价指标审计](docs/native_control_results_20261015.md)
-- [原生控制对照协议](docs/native_control_protocol.md)
-- [T3、真实 VLA 接线与首版评分器](docs/action_stage_progress.md)
+- [最新：T3、真实 VLA 接线与首版评分器](docs/action_stage_progress.md)
 - [上一轮：多证据容量与共享回看结果](docs/multicue_progress.md)
 - [回看控制器的输入与边界](docs/recovery_controller_contract.md)
 - [重建回放验证](reports/latest_rebuild_validation.json)

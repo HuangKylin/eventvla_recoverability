@@ -1,0 +1,84 @@
+{
+  "status": "passed",
+  "checks": {
+    "410000_attempt_recorded": true,
+    "410000_no_expert": true,
+    "410000_predeclared": true,
+    "410000_closed_chunk": true,
+    "410000_four_events": true,
+    "410000_replay": true,
+    "410000_actual_parent": true,
+    "410000_first_request": true,
+    "410000_offline_deletions": true,
+    "410000_keep_no_expert": true,
+    "410000_keep_complete": true,
+    "410000_metadata_pair": true,
+    "410001_attempt_recorded": true,
+    "410001_no_expert": true,
+    "410001_predeclared": true,
+    "410001_closed_chunk": true,
+    "410001_four_events": true,
+    "410001_replay": true,
+    "410001_actual_parent": true,
+    "410001_first_request": true,
+    "410001_offline_deletions": true,
+    "410001_keep_no_expert": true,
+    "410001_keep_complete": true,
+    "410001_metadata_pair": true
+  },
+  "parents": [
+    {
+      "seed": 410000,
+      "run_dir": "/media/user/HDD_8T/eventvla_recoverability_phase1_20261014/runs/20261016T073957Z_native_parent_collection",
+      "parent_saved": true,
+      "prefix_actions": 760,
+      "collection_seconds": 225.53778878900016,
+      "first_reveal_correct": true,
+      "full_task_evaluated": false,
+      "formal_training_eligible": false,
+      "parent_step": 760,
+      "keep_actions": 141,
+      "keep_seconds": 71.72590858700005,
+      "replay_seconds": 32.98196543499989,
+      "parent_source": "runs/20261016T072851Z_native_parent_collection/410000_prepare",
+      "parent_fingerprint": "60789083abaa0c4feb073bb81f921d60abfb97c15a7226edfac8e73b7850106e",
+      "colour_layout_group": "yellow-red-blue-green"
+    },
+    {
+      "seed": 410001,
+      "run_dir": "/media/user/HDD_8T/eventvla_recoverability_phase1_20261014/runs/20261016T073957Z_native_parent_collection",
+      "parent_saved": true,
+      "prefix_actions": 756,
+      "collection_seconds": 224.06594773100005,
+      "first_reveal_correct": true,
+      "full_task_evaluated": false,
+      "formal_training_eligible": false,
+      "parent_step": 756,
+      "keep_actions": 133,
+      "keep_seconds": 71.13262409799972,
+      "replay_seconds": 33.365006084000015,
+      "parent_source": "runs/20261016T073957Z_native_parent_collection/410001_prepare",
+      "parent_fingerprint": "16ccf4d7e35d5d47b62403fd22380ac1dd2828aba1e6f47ef8970cb596814cda",
+      "colour_layout_group": "blue-red-yellow-green"
+    }
+  ],
+  "attempted_seeds": 2,
+  "eligible_parents": 2,
+  "correct_first_reveals": 2,
+  "unique_exact_parent_states": 2,
+  "duplicate_parent_seed_groups": [],
+  "unique_colour_layouts": 2,
+  "colour_layout_groups": {
+    "yellow-red-blue-green": [
+      410000
+    ],
+    "blue-red-yellow-green": [
+      410001
+    ]
+  },
+  "unresolved_colour_layout_seeds": [],
+  "grouping_note": "Different seeds are not automatically independent scenes. Exact states and colour permutations are reported separately. RGB-derived layout groups are audit-only; group shared layouts together before formal train/validation/test. Fixed geometry has at most 24 colour permutations; geometry/cost/action diversification is still required.",
+  "full_task_evaluated": false,
+  "formal_training_eligible": false,
+  "source_hash": "2ebbfd97e74735e93cde3bf448b03109ad847bfaef69d5faf6d53ace43526674"
+}

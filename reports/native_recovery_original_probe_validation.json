@@ -1,0 +1,36 @@
+{
+  "status": "passed",
+  "checks": {
+    "100001_pair_commit_step": true,
+    "100001_pair_commit_physics_hash": true,
+    "100001_pair_commit_observation_hash": true,
+    "100001_pair_commit_history_hash": true,
+    "100001_pair_recovery_physics_steps": true,
+    "100001_pair_anchors": true,
+    "100001_original_events": true,
+    "100001_original_event_steps": true,
+    "100001_original_event_metas": true,
+    "100001_input_audit": true,
+    "100001_oracle": true,
+    "100001_rng": true,
+    "100001_hidden_history": true
+  },
+  "summary": [
+    {
+      "first_lift_correct": false,
+      "first_reveal_correct": false,
+      "lift_events": [],
+      "revealed_events": [],
+      "actions_executed": 300,
+      "recovery_physics_steps": 24891,
+      "policy_physics_steps": 25656,
+      "seed": 100001,
+      "condition": "recover_original",
+      "model_requests": 6
+    }
+  ],
+  "source_hash": "6002a25d20c6bf6e4dc70446099497a19f7ae56966c994730c12738769b17981",
+  "run_dir": "/media/user/HDD_8T/eventvla_recoverability_phase1_20261014/runs/20261016T021616Z_native_recovery_original_probe",
+  "formal_training_eligible": false,
+  "scope": "Exploratory single-scene diagnosis after main-run failure; not a new memory-method benchmark"
+}

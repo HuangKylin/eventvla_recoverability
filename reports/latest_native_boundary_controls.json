@@ -1,0 +1,194 @@
+{
+  "status": "complete",
+  "run_dir": "/media/user/HDD_8T/eventvla_recoverability_phase1_20261014/runs/20261015T092610Z_native_boundary_controls",
+  "pid": 44519,
+  "port": 53293,
+  "gpu": 1,
+  "started_utc": "2026-10-15T09:26:10.604062+00:00",
+  "source_hashes": {
+    "scripts/native_boundary_worker.py": "b6fd4b83320e0052a363bd334f5e8947203e5094ec6ef6bb7324865929827e5e",
+    "scripts/run_native_boundary_controls.py": "ff75e4dbcd8866be736d2298fc31d1da368d6393ed8d67cf4deb9d874b6bb330",
+    "src/recoverability/native_boundary.py": "616dc01f0422fb695fa845f5f3163406ebb8a05e6919e306128e323277bfe73a",
+    "scripts/seeded_policy_server.py": "9598798113b48f0fb93200be96f524494059e916ffeb8d69acdb2b0af149e6dc",
+    "scripts/resume_native_controls.py": "e0ab56dd0c83762042e593765726b94551c2494d5f8f0d894a6f6f974e873d0d",
+    "scripts/native_snapshot_audit.py": "ee369178b878004a28e459b868db7cc004ef11e47fc3a8fd06d90d05cc9a9a21",
+    "src/recoverability/sim_runtime.py": "b1a213b8d44b89cc38665f03694fc7c69de4c7277adfa87b18b318c28fd56bee",
+    "src/recoverability/vla_intervention.py": "59e7683db95e84651717a8ba95645a70724090a778450999837487d0ffeecd15",
+    "third_party/EventVLA/EventVLA/examples/RoboTwin-Mem/eval_files/model2robotwin_mem_interface.py": "7ea9d0bf0b42d3f8c89924346f91c678b7120560e56b1e4dcf757be216b619f2",
+    "third_party/EventVLA/RoboTwin-Mem/envs/cover_blocks_hard.py": "3dfba3cefa137a804093bc9ba21a2bbb0f4e3d3dbd8ea57552cf2b96b1775e77"
+  },
+  "boot_id": "0855a889-6d67-442d-aed2-92f372ef701b",
+  "episodes": [
+    {
+      "parent_saved": true,
+      "actions_executed": 92,
+      "parent_match": {
+        "physics": true,
+        "observation": true,
+        "history": true,
+        "events": true
+      },
+      "action_hash": "5acdfcf2ecd14e8b4c67221d4de06d09e9846d82b3be34e9545353f2607efb02",
+      "final_physics_hash": "54020628e1e7d293610bf14b4c088815cf4904c6074405d0e5022b52159ce122",
+      "forbidden_calls": 0,
+      "seed": 100000,
+      "condition": "prepare",
+      "result_file": "/media/user/HDD_8T/eventvla_recoverability_phase1_20261014/runs/20261015T092610Z_native_boundary_controls/100000_prepare/result.json",
+      "model_requests": 1
+    },
+    {
+      "first_lift_correct": true,
+      "first_reveal_correct": true,
+      "native_first_target_opened": true,
+      "native_failed": false,
+      "actions_executed": 101,
+      "parent_match": {
+        "physics": true,
+        "observation": true,
+        "history": true,
+        "events": true
+      },
+      "action_hash": "36e7eadf43be5c031a2cbde71f00893e7519a6a97be6d193cfc4c9e3f9840797",
+      "final_physics_hash": "69478b326a7dd1519e52bb8bab49132766ae836860e542528bd4dfd7c918874d",
+      "forbidden_calls": 0,
+      "seed": 100000,
+      "condition": "native",
+      "result_file": "/media/user/HDD_8T/eventvla_recoverability_phase1_20261014/runs/20261015T092610Z_native_boundary_controls/100000_native/result.json",
+      "model_requests": 3
+    },
+    {
+      "first_lift_correct": true,
+      "first_reveal_correct": true,
+      "native_first_target_opened": true,
+      "native_failed": false,
+      "actions_executed": 101,
+      "parent_match": {
+        "physics": true,
+        "observation": true,
+        "history": true,
+        "events": true
+      },
+      "action_hash": "36e7eadf43be5c031a2cbde71f00893e7519a6a97be6d193cfc4c9e3f9840797",
+      "final_physics_hash": "69478b326a7dd1519e52bb8bab49132766ae836860e542528bd4dfd7c918874d",
+      "forbidden_calls": 0,
+      "seed": 100000,
+      "condition": "native_repeat",
+      "result_file": "/media/user/HDD_8T/eventvla_recoverability_phase1_20261014/runs/20261015T092610Z_native_boundary_controls/100000_native_repeat/result.json",
+      "model_requests": 3
+    },
+    {
+      "first_lift_correct": false,
+      "first_reveal_correct": false,
+      "native_first_target_opened": false,
+      "native_failed": false,
+      "actions_executed": 88,
+      "parent_match": {
+        "physics": true,
+        "observation": true,
+        "history": true,
+        "events": true
+      },
+      "action_hash": "41213b33af917adc1e2e21997d0cfc3024283b66c008381962e5a2c1bca7a061",
+      "final_physics_hash": "bac3813f12a38306ce0648536e30c2764854ec3d37c680f7a2bc9dbb5e71abf1",
+      "forbidden_calls": 0,
+      "seed": 100000,
+      "condition": "position_other",
+      "result_file": "/media/user/HDD_8T/eventvla_recoverability_phase1_20261014/runs/20261015T092610Z_native_boundary_controls/100000_position_other/result.json",
+      "model_requests": 2
+    },
+    {
+      "parent_saved": true,
+      "actions_executed": 88,
+      "parent_match": {
+        "physics": true,
+        "observation": true,
+        "history": true,
+        "events": true
+      },
+      "action_hash": "9fea984d6ccb4ec9fc30b4bd7e7c1310bbc328f44f3ae123d544a3b921c45c1e",
+      "final_physics_hash": "bed473663df317020e5564d90baebc5247ab7a72eb05bc353308578164960eb4",
+      "forbidden_calls": 0,
+      "seed": 100001,
+      "condition": "prepare",
+      "result_file": "/media/user/HDD_8T/eventvla_recoverability_phase1_20261014/runs/20261015T092610Z_native_boundary_controls/100001_prepare/result.json",
+      "model_requests": 1
+    },
+    {
+      "first_lift_correct": true,
+      "first_reveal_correct": true,
+      "native_first_target_opened": true,
+      "native_failed": false,
+      "actions_executed": 101,
+      "parent_match": {
+        "physics": true,
+        "observation": true,
+        "history": true,
+        "events": true
+      },
+      "action_hash": "3c373cdd7396b4af40e57cf3cf385f9fecd399ba3a7689c1e18956bb8e2aa02a",
+      "final_physics_hash": "c4afec039e9735377a1c31ad3f42ef88833514c364fcd24d2796ca769a642ba0",
+      "forbidden_calls": 0,
+      "seed": 100001,
+      "condition": "native",
+      "result_file": "/media/user/HDD_8T/eventvla_recoverability_phase1_20261014/runs/20261015T092610Z_native_boundary_controls/100001_native/result.json",
+      "model_requests": 3
+    },
+    {
+      "first_lift_correct": true,
+      "first_reveal_correct": true,
+      "native_first_target_opened": true,
+      "native_failed": false,
+      "actions_executed": 101,
+      "parent_match": {
+        "physics": true,
+        "observation": true,
+        "history": true,
+        "events": true
+      },
+      "action_hash": "3c373cdd7396b4af40e57cf3cf385f9fecd399ba3a7689c1e18956bb8e2aa02a",
+      "final_physics_hash": "c4afec039e9735377a1c31ad3f42ef88833514c364fcd24d2796ca769a642ba0",
+      "forbidden_calls": 0,
+      "seed": 100001,
+      "condition": "native_repeat",
+      "result_file": "/media/user/HDD_8T/eventvla_recoverability_phase1_20261014/runs/20261015T092610Z_native_boundary_controls/100001_native_repeat/result.json",
+      "model_requests": 3
+    },
+    {
+      "first_lift_correct": false,
+      "first_reveal_correct": false,
+      "native_first_target_opened": false,
+      "native_failed": false,
+      "actions_executed": 87,
+      "parent_match": {
+        "physics": true,
+        "observation": true,
+        "history": true,
+        "events": true
+      },
+      "action_hash": "62c9d3bf111e3ae234d5b47aab995ed4c7792f2abc20d9c791f7c0bbf4311d4e",
+      "final_physics_hash": "c8b070071093fd5cbaa55f705ddec07099c4733d827b19be38d9a572681c2ad5",
+      "forbidden_calls": 0,
+      "seed": 100001,
+      "condition": "position_other",
+      "result_file": "/media/user/HDD_8T/eventvla_recoverability_phase1_20261014/runs/20261015T092610Z_native_boundary_controls/100001_position_other/result.json",
+      "model_requests": 2
+    }
+  ],
+  "seeds": [
+    100000,
+    100001
+  ],
+  "conditions": [
+    "prepare",
+    "native",
+    "native_repeat",
+    "position_other"
+  ],
+  "max_actions": 300,
+  "max_parent_extension": 220,
+  "formal_training_eligible": false,
+  "protocol": "Finish native chunk; closed/released parent; language-only paired controls; no deletion or training.",
+  "server_pid": 44522,
+  "completed_utc": "2026-10-15T10:01:24.966560+00:00",
+  "process_cleanup_completed": true
+}

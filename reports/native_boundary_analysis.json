@@ -1,0 +1,237 @@
+{
+  "status": "complete",
+  "run_dir": "/media/user/HDD_8T/eventvla_recoverability_phase1_20261014/runs/20261015T092610Z_native_boundary_controls",
+  "resources": {
+    "samples": 210,
+    "available_memory_min_GiB": 205.21,
+    "cpu_max_C": 62.0,
+    "gpu1_max_C": 83.0,
+    "gpu1_peak_MiB": 15689.0,
+    "alarm_samples": 0,
+    "started_utc": "2026-10-15T09:26:10.604062+00:00",
+    "completed_utc": "2026-10-15T10:01:24.966560+00:00",
+    "cleanup": true
+  },
+  "input_audits": [
+    {
+      "seed": 100000,
+      "parent_step": 810,
+      "actual_request_images_match": true,
+      "deletion_checks": [
+        {
+          "deleted_steps": [],
+          "retained_event_steps": [
+            97,
+            303,
+            510,
+            709
+          ],
+          "anchor_images": 12,
+          "event_images": 4,
+          "image_payload_bytes": 2408448,
+          "forbidden_hits": 0,
+          "anchor_images_unchanged": true,
+          "action_cache_cleared": true,
+          "pending_commit_cleared": true
+        },
+        {
+          "deleted_steps": [
+            97
+          ],
+          "retained_event_steps": [
+            303,
+            510,
+            709
+          ],
+          "anchor_images": 12,
+          "event_images": 3,
+          "image_payload_bytes": 2257920,
+          "forbidden_hits": 0,
+          "anchor_images_unchanged": true,
+          "action_cache_cleared": true,
+          "pending_commit_cleared": true
+        },
+        {
+          "deleted_steps": [
+            303
+          ],
+          "retained_event_steps": [
+            97,
+            510,
+            709
+          ],
+          "anchor_images": 12,
+          "event_images": 3,
+          "image_payload_bytes": 2257920,
+          "forbidden_hits": 0,
+          "anchor_images_unchanged": true,
+          "action_cache_cleared": true,
+          "pending_commit_cleared": true
+        },
+        {
+          "deleted_steps": [
+            510
+          ],
+          "retained_event_steps": [
+            97,
+            303,
+            709
+          ],
+          "anchor_images": 12,
+          "event_images": 3,
+          "image_payload_bytes": 2257920,
+          "forbidden_hits": 0,
+          "anchor_images_unchanged": true,
+          "action_cache_cleared": true,
+          "pending_commit_cleared": true
+        },
+        {
+          "deleted_steps": [
+            709
+          ],
+          "retained_event_steps": [
+            97,
+            303,
+            510
+          ],
+          "anchor_images": 12,
+          "event_images": 3,
+          "image_payload_bytes": 2257920,
+          "forbidden_hits": 0,
+          "anchor_images_unchanged": true,
+          "action_cache_cleared": true,
+          "pending_commit_cleared": true
+        },
+        {
+          "deleted_steps": [
+            97,
+            303,
+            510,
+            709
+          ],
+          "retained_event_steps": [],
+          "anchor_images": 12,
+          "event_images": 0,
+          "image_payload_bytes": 1806336,
+          "forbidden_hits": 0,
+          "anchor_images_unchanged": true,
+          "action_cache_cleared": true,
+          "pending_commit_cleared": true
+        }
+      ]
+    },
+    {
+      "seed": 100001,
+      "parent_step": 808,
+      "actual_request_images_match": true,
+      "deletion_checks": [
+        {
+          "deleted_steps": [],
+          "retained_event_steps": [
+            97,
+            303,
+            508,
+            711
+          ],
+          "anchor_images": 12,
+          "event_images": 4,
+          "image_payload_bytes": 2408448,
+          "forbidden_hits": 0,
+          "anchor_images_unchanged": true,
+          "action_cache_cleared": true,
+          "pending_commit_cleared": true
+        },
+        {
+          "deleted_steps": [
+            97
+          ],
+          "retained_event_steps": [
+            303,
+            508,
+            711
+          ],
+          "anchor_images": 12,
+          "event_images": 3,
+          "image_payload_bytes": 2257920,
+          "forbidden_hits": 0,
+          "anchor_images_unchanged": true,
+          "action_cache_cleared": true,
+          "pending_commit_cleared": true
+        },
+        {
+          "deleted_steps": [
+            303
+          ],
+          "retained_event_steps": [
+            97,
+            508,
+            711
+          ],
+          "anchor_images": 12,
+          "event_images": 3,
+          "image_payload_bytes": 2257920,
+          "forbidden_hits": 0,
+          "anchor_images_unchanged": true,
+          "action_cache_cleared": true,
+          "pending_commit_cleared": true
+        },
+        {
+          "deleted_steps": [
+            508
+          ],
+          "retained_event_steps": [
+            97,
+            303,
+            711
+          ],
+          "anchor_images": 12,
+          "event_images": 3,
+          "image_payload_bytes": 2257920,
+          "forbidden_hits": 0,
+          "anchor_images_unchanged": true,
+          "action_cache_cleared": true,
+          "pending_commit_cleared": true
+        },
+        {
+          "deleted_steps": [
+            711
+          ],
+          "retained_event_steps": [
+            97,
+            303,
+            508
+          ],
+          "anchor_images": 12,
+          "event_images": 3,
+          "image_payload_bytes": 2257920,
+          "forbidden_hits": 0,
+          "anchor_images_unchanged": true,
+          "action_cache_cleared": true,
+          "pending_commit_cleared": true
+        },
+        {
+          "deleted_steps": [
+            97,
+            303,
+            508,
+            711
+          ],
+          "retained_event_steps": [],
+          "anchor_images": 12,
+          "event_images": 0,
+          "image_payload_bytes": 1806336,
+          "forbidden_hits": 0,
+          "anchor_images_unchanged": true,
+          "action_cache_cleared": true,
+          "pending_commit_cleared": true
+        }
+      ]
+    }
+  ],
+  "executed_actions": 759,
+  "model_requests": 18,
+  "native_successes": 2,
+  "position_first_choice_successes": 0,
+  "formal_training_eligible": false,
+  "tests": "21 relevant tests passed locally and on Pro5000"
+}

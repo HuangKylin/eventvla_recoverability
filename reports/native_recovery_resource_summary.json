@@ -1,0 +1,8 @@
+{
+  "samples": 146,
+  "alarms": 0,
+  "max_gpu_temperature_C": 80.0,
+  "max_gpu_memory_MiB": 15712.0,
+  "min_available_host_GiB": 212.91756439208984,
+  "max_cpu_temperature_C": 62.0
+}

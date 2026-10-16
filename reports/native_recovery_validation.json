@@ -1,0 +1,161 @@
+{
+  "status": "passed",
+  "checks": {
+    "100000_keep_parent": true,
+    "100000_keep_input": true,
+    "100000_keep_oracle": true,
+    "100000_keep_first_event_count": true,
+    "100000_recover_parent": true,
+    "100000_recover_input": true,
+    "100000_recover_oracle": true,
+    "100000_recover_first_event_count": true,
+    "100000_recover_closed_history": true,
+    "100000_recover_all_history_cameras_hidden": true,
+    "100000_recover_discard_parent": true,
+    "100000_recover_discard_input": true,
+    "100000_recover_discard_oracle": true,
+    "100000_recover_discard_first_event_count": true,
+    "100000_recover_discard_closed_history": true,
+    "100000_recover_discard_all_history_cameras_hidden": true,
+    "100000_keep_action_reproduction": true,
+    "100000_keep_physics_reproduction": true,
+    "100000_recovery_pair_commit_step": true,
+    "100000_recovery_pair_commit_physics_hash": true,
+    "100000_recovery_pair_commit_observation_hash": true,
+    "100000_recovery_pair_commit_history_hash": true,
+    "100000_recovery_pair_recovery_physics_steps": true,
+    "100000_recovery_pair_anchors": true,
+    "100000_recovery_pair_rng": true,
+    "100001_keep_parent": true,
+    "100001_keep_input": true,
+    "100001_keep_oracle": true,
+    "100001_keep_first_event_count": true,
+    "100001_recover_parent": true,
+    "100001_recover_input": true,
+    "100001_recover_oracle": true,
+    "100001_recover_first_event_count": true,
+    "100001_recover_closed_history": true,
+    "100001_recover_all_history_cameras_hidden": true,
+    "100001_recover_discard_parent": true,
+    "100001_recover_discard_input": true,
+    "100001_recover_discard_oracle": true,
+    "100001_recover_discard_first_event_count": true,
+    "100001_recover_discard_closed_history": true,
+    "100001_recover_discard_all_history_cameras_hidden": true,
+    "100001_keep_action_reproduction": true,
+    "100001_keep_physics_reproduction": true,
+    "100001_recovery_pair_commit_step": true,
+    "100001_recovery_pair_commit_physics_hash": true,
+    "100001_recovery_pair_commit_observation_hash": true,
+    "100001_recovery_pair_commit_history_hash": true,
+    "100001_recovery_pair_recovery_physics_steps": true,
+    "100001_recovery_pair_anchors": true,
+    "100001_recovery_pair_rng": true
+  },
+  "summary": [
+    {
+      "seed": 100000,
+      "condition": "keep",
+      "first_lift_correct": true,
+      "first_reveal_correct": true,
+      "actions": 101,
+      "recovery_physics_steps": 0,
+      "policy_physics_steps": 8114,
+      "recovered_slots": null,
+      "unrecovered_slots": null,
+      "model_requests": 3,
+      "image_payload_bytes": 7225344
+    },
+    {
+      "seed": 100000,
+      "condition": "recover",
+      "first_lift_correct": true,
+      "first_reveal_correct": true,
+      "actions": 84,
+      "recovery_physics_steps": 17689,
+      "policy_physics_steps": 6408,
+      "recovered_slots": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "unrecovered_slots": [],
+      "model_requests": 2,
+      "image_payload_bytes": 4816896
+    },
+    {
+      "seed": 100000,
+      "condition": "recover_discard",
+      "first_lift_correct": false,
+      "first_reveal_correct": false,
+      "actions": 58,
+      "recovery_physics_steps": 17689,
+      "policy_physics_steps": 4832,
+      "recovered_slots": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "unrecovered_slots": [],
+      "model_requests": 2,
+      "image_payload_bytes": 3612672
+    },
+    {
+      "seed": 100001,
+      "condition": "keep",
+      "first_lift_correct": true,
+      "first_reveal_correct": true,
+      "actions": 101,
+      "recovery_physics_steps": 0,
+      "policy_physics_steps": 7944,
+      "recovered_slots": null,
+      "unrecovered_slots": null,
+      "model_requests": 3,
+      "image_payload_bytes": 7225344
+    },
+    {
+      "seed": 100001,
+      "condition": "recover",
+      "first_lift_correct": false,
+      "first_reveal_correct": false,
+      "actions": 300,
+      "recovery_physics_steps": 24891,
+      "policy_physics_steps": 21470,
+      "recovered_slots": [
+        1,
+        2,
+        3
+      ],
+      "unrecovered_slots": [
+        0
+      ],
+      "model_requests": 6,
+      "image_payload_bytes": 13547520
+    },
+    {
+      "seed": 100001,
+      "condition": "recover_discard",
+      "first_lift_correct": false,
+      "first_reveal_correct": false,
+      "actions": 300,
+      "recovery_physics_steps": 24891,
+      "policy_physics_steps": 20021,
+      "recovered_slots": [
+        1,
+        2,
+        3
+      ],
+      "unrecovered_slots": [
+        0
+      ],
+      "model_requests": 6,
+      "image_payload_bytes": 10838016
+    }
+  ],
+  "analysis_source_sha256": "b816d4adf441a741b342f932ff14e55519fda7dac1fd09a1a54f56c1a0a3ac4c",
+  "run_dir": "/media/user/HDD_8T/eventvla_recoverability_phase1_20261014/runs/20261016T020148Z_native_recovery_vla",
+  "formal_training_eligible": false,
+  "scope": "Two selected native parents; all-event bundle integration, not per-item K/R or general success rate."
+}

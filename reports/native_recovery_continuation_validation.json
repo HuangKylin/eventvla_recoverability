@@ -1,0 +1,62 @@
+{
+  "status": "passed",
+  "checks": {
+    "100001_time_only_original_complete": true,
+    "100001_time_only_original_parent": true,
+    "100001_time_only_original_original_events": true,
+    "100001_time_only_original_original_metadata": true,
+    "100001_time_only_original_clock": true,
+    "100001_time_only_original_duration": true,
+    "100001_time_only_original_history_length": true,
+    "100001_time_only_original_first_input": true,
+    "100001_time_only_original_no_leak": true,
+    "100001_time_only_original_no_oracle": true,
+    "100001_time_only_original_no_visible_history": true,
+    "100001_time_only_original_rng": true,
+    "100001_time_only_original_not_training": true,
+    "100001_time_only_original_physics_unchanged": true,
+    "100001_time_only_original_observation_unchanged": true,
+    "100001_time_only_original_zero_actual_cost": true,
+    "100001_hold_original_complete": true,
+    "100001_hold_original_parent": true,
+    "100001_hold_original_original_events": true,
+    "100001_hold_original_original_metadata": true,
+    "100001_hold_original_clock": true,
+    "100001_hold_original_duration": true,
+    "100001_hold_original_history_length": true,
+    "100001_hold_original_first_input": true,
+    "100001_hold_original_no_leak": true,
+    "100001_hold_original_no_oracle": true,
+    "100001_hold_original_no_visible_history": true,
+    "100001_hold_original_rng": true,
+    "100001_hold_original_not_training": true,
+    "100001_hold_original_actual_cost": true,
+    "100001_pair_history_steps": true
+  },
+  "summary": [
+    {
+      "seed": 100001,
+      "condition": "time_only_original",
+      "first_reveal_correct": true,
+      "first_lift_correct": true,
+      "actions_executed": 224,
+      "recovery_physics_steps": 0,
+      "policy_physics_steps": 20075,
+      "commit_step": 1120,
+      "elapsed_seconds": 95.54864860798989
+    },
+    {
+      "seed": 100001,
+      "condition": "hold_original",
+      "first_reveal_correct": true,
+      "first_lift_correct": true,
+      "actions_executed": 206,
+      "recovery_physics_steps": 24891,
+      "policy_physics_steps": 17378,
+      "commit_step": 1120,
+      "elapsed_seconds": 163.32125214999542
+    }
+  ],
+  "source_hash": "1499909cb898c20a5cc26c337fe3b16cec441a46c90df886ca689c0db271d250",
+  "scope": "Two development controls; first-reveal endpoint, not full task success or training data"
+}

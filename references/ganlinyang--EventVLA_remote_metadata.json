@@ -1,0 +1,112 @@
+{
+  "_id": "6a30c48b9f9520d026e4e88b",
+  "id": "ganlinyang/EventVLA",
+  "private": false,
+  "tags": [
+    "license:apache-2.0",
+    "region:us"
+  ],
+  "downloads": 0,
+  "likes": 0,
+  "modelId": "ganlinyang/EventVLA",
+  "author": "ganlinyang",
+  "sha": "55f0f3466c471ea7cf5c91248627d4256dd2e00a",
+  "lastModified": "2026-09-07T12:39:33.000Z",
+  "gated": false,
+  "disabled": false,
+  "model-index": null,
+  "config": {},
+  "cardData": {
+    "license": "apache-2.0"
+  },
+  "siblings": [
+    {
+      "rfilename": ".gitattributes",
+      "blobId": "a6344aac8c09253b3b630fb776ae94478aa0275b",
+      "size": 1519
+    },
+    {
+      "rfilename": "README.md",
+      "blobId": "154df8298fab5ecf322016157858e08cd1bccbe1",
+      "size": 28
+    },
+    {
+      "rfilename": "RMBench/checkpoints/steps_100000_pytorch_model.pt",
+      "blobId": "edf9ad13ac300d8588c18c17b5e8445bdc36ed4d",
+      "size": 9798263511,
+      "lfs": {
+        "sha256": "286da3ccbf18cf250c0832fdb8b5857c1d6ad6113524c69b23a622ffa5e20d98",
+        "size": 9798263511,
+        "pointerSize": 135
+      }
+    },
+    {
+      "rfilename": "RMBench/config.yaml",
+      "blobId": "c8db71deaddc841e6b86b4739b6cb2c667f9f5bf",
+      "size": 3029
+    },
+    {
+      "rfilename": "RMBench/dataset_statistics.json",
+      "blobId": "2e0a3d56fcb7964fafce11bb1250c8e999db07db",
+      "size": 5228
+    },
+    {
+      "rfilename": "RMBench/final_model/pytorch_model.pt",
+      "blobId": "c86f3fded14f5f4493f38507cc658b4142f0b2bc",
+      "size": 9798253750,
+      "lfs": {
+        "sha256": "75232398f1505b9fef0438bfe0dc955da9b83298016aa58c030470075953c2eb",
+        "size": 9798253750,
+        "pointerSize": 135
+      }
+    },
+    {
+      "rfilename": "RMBench/summary.jsonl",
+      "blobId": "a6ed8de276fcabed03d96b0eb3ec8392ba0d7631",
+      "size": 171
+    },
+    {
+      "rfilename": "RoboTwin-MeM/checkpoints/steps_60000_pytorch_model.pt",
+      "blobId": "873785d54043f66f2c2fd099953c520014463859",
+      "size": 9798262770,
+      "lfs": {
+        "sha256": "45878c1bb1c3ba7dab4718f6d6fef0ee0bad3d9a1925d1f24496240fcf665493",
+        "size": 9798262770,
+        "pointerSize": 135
+      }
+    },
+    {
+      "rfilename": "RoboTwin-MeM/config.yaml",
+      "blobId": "32814f90123ba446c80616d28aa3af00f393f225",
+      "size": 3221
+    },
+    {
+      "rfilename": "RoboTwin-MeM/dataset_statistics.json",
+      "blobId": "dd480647e60abca738be01355afec73a0af923ed",
+      "size": 5262
+    },
+    {
+      "rfilename": "RoboTwin-MeM/final_model/pytorch_model.pt",
+      "blobId": "873785d54043f66f2c2fd099953c520014463859",
+      "size": 9798262770,
+      "lfs": {
+        "sha256": "45878c1bb1c3ba7dab4718f6d6fef0ee0bad3d9a1925d1f24496240fcf665493",
+        "size": 9798262770,
+        "pointerSize": 135
+      }
+    },
+    {
+      "rfilename": "RoboTwin-MeM/run_eventvla_train.sh",
+      "blobId": "741a3e734f65db3a599a7ee8efdd5699654b9cd1",
+      "size": 6855
+    },
+    {
+      "rfilename": "RoboTwin-MeM/summary.jsonl",
+      "blobId": "a6ed8de276fcabed03d96b0eb3ec8392ba0d7631",
+      "size": 171
+    }
+  ],
+  "spaces": [],
+  "createdAt": "2026-06-16T03:35:39.000Z",
+  "usedStorage": 48991297292
+}

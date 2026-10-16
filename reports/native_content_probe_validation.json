@@ -1,0 +1,52 @@
+{
+  "status": "passed",
+  "checks": {
+    "100000_0_same_state": true,
+    "100000_0_same_anchors": true,
+    "100000_0_same_metadata": true,
+    "100000_0_same_count": true,
+    "100000_0_one_image_changed": true,
+    "100000_0_uses_observed_current_head": true,
+    "100000_0_no_cost": true,
+    "100000_0_same_initial_rng": true,
+    "100000_0_parent": true,
+    "100000_0_input_audit": true,
+    "100000_0_no_oracle": true,
+    "100000_0_not_training": true,
+    "100000_2_same_state": true,
+    "100000_2_same_anchors": true,
+    "100000_2_same_metadata": true,
+    "100000_2_same_count": true,
+    "100000_2_one_image_changed": true,
+    "100000_2_uses_observed_current_head": true,
+    "100000_2_no_cost": true,
+    "100000_2_same_initial_rng": true,
+    "100000_2_parent": true,
+    "100000_2_input_audit": true,
+    "100000_2_no_oracle": true,
+    "100000_2_not_training": true
+  },
+  "summary": [
+    {
+      "seed": 100000,
+      "candidate_index": 0,
+      "slot": 0,
+      "first_reveal_correct": true,
+      "first_lift_correct": true,
+      "actions": 101,
+      "elapsed_seconds": 61.58646147400009
+    },
+    {
+      "seed": 100000,
+      "candidate_index": 2,
+      "slot": 2,
+      "first_reveal_correct": false,
+      "first_lift_correct": false,
+      "actions": 87,
+      "elapsed_seconds": 57.08352305900007
+    }
+  ],
+  "source_hash": "37fdc76f482e3ecc4805a75e98716e6659d95c7a70bb7ffa07dc38c3954f2619",
+  "formal_training_eligible": false,
+  "scope": "Post-pilot exploratory content/count diagnostic; two selected candidates of one development parent"
+}
