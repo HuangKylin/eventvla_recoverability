@@ -53,8 +53,9 @@ def main():
     inherited=[]; resume_state=None
     if args.resume:
         resume_state=json.loads((args.resume.resolve()/'status.json').read_text())
-        if resume_state['status']!='failed' or not resume_state.get('process_cleanup_completed'):
-            raise ValueError('Only a failed batch with confirmed cleanup can be resumed')
+        rebooted=bool(resume_state.get('boot_id') and resume_state['boot_id']!=Path('/proc/sys/kernel/random/boot_id').read_text().strip())
+        if not rebooted and (resume_state['status']!='failed' or not resume_state.get('process_cleanup_completed')):
+            raise ValueError('Require a confirmed new boot or failed batch with confirmed cleanup')
         if resume_state['seeds']!=args.seeds:
             raise ValueError('Resume must preserve the original seed list and order')
         changed=[name for name,old in resume_state['source_hashes'].items() if hashes.get(name)!=old]
@@ -78,7 +79,8 @@ def main():
                  protocol='Fresh native rollouts; save first closed natural chunk boundary with four events. Retain all rejected attempts; no success filtering, interventions or training.')
     if resume_state:
         state.update(resumed_from=resume_state['run_dir'],inherited_episodes=len(inherited),
-            resume_changes=changed,resume_reason='Use the simulation environment for the CPU input audit; preserve all completed policy outputs')
+            resume_changes=changed,previous_boot_id=resume_state.get('boot_id'),
+            resume_reason='Continue after a confirmed reboot' if rebooted else 'Use the simulation environment for the CPU input audit; preserve all completed policy outputs')
     def save():
         atomic_json(run / 'status.json', state); atomic_json(ROOT / 'reports/latest_native_parent_collection.json', state)
     env = os.environ.copy()

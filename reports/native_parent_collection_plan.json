@@ -25,10 +25,10 @@
     "runs/20261016T073957Z_native_parent_collection/status.json",
     "runs/20261016T074712Z_native_parent_collection/status.json"
   ],
-  "last_observed_status": "evaluating",
-  "active_pid": 47818,
-  "last_observed_utc": "2026-10-16T15:48:14.197549+08:00",
-  "verified_attempts": 2,
+  "last_observed_status": "paused_by_user",
+  "active_pid": null,
+  "last_observed_utc": "2026-10-16T08:38:38.325602+00:00",
+  "verified_attempts": 3,
   "collection_only": true,
   "formal_training_eligible": false,
   "after_completion": "envs/tools/bin/python scripts/analyze_fresh_parents.py --reports runs/20261016T073957Z_native_parent_collection/status.json runs/20261016T074712Z_native_parent_collection/status.json",
@@ -37,5 +37,7 @@
     "Request-index common randomness",
     "Recovery trigger and cost accounting",
     "Grouped scene/cost/action-pair pilot before formal scorer training"
-  ]
+  ],
+  "interruption_record": "reports/user_pause_20261016.json",
+  "next_probe_launched": false
 }

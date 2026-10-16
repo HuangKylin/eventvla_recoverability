@@ -1,5 +1,5 @@
 {
-  "status": "evaluating",
+  "status": "paused_by_user",
   "run_dir": "/media/user/HDD_8T/eventvla_recoverability_phase1_20261014/runs/20261016T074712Z_native_parent_collection",
   "pid": 47818,
   "port": 48583,
@@ -114,7 +114,13 @@
   "formal_training_eligible": false,
   "protocol": "Fresh native rollouts; save first closed natural chunk boundary with four events. Retain all rejected attempts; no success filtering, interventions or training.",
   "server_pid": 47821,
-  "current_job": "/media/user/HDD_8T/eventvla_recoverability_phase1_20261014/runs/20261016T074712Z_native_parent_collection/410003_prepare.job.json",
   "worker_pid": 110830,
-  "stage": "audit_fresh_inputs"
+  "stage": "audit_fresh_inputs",
+  "previous_recorded_status": "evaluating",
+  "interruption": "confirmed_boot_id_change",
+  "observed_current_boot_id": "2dd91c49-9349-4a99-b69d-344712627677",
+  "pause_record": "reports/user_pause_20261016.json",
+  "paused_utc": "2026-10-16T08:38:38.325602+00:00",
+  "active_project_processes": false,
+  "interrupted_job": "/media/user/HDD_8T/eventvla_recoverability_phase1_20261014/runs/20261016T074712Z_native_parent_collection/410003_prepare.job.json"
 }

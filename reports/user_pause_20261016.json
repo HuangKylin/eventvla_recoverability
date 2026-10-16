@@ -1,0 +1,45 @@
+{
+  "status": "paused_by_user",
+  "saved_utc": "2026-10-16T08:38:38.325602+00:00",
+  "reason": "User requested saving code/progress, pushing GitHub and stopping",
+  "active_project_processes": false,
+  "next_probe_launched": false,
+  "health": {
+    "current_boot_id": "2dd91c49-9349-4a99-b69d-344712627677",
+    "run_boot_id": "9e9b9d56-ee0c-4760-b593-7f2c7c5b7597",
+    "runner_pid_exists": false,
+    "runner_command_matches": false,
+    "observed_status": "interrupted_by_reboot"
+  },
+  "interrupted_run": "/media/user/HDD_8T/eventvla_recoverability_phase1_20261014/runs/20261016T074712Z_native_parent_collection",
+  "completed_new_parent_seeds": [
+    410000,
+    410001,
+    410002
+  ],
+  "interrupted_seed": 410003,
+  "unstarted_seeds": [
+    410004,
+    410005,
+    410006,
+    410007,
+    410008,
+    410009,
+    410010,
+    410011,
+    410012,
+    410013,
+    410014,
+    410015,
+    410016,
+    410017,
+    410018,
+    410019
+  ],
+  "input_audit_variants": 24,
+  "input_audit_checks": 144,
+  "unit_tests_passed": 17,
+  "gpu_slot_calibration_executed": false,
+  "formal_training_started": false,
+  "next_action": "Resume only on a new user instruction; preserve complete 410002 and all interrupted 410003 artifacts"
+}

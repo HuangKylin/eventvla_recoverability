@@ -1,0 +1,6 @@
+Local: python -m pytest -q tests/test_slot_protocol.py
+17 passed in 0.12s
+Remote: envs/sim/bin/python -m pytest -q tests/test_slot_protocol.py
+17 passed in 0.06s
+CPU actual-client input audit: 24 variants, 144 checks, passed.
+GPU slot-calibration branches executed: 0.
