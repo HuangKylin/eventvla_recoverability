@@ -1,0 +1,65 @@
+{
+  "observed_utc": "2026-10-19T03:45:43.796339+00:00",
+  "files": [
+    {
+      "url": "https://huggingface.co/api/datasets/leeibo/ActiveArena-Data",
+      "path": "dataset_api.json",
+      "bytes": 298084,
+      "sha256": "ce0a71d002fd36f3505c5338c318c5cd4ae76d116714555cdba09df31bd2f1b1"
+    },
+    {
+      "url": "https://huggingface.co/datasets/leeibo/ActiveArena-Data/resolve/4fc698d7b3c1871c342181a5fa38f837da945a80/README.md",
+      "path": "README.md",
+      "bytes": 1207,
+      "sha256": "60de9cc4c934c9a40f23cb1ec666ecc1d742b6462c81dcbe9bf5581450a6123e"
+    },
+    {
+      "url": "https://api.github.com/repos/leeibo/ActiveArena/commits/main",
+      "path": "sim_commit.json",
+      "bytes": 3022,
+      "sha256": "4baa560375a1c8744250e6862a5e74134432cafadb17ff6d32751350dd19cfa2"
+    },
+    {
+      "url": "https://api.github.com/repos/leeibo/ActiveArena/git/trees/1bf2c77b8d3ab978fc5b4599a69d017f593edbe8?recursive=1",
+      "path": "sim_tree.json",
+      "bytes": 295426,
+      "sha256": "72617ad06d09362cdb8a56dfdeb2ea4f71dba15702c9d42a2d562ab01377d0a1"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/leeibo/ActiveArena/1bf2c77b8d3ab978fc5b4599a69d017f593edbe8/README.md",
+      "path": "source/README.md",
+      "bytes": 10850,
+      "sha256": "baa072f599b94ba20caa75055e3a2ec1b8773e15eee608a5e506f22ba6e83313"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/leeibo/ActiveArena/1bf2c77b8d3ab978fc5b4599a69d017f593edbe8/LICENSE",
+      "path": "source/LICENSE",
+      "bytes": 1081,
+      "sha256": "c695d421718e54e6f3a60858f0c601125c3ecc60c199332c15947360561e2a9f"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/leeibo/ActiveArena/1bf2c77b8d3ab978fc5b4599a69d017f593edbe8/description/task_instruction/place_cans_plasticbox_rotate_view.json",
+      "path": "source/description/task_instruction/place_cans_plasticbox_rotate_view.json",
+      "bytes": 3989,
+      "sha256": "3d01db53cbfbb4a39f3bd3166d2cbb686f8f894d194ffc7bf0fac2cf898e3913"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/leeibo/ActiveArena/1bf2c77b8d3ab978fc5b4599a69d017f593edbe8/envs/place_cans_plasticbox_rotate_view.py",
+      "path": "source/envs/place_cans_plasticbox_rotate_view.py",
+      "bytes": 9394,
+      "sha256": "64aa8bf3740d82670b93c869900968780cf5d125cf0a15a1e9ccfc0b8e012323"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/leeibo/ActiveArena/1bf2c77b8d3ab978fc5b4599a69d017f593edbe8/eval_seed_lists/info_gathering_demo/place_cans_plasticbox_rotate_view.json",
+      "path": "source/eval_seed_lists/info_gathering_demo/place_cans_plasticbox_rotate_view.json",
+      "bytes": 42165,
+      "sha256": "e6bb30eb7cf1341d11c86ecbe095f77453d319bcc49601a5e8b656466bcb3ed5"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/leeibo/ActiveArena/1bf2c77b8d3ab978fc5b4599a69d017f593edbe8/eval_seed_lists/info_gathering_randomized/place_cans_plasticbox_rotate_view.json",
+      "path": "source/eval_seed_lists/info_gathering_randomized/place_cans_plasticbox_rotate_view.json",
+      "bytes": 45450,
+      "sha256": "57afdb006ae0980b75938651494a0cbcb230eb4a99ed9cc11d48c4a5c0998cc4"
+    }
+  ]
+}

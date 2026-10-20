@@ -1,0 +1,3079 @@
+{
+  "status": "complete",
+  "created_utc": "2026-10-19T01:49:04.876636+00:00",
+  "run_dir": "/media/user/HDD_8T/eventvla_recoverability_phase1_20261014/runs/20261019T014904Z_multi_instance_candidate_review",
+  "decision": "candidate_not_admitted_after_one_design_revision",
+  "original_goal_achieved": false,
+  "design_v0_decision": "no_go_rule_saturates_symbolic_priority_and_public_index_archive_preserves_evidence",
+  "revision_v1_decision": "not_admitted_unestablished_advantage_over_full_archive_retrieval",
+  "revision_v1_empirically_disproved": false,
+  "revision_count": 1,
+  "additional_revisions_scheduled": false,
+  "gpu_jobs": 0,
+  "new_simulation_rollouts": 0,
+  "training_runs": 0,
+  "asset_inventory": {
+    "009_toycar": {
+      "model_ids": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "metadata_count": 6,
+      "visual_distinctness_verified": false
+    },
+    "010_mouse": {
+      "model_ids": [
+        0,
+        1,
+        2
+      ],
+      "metadata_count": 3,
+      "visual_distinctness_verified": false
+    },
+    "011_stapler": {
+      "model_ids": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "metadata_count": 7,
+      "visual_distinctness_verified": false
+    },
+    "012_bell": {
+      "model_ids": [
+        0,
+        1
+      ],
+      "metadata_count": 2,
+      "visual_distinctness_verified": false
+    },
+    "013_playingcards": {
+      "model_ids": [
+        0,
+        1,
+        2
+      ],
+      "metadata_count": 3,
+      "visual_distinctness_verified": false
+    }
+  },
+  "total_asset_metadata_records": 21,
+  "exact_symbolic_model": {
+    "scope": "exact_finite_single_query_model_not_robot_rollouts",
+    "layout_partitions": 70,
+    "action_conditions": 140,
+    "retained_subsets_per_condition": 70,
+    "rule_oracle_equal_conditions": 140,
+    "action_changes_retained_set_pairs": 70,
+    "same_action_has_different_layout_dependent_choices": 70,
+    "averages": {
+      "oracle_expected_loss": 0.04999999999999988,
+      "rule_expected_loss": 0.04999999999999988,
+      "fifo_expected_loss": 0.27499999999999997,
+      "archive_information_loss": 0.0
+    },
+    "information_boundary": "Archive restores requested historical RGB exactly; downstream perception/control remains shared and untested",
+    "conditions": [
+      {
+        "left_public_visits": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "action": "close_left_screen",
+        "rule_retained": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "oracle_expected_loss": 0.05,
+        "rule_expected_loss": 0.05,
+        "fifo_expected_loss": 0.5,
+        "archive_information_loss": 0.0,
+        "rule_equals_oracle": true
+      },
+      {
+        "left_public_visits": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "action": "close_right_screen",
+        "rule_retained": [
+          4,
+          5,
+          6,
+          7
+        ],
+        "oracle_expected_loss": 0.05,
+        "rule_expected_loss": 0.05,
+        "fifo_expected_loss": 0.05,
+        "archive_information_loss": 0.0,
+        "rule_equals_oracle": true
+      },
+      {
+        "left_public_visits": [
+          0,
+          1,
+          2,
+          4
+        ],
+        "action": "close_left_screen",
+        "rule_retained": [
+          0,
+          1,
+          2,
+          4
+        ],
+        "oracle_expected_loss": 0.05,
+        "rule_expected_loss": 0.05,
+        "fifo_expected_loss": 0.3875,
+        "archive_information_loss": 0.0,
+        "rule_equals_oracle": true
+      },
+      {
+        "left_public_visits": [
+          0,
+          1,
+          2,
+          4
+        ],
+        "action": "close_right_screen",
+        "rule_retained": [
+          3,
+          5,
+          6,
+          7
+        ],
+        "oracle_expected_loss": 0.05,
+        "rule_expected_loss": 0.05,
+        "fifo_expected_loss": 0.1625,
+        "archive_information_loss": 0.0,
+        "rule_equals_oracle": true
+      },
+      {
+        "left_public_visits": [
+          0,
+          1,
+          2,
+          5
+        ],
+        "action": "close_left_screen",
+        "rule_retained": [
+          0,
+          1,
+          2,
+          5
+        ],
+        "oracle_expected_loss": 0.05,
+        "rule_expected_loss": 0.05,
+        "fifo_expected_loss": 0.3875,
+        "archive_information_loss": 0.0,
+        "rule_equals_oracle": true
+      },
+      {
+        "left_public_visits": [
+          0,
+          1,
+          2,
+          5
+        ],
+        "action": "close_right_screen",
+        "rule_retained": [
+          3,
+          4,
+          6,
+          7
+        ],
+        "oracle_expected_loss": 0.05,
+        "rule_expected_loss": 0.05,
+        "fifo_expected_loss": 0.1625,
+        "archive_information_loss": 0.0,
+        "rule_equals_oracle": true
+      },
+      {
+        "left_public_visits": [
+          0,
+          1,
+          2,
+          6
+        ],
+        "action": "close_left_screen",
+        "rule_retained": [
+          0,
+          1,
+          2,
+          6
+        ],
+        "oracle_expected_loss": 0.05,
+        "rule_expected_loss": 0.05,
+        "fifo_expected_loss": 0.3875,
+        "archive_information_loss": 0.0,
+        "rule_equals_oracle": true
+      },
+      {
+        "left_public_visits": [
+          0,
+          1,
+          2,
+          6
+        ],
+        "action": "close_right_screen",
+        "rule_retained": [
+          3,
+          4,
+          5,
+          7
+        ],
+        "oracle_expected_loss": 0.05,
+        "rule_expected_loss": 0.05,
+        "fifo_expected_loss": 0.1625,
+        "archive_information_loss": 0.0,
+        "rule_equals_oracle": true
+      },
+      {
+        "left_public_visits": [
+          0,
+          1,
+          2,
+          7
+        ],
+        "action": "close_left_screen",
+        "rule_retained": [
+          0,
+          1,
+          2,
+          7
+        ],
+        "oracle_expected_loss": 0.05,
+        "rule_expected_loss": 0.05,
+        "fifo_expected_loss": 0.3875,
+        "archive_information_loss": 0.0,
+        "rule_equals_oracle": true
+      },
+      {
+        "left_public_visits": [
+          0,
+          1,
+          2,
+          7
+        ],
+        "action": "close_right_screen",
+        "rule_retained": [
+          3,
+          4,
+          5,
+          6
+        ],
+        "oracle_expected_loss": 0.05,
+        "rule_expected_loss": 0.05,
+        "fifo_expected_loss": 0.1625,
+        "archive_information_loss": 0.0,
+        "rule_equals_oracle": true
+      },
+      {
+        "left_public_visits": [
+          0,
+          1,
+          3,
+          4
+        ],
+        "action": "close_left_screen",
+        "rule_retained": [
+          0,
+          1,
+          3,
+          4
+        ],
+        "oracle_expected_loss": 0.05,
+        "rule_expected_loss": 0.05,
+        "fifo_expected_loss": 0.3875,
+        "archive_information_loss": 0.0,
+        "rule_equals_oracle": true
+      },
+      {
+        "left_public_visits": [
+          0,
+          1,
+          3,
+          4
+        ],
+        "action": "close_right_screen",
+        "rule_retained": [
+          2,
+          5,
+          6,
+          7
+        ],
+        "oracle_expected_loss": 0.05,
+        "rule_expected_loss": 0.05,
+        "fifo_expected_loss": 0.1625,
+        "archive_information_loss": 0.0,
+        "rule_equals_oracle": true
+      },
+      {
+        "left_public_visits": [
+          0,
+          1,
+          3,
+          5
+        ],
+        "action": "close_left_screen",
+        "rule_retained": [
+          0,
+          1,
+          3,
+          5
+        ],
+        "oracle_expected_loss": 0.05,
+        "rule_expected_loss": 0.05,
+        "fifo_expected_loss": 0.3875,
+        "archive_information_loss": 0.0,
+        "rule_equals_oracle": true
+      },
+      {
+        "left_public_visits": [
+          0,
+          1,
+          3,
+          5
+        ],
+        "action": "close_right_screen",
+        "rule_retained": [
+          2,
+          4,
+          6,
+          7
+        ],
+        "oracle_expected_loss": 0.05,
+        "rule_expected_loss": 0.05,
+        "fifo_expected_loss": 0.1625,
+        "archive_information_loss": 0.0,
+        "rule_equals_oracle": true
+      },
+      {
+        "left_public_visits": [
+          0,
+          1,
+          3,
+          6
+        ],
+        "action": "close_left_screen",
+        "rule_retained": [
+          0,
+          1,
+          3,
+          6
+        ],
+        "oracle_expected_loss": 0.05,
+        "rule_expected_loss": 0.05,
+        "fifo_expected_loss": 0.3875,
+        "archive_information_loss": 0.0,
+        "rule_equals_oracle": true
+      },
+      {
+        "left_public_visits": [
+          0,
+          1,
+          3,
+          6
+        ],
+        "action": "close_right_screen",
+        "rule_retained": [
+          2,
+          4,
+          5,
+          7
+        ],
+        "oracle_expected_loss": 0.05,
+        "rule_expected_loss": 0.05,
+        "fifo_expected_loss": 0.1625,
+        "archive_information_loss": 0.0,
+        "rule_equals_oracle": true
+      },
+      {
+        "left_public_visits": [
+          0,
+          1,
+          3,
+          7
+        ],
+        "action": "close_left_screen",
+        "rule_retained": [
+          0,
+          1,
+          3,
+          7
+        ],
+        "oracle_expected_loss": 0.05,
+        "rule_expected_loss": 0.05,
+        "fifo_expected_loss": 0.3875,
+        "archive_information_loss": 0.0,
+        "rule_equals_oracle": true
+      },
+      {
+        "left_public_visits": [
+          0,
+          1,
+          3,
+          7
+        ],
+        "action": "close_right_screen",
+        "rule_retained": [
+          2,
+          4,
+          5,
+          6
+        ],
+        "oracle_expected_loss": 0.05,
+        "rule_expected_loss": 0.05,
+        "fifo_expected_loss": 0.1625,
+        "archive_information_loss": 0.0,
+        "rule_equals_oracle": true
+      },
+      {
+        "left_public_visits": [
+          0,
+          1,
+          4,
+          5
+        ],
+        "action": "close_left_screen",
+        "rule_retained": [
+          0,
+          1,
+          4,
+          5
+        ],
+        "oracle_expected_loss": 0.05,
+        "rule_expected_loss": 0.05,
+        "fifo_expected_loss": 0.275,
+        "archive_information_loss": 0.0,
+        "rule_equals_oracle": true
+      },
+      {
+        "left_public_visits": [
+          0,
+          1,
+          4,
+          5
+        ],
+        "action": "close_right_screen",
+        "rule_retained": [
+          2,
+          3,
+          6,
+          7
+        ],
+        "oracle_expected_loss": 0.05,
+        "rule_expected_loss": 0.05,
+        "fifo_expected_loss": 0.275,
+        "archive_information_loss": 0.0,
+        "rule_equals_oracle": true
+      },
+      {
+        "left_public_visits": [
+          0,
+          1,
+          4,
+          6
+        ],
+        "action": "close_left_screen",
+        "rule_retained": [
+          0,
+          1,
+          4,
+          6
+        ],
+        "oracle_expected_loss": 0.05,
+        "rule_expected_loss": 0.05,
+        "fifo_expected_loss": 0.275,
+        "archive_information_loss": 0.0,
+        "rule_equals_oracle": true
+      },
+      {
+        "left_public_visits": [
+          0,
+          1,
+          4,
+          6
+        ],
+        "action": "close_right_screen",
+        "rule_retained": [
+          2,
+          3,
+          5,
+          7
+        ],
+        "oracle_expected_loss": 0.05,
+        "rule_expected_loss": 0.05,
+        "fifo_expected_loss": 0.275,
+        "archive_information_loss": 0.0,
+        "rule_equals_oracle": true
+      },
+      {
+        "left_public_visits": [
+          0,
+          1,
+          4,
+          7
+        ],
+        "action": "close_left_screen",
+        "rule_retained": [
+          0,
+          1,
+          4,
+          7
+        ],
+        "oracle_expected_loss": 0.05,
+        "rule_expected_loss": 0.05,
+        "fifo_expected_loss": 0.275,
+        "archive_information_loss": 0.0,
+        "rule_equals_oracle": true
+      },
+      {
+        "left_public_visits": [
+          0,
+          1,
+          4,
+          7
+        ],
+        "action": "close_right_screen",
+        "rule_retained": [
+          2,
+          3,
+          5,
+          6
+        ],
+        "oracle_expected_loss": 0.05,
+        "rule_expected_loss": 0.05,
+        "fifo_expected_loss": 0.275,
+        "archive_information_loss": 0.0,
+        "rule_equals_oracle": true
+      },
+      {
+        "left_public_visits": [
+          0,
+          1,
+          5,
+          6
+        ],
+        "action": "close_left_screen",
+        "rule_retained": [
+          0,
+          1,
+          5,
+          6
+        ],
+        "oracle_expected_loss": 0.05,
+        "rule_expected_loss": 0.05,
+        "fifo_expected_loss": 0.275,
+        "archive_information_loss": 0.0,
+        "rule_equals_oracle": true
+      },
+      {
+        "left_public_visits": [
+          0,
+          1,
+          5,
+          6
+        ],
+        "action": "close_right_screen",
+        "rule_retained": [
+          2,
+          3,
+          4,
+          7
+        ],
+        "oracle_expected_loss": 0.05,
+        "rule_expected_loss": 0.05,
+        "fifo_expected_loss": 0.275,
+        "archive_information_loss": 0.0,
+        "rule_equals_oracle": true
+      },
+      {
+        "left_public_visits": [
+          0,
+          1,
+          5,
+          7
+        ],
+        "action": "close_left_screen",
+        "rule_retained": [
+          0,
+          1,
+          5,
+          7
+        ],
+        "oracle_expected_loss": 0.05,
+        "rule_expected_loss": 0.05,
+        "fifo_expected_loss": 0.275,
+        "archive_information_loss": 0.0,
+        "rule_equals_oracle": true
+      },
+      {
+        "left_public_visits": [
+          0,
+          1,
+          5,
+          7
+        ],
+        "action": "close_right_screen",
+        "rule_retained": [
+          2,
+          3,
+          4,
+          6
+        ],
+        "oracle_expected_loss": 0.05,
+        "rule_expected_loss": 0.05,
+        "fifo_expected_loss": 0.275,
+        "archive_information_loss": 0.0,
+        "rule_equals_oracle": true
+      },
+      {
+        "left_public_visits": [
+          0,
+          1,
+          6,
+          7
+        ],
+        "action": "close_left_screen",
+        "rule_retained": [
+          0,
+          1,
+          6,
+          7
+        ],
+        "oracle_expected_loss": 0.05,
+        "rule_expected_loss": 0.05,
+        "fifo_expected_loss": 0.275,
+        "archive_information_loss": 0.0,
+        "rule_equals_oracle": true
+      },
+      {
+        "left_public_visits": [
+          0,
+          1,
+          6,
+          7
+        ],
+        "action": "close_right_screen",
+        "rule_retained": [
+          2,
+          3,
+          4,
+          5
+        ],
+        "oracle_expected_loss": 0.05,
+        "rule_expected_loss": 0.05,
+        "fifo_expected_loss": 0.275,
+        "archive_information_loss": 0.0,
+        "rule_equals_oracle": true
+      },
+      {
+        "left_public_visits": [
+          0,
+          2,
+          3,
+          4
+        ],
+        "action": "close_left_screen",
+        "rule_retained": [
+          0,
+          2,
+          3,
+          4
+        ],
+        "oracle_expected_loss": 0.05,
+        "rule_expected_loss": 0.05,
+        "fifo_expected_loss": 0.3875,
+        "archive_information_loss": 0.0,
+        "rule_equals_oracle": true
+      },
+      {
+        "left_public_visits": [
+          0,
+          2,
+          3,
+          4
+        ],
+        "action": "close_right_screen",
+        "rule_retained": [
+          1,
+          5,
+          6,
+          7
+        ],
+        "oracle_expected_loss": 0.05,
+        "rule_expected_loss": 0.05,
+        "fifo_expected_loss": 0.16250000000000003,
+        "archive_information_loss": 0.0,
+        "rule_equals_oracle": true
+      },
+      {
+        "left_public_visits": [
+          0,
+          2,
+          3,
+          5
+        ],
+        "action": "close_left_screen",
+        "rule_retained": [
+          0,
+          2,
+          3,
+          5
+        ],
+        "oracle_expected_loss": 0.05,
+        "rule_expected_loss": 0.05,
+        "fifo_expected_loss": 0.3875,
+        "archive_information_loss": 0.0,
+        "rule_equals_oracle": true
+      },
+      {
+        "left_public_visits": [
+          0,
+          2,
+          3,
+          5
+        ],
+        "action": "close_right_screen",
+        "rule_retained": [
+          1,
+          4,
+          6,
+          7
+        ],
+        "oracle_expected_loss": 0.05,
+        "rule_expected_loss": 0.05,
+        "fifo_expected_loss": 0.16250000000000003,
+        "archive_information_loss": 0.0,
+        "rule_equals_oracle": true
+      },
+      {
+        "left_public_visits": [
+          0,
+          2,
+          3,
+          6
+        ],
+        "action": "close_left_screen",
+        "rule_retained": [
+          0,
+          2,
+          3,
+          6
+        ],
+        "oracle_expected_loss": 0.05,
+        "rule_expected_loss": 0.05,
+        "fifo_expected_loss": 0.3875,
+        "archive_information_loss": 0.0,
+        "rule_equals_oracle": true
+      },
+      {
+        "left_public_visits": [
+          0,
+          2,
+          3,
+          6
+        ],
+        "action": "close_right_screen",
+        "rule_retained": [
+          1,
+          4,
+          5,
+          7
+        ],
+        "oracle_expected_loss": 0.05,
+        "rule_expected_loss": 0.05,
+        "fifo_expected_loss": 0.16250000000000003,
+        "archive_information_loss": 0.0,
+        "rule_equals_oracle": true
+      },
+      {
+        "left_public_visits": [
+          0,
+          2,
+          3,
+          7
+        ],
+        "action": "close_left_screen",
+        "rule_retained": [
+          0,
+          2,
+          3,
+          7
+        ],
+        "oracle_expected_loss": 0.05,
+        "rule_expected_loss": 0.05,
+        "fifo_expected_loss": 0.3875,
+        "archive_information_loss": 0.0,
+        "rule_equals_oracle": true
+      },
+      {
+        "left_public_visits": [
+          0,
+          2,
+          3,
+          7
+        ],
+        "action": "close_right_screen",
+        "rule_retained": [
+          1,
+          4,
+          5,
+          6
+        ],
+        "oracle_expected_loss": 0.05,
+        "rule_expected_loss": 0.05,
+        "fifo_expected_loss": 0.16250000000000003,
+        "archive_information_loss": 0.0,
+        "rule_equals_oracle": true
+      },
+      {
+        "left_public_visits": [
+          0,
+          2,
+          4,
+          5
+        ],
+        "action": "close_left_screen",
+        "rule_retained": [
+          0,
+          2,
+          4,
+          5
+        ],
+        "oracle_expected_loss": 0.05,
+        "rule_expected_loss": 0.05,
+        "fifo_expected_loss": 0.275,
+        "archive_information_loss": 0.0,
+        "rule_equals_oracle": true
+      },
+      {
+        "left_public_visits": [
+          0,
+          2,
+          4,
+          5
+        ],
+        "action": "close_right_screen",
+        "rule_retained": [
+          1,
+          3,
+          6,
+          7
+        ],
+        "oracle_expected_loss": 0.05,
+        "rule_expected_loss": 0.05,
+        "fifo_expected_loss": 0.275,
+        "archive_information_loss": 0.0,
+        "rule_equals_oracle": true
+      },
+      {
+        "left_public_visits": [
+          0,
+          2,
+          4,
+          6
+        ],
+        "action": "close_left_screen",
+        "rule_retained": [
+          0,
+          2,
+          4,
+          6
+        ],
+        "oracle_expected_loss": 0.05,
+        "rule_expected_loss": 0.05,
+        "fifo_expected_loss": 0.275,
+        "archive_information_loss": 0.0,
+        "rule_equals_oracle": true
+      },
+      {
+        "left_public_visits": [
+          0,
+          2,
+          4,
+          6
+        ],
+        "action": "close_right_screen",
+        "rule_retained": [
+          1,
+          3,
+          5,
+          7
+        ],
+        "oracle_expected_loss": 0.05,
+        "rule_expected_loss": 0.05,
+        "fifo_expected_loss": 0.275,
+        "archive_information_loss": 0.0,
+        "rule_equals_oracle": true
+      },
+      {
+        "left_public_visits": [
+          0,
+          2,
+          4,
+          7
+        ],
+        "action": "close_left_screen",
+        "rule_retained": [
+          0,
+          2,
+          4,
+          7
+        ],
+        "oracle_expected_loss": 0.05,
+        "rule_expected_loss": 0.05,
+        "fifo_expected_loss": 0.275,
+        "archive_information_loss": 0.0,
+        "rule_equals_oracle": true
+      },
+      {
+        "left_public_visits": [
+          0,
+          2,
+          4,
+          7
+        ],
+        "action": "close_right_screen",
+        "rule_retained": [
+          1,
+          3,
+          5,
+          6
+        ],
+        "oracle_expected_loss": 0.05,
+        "rule_expected_loss": 0.05,
+        "fifo_expected_loss": 0.275,
+        "archive_information_loss": 0.0,
+        "rule_equals_oracle": true
+      },
+      {
+        "left_public_visits": [
+          0,
+          2,
+          5,
+          6
+        ],
+        "action": "close_left_screen",
+        "rule_retained": [
+          0,
+          2,
+          5,
+          6
+        ],
+        "oracle_expected_loss": 0.05,
+        "rule_expected_loss": 0.05,
+        "fifo_expected_loss": 0.275,
+        "archive_information_loss": 0.0,
+        "rule_equals_oracle": true
+      },
+      {
+        "left_public_visits": [
+          0,
+          2,
+          5,
+          6
+        ],
+        "action": "close_right_screen",
+        "rule_retained": [
+          1,
+          3,
+          4,
+          7
+        ],
+        "oracle_expected_loss": 0.05,
+        "rule_expected_loss": 0.05,
+        "fifo_expected_loss": 0.275,
+        "archive_information_loss": 0.0,
+        "rule_equals_oracle": true
+      },
+      {
+        "left_public_visits": [
+          0,
+          2,
+          5,
+          7
+        ],
+        "action": "close_left_screen",
+        "rule_retained": [
+          0,
+          2,
+          5,
+          7
+        ],
+        "oracle_expected_loss": 0.05,
+        "rule_expected_loss": 0.05,
+        "fifo_expected_loss": 0.275,
+        "archive_information_loss": 0.0,
+        "rule_equals_oracle": true
+      },
+      {
+        "left_public_visits": [
+          0,
+          2,
+          5,
+          7
+        ],
+        "action": "close_right_screen",
+        "rule_retained": [
+          1,
+          3,
+          4,
+          6
+        ],
+        "oracle_expected_loss": 0.05,
+        "rule_expected_loss": 0.05,
+        "fifo_expected_loss": 0.275,
+        "archive_information_loss": 0.0,
+        "rule_equals_oracle": true
+      },
+      {
+        "left_public_visits": [
+          0,
+          2,
+          6,
+          7
+        ],
+        "action": "close_left_screen",
+        "rule_retained": [
+          0,
+          2,
+          6,
+          7
+        ],
+        "oracle_expected_loss": 0.05,
+        "rule_expected_loss": 0.05,
+        "fifo_expected_loss": 0.275,
+        "archive_information_loss": 0.0,
+        "rule_equals_oracle": true
+      },
+      {
+        "left_public_visits": [
+          0,
+          2,
+          6,
+          7
+        ],
+        "action": "close_right_screen",
+        "rule_retained": [
+          1,
+          3,
+          4,
+          5
+        ],
+        "oracle_expected_loss": 0.05,
+        "rule_expected_loss": 0.05,
+        "fifo_expected_loss": 0.275,
+        "archive_information_loss": 0.0,
+        "rule_equals_oracle": true
+      },
+      {
+        "left_public_visits": [
+          0,
+          3,
+          4,
+          5
+        ],
+        "action": "close_left_screen",
+        "rule_retained": [
+          0,
+          3,
+          4,
+          5
+        ],
+        "oracle_expected_loss": 0.05,
+        "rule_expected_loss": 0.05,
+        "fifo_expected_loss": 0.275,
+        "archive_information_loss": 0.0,
+        "rule_equals_oracle": true
+      },
+      {
+        "left_public_visits": [
+          0,
+          3,
+          4,
+          5
+        ],
+        "action": "close_right_screen",
+        "rule_retained": [
+          1,
+          2,
+          6,
+          7
+        ],
+        "oracle_expected_loss": 0.05,
+        "rule_expected_loss": 0.05,
+        "fifo_expected_loss": 0.275,
+        "archive_information_loss": 0.0,
+        "rule_equals_oracle": true
+      },
+      {
+        "left_public_visits": [
+          0,
+          3,
+          4,
+          6
+        ],
+        "action": "close_left_screen",
+        "rule_retained": [
+          0,
+          3,
+          4,
+          6
+        ],
+        "oracle_expected_loss": 0.05,
+        "rule_expected_loss": 0.05,
+        "fifo_expected_loss": 0.275,
+        "archive_information_loss": 0.0,
+        "rule_equals_oracle": true
+      },
+      {
+        "left_public_visits": [
+          0,
+          3,
+          4,
+          6
+        ],
+        "action": "close_right_screen",
+        "rule_retained": [
+          1,
+          2,
+          5,
+          7
+        ],
+        "oracle_expected_loss": 0.05,
+        "rule_expected_loss": 0.05,
+        "fifo_expected_loss": 0.275,
+        "archive_information_loss": 0.0,
+        "rule_equals_oracle": true
+      },
+      {
+        "left_public_visits": [
+          0,
+          3,
+          4,
+          7
+        ],
+        "action": "close_left_screen",
+        "rule_retained": [
+          0,
+          3,
+          4,
+          7
+        ],
+        "oracle_expected_loss": 0.05,
+        "rule_expected_loss": 0.05,
+        "fifo_expected_loss": 0.275,
+        "archive_information_loss": 0.0,
+        "rule_equals_oracle": true
+      },
+      {
+        "left_public_visits": [
+          0,
+          3,
+          4,
+          7
+        ],
+        "action": "close_right_screen",
+        "rule_retained": [
+          1,
+          2,
+          5,
+          6
+        ],
+        "oracle_expected_loss": 0.05,
+        "rule_expected_loss": 0.05,
+        "fifo_expected_loss": 0.275,
+        "archive_information_loss": 0.0,
+        "rule_equals_oracle": true
+      },
+      {
+        "left_public_visits": [
+          0,
+          3,
+          5,
+          6
+        ],
+        "action": "close_left_screen",
+        "rule_retained": [
+          0,
+          3,
+          5,
+          6
+        ],
+        "oracle_expected_loss": 0.05,
+        "rule_expected_loss": 0.05,
+        "fifo_expected_loss": 0.275,
+        "archive_information_loss": 0.0,
+        "rule_equals_oracle": true
+      },
+      {
+        "left_public_visits": [
+          0,
+          3,
+          5,
+          6
+        ],
+        "action": "close_right_screen",
+        "rule_retained": [
+          1,
+          2,
+          4,
+          7
+        ],
+        "oracle_expected_loss": 0.05,
+        "rule_expected_loss": 0.05,
+        "fifo_expected_loss": 0.275,
+        "archive_information_loss": 0.0,
+        "rule_equals_oracle": true
+      },
+      {
+        "left_public_visits": [
+          0,
+          3,
+          5,
+          7
+        ],
+        "action": "close_left_screen",
+        "rule_retained": [
+          0,
+          3,
+          5,
+          7
+        ],
+        "oracle_expected_loss": 0.05,
+        "rule_expected_loss": 0.05,
+        "fifo_expected_loss": 0.275,
+        "archive_information_loss": 0.0,
+        "rule_equals_oracle": true
+      },
+      {
+        "left_public_visits": [
+          0,
+          3,
+          5,
+          7
+        ],
+        "action": "close_right_screen",
+        "rule_retained": [
+          1,
+          2,
+          4,
+          6
+        ],
+        "oracle_expected_loss": 0.05,
+        "rule_expected_loss": 0.05,
+        "fifo_expected_loss": 0.275,
+        "archive_information_loss": 0.0,
+        "rule_equals_oracle": true
+      },
+      {
+        "left_public_visits": [
+          0,
+          3,
+          6,
+          7
+        ],
+        "action": "close_left_screen",
+        "rule_retained": [
+          0,
+          3,
+          6,
+          7
+        ],
+        "oracle_expected_loss": 0.05,
+        "rule_expected_loss": 0.05,
+        "fifo_expected_loss": 0.275,
+        "archive_information_loss": 0.0,
+        "rule_equals_oracle": true
+      },
+      {
+        "left_public_visits": [
+          0,
+          3,
+          6,
+          7
+        ],
+        "action": "close_right_screen",
+        "rule_retained": [
+          1,
+          2,
+          4,
+          5
+        ],
+        "oracle_expected_loss": 0.05,
+        "rule_expected_loss": 0.05,
+        "fifo_expected_loss": 0.275,
+        "archive_information_loss": 0.0,
+        "rule_equals_oracle": true
+      },
+      {
+        "left_public_visits": [
+          0,
+          4,
+          5,
+          6
+        ],
+        "action": "close_left_screen",
+        "rule_retained": [
+          0,
+          4,
+          5,
+          6
+        ],
+        "oracle_expected_loss": 0.05,
+        "rule_expected_loss": 0.05,
+        "fifo_expected_loss": 0.16250000000000003,
+        "archive_information_loss": 0.0,
+        "rule_equals_oracle": true
+      },
+      {
+        "left_public_visits": [
+          0,
+          4,
+          5,
+          6
+        ],
+        "action": "close_right_screen",
+        "rule_retained": [
+          1,
+          2,
+          3,
+          7
+        ],
+        "oracle_expected_loss": 0.05,
+        "rule_expected_loss": 0.05,
+        "fifo_expected_loss": 0.3875,
+        "archive_information_loss": 0.0,
+        "rule_equals_oracle": true
+      },
+      {
+        "left_public_visits": [
+          0,
+          4,
+          5,
+          7
+        ],
+        "action": "close_left_screen",
+        "rule_retained": [
+          0,
+          4,
+          5,
+          7
+        ],
+        "oracle_expected_loss": 0.05,
+        "rule_expected_loss": 0.05,
+        "fifo_expected_loss": 0.16250000000000003,
+        "archive_information_loss": 0.0,
+        "rule_equals_oracle": true
+      },
+      {
+        "left_public_visits": [
+          0,
+          4,
+          5,
+          7
+        ],
+        "action": "close_right_screen",
+        "rule_retained": [
+          1,
+          2,
+          3,
+          6
+        ],
+        "oracle_expected_loss": 0.05,
+        "rule_expected_loss": 0.05,
+        "fifo_expected_loss": 0.3875,
+        "archive_information_loss": 0.0,
+        "rule_equals_oracle": true
+      },
+      {
+        "left_public_visits": [
+          0,
+          4,
+          6,
+          7
+        ],
+        "action": "close_left_screen",
+        "rule_retained": [
+          0,
+          4,
+          6,
+          7
+        ],
+        "oracle_expected_loss": 0.05,
+        "rule_expected_loss": 0.05,
+        "fifo_expected_loss": 0.16250000000000003,
+        "archive_information_loss": 0.0,
+        "rule_equals_oracle": true
+      },
+      {
+        "left_public_visits": [
+          0,
+          4,
+          6,
+          7
+        ],
+        "action": "close_right_screen",
+        "rule_retained": [
+          1,
+          2,
+          3,
+          5
+        ],
+        "oracle_expected_loss": 0.05,
+        "rule_expected_loss": 0.05,
+        "fifo_expected_loss": 0.3875,
+        "archive_information_loss": 0.0,
+        "rule_equals_oracle": true
+      },
+      {
+        "left_public_visits": [
+          0,
+          5,
+          6,
+          7
+        ],
+        "action": "close_left_screen",
+        "rule_retained": [
+          0,
+          5,
+          6,
+          7
+        ],
+        "oracle_expected_loss": 0.05,
+        "rule_expected_loss": 0.05,
+        "fifo_expected_loss": 0.16250000000000003,
+        "archive_information_loss": 0.0,
+        "rule_equals_oracle": true
+      },
+      {
+        "left_public_visits": [
+          0,
+          5,
+          6,
+          7
+        ],
+        "action": "close_right_screen",
+        "rule_retained": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "oracle_expected_loss": 0.05,
+        "rule_expected_loss": 0.05,
+        "fifo_expected_loss": 0.3875,
+        "archive_information_loss": 0.0,
+        "rule_equals_oracle": true
+      },
+      {
+        "left_public_visits": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "action": "close_left_screen",
+        "rule_retained": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "oracle_expected_loss": 0.05,
+        "rule_expected_loss": 0.05,
+        "fifo_expected_loss": 0.3875,
+        "archive_information_loss": 0.0,
+        "rule_equals_oracle": true
+      },
+      {
+        "left_public_visits": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "action": "close_right_screen",
+        "rule_retained": [
+          0,
+          5,
+          6,
+          7
+        ],
+        "oracle_expected_loss": 0.05,
+        "rule_expected_loss": 0.05,
+        "fifo_expected_loss": 0.16250000000000003,
+        "archive_information_loss": 0.0,
+        "rule_equals_oracle": true
+      },
+      {
+        "left_public_visits": [
+          1,
+          2,
+          3,
+          5
+        ],
+        "action": "close_left_screen",
+        "rule_retained": [
+          1,
+          2,
+          3,
+          5
+        ],
+        "oracle_expected_loss": 0.05,
+        "rule_expected_loss": 0.05,
+        "fifo_expected_loss": 0.3875,
+        "archive_information_loss": 0.0,
+        "rule_equals_oracle": true
+      },
+      {
+        "left_public_visits": [
+          1,
+          2,
+          3,
+          5
+        ],
+        "action": "close_right_screen",
+        "rule_retained": [
+          0,
+          4,
+          6,
+          7
+        ],
+        "oracle_expected_loss": 0.05,
+        "rule_expected_loss": 0.05,
+        "fifo_expected_loss": 0.16250000000000003,
+        "archive_information_loss": 0.0,
+        "rule_equals_oracle": true
+      },
+      {
+        "left_public_visits": [
+          1,
+          2,
+          3,
+          6
+        ],
+        "action": "close_left_screen",
+        "rule_retained": [
+          1,
+          2,
+          3,
+          6
+        ],
+        "oracle_expected_loss": 0.05,
+        "rule_expected_loss": 0.05,
+        "fifo_expected_loss": 0.3875,
+        "archive_information_loss": 0.0,
+        "rule_equals_oracle": true
+      },
+      {
+        "left_public_visits": [
+          1,
+          2,
+          3,
+          6
+        ],
+        "action": "close_right_screen",
+        "rule_retained": [
+          0,
+          4,
+          5,
+          7
+        ],
+        "oracle_expected_loss": 0.05,
+        "rule_expected_loss": 0.05,
+        "fifo_expected_loss": 0.16250000000000003,
+        "archive_information_loss": 0.0,
+        "rule_equals_oracle": true
+      },
+      {
+        "left_public_visits": [
+          1,
+          2,
+          3,
+          7
+        ],
+        "action": "close_left_screen",
+        "rule_retained": [
+          1,
+          2,
+          3,
+          7
+        ],
+        "oracle_expected_loss": 0.05,
+        "rule_expected_loss": 0.05,
+        "fifo_expected_loss": 0.3875,
+        "archive_information_loss": 0.0,
+        "rule_equals_oracle": true
+      },
+      {
+        "left_public_visits": [
+          1,
+          2,
+          3,
+          7
+        ],
+        "action": "close_right_screen",
+        "rule_retained": [
+          0,
+          4,
+          5,
+          6
+        ],
+        "oracle_expected_loss": 0.05,
+        "rule_expected_loss": 0.05,
+        "fifo_expected_loss": 0.16250000000000003,
+        "archive_information_loss": 0.0,
+        "rule_equals_oracle": true
+      },
+      {
+        "left_public_visits": [
+          1,
+          2,
+          4,
+          5
+        ],
+        "action": "close_left_screen",
+        "rule_retained": [
+          1,
+          2,
+          4,
+          5
+        ],
+        "oracle_expected_loss": 0.05,
+        "rule_expected_loss": 0.05,
+        "fifo_expected_loss": 0.275,
+        "archive_information_loss": 0.0,
+        "rule_equals_oracle": true
+      },
+      {
+        "left_public_visits": [
+          1,
+          2,
+          4,
+          5
+        ],
+        "action": "close_right_screen",
+        "rule_retained": [
+          0,
+          3,
+          6,
+          7
+        ],
+        "oracle_expected_loss": 0.05,
+        "rule_expected_loss": 0.05,
+        "fifo_expected_loss": 0.275,
+        "archive_information_loss": 0.0,
+        "rule_equals_oracle": true
+      },
+      {
+        "left_public_visits": [
+          1,
+          2,
+          4,
+          6
+        ],
+        "action": "close_left_screen",
+        "rule_retained": [
+          1,
+          2,
+          4,
+          6
+        ],
+        "oracle_expected_loss": 0.05,
+        "rule_expected_loss": 0.05,
+        "fifo_expected_loss": 0.275,
+        "archive_information_loss": 0.0,
+        "rule_equals_oracle": true
+      },
+      {
+        "left_public_visits": [
+          1,
+          2,
+          4,
+          6
+        ],
+        "action": "close_right_screen",
+        "rule_retained": [
+          0,
+          3,
+          5,
+          7
+        ],
+        "oracle_expected_loss": 0.05,
+        "rule_expected_loss": 0.05,
+        "fifo_expected_loss": 0.275,
+        "archive_information_loss": 0.0,
+        "rule_equals_oracle": true
+      },
+      {
+        "left_public_visits": [
+          1,
+          2,
+          4,
+          7
+        ],
+        "action": "close_left_screen",
+        "rule_retained": [
+          1,
+          2,
+          4,
+          7
+        ],
+        "oracle_expected_loss": 0.05,
+        "rule_expected_loss": 0.05,
+        "fifo_expected_loss": 0.275,
+        "archive_information_loss": 0.0,
+        "rule_equals_oracle": true
+      },
+      {
+        "left_public_visits": [
+          1,
+          2,
+          4,
+          7
+        ],
+        "action": "close_right_screen",
+        "rule_retained": [
+          0,
+          3,
+          5,
+          6
+        ],
+        "oracle_expected_loss": 0.05,
+        "rule_expected_loss": 0.05,
+        "fifo_expected_loss": 0.275,
+        "archive_information_loss": 0.0,
+        "rule_equals_oracle": true
+      },
+      {
+        "left_public_visits": [
+          1,
+          2,
+          5,
+          6
+        ],
+        "action": "close_left_screen",
+        "rule_retained": [
+          1,
+          2,
+          5,
+          6
+        ],
+        "oracle_expected_loss": 0.05,
+        "rule_expected_loss": 0.05,
+        "fifo_expected_loss": 0.275,
+        "archive_information_loss": 0.0,
+        "rule_equals_oracle": true
+      },
+      {
+        "left_public_visits": [
+          1,
+          2,
+          5,
+          6
+        ],
+        "action": "close_right_screen",
+        "rule_retained": [
+          0,
+          3,
+          4,
+          7
+        ],
+        "oracle_expected_loss": 0.05,
+        "rule_expected_loss": 0.05,
+        "fifo_expected_loss": 0.275,
+        "archive_information_loss": 0.0,
+        "rule_equals_oracle": true
+      },
+      {
+        "left_public_visits": [
+          1,
+          2,
+          5,
+          7
+        ],
+        "action": "close_left_screen",
+        "rule_retained": [
+          1,
+          2,
+          5,
+          7
+        ],
+        "oracle_expected_loss": 0.05,
+        "rule_expected_loss": 0.05,
+        "fifo_expected_loss": 0.275,
+        "archive_information_loss": 0.0,
+        "rule_equals_oracle": true
+      },
+      {
+        "left_public_visits": [
+          1,
+          2,
+          5,
+          7
+        ],
+        "action": "close_right_screen",
+        "rule_retained": [
+          0,
+          3,
+          4,
+          6
+        ],
+        "oracle_expected_loss": 0.05,
+        "rule_expected_loss": 0.05,
+        "fifo_expected_loss": 0.275,
+        "archive_information_loss": 0.0,
+        "rule_equals_oracle": true
+      },
+      {
+        "left_public_visits": [
+          1,
+          2,
+          6,
+          7
+        ],
+        "action": "close_left_screen",
+        "rule_retained": [
+          1,
+          2,
+          6,
+          7
+        ],
+        "oracle_expected_loss": 0.05,
+        "rule_expected_loss": 0.05,
+        "fifo_expected_loss": 0.275,
+        "archive_information_loss": 0.0,
+        "rule_equals_oracle": true
+      },
+      {
+        "left_public_visits": [
+          1,
+          2,
+          6,
+          7
+        ],
+        "action": "close_right_screen",
+        "rule_retained": [
+          0,
+          3,
+          4,
+          5
+        ],
+        "oracle_expected_loss": 0.05,
+        "rule_expected_loss": 0.05,
+        "fifo_expected_loss": 0.275,
+        "archive_information_loss": 0.0,
+        "rule_equals_oracle": true
+      },
+      {
+        "left_public_visits": [
+          1,
+          3,
+          4,
+          5
+        ],
+        "action": "close_left_screen",
+        "rule_retained": [
+          1,
+          3,
+          4,
+          5
+        ],
+        "oracle_expected_loss": 0.05,
+        "rule_expected_loss": 0.05,
+        "fifo_expected_loss": 0.275,
+        "archive_information_loss": 0.0,
+        "rule_equals_oracle": true
+      },
+      {
+        "left_public_visits": [
+          1,
+          3,
+          4,
+          5
+        ],
+        "action": "close_right_screen",
+        "rule_retained": [
+          0,
+          2,
+          6,
+          7
+        ],
+        "oracle_expected_loss": 0.05,
+        "rule_expected_loss": 0.05,
+        "fifo_expected_loss": 0.275,
+        "archive_information_loss": 0.0,
+        "rule_equals_oracle": true
+      },
+      {
+        "left_public_visits": [
+          1,
+          3,
+          4,
+          6
+        ],
+        "action": "close_left_screen",
+        "rule_retained": [
+          1,
+          3,
+          4,
+          6
+        ],
+        "oracle_expected_loss": 0.05,
+        "rule_expected_loss": 0.05,
+        "fifo_expected_loss": 0.275,
+        "archive_information_loss": 0.0,
+        "rule_equals_oracle": true
+      },
+      {
+        "left_public_visits": [
+          1,
+          3,
+          4,
+          6
+        ],
+        "action": "close_right_screen",
+        "rule_retained": [
+          0,
+          2,
+          5,
+          7
+        ],
+        "oracle_expected_loss": 0.05,
+        "rule_expected_loss": 0.05,
+        "fifo_expected_loss": 0.275,
+        "archive_information_loss": 0.0,
+        "rule_equals_oracle": true
+      },
+      {
+        "left_public_visits": [
+          1,
+          3,
+          4,
+          7
+        ],
+        "action": "close_left_screen",
+        "rule_retained": [
+          1,
+          3,
+          4,
+          7
+        ],
+        "oracle_expected_loss": 0.05,
+        "rule_expected_loss": 0.05,
+        "fifo_expected_loss": 0.275,
+        "archive_information_loss": 0.0,
+        "rule_equals_oracle": true
+      },
+      {
+        "left_public_visits": [
+          1,
+          3,
+          4,
+          7
+        ],
+        "action": "close_right_screen",
+        "rule_retained": [
+          0,
+          2,
+          5,
+          6
+        ],
+        "oracle_expected_loss": 0.05,
+        "rule_expected_loss": 0.05,
+        "fifo_expected_loss": 0.275,
+        "archive_information_loss": 0.0,
+        "rule_equals_oracle": true
+      },
+      {
+        "left_public_visits": [
+          1,
+          3,
+          5,
+          6
+        ],
+        "action": "close_left_screen",
+        "rule_retained": [
+          1,
+          3,
+          5,
+          6
+        ],
+        "oracle_expected_loss": 0.05,
+        "rule_expected_loss": 0.05,
+        "fifo_expected_loss": 0.275,
+        "archive_information_loss": 0.0,
+        "rule_equals_oracle": true
+      },
+      {
+        "left_public_visits": [
+          1,
+          3,
+          5,
+          6
+        ],
+        "action": "close_right_screen",
+        "rule_retained": [
+          0,
+          2,
+          4,
+          7
+        ],
+        "oracle_expected_loss": 0.05,
+        "rule_expected_loss": 0.05,
+        "fifo_expected_loss": 0.275,
+        "archive_information_loss": 0.0,
+        "rule_equals_oracle": true
+      },
+      {
+        "left_public_visits": [
+          1,
+          3,
+          5,
+          7
+        ],
+        "action": "close_left_screen",
+        "rule_retained": [
+          1,
+          3,
+          5,
+          7
+        ],
+        "oracle_expected_loss": 0.05,
+        "rule_expected_loss": 0.05,
+        "fifo_expected_loss": 0.275,
+        "archive_information_loss": 0.0,
+        "rule_equals_oracle": true
+      },
+      {
+        "left_public_visits": [
+          1,
+          3,
+          5,
+          7
+        ],
+        "action": "close_right_screen",
+        "rule_retained": [
+          0,
+          2,
+          4,
+          6
+        ],
+        "oracle_expected_loss": 0.05,
+        "rule_expected_loss": 0.05,
+        "fifo_expected_loss": 0.275,
+        "archive_information_loss": 0.0,
+        "rule_equals_oracle": true
+      },
+      {
+        "left_public_visits": [
+          1,
+          3,
+          6,
+          7
+        ],
+        "action": "close_left_screen",
+        "rule_retained": [
+          1,
+          3,
+          6,
+          7
+        ],
+        "oracle_expected_loss": 0.05,
+        "rule_expected_loss": 0.05,
+        "fifo_expected_loss": 0.275,
+        "archive_information_loss": 0.0,
+        "rule_equals_oracle": true
+      },
+      {
+        "left_public_visits": [
+          1,
+          3,
+          6,
+          7
+        ],
+        "action": "close_right_screen",
+        "rule_retained": [
+          0,
+          2,
+          4,
+          5
+        ],
+        "oracle_expected_loss": 0.05,
+        "rule_expected_loss": 0.05,
+        "fifo_expected_loss": 0.275,
+        "archive_information_loss": 0.0,
+        "rule_equals_oracle": true
+      },
+      {
+        "left_public_visits": [
+          1,
+          4,
+          5,
+          6
+        ],
+        "action": "close_left_screen",
+        "rule_retained": [
+          1,
+          4,
+          5,
+          6
+        ],
+        "oracle_expected_loss": 0.05,
+        "rule_expected_loss": 0.05,
+        "fifo_expected_loss": 0.16250000000000003,
+        "archive_information_loss": 0.0,
+        "rule_equals_oracle": true
+      },
+      {
+        "left_public_visits": [
+          1,
+          4,
+          5,
+          6
+        ],
+        "action": "close_right_screen",
+        "rule_retained": [
+          0,
+          2,
+          3,
+          7
+        ],
+        "oracle_expected_loss": 0.05,
+        "rule_expected_loss": 0.05,
+        "fifo_expected_loss": 0.3875,
+        "archive_information_loss": 0.0,
+        "rule_equals_oracle": true
+      },
+      {
+        "left_public_visits": [
+          1,
+          4,
+          5,
+          7
+        ],
+        "action": "close_left_screen",
+        "rule_retained": [
+          1,
+          4,
+          5,
+          7
+        ],
+        "oracle_expected_loss": 0.05,
+        "rule_expected_loss": 0.05,
+        "fifo_expected_loss": 0.16250000000000003,
+        "archive_information_loss": 0.0,
+        "rule_equals_oracle": true
+      },
+      {
+        "left_public_visits": [
+          1,
+          4,
+          5,
+          7
+        ],
+        "action": "close_right_screen",
+        "rule_retained": [
+          0,
+          2,
+          3,
+          6
+        ],
+        "oracle_expected_loss": 0.05,
+        "rule_expected_loss": 0.05,
+        "fifo_expected_loss": 0.3875,
+        "archive_information_loss": 0.0,
+        "rule_equals_oracle": true
+      },
+      {
+        "left_public_visits": [
+          1,
+          4,
+          6,
+          7
+        ],
+        "action": "close_left_screen",
+        "rule_retained": [
+          1,
+          4,
+          6,
+          7
+        ],
+        "oracle_expected_loss": 0.05,
+        "rule_expected_loss": 0.05,
+        "fifo_expected_loss": 0.16250000000000003,
+        "archive_information_loss": 0.0,
+        "rule_equals_oracle": true
+      },
+      {
+        "left_public_visits": [
+          1,
+          4,
+          6,
+          7
+        ],
+        "action": "close_right_screen",
+        "rule_retained": [
+          0,
+          2,
+          3,
+          5
+        ],
+        "oracle_expected_loss": 0.05,
+        "rule_expected_loss": 0.05,
+        "fifo_expected_loss": 0.3875,
+        "archive_information_loss": 0.0,
+        "rule_equals_oracle": true
+      },
+      {
+        "left_public_visits": [
+          1,
+          5,
+          6,
+          7
+        ],
+        "action": "close_left_screen",
+        "rule_retained": [
+          1,
+          5,
+          6,
+          7
+        ],
+        "oracle_expected_loss": 0.05,
+        "rule_expected_loss": 0.05,
+        "fifo_expected_loss": 0.16250000000000003,
+        "archive_information_loss": 0.0,
+        "rule_equals_oracle": true
+      },
+      {
+        "left_public_visits": [
+          1,
+          5,
+          6,
+          7
+        ],
+        "action": "close_right_screen",
+        "rule_retained": [
+          0,
+          2,
+          3,
+          4
+        ],
+        "oracle_expected_loss": 0.05,
+        "rule_expected_loss": 0.05,
+        "fifo_expected_loss": 0.3875,
+        "archive_information_loss": 0.0,
+        "rule_equals_oracle": true
+      },
+      {
+        "left_public_visits": [
+          2,
+          3,
+          4,
+          5
+        ],
+        "action": "close_left_screen",
+        "rule_retained": [
+          2,
+          3,
+          4,
+          5
+        ],
+        "oracle_expected_loss": 0.05,
+        "rule_expected_loss": 0.05,
+        "fifo_expected_loss": 0.275,
+        "archive_information_loss": 0.0,
+        "rule_equals_oracle": true
+      },
+      {
+        "left_public_visits": [
+          2,
+          3,
+          4,
+          5
+        ],
+        "action": "close_right_screen",
+        "rule_retained": [
+          0,
+          1,
+          6,
+          7
+        ],
+        "oracle_expected_loss": 0.05,
+        "rule_expected_loss": 0.05,
+        "fifo_expected_loss": 0.275,
+        "archive_information_loss": 0.0,
+        "rule_equals_oracle": true
+      },
+      {
+        "left_public_visits": [
+          2,
+          3,
+          4,
+          6
+        ],
+        "action": "close_left_screen",
+        "rule_retained": [
+          2,
+          3,
+          4,
+          6
+        ],
+        "oracle_expected_loss": 0.05,
+        "rule_expected_loss": 0.05,
+        "fifo_expected_loss": 0.275,
+        "archive_information_loss": 0.0,
+        "rule_equals_oracle": true
+      },
+      {
+        "left_public_visits": [
+          2,
+          3,
+          4,
+          6
+        ],
+        "action": "close_right_screen",
+        "rule_retained": [
+          0,
+          1,
+          5,
+          7
+        ],
+        "oracle_expected_loss": 0.05,
+        "rule_expected_loss": 0.05,
+        "fifo_expected_loss": 0.275,
+        "archive_information_loss": 0.0,
+        "rule_equals_oracle": true
+      },
+      {
+        "left_public_visits": [
+          2,
+          3,
+          4,
+          7
+        ],
+        "action": "close_left_screen",
+        "rule_retained": [
+          2,
+          3,
+          4,
+          7
+        ],
+        "oracle_expected_loss": 0.05,
+        "rule_expected_loss": 0.05,
+        "fifo_expected_loss": 0.275,
+        "archive_information_loss": 0.0,
+        "rule_equals_oracle": true
+      },
+      {
+        "left_public_visits": [
+          2,
+          3,
+          4,
+          7
+        ],
+        "action": "close_right_screen",
+        "rule_retained": [
+          0,
+          1,
+          5,
+          6
+        ],
+        "oracle_expected_loss": 0.05,
+        "rule_expected_loss": 0.05,
+        "fifo_expected_loss": 0.275,
+        "archive_information_loss": 0.0,
+        "rule_equals_oracle": true
+      },
+      {
+        "left_public_visits": [
+          2,
+          3,
+          5,
+          6
+        ],
+        "action": "close_left_screen",
+        "rule_retained": [
+          2,
+          3,
+          5,
+          6
+        ],
+        "oracle_expected_loss": 0.05,
+        "rule_expected_loss": 0.05,
+        "fifo_expected_loss": 0.275,
+        "archive_information_loss": 0.0,
+        "rule_equals_oracle": true
+      },
+      {
+        "left_public_visits": [
+          2,
+          3,
+          5,
+          6
+        ],
+        "action": "close_right_screen",
+        "rule_retained": [
+          0,
+          1,
+          4,
+          7
+        ],
+        "oracle_expected_loss": 0.05,
+        "rule_expected_loss": 0.05,
+        "fifo_expected_loss": 0.275,
+        "archive_information_loss": 0.0,
+        "rule_equals_oracle": true
+      },
+      {
+        "left_public_visits": [
+          2,
+          3,
+          5,
+          7
+        ],
+        "action": "close_left_screen",
+        "rule_retained": [
+          2,
+          3,
+          5,
+          7
+        ],
+        "oracle_expected_loss": 0.05,
+        "rule_expected_loss": 0.05,
+        "fifo_expected_loss": 0.275,
+        "archive_information_loss": 0.0,
+        "rule_equals_oracle": true
+      },
+      {
+        "left_public_visits": [
+          2,
+          3,
+          5,
+          7
+        ],
+        "action": "close_right_screen",
+        "rule_retained": [
+          0,
+          1,
+          4,
+          6
+        ],
+        "oracle_expected_loss": 0.05,
+        "rule_expected_loss": 0.05,
+        "fifo_expected_loss": 0.275,
+        "archive_information_loss": 0.0,
+        "rule_equals_oracle": true
+      },
+      {
+        "left_public_visits": [
+          2,
+          3,
+          6,
+          7
+        ],
+        "action": "close_left_screen",
+        "rule_retained": [
+          2,
+          3,
+          6,
+          7
+        ],
+        "oracle_expected_loss": 0.05,
+        "rule_expected_loss": 0.05,
+        "fifo_expected_loss": 0.275,
+        "archive_information_loss": 0.0,
+        "rule_equals_oracle": true
+      },
+      {
+        "left_public_visits": [
+          2,
+          3,
+          6,
+          7
+        ],
+        "action": "close_right_screen",
+        "rule_retained": [
+          0,
+          1,
+          4,
+          5
+        ],
+        "oracle_expected_loss": 0.05,
+        "rule_expected_loss": 0.05,
+        "fifo_expected_loss": 0.275,
+        "archive_information_loss": 0.0,
+        "rule_equals_oracle": true
+      },
+      {
+        "left_public_visits": [
+          2,
+          4,
+          5,
+          6
+        ],
+        "action": "close_left_screen",
+        "rule_retained": [
+          2,
+          4,
+          5,
+          6
+        ],
+        "oracle_expected_loss": 0.05,
+        "rule_expected_loss": 0.05,
+        "fifo_expected_loss": 0.1625,
+        "archive_information_loss": 0.0,
+        "rule_equals_oracle": true
+      },
+      {
+        "left_public_visits": [
+          2,
+          4,
+          5,
+          6
+        ],
+        "action": "close_right_screen",
+        "rule_retained": [
+          0,
+          1,
+          3,
+          7
+        ],
+        "oracle_expected_loss": 0.05,
+        "rule_expected_loss": 0.05,
+        "fifo_expected_loss": 0.3875,
+        "archive_information_loss": 0.0,
+        "rule_equals_oracle": true
+      },
+      {
+        "left_public_visits": [
+          2,
+          4,
+          5,
+          7
+        ],
+        "action": "close_left_screen",
+        "rule_retained": [
+          2,
+          4,
+          5,
+          7
+        ],
+        "oracle_expected_loss": 0.05,
+        "rule_expected_loss": 0.05,
+        "fifo_expected_loss": 0.1625,
+        "archive_information_loss": 0.0,
+        "rule_equals_oracle": true
+      },
+      {
+        "left_public_visits": [
+          2,
+          4,
+          5,
+          7
+        ],
+        "action": "close_right_screen",
+        "rule_retained": [
+          0,
+          1,
+          3,
+          6
+        ],
+        "oracle_expected_loss": 0.05,
+        "rule_expected_loss": 0.05,
+        "fifo_expected_loss": 0.3875,
+        "archive_information_loss": 0.0,
+        "rule_equals_oracle": true
+      },
+      {
+        "left_public_visits": [
+          2,
+          4,
+          6,
+          7
+        ],
+        "action": "close_left_screen",
+        "rule_retained": [
+          2,
+          4,
+          6,
+          7
+        ],
+        "oracle_expected_loss": 0.05,
+        "rule_expected_loss": 0.05,
+        "fifo_expected_loss": 0.1625,
+        "archive_information_loss": 0.0,
+        "rule_equals_oracle": true
+      },
+      {
+        "left_public_visits": [
+          2,
+          4,
+          6,
+          7
+        ],
+        "action": "close_right_screen",
+        "rule_retained": [
+          0,
+          1,
+          3,
+          5
+        ],
+        "oracle_expected_loss": 0.05,
+        "rule_expected_loss": 0.05,
+        "fifo_expected_loss": 0.3875,
+        "archive_information_loss": 0.0,
+        "rule_equals_oracle": true
+      },
+      {
+        "left_public_visits": [
+          2,
+          5,
+          6,
+          7
+        ],
+        "action": "close_left_screen",
+        "rule_retained": [
+          2,
+          5,
+          6,
+          7
+        ],
+        "oracle_expected_loss": 0.05,
+        "rule_expected_loss": 0.05,
+        "fifo_expected_loss": 0.1625,
+        "archive_information_loss": 0.0,
+        "rule_equals_oracle": true
+      },
+      {
+        "left_public_visits": [
+          2,
+          5,
+          6,
+          7
+        ],
+        "action": "close_right_screen",
+        "rule_retained": [
+          0,
+          1,
+          3,
+          4
+        ],
+        "oracle_expected_loss": 0.05,
+        "rule_expected_loss": 0.05,
+        "fifo_expected_loss": 0.3875,
+        "archive_information_loss": 0.0,
+        "rule_equals_oracle": true
+      },
+      {
+        "left_public_visits": [
+          3,
+          4,
+          5,
+          6
+        ],
+        "action": "close_left_screen",
+        "rule_retained": [
+          3,
+          4,
+          5,
+          6
+        ],
+        "oracle_expected_loss": 0.05,
+        "rule_expected_loss": 0.05,
+        "fifo_expected_loss": 0.1625,
+        "archive_information_loss": 0.0,
+        "rule_equals_oracle": true
+      },
+      {
+        "left_public_visits": [
+          3,
+          4,
+          5,
+          6
+        ],
+        "action": "close_right_screen",
+        "rule_retained": [
+          0,
+          1,
+          2,
+          7
+        ],
+        "oracle_expected_loss": 0.05,
+        "rule_expected_loss": 0.05,
+        "fifo_expected_loss": 0.3875,
+        "archive_information_loss": 0.0,
+        "rule_equals_oracle": true
+      },
+      {
+        "left_public_visits": [
+          3,
+          4,
+          5,
+          7
+        ],
+        "action": "close_left_screen",
+        "rule_retained": [
+          3,
+          4,
+          5,
+          7
+        ],
+        "oracle_expected_loss": 0.05,
+        "rule_expected_loss": 0.05,
+        "fifo_expected_loss": 0.1625,
+        "archive_information_loss": 0.0,
+        "rule_equals_oracle": true
+      },
+      {
+        "left_public_visits": [
+          3,
+          4,
+          5,
+          7
+        ],
+        "action": "close_right_screen",
+        "rule_retained": [
+          0,
+          1,
+          2,
+          6
+        ],
+        "oracle_expected_loss": 0.05,
+        "rule_expected_loss": 0.05,
+        "fifo_expected_loss": 0.3875,
+        "archive_information_loss": 0.0,
+        "rule_equals_oracle": true
+      },
+      {
+        "left_public_visits": [
+          3,
+          4,
+          6,
+          7
+        ],
+        "action": "close_left_screen",
+        "rule_retained": [
+          3,
+          4,
+          6,
+          7
+        ],
+        "oracle_expected_loss": 0.05,
+        "rule_expected_loss": 0.05,
+        "fifo_expected_loss": 0.1625,
+        "archive_information_loss": 0.0,
+        "rule_equals_oracle": true
+      },
+      {
+        "left_public_visits": [
+          3,
+          4,
+          6,
+          7
+        ],
+        "action": "close_right_screen",
+        "rule_retained": [
+          0,
+          1,
+          2,
+          5
+        ],
+        "oracle_expected_loss": 0.05,
+        "rule_expected_loss": 0.05,
+        "fifo_expected_loss": 0.3875,
+        "archive_information_loss": 0.0,
+        "rule_equals_oracle": true
+      },
+      {
+        "left_public_visits": [
+          3,
+          5,
+          6,
+          7
+        ],
+        "action": "close_left_screen",
+        "rule_retained": [
+          3,
+          5,
+          6,
+          7
+        ],
+        "oracle_expected_loss": 0.05,
+        "rule_expected_loss": 0.05,
+        "fifo_expected_loss": 0.1625,
+        "archive_information_loss": 0.0,
+        "rule_equals_oracle": true
+      },
+      {
+        "left_public_visits": [
+          3,
+          5,
+          6,
+          7
+        ],
+        "action": "close_right_screen",
+        "rule_retained": [
+          0,
+          1,
+          2,
+          4
+        ],
+        "oracle_expected_loss": 0.05,
+        "rule_expected_loss": 0.05,
+        "fifo_expected_loss": 0.3875,
+        "archive_information_loss": 0.0,
+        "rule_equals_oracle": true
+      },
+      {
+        "left_public_visits": [
+          4,
+          5,
+          6,
+          7
+        ],
+        "action": "close_left_screen",
+        "rule_retained": [
+          4,
+          5,
+          6,
+          7
+        ],
+        "oracle_expected_loss": 0.05,
+        "rule_expected_loss": 0.05,
+        "fifo_expected_loss": 0.05,
+        "archive_information_loss": 0.0,
+        "rule_equals_oracle": true
+      },
+      {
+        "left_public_visits": [
+          4,
+          5,
+          6,
+          7
+        ],
+        "action": "close_right_screen",
+        "rule_retained": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "oracle_expected_loss": 0.05,
+        "rule_expected_loss": 0.05,
+        "fifo_expected_loss": 0.5,
+        "archive_information_loss": 0.0,
+        "rule_equals_oracle": true
+      }
+    ]
+  },
+  "archive_cost_probe": {
+    "image_width_height": [
+      320,
+      240
+    ],
+    "bytes_per_rgb": 230400,
+    "source_rgb_frames": 16,
+    "decode_from_ram": {
+      "repetitions": 100,
+      "p50_ms": 1.1591665,
+      "p95_ms": 1.21245385,
+      "min_ms": 1.09648,
+      "max_ms": 1.435032
+    },
+    "decode_from_warm_filesystem": {
+      "repetitions": 100,
+      "p50_ms": 1.1966044999999998,
+      "p95_ms": 1.3426069999999999,
+      "min_ms": 1.130931,
+      "max_ms": 1.961174
+    },
+    "workloads": [
+      {
+        "record_count": 8,
+        "independently_copied_records": true,
+        "unique_source_rgb_frames": 8,
+        "raw_payload_bytes": 1843200,
+        "python_dict_keys_and_bytes_size": 1844044,
+        "build_copy_ms": 0.581781,
+        "exact_payload_roundtrips": 8,
+        "indexed_rgb_copy": {
+          "repetitions": 100,
+          "p50_ms": 0.002963,
+          "p95_ms": 0.0031728,
+          "min_ms": 0.002795,
+          "max_ms": 0.005183
+        },
+        "cached_descriptor_array_bytes": 32768,
+        "cached_descriptor_search_only": {
+          "repetitions": 100,
+          "p50_ms": 0.0021184999999999997,
+          "p95_ms": 0.00269855,
+          "min_ms": 0.001907,
+          "max_ms": 0.008033
+        },
+        "raw_archive_fits_payload_budgets_MiB": {
+          "1": false,
+          "2": true,
+          "4": true,
+          "16": true,
+          "64": true
+        }
+      },
+      {
+        "record_count": 32,
+        "independently_copied_records": true,
+        "unique_source_rgb_frames": 16,
+        "raw_payload_bytes": 7372800,
+        "python_dict_keys_and_bytes_size": 7375924,
+        "build_copy_ms": 2.47466,
+        "exact_payload_roundtrips": 32,
+        "indexed_rgb_copy": {
+          "repetitions": 100,
+          "p50_ms": 0.0053100000000000005,
+          "p95_ms": 0.010792649999999999,
+          "min_ms": 0.002886,
+          "max_ms": 0.011503
+        },
+        "cached_descriptor_array_bytes": 131072,
+        "cached_descriptor_search_only": {
+          "repetitions": 100,
+          "p50_ms": 0.0038645,
+          "p95_ms": 0.0041527000000000005,
+          "min_ms": 0.00368,
+          "max_ms": 0.004272
+        },
+        "raw_archive_fits_payload_budgets_MiB": {
+          "1": false,
+          "2": false,
+          "4": false,
+          "16": true,
+          "64": true
+        }
+      },
+      {
+        "record_count": 128,
+        "independently_copied_records": true,
+        "unique_source_rgb_frames": 16,
+        "raw_payload_bytes": 29491200,
+        "python_dict_keys_and_bytes_size": 29503700,
+        "build_copy_ms": 10.274926,
+        "exact_payload_roundtrips": 128,
+        "indexed_rgb_copy": {
+          "repetitions": 100,
+          "p50_ms": 0.012808,
+          "p95_ms": 0.014934349999999999,
+          "min_ms": 0.003007,
+          "max_ms": 0.015242
+        },
+        "cached_descriptor_array_bytes": 524288,
+        "cached_descriptor_search_only": {
+          "repetitions": 100,
+          "p50_ms": 0.0107125,
+          "p95_ms": 0.01146405,
+          "min_ms": 0.01052,
+          "max_ms": 0.014712
+        },
+        "raw_archive_fits_payload_budgets_MiB": {
+          "1": false,
+          "2": false,
+          "4": false,
+          "16": false,
+          "64": true
+        }
+      }
+    ]
+  },
+  "environment": {
+    "python": "3.10.12",
+    "numpy": "1.26.4",
+    "boot_id": "959409af-e593-4f9b-9986-871bbe82d43a"
+  },
+  "source_sha256": {
+    "configs/multi_instance_candidate_review_v1.json": "174a322585d08f7be1d54a8f4595ca2da73a66286ce0632802e8c00b972a95bf",
+    "scripts/review_multi_instance_candidate.py": "2e571fe7a62dc02c42ded7f3d198fe6c2c799d9faea1908473cb7471e4dfbb78",
+    "src/recoverability/candidate_review.py": "85af3ef8d46babc200ba111cdcf518080f4afe94e935608ed3cb50874d2c9f13",
+    "tests/test_candidate_review.py": "502f6a55cfcb9d566c8ab88a1684ea236a4a88322da8f17967a53bedfd90faa8",
+    "third_party/EventVLA/RoboTwin-Mem/envs/observe_and_pickup.py": "b9fa7e0c37ed404bcd168b22d507f21e50f9368bd4e5ea9b532b1f8fb1da2b86",
+    "assets/objects/009_toycar/model_data0.json": "64935f1c4536c66ac968405fc08fd7f355b5ba4354d6bf16a6ead2bda24b239f",
+    "assets/objects/009_toycar/model_data1.json": "bce1e4881531853492cba11c6920a1e2904f768e6891d6ac18dfc3cd25594e46",
+    "assets/objects/009_toycar/model_data2.json": "8fe847158cf784d485df12b28e07517cfc9795747fce7ef4b2609da86f495cff",
+    "assets/objects/009_toycar/model_data3.json": "33d6d54b049450c725dd6b348f6ad55fa0b79dfd8ab9d3e90d5f9605d35f4140",
+    "assets/objects/009_toycar/model_data4.json": "09508ad5bfdd361f52e10f62ade3f7da7b2069f14f0907d9f5696f1b7da9cac6",
+    "assets/objects/009_toycar/model_data5.json": "acbc1b198d982173cb956984b499188145b0aa13de763f352a3bd9c35b3985c1",
+    "assets/objects/010_mouse/model_data0.json": "ec9826adaf1ab0a950607cca52ae1f84be4f8713b58697c2b5992e58756853dd",
+    "assets/objects/010_mouse/model_data1.json": "0a4a14550626bd9f992c53d64938a5986d76a834163c1d76743d835659153360",
+    "assets/objects/010_mouse/model_data2.json": "b35034f1e20533d458123db0c6d417002d37e771544cc24ac0e648062d5da1ee",
+    "assets/objects/011_stapler/model_data0.json": "57600c0933f3375aefd0e403585d04dfd3c59041f4371d88d30212051d67a4db",
+    "assets/objects/011_stapler/model_data1.json": "f6268b73a678763fd7129b89d7fa6833da76520ac83d4cd6c8de7f0673aebf4e",
+    "assets/objects/011_stapler/model_data2.json": "6628636dc87fa391649c7930a9e74fa233c7ec5eaabea5346078db28c2fef0f0",
+    "assets/objects/011_stapler/model_data3.json": "120d9e605b40006dd27eccd87f8f75a8178bafd9c7b22f571e6f6d6f118601d0",
+    "assets/objects/011_stapler/model_data4.json": "d2a2d65fb346135984f43b4f799694a041b02e0dbbfbd9eac91a9837c2a06377",
+    "assets/objects/011_stapler/model_data5.json": "b0702cb31e6d984e95978626c5bb83f9add38135221bdd888686817dcda9d3cd",
+    "assets/objects/011_stapler/model_data6.json": "e42346a8d275eeb21660005e8fc35e34468453a319b3891a1fa02eafdd5e5bd3",
+    "assets/objects/012_bell/model_data0.json": "cee44b84c415189c45f415e92f8708cbfadd5e350b311e06fbf9087f25eaadcb",
+    "assets/objects/012_bell/model_data1.json": "7f41b440b9f49708b691994dc0e85d6c7ac70f51c16a4d88f3bae2a8d20bea93",
+    "assets/objects/013_playingcards/model_data0.json": "ae60e2c2377edb3ab94ded0ef9f8254f87f6f2eb92a81b77d186d83faee6905d",
+    "assets/objects/013_playingcards/model_data1.json": "1fad364b5a4af21b83e4a21b9d11c23d4965840a2835cbfaeac657c21e2cd114",
+    "assets/objects/013_playingcards/model_data2.json": "471d179e93258b55e618b869eb62183c9c5565cb54e28229c54c20b55ad8d716",
+    "reports/latest_action_pairs.json": "10ac52e421ec98bd2c65f82c216ff743dae78c2502535c6ee686da4428bb938c",
+    "runs/20261015T013736Z_action_pairs/s310000_a0_K/evidence_0.png": "5fba1e178ab1ede84452c975f4b6d9a7de4d4038c4899b32bad60cac57a27988",
+    "runs/20261015T013736Z_action_pairs/s310000_a0_K/evidence_1.png": "30c7ef49a83bc07b76ba21a7d00db8bd3ee4107ef94053c7a0d9ce76ef296c92",
+    "runs/20261015T013736Z_action_pairs/s310000_a0_K/evidence_2.png": "acc7c6876a84592036113812a53ae0deccf54792dc770231a7e003d951e00e3a",
+    "runs/20261015T013736Z_action_pairs/s310000_a0_K/evidence_3.png": "ff1787145180f3820ff38eccb6f864473f04910ae7e68cdbda5b2a0e0837bc17",
+    "runs/20261015T013736Z_action_pairs/s310000_a3_K/evidence_0.png": "5fba1e178ab1ede84452c975f4b6d9a7de4d4038c4899b32bad60cac57a27988",
+    "runs/20261015T013736Z_action_pairs/s310000_a3_K/evidence_1.png": "30c7ef49a83bc07b76ba21a7d00db8bd3ee4107ef94053c7a0d9ce76ef296c92",
+    "runs/20261015T013736Z_action_pairs/s310000_a3_K/evidence_2.png": "acc7c6876a84592036113812a53ae0deccf54792dc770231a7e003d951e00e3a",
+    "runs/20261015T013736Z_action_pairs/s310000_a3_K/evidence_3.png": "ff1787145180f3820ff38eccb6f864473f04910ae7e68cdbda5b2a0e0837bc17",
+    "runs/20261015T013736Z_action_pairs/s310001_a0_K/evidence_0.png": "e91a5c6fc00e0ee281e5e620059e65dca695dbf8779a326645fb2df672beaf89",
+    "runs/20261015T013736Z_action_pairs/s310001_a0_K/evidence_1.png": "5a3019834ea10f76271555e8899c93ffea7fe2ee1448bbf807008889bc416609",
+    "runs/20261015T013736Z_action_pairs/s310001_a0_K/evidence_2.png": "b2012f154fadb424e5c9c6bbcc3faf9d09bd3b18014199a5e684dacdf9b8a47e",
+    "runs/20261015T013736Z_action_pairs/s310001_a0_K/evidence_3.png": "f087f49aac86999df392a33eac5b110a415d5b1ec4c2b11b35d9b779702ce50f",
+    "runs/20261015T013736Z_action_pairs/s310001_a3_K/evidence_0.png": "e91a5c6fc00e0ee281e5e620059e65dca695dbf8779a326645fb2df672beaf89",
+    "runs/20261015T013736Z_action_pairs/s310001_a3_K/evidence_1.png": "5a3019834ea10f76271555e8899c93ffea7fe2ee1448bbf807008889bc416609",
+    "runs/20261015T013736Z_action_pairs/s310001_a3_K/evidence_2.png": "b2012f154fadb424e5c9c6bbcc3faf9d09bd3b18014199a5e684dacdf9b8a47e",
+    "runs/20261015T013736Z_action_pairs/s310001_a3_K/evidence_3.png": "f087f49aac86999df392a33eac5b110a415d5b1ec4c2b11b35d9b779702ce50f",
+    "runs/20261015T013736Z_action_pairs/s310002_a0_K/evidence_0.png": "ba47a6f66c7fb4651f736a6a4da5bbfff94156faddfa5f9e05ab84c041b40e7d",
+    "runs/20261015T013736Z_action_pairs/s310002_a0_K/evidence_1.png": "2e57980255f893b82ac62887b2440ad230fb5ded8404088e2b352acfd0016163",
+    "runs/20261015T013736Z_action_pairs/s310002_a0_K/evidence_2.png": "94fc2da26a95db200850c4e72db0da8dc4485e98bd2e8e8638721a98a0699d86",
+    "runs/20261015T013736Z_action_pairs/s310002_a0_K/evidence_3.png": "bccea655b1c6931f205cf4756bf111e3c0af75db45a84f1bfc7903129b9946a2",
+    "runs/20261015T013736Z_action_pairs/s310002_a3_K/evidence_0.png": "ba47a6f66c7fb4651f736a6a4da5bbfff94156faddfa5f9e05ab84c041b40e7d",
+    "runs/20261015T013736Z_action_pairs/s310002_a3_K/evidence_1.png": "2e57980255f893b82ac62887b2440ad230fb5ded8404088e2b352acfd0016163",
+    "runs/20261015T013736Z_action_pairs/s310002_a3_K/evidence_2.png": "94fc2da26a95db200850c4e72db0da8dc4485e98bd2e8e8638721a98a0699d86",
+    "runs/20261015T013736Z_action_pairs/s310002_a3_K/evidence_3.png": "bccea655b1c6931f205cf4756bf111e3c0af75db45a84f1bfc7903129b9946a2",
+    "runs/20261015T013736Z_action_pairs/s310003_a0_K/evidence_0.png": "03327bf6d1b133353b0b53341f3ee92755af95144dd7d869735fd04523d24c8f",
+    "runs/20261015T013736Z_action_pairs/s310003_a0_K/evidence_1.png": "e379fdd1e409469a647a9f43c0f24ed9e984caa014a55ff2c72b1bbdd7f01c72",
+    "runs/20261015T013736Z_action_pairs/s310003_a0_K/evidence_2.png": "5274af881c89f61c9e9fd5168d86bc25fe0dd55f83c7749ff608e9a9b3386822",
+    "runs/20261015T013736Z_action_pairs/s310003_a0_K/evidence_3.png": "7da770f423d6a0bd7e574c2eed0be5410ed6246a3d8e7e62e02ca45eb2892b31",
+    "runs/20261015T013736Z_action_pairs/s310003_a3_K/evidence_0.png": "03327bf6d1b133353b0b53341f3ee92755af95144dd7d869735fd04523d24c8f",
+    "runs/20261015T013736Z_action_pairs/s310003_a3_K/evidence_1.png": "e379fdd1e409469a647a9f43c0f24ed9e984caa014a55ff2c72b1bbdd7f01c72",
+    "runs/20261015T013736Z_action_pairs/s310003_a3_K/evidence_2.png": "5274af881c89f61c9e9fd5168d86bc25fe0dd55f83c7749ff608e9a9b3386822",
+    "runs/20261015T013736Z_action_pairs/s310003_a3_K/evidence_3.png": "7da770f423d6a0bd7e574c2eed0be5410ed6246a3d8e7e62e02ca45eb2892b31"
+  },
+  "limitations": [
+    "Finite geometry/access model is an explicit proposed task, not physical simulation or sampled generalization.",
+    "Archive information loss zero means the requested RGB is retrievable, not that perception/manipulation succeeds.",
+    "Cost workloads reuse old color-scene frames; they do not test new object recognition or retrieval accuracy.",
+    "Search uses synthetic cached vectors and excludes vision encoding, transfer, model inference, and index quality.",
+    "Filesystem benchmark uses warm page cache, not cold HDD latency or durable write cost.",
+    "Asset IDs are counted only for inventory; policies and retrieval receive no simulator identity.",
+    "V1 is unestablished rather than empirically refuted; the predetermined review cap ends automatic escalation."
+  ]
+}

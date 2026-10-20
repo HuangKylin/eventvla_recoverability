@@ -1,0 +1,550 @@
+{
+  "status": "complete",
+  "created_utc": "2026-10-19T01:39:46.207167+00:00",
+  "run_dir": "/media/user/HDD_8T/eventvla_recoverability_phase1_20261014/runs/20261019T013946Z_research_headroom_audit",
+  "decision": "no_go_current_simple_color_task_scaleup",
+  "fresh_gpu_rollouts": 0,
+  "formal_training_started": false,
+  "new_independent_test_families": 0,
+  "retrospective_development_audit": true,
+  "mechanism_families": 4,
+  "mechanism_label_rows": 32,
+  "action_groups": 8,
+  "public_action_rule_best_priority_groups": 8,
+  "priority_diagnostics": [
+    {
+      "family": "action_latch_310000",
+      "action_hash": "2f37508b590376434fb24b115ed027f6f26219a5aee584f74b86554e841afb4e",
+      "public_program_max_error": 0.0,
+      "costs": {
+        "0": 1.0328,
+        "1": 0.033760000000000005,
+        "2": 0.033620000000000004,
+        "3": 0.03295
+      },
+      "diagnostic_best_slots": [
+        0
+      ],
+      "public_rule_slot": 0,
+      "public_rule_matches_best": true,
+      "marginal_priority_gap": 0.0,
+      "scope": "single_drop_priority_only_not_capacity_one_closed_loop_value"
+    },
+    {
+      "family": "action_latch_310000",
+      "action_hash": "741c1ae100602a3940a7fc0c224c34029909ff817a17e73a3d3c519e6724cc67",
+      "public_program_max_error": 0.0,
+      "costs": {
+        "0": 0.0328,
+        "1": 0.033760000000000005,
+        "2": 0.033620000000000004,
+        "3": 1.03295
+      },
+      "diagnostic_best_slots": [
+        3
+      ],
+      "public_rule_slot": 3,
+      "public_rule_matches_best": true,
+      "marginal_priority_gap": 0.0,
+      "scope": "single_drop_priority_only_not_capacity_one_closed_loop_value"
+    },
+    {
+      "family": "action_latch_310001",
+      "action_hash": "2f37508b590376434fb24b115ed027f6f26219a5aee584f74b86554e841afb4e",
+      "public_program_max_error": 0.0,
+      "costs": {
+        "0": 1.0328,
+        "1": 0.033760000000000005,
+        "2": 0.033620000000000004,
+        "3": 0.03295
+      },
+      "diagnostic_best_slots": [
+        0
+      ],
+      "public_rule_slot": 0,
+      "public_rule_matches_best": true,
+      "marginal_priority_gap": 0.0,
+      "scope": "single_drop_priority_only_not_capacity_one_closed_loop_value"
+    },
+    {
+      "family": "action_latch_310001",
+      "action_hash": "741c1ae100602a3940a7fc0c224c34029909ff817a17e73a3d3c519e6724cc67",
+      "public_program_max_error": 0.0,
+      "costs": {
+        "0": 0.0328,
+        "1": 0.033760000000000005,
+        "2": 0.033620000000000004,
+        "3": 1.03295
+      },
+      "diagnostic_best_slots": [
+        3
+      ],
+      "public_rule_slot": 3,
+      "public_rule_matches_best": true,
+      "marginal_priority_gap": 0.0,
+      "scope": "single_drop_priority_only_not_capacity_one_closed_loop_value"
+    },
+    {
+      "family": "action_latch_310002",
+      "action_hash": "2f37508b590376434fb24b115ed027f6f26219a5aee584f74b86554e841afb4e",
+      "public_program_max_error": 0.0,
+      "costs": {
+        "0": 1.0328,
+        "1": 0.033760000000000005,
+        "2": 0.033620000000000004,
+        "3": 0.03295
+      },
+      "diagnostic_best_slots": [
+        0
+      ],
+      "public_rule_slot": 0,
+      "public_rule_matches_best": true,
+      "marginal_priority_gap": 0.0,
+      "scope": "single_drop_priority_only_not_capacity_one_closed_loop_value"
+    },
+    {
+      "family": "action_latch_310002",
+      "action_hash": "741c1ae100602a3940a7fc0c224c34029909ff817a17e73a3d3c519e6724cc67",
+      "public_program_max_error": 0.0,
+      "costs": {
+        "0": 0.0328,
+        "1": 0.033760000000000005,
+        "2": 0.033620000000000004,
+        "3": 1.03295
+      },
+      "diagnostic_best_slots": [
+        3
+      ],
+      "public_rule_slot": 3,
+      "public_rule_matches_best": true,
+      "marginal_priority_gap": 0.0,
+      "scope": "single_drop_priority_only_not_capacity_one_closed_loop_value"
+    },
+    {
+      "family": "action_latch_310003",
+      "action_hash": "2f37508b590376434fb24b115ed027f6f26219a5aee584f74b86554e841afb4e",
+      "public_program_max_error": 0.0,
+      "costs": {
+        "0": 1.0328,
+        "1": 0.033760000000000005,
+        "2": 0.033620000000000004,
+        "3": 0.03295
+      },
+      "diagnostic_best_slots": [
+        0
+      ],
+      "public_rule_slot": 0,
+      "public_rule_matches_best": true,
+      "marginal_priority_gap": 0.0,
+      "scope": "single_drop_priority_only_not_capacity_one_closed_loop_value"
+    },
+    {
+      "family": "action_latch_310003",
+      "action_hash": "741c1ae100602a3940a7fc0c224c34029909ff817a17e73a3d3c519e6724cc67",
+      "public_program_max_error": 0.0,
+      "costs": {
+        "0": 0.0328,
+        "1": 0.033760000000000005,
+        "2": 0.033620000000000004,
+        "3": 1.03295
+      },
+      "diagnostic_best_slots": [
+        3
+      ],
+      "public_rule_slot": 3,
+      "public_rule_matches_best": true,
+      "marginal_priority_gap": 0.0,
+      "scope": "single_drop_priority_only_not_capacity_one_closed_loop_value"
+    }
+  ],
+  "rgb_record_correct": 16,
+  "distinct_rgb_observations": 16,
+  "rgb_records": [
+    {
+      "family": "action_latch_310000",
+      "slot": 0,
+      "answer": "yellow",
+      "expected": "yellow",
+      "keep_success": true,
+      "correct": true,
+      "rgb_bytes": 230400,
+      "image_sha256": "5fba1e178ab1ede84452c975f4b6d9a7de4d4038c4899b32bad60cac57a27988"
+    },
+    {
+      "family": "action_latch_310000",
+      "slot": 1,
+      "answer": "red",
+      "expected": "red",
+      "keep_success": true,
+      "correct": true,
+      "rgb_bytes": 230400,
+      "image_sha256": "30c7ef49a83bc07b76ba21a7d00db8bd3ee4107ef94053c7a0d9ce76ef296c92"
+    },
+    {
+      "family": "action_latch_310000",
+      "slot": 2,
+      "answer": "red",
+      "expected": "red",
+      "keep_success": true,
+      "correct": true,
+      "rgb_bytes": 230400,
+      "image_sha256": "acc7c6876a84592036113812a53ae0deccf54792dc770231a7e003d951e00e3a"
+    },
+    {
+      "family": "action_latch_310000",
+      "slot": 3,
+      "answer": "red",
+      "expected": "red",
+      "keep_success": true,
+      "correct": true,
+      "rgb_bytes": 230400,
+      "image_sha256": "ff1787145180f3820ff38eccb6f864473f04910ae7e68cdbda5b2a0e0837bc17"
+    },
+    {
+      "family": "action_latch_310001",
+      "slot": 0,
+      "answer": "red",
+      "expected": "red",
+      "keep_success": true,
+      "correct": true,
+      "rgb_bytes": 230400,
+      "image_sha256": "e91a5c6fc00e0ee281e5e620059e65dca695dbf8779a326645fb2df672beaf89"
+    },
+    {
+      "family": "action_latch_310001",
+      "slot": 1,
+      "answer": "green",
+      "expected": "green",
+      "keep_success": true,
+      "correct": true,
+      "rgb_bytes": 230400,
+      "image_sha256": "5a3019834ea10f76271555e8899c93ffea7fe2ee1448bbf807008889bc416609"
+    },
+    {
+      "family": "action_latch_310001",
+      "slot": 2,
+      "answer": "yellow",
+      "expected": "yellow",
+      "keep_success": true,
+      "correct": true,
+      "rgb_bytes": 230400,
+      "image_sha256": "b2012f154fadb424e5c9c6bbcc3faf9d09bd3b18014199a5e684dacdf9b8a47e"
+    },
+    {
+      "family": "action_latch_310001",
+      "slot": 3,
+      "answer": "blue",
+      "expected": "blue",
+      "keep_success": true,
+      "correct": true,
+      "rgb_bytes": 230400,
+      "image_sha256": "f087f49aac86999df392a33eac5b110a415d5b1ec4c2b11b35d9b779702ce50f"
+    },
+    {
+      "family": "action_latch_310002",
+      "slot": 0,
+      "answer": "red",
+      "expected": "red",
+      "keep_success": true,
+      "correct": true,
+      "rgb_bytes": 230400,
+      "image_sha256": "ba47a6f66c7fb4651f736a6a4da5bbfff94156faddfa5f9e05ab84c041b40e7d"
+    },
+    {
+      "family": "action_latch_310002",
+      "slot": 1,
+      "answer": "red",
+      "expected": "red",
+      "keep_success": true,
+      "correct": true,
+      "rgb_bytes": 230400,
+      "image_sha256": "2e57980255f893b82ac62887b2440ad230fb5ded8404088e2b352acfd0016163"
+    },
+    {
+      "family": "action_latch_310002",
+      "slot": 2,
+      "answer": "green",
+      "expected": "green",
+      "keep_success": true,
+      "correct": true,
+      "rgb_bytes": 230400,
+      "image_sha256": "94fc2da26a95db200850c4e72db0da8dc4485e98bd2e8e8638721a98a0699d86"
+    },
+    {
+      "family": "action_latch_310002",
+      "slot": 3,
+      "answer": "yellow",
+      "expected": "yellow",
+      "keep_success": true,
+      "correct": true,
+      "rgb_bytes": 230400,
+      "image_sha256": "bccea655b1c6931f205cf4756bf111e3c0af75db45a84f1bfc7903129b9946a2"
+    },
+    {
+      "family": "action_latch_310003",
+      "slot": 0,
+      "answer": "blue",
+      "expected": "blue",
+      "keep_success": true,
+      "correct": true,
+      "rgb_bytes": 230400,
+      "image_sha256": "03327bf6d1b133353b0b53341f3ee92755af95144dd7d869735fd04523d24c8f"
+    },
+    {
+      "family": "action_latch_310003",
+      "slot": 1,
+      "answer": "yellow",
+      "expected": "yellow",
+      "keep_success": true,
+      "correct": true,
+      "rgb_bytes": 230400,
+      "image_sha256": "e379fdd1e409469a647a9f43c0f24ed9e984caa014a55ff2c72b1bbdd7f01c72"
+    },
+    {
+      "family": "action_latch_310003",
+      "slot": 2,
+      "answer": "green",
+      "expected": "green",
+      "keep_success": true,
+      "correct": true,
+      "rgb_bytes": 230400,
+      "image_sha256": "5274af881c89f61c9e9fd5168d86bc25fe0dd55f83c7749ff608e9a9b3386822"
+    },
+    {
+      "family": "action_latch_310003",
+      "slot": 3,
+      "answer": "red",
+      "expected": "red",
+      "keep_success": true,
+      "correct": true,
+      "rgb_bytes": 230400,
+      "image_sha256": "7da770f423d6a0bd7e574c2eed0be5410ed6246a3d8e7e62e02ca45eb2892b31"
+    }
+  ],
+  "semantic_payloads": [
+    {
+      "family": "action_latch_310000",
+      "payload_bytes": 51
+    },
+    {
+      "family": "action_latch_310001",
+      "payload_bytes": 54
+    },
+    {
+      "family": "action_latch_310002",
+      "payload_bytes": 53
+    },
+    {
+      "family": "action_latch_310003",
+      "payload_bytes": 54
+    }
+  ],
+  "historical_closed_loop": {
+    "learned_action": {
+      "correct": 8,
+      "queries": 8,
+      "rollouts": 2,
+      "recovery_steps": 20051,
+      "max_image_payload_bytes": 230400,
+      "max_semantic_payload_bytes": 0
+    },
+    "learned_no_action": {
+      "correct": 7,
+      "queries": 8,
+      "rollouts": 2,
+      "recovery_steps": 20066,
+      "max_image_payload_bytes": 230400,
+      "max_semantic_payload_bytes": 0
+    },
+    "fifo": {
+      "correct": 6,
+      "queries": 8,
+      "rollouts": 2,
+      "recovery_steps": 19902,
+      "max_image_payload_bytes": 230400,
+      "max_semantic_payload_bytes": 0
+    },
+    "oldest": {
+      "correct": 7,
+      "queries": 8,
+      "rollouts": 2,
+      "recovery_steps": 20066,
+      "max_image_payload_bytes": 230400,
+      "max_semantic_payload_bytes": 0
+    },
+    "action_rule": {
+      "correct": 8,
+      "queries": 8,
+      "rollouts": 2,
+      "recovery_steps": 20051,
+      "max_image_payload_bytes": 230400,
+      "max_semantic_payload_bytes": 0
+    },
+    "archive": {
+      "correct": 8,
+      "queries": 8,
+      "rollouts": 2,
+      "recovery_steps": 0,
+      "max_image_payload_bytes": 921600,
+      "max_semantic_payload_bytes": 0
+    },
+    "structured": {
+      "correct": 8,
+      "queries": 8,
+      "rollouts": 2,
+      "recovery_steps": 0,
+      "max_image_payload_bytes": 0,
+      "max_semantic_payload_bytes": 54
+    }
+  },
+  "historical_closed_loop_families": 1,
+  "native_unique_color_enumeration": {
+    "color_assignments": 24,
+    "assignment_deletion_cases": 96,
+    "possible_missing_values_histogram": {
+      "1": 96
+    },
+    "fully_inferable_cases": 96,
+    "assumptions": "known palette/generator; other three colors read correctly",
+    "scope": "exact_symbolic_enumeration_not_robot_rollouts"
+  },
+  "mechanism_independent_color_enumeration": {
+    "color_assignments": 256,
+    "assignment_deletion_cases": 1024,
+    "possible_missing_values_histogram": {
+      "4": 1024
+    },
+    "fully_inferable_cases": 0,
+    "assumptions": "known palette/generator; other three colors read correctly",
+    "scope": "exact_symbolic_enumeration_not_robot_rollouts"
+  },
+  "source_sha256": {
+    "configs/research_headroom_gate_v1.json": "ee6d59d12a4f7c0d86b85d356ed217ddccbac4372e2ded2dde2ef7a65705c414",
+    "reports/latest_action_pairs.json": "10ac52e421ec98bd2c65f82c216ff743dae78c2502535c6ee686da4428bb938c",
+    "reports/latest_scored_action_eval.json": "fe113f65afe4382a39e471bf0e3beafc73c99def7e2bb3c6274d5d8c783a33fb",
+    "scripts/action_pair_worker.py": "2b31d90c523f2f0bc796e173f89f58a8ba786c2ce14c3a1f3d3f84fd85b320fe",
+    "scripts/collect_action_pairs.py": "9b1a4209d29eb4004fe9b29705af268d63a9be5bce5b256bd62c665f20a47c09",
+    "src/recoverability/action_latch_task.py": "4299b303767b223f16305940df6b5dbf82dfca72c01cab686a9643ea3dbe919a",
+    "src/recoverability/fixed_skills.py": "797f3e4b4286616e415dcefc51a1611124f2a2ab401c0b833bf306e9bb2e3d1f",
+    "src/recoverability/cue_probe_task.py": "53226573f8888aa7477a7ae873f52d17585e7b7e569548783a603423ff39e172",
+    "src/recoverability/cue_reader.py": "0b432e109dcdcf1f315d7ccb9ee4062223d635b954b618865ddc0bd27e88e41e",
+    "src/recoverability/snapshot.py": "56b93ac9000b8f19a7a0c928a4e573efc5f2c2df4821ec5b7608206158065adf",
+    "src/recoverability/sim_runtime.py": "b1a213b8d44b89cc38665f03694fc7c69de4c7277adfa87b18b318c28fd56bee",
+    "src/recoverability/branch_protocol.py": "4b6751d26e5e597de6bab7c19eb53798f752ddb2214659727905077cb5ce0749",
+    "scripts/scored_action_worker.py": "7d3d8c6eca83217f00c4bc0a3f54f89a8b372383a031b53d4d2aeeab5ee6205d",
+    "scripts/run_scored_action_eval.py": "c01be8550e07ab4648f739881ff8c3a7f87a111a8eb1b4e28082da6f11c0b91e",
+    "src/recoverability/scorer.py": "801a08bfb63e6a0c54a56be9530fb52e0195b8f52ee9022154effe91ed28dc44",
+    "scripts/audit_research_headroom.py": "e27b2ff09ed2d4b5aa865d65e27c41b5a5cad6715eb03a7f009ab331173e2f62",
+    "src/recoverability/research_gate.py": "3ce5d97beddb67887e65d47019af48d367b5107fb237461843656b96bd04f4e2",
+    "tests/test_research_gate.py": "8d7b779a9700cb6c628e9557aab70797c39068530f2c8ba8976a9dbe36f6c5df",
+    "runs/20261014T111504Z_shared_skill_library/library.json": "779afcaf086fc60cf7718e790ab8c9e44347147aa73c61640c5bf2576d9cd5e0",
+    "runs/20261014T111504Z_shared_skill_library/slot_0.npz": "dc6a3a6a40ff27dbe750207a9242889ac22764eae84af0b12a9bfc1a13b99817",
+    "runs/20261014T111504Z_shared_skill_library/slot_1.npz": "18d92445c41beee782b94e3aa8d5d4044631c9486c17f16c52b71f7f3597a7dc",
+    "runs/20261014T111504Z_shared_skill_library/slot_2.npz": "83e99697b91387edfbbe94dade5ef9480f8de73e189b2783cd1d4674608eea7f",
+    "runs/20261014T111504Z_shared_skill_library/slot_3.npz": "51d28f051be765a55e30f4b118ef1ea23ac0b286d46c9cb62076e15c75c0a999",
+    "runs/20261015T013736Z_action_pairs/s310000_a0_K/result.json": "06f7191efe7a73892c00a907ad2077b65ae4f83181b6b55a481fe786f292ce90",
+    "runs/20261015T013736Z_action_pairs/s310000_a0_K/public_action.npz": "4ba82d63993f8af841c6570b5ed43d2132c616946c20f5a51211a646aae6155b",
+    "runs/20261015T013736Z_action_pairs/s310000_a0_R0/result.json": "a23d90089774f22265c4e67efcd89871e04d5169739bf9421a929f91108b5430",
+    "runs/20261015T013736Z_action_pairs/s310000_a0_K/evidence_0.png": "5fba1e178ab1ede84452c975f4b6d9a7de4d4038c4899b32bad60cac57a27988",
+    "runs/20261015T013736Z_action_pairs/s310000_a0_R1/result.json": "2bb543b491b64e35ff2b55fd47bbd0a4bd336dc33206427a75d66059cbfe3e39",
+    "runs/20261015T013736Z_action_pairs/s310000_a0_K/evidence_1.png": "30c7ef49a83bc07b76ba21a7d00db8bd3ee4107ef94053c7a0d9ce76ef296c92",
+    "runs/20261015T013736Z_action_pairs/s310000_a0_R2/result.json": "bfa6a86159e60814e0b0bc61627a97bbb5b5f21e11868526eba48a06044a2a38",
+    "runs/20261015T013736Z_action_pairs/s310000_a0_K/evidence_2.png": "acc7c6876a84592036113812a53ae0deccf54792dc770231a7e003d951e00e3a",
+    "runs/20261015T013736Z_action_pairs/s310000_a0_R3/result.json": "4f56b91c3a4a389f1c51c7e517f9ad0359b6999d59d5da42487693422c372b7a",
+    "runs/20261015T013736Z_action_pairs/s310000_a0_K/evidence_3.png": "ff1787145180f3820ff38eccb6f864473f04910ae7e68cdbda5b2a0e0837bc17",
+    "runs/20261015T013736Z_action_pairs/s310000_a3_K/result.json": "0ce73875fe0109a90d10f9c92a6b41f6f00353880f0c3399479d0f26fabb85d1",
+    "runs/20261015T013736Z_action_pairs/s310000_a3_K/public_action.npz": "3df9b2d43293a59408d7e5dd9ec7a7f1b3906978bf023dbad65ecf6d6161283c",
+    "runs/20261015T013736Z_action_pairs/s310000_a3_R0/result.json": "87dd79a120caca8a91686289001543866b867b43448598041a7eaba19639340a",
+    "runs/20261015T013736Z_action_pairs/s310000_a3_K/evidence_0.png": "5fba1e178ab1ede84452c975f4b6d9a7de4d4038c4899b32bad60cac57a27988",
+    "runs/20261015T013736Z_action_pairs/s310000_a3_R1/result.json": "c2a631e9b6a76036c85d0d7326edac5a281180dca5f9f7a8243488b1b27ee2c3",
+    "runs/20261015T013736Z_action_pairs/s310000_a3_K/evidence_1.png": "30c7ef49a83bc07b76ba21a7d00db8bd3ee4107ef94053c7a0d9ce76ef296c92",
+    "runs/20261015T013736Z_action_pairs/s310000_a3_R2/result.json": "a165ea8c750d1d73cb7b1645c991574fae9a987e520f0bfb42eb1dd9edcaaa29",
+    "runs/20261015T013736Z_action_pairs/s310000_a3_K/evidence_2.png": "acc7c6876a84592036113812a53ae0deccf54792dc770231a7e003d951e00e3a",
+    "runs/20261015T013736Z_action_pairs/s310000_a3_R3/result.json": "af570893d91e7e5c528272f73d85a311b73874fd4f61a5d6e2c948237dcd4f87",
+    "runs/20261015T013736Z_action_pairs/s310000_a3_K/evidence_3.png": "ff1787145180f3820ff38eccb6f864473f04910ae7e68cdbda5b2a0e0837bc17",
+    "runs/20261015T013736Z_action_pairs/s310001_a0_K/result.json": "e453a7a73bd1aa7b3fa87586f6a35e5100f93a70f4daf198a19e8de0bf401fd5",
+    "runs/20261015T013736Z_action_pairs/s310001_a0_K/public_action.npz": "4ba82d63993f8af841c6570b5ed43d2132c616946c20f5a51211a646aae6155b",
+    "runs/20261015T013736Z_action_pairs/s310001_a0_R0/result.json": "1b3c41ed43e4417bb30be6e4e06f03f9f69100b29ddf73ce406d330bd5fda4df",
+    "runs/20261015T013736Z_action_pairs/s310001_a0_K/evidence_0.png": "e91a5c6fc00e0ee281e5e620059e65dca695dbf8779a326645fb2df672beaf89",
+    "runs/20261015T013736Z_action_pairs/s310001_a0_R1/result.json": "db4b5f5bb6b43d3cab8c2f6d55d165b92ace090ccfc4f61fea2fef64998201c7",
+    "runs/20261015T013736Z_action_pairs/s310001_a0_K/evidence_1.png": "5a3019834ea10f76271555e8899c93ffea7fe2ee1448bbf807008889bc416609",
+    "runs/20261015T013736Z_action_pairs/s310001_a0_R2/result.json": "841e04c686cb89526c13537efa57a0087be1e089bc34be066920a686b986302e",
+    "runs/20261015T013736Z_action_pairs/s310001_a0_K/evidence_2.png": "b2012f154fadb424e5c9c6bbcc3faf9d09bd3b18014199a5e684dacdf9b8a47e",
+    "runs/20261015T013736Z_action_pairs/s310001_a0_R3/result.json": "29444c00107e778c97da2fca93a884ebc473f3be02a66fbae759ff546adbd322",
+    "runs/20261015T013736Z_action_pairs/s310001_a0_K/evidence_3.png": "f087f49aac86999df392a33eac5b110a415d5b1ec4c2b11b35d9b779702ce50f",
+    "runs/20261015T013736Z_action_pairs/s310001_a3_K/result.json": "874240fa014920c9b83c0761dc11ef39a3745dee30afcc51730d01609f9b36dc",
+    "runs/20261015T013736Z_action_pairs/s310001_a3_K/public_action.npz": "3df9b2d43293a59408d7e5dd9ec7a7f1b3906978bf023dbad65ecf6d6161283c",
+    "runs/20261015T013736Z_action_pairs/s310001_a3_R0/result.json": "c40704c0f6cc64422c6fb25e268c64fa4370e0fa7014d8a3f02e4337a50220a1",
+    "runs/20261015T013736Z_action_pairs/s310001_a3_K/evidence_0.png": "e91a5c6fc00e0ee281e5e620059e65dca695dbf8779a326645fb2df672beaf89",
+    "runs/20261015T013736Z_action_pairs/s310001_a3_R1/result.json": "9f16eb22c3bc09bd3856f76b72fc86379753e272e79c3d58dd4d1645a0a0a9a5",
+    "runs/20261015T013736Z_action_pairs/s310001_a3_K/evidence_1.png": "5a3019834ea10f76271555e8899c93ffea7fe2ee1448bbf807008889bc416609",
+    "runs/20261015T013736Z_action_pairs/s310001_a3_R2/result.json": "be79c5598272441b50376c2d9859bf778de50e543dbb36e91a580f3b28571d11",
+    "runs/20261015T013736Z_action_pairs/s310001_a3_K/evidence_2.png": "b2012f154fadb424e5c9c6bbcc3faf9d09bd3b18014199a5e684dacdf9b8a47e",
+    "runs/20261015T013736Z_action_pairs/s310001_a3_R3/result.json": "c0e7cd8646b230d7025bdf932a4d8c66961f3d9fa54d5712e63855a1d20d345f",
+    "runs/20261015T013736Z_action_pairs/s310001_a3_K/evidence_3.png": "f087f49aac86999df392a33eac5b110a415d5b1ec4c2b11b35d9b779702ce50f",
+    "runs/20261015T013736Z_action_pairs/s310002_a0_K/result.json": "f2d657e494233b388b9bcaf1da898d07756d86e8deb0575b57e9e8107e2644a3",
+    "runs/20261015T013736Z_action_pairs/s310002_a0_K/public_action.npz": "4ba82d63993f8af841c6570b5ed43d2132c616946c20f5a51211a646aae6155b",
+    "runs/20261015T013736Z_action_pairs/s310002_a0_R0/result.json": "74d1cb7fb3cb0fbe68ad7ece4537d92fc347eae5d82a91baa8f808c9cbe31987",
+    "runs/20261015T013736Z_action_pairs/s310002_a0_K/evidence_0.png": "ba47a6f66c7fb4651f736a6a4da5bbfff94156faddfa5f9e05ab84c041b40e7d",
+    "runs/20261015T013736Z_action_pairs/s310002_a0_R1/result.json": "af7d3a68e18f18cdb9c7859c399412804e3bea3e6cb989e74e0fbe3379e5de72",
+    "runs/20261015T013736Z_action_pairs/s310002_a0_K/evidence_1.png": "2e57980255f893b82ac62887b2440ad230fb5ded8404088e2b352acfd0016163",
+    "runs/20261015T013736Z_action_pairs/s310002_a0_R2/result.json": "a43529ab60a5826503f367d564a9215a3029eeecabfa0baceacbcc74f852fd01",
+    "runs/20261015T013736Z_action_pairs/s310002_a0_K/evidence_2.png": "94fc2da26a95db200850c4e72db0da8dc4485e98bd2e8e8638721a98a0699d86",
+    "runs/20261015T013736Z_action_pairs/s310002_a0_R3/result.json": "8a4ff4500f126b8578779490f99386c20dc7b5b3709cf2c22f9475ce70aae46e",
+    "runs/20261015T013736Z_action_pairs/s310002_a0_K/evidence_3.png": "bccea655b1c6931f205cf4756bf111e3c0af75db45a84f1bfc7903129b9946a2",
+    "runs/20261015T013736Z_action_pairs/s310002_a3_K/result.json": "8150e9d25b544bbcc714a9ee81a2c99c023940ed48283c67d1fb61a235e455cd",
+    "runs/20261015T013736Z_action_pairs/s310002_a3_K/public_action.npz": "3df9b2d43293a59408d7e5dd9ec7a7f1b3906978bf023dbad65ecf6d6161283c",
+    "runs/20261015T013736Z_action_pairs/s310002_a3_R0/result.json": "d7c9996dd95340d429658d07aea794720ca9c9579a35cc11bb7aaf3e20b258ec",
+    "runs/20261015T013736Z_action_pairs/s310002_a3_K/evidence_0.png": "ba47a6f66c7fb4651f736a6a4da5bbfff94156faddfa5f9e05ab84c041b40e7d",
+    "runs/20261015T013736Z_action_pairs/s310002_a3_R1/result.json": "d2e301de5a685ca7f3b06070e338d47a30f5d9ba215ba238153e363a4afdbefc",
+    "runs/20261015T013736Z_action_pairs/s310002_a3_K/evidence_1.png": "2e57980255f893b82ac62887b2440ad230fb5ded8404088e2b352acfd0016163",
+    "runs/20261015T013736Z_action_pairs/s310002_a3_R2/result.json": "8c20669c7d5440391fce4945f5139dd6809b4925648dd08a987c8d22f2fb0d7c",
+    "runs/20261015T013736Z_action_pairs/s310002_a3_K/evidence_2.png": "94fc2da26a95db200850c4e72db0da8dc4485e98bd2e8e8638721a98a0699d86",
+    "runs/20261015T013736Z_action_pairs/s310002_a3_R3/result.json": "0c229c12326a84abda42d2a5f959b0917e8e5bf3181b853ccececae3390dde72",
+    "runs/20261015T013736Z_action_pairs/s310002_a3_K/evidence_3.png": "bccea655b1c6931f205cf4756bf111e3c0af75db45a84f1bfc7903129b9946a2",
+    "runs/20261015T013736Z_action_pairs/s310003_a0_K/result.json": "6b3c608f14434f826397b4d4f2557d683d00aa44b6df27ce58cd285aadb92f94",
+    "runs/20261015T013736Z_action_pairs/s310003_a0_K/public_action.npz": "4ba82d63993f8af841c6570b5ed43d2132c616946c20f5a51211a646aae6155b",
+    "runs/20261015T013736Z_action_pairs/s310003_a0_R0/result.json": "3786e2fd71cc6865cfda5a4c3f22f4704af835b1c3c90a9af30656af092bd645",
+    "runs/20261015T013736Z_action_pairs/s310003_a0_K/evidence_0.png": "03327bf6d1b133353b0b53341f3ee92755af95144dd7d869735fd04523d24c8f",
+    "runs/20261015T013736Z_action_pairs/s310003_a0_R1/result.json": "3812d583cdfe598a55f90dbbbecf14c91f82f0fc88c043689b56060043f45f13",
+    "runs/20261015T013736Z_action_pairs/s310003_a0_K/evidence_1.png": "e379fdd1e409469a647a9f43c0f24ed9e984caa014a55ff2c72b1bbdd7f01c72",
+    "runs/20261015T013736Z_action_pairs/s310003_a0_R2/result.json": "3f4fbfb3b3f3bd6b69e78dd7c5acf46aa379c36357637d421a511deb8db15bbe",
+    "runs/20261015T013736Z_action_pairs/s310003_a0_K/evidence_2.png": "5274af881c89f61c9e9fd5168d86bc25fe0dd55f83c7749ff608e9a9b3386822",
+    "runs/20261015T013736Z_action_pairs/s310003_a0_R3/result.json": "22d38ba87951d8cef76a8412058f29a6ee1ea680e9cb8d05d8c2915720d0961b",
+    "runs/20261015T013736Z_action_pairs/s310003_a0_K/evidence_3.png": "7da770f423d6a0bd7e574c2eed0be5410ed6246a3d8e7e62e02ca45eb2892b31",
+    "runs/20261015T013736Z_action_pairs/s310003_a3_K/result.json": "3014c2c02d8ad2bb687a00c9329ded1180d3ad6e44f4ee5ecda63e30f47f5ac8",
+    "runs/20261015T013736Z_action_pairs/s310003_a3_K/public_action.npz": "3df9b2d43293a59408d7e5dd9ec7a7f1b3906978bf023dbad65ecf6d6161283c",
+    "runs/20261015T013736Z_action_pairs/s310003_a3_R0/result.json": "91dfbf9092cbb5072fb4bf94acd9de330cbd834d3660815b628c79dcf672e522",
+    "runs/20261015T013736Z_action_pairs/s310003_a3_K/evidence_0.png": "03327bf6d1b133353b0b53341f3ee92755af95144dd7d869735fd04523d24c8f",
+    "runs/20261015T013736Z_action_pairs/s310003_a3_R1/result.json": "69d5a02884d079bf9543b7d5e34435b83f7a2059cf29ffb4742e655beb185fc5",
+    "runs/20261015T013736Z_action_pairs/s310003_a3_K/evidence_1.png": "e379fdd1e409469a647a9f43c0f24ed9e984caa014a55ff2c72b1bbdd7f01c72",
+    "runs/20261015T013736Z_action_pairs/s310003_a3_R2/result.json": "bfd9e1dc7b5c1840797e29b3a91f1a24d26a399d0fe1f309911667961945887e",
+    "runs/20261015T013736Z_action_pairs/s310003_a3_K/evidence_2.png": "5274af881c89f61c9e9fd5168d86bc25fe0dd55f83c7749ff608e9a9b3386822",
+    "runs/20261015T013736Z_action_pairs/s310003_a3_R3/result.json": "daf72ffb1b32dbd12b89beffa312ceb0d44a597c223537931e59eb2a70c5a705",
+    "runs/20261015T013736Z_action_pairs/s310003_a3_K/evidence_3.png": "7da770f423d6a0bd7e574c2eed0be5410ed6246a3d8e7e62e02ca45eb2892b31",
+    "runs/20261015T020607Z_scored_action_eval/s310003_a0_learned_action/result.json": "3971e5d352e68b3f78803ce9d8a8e31caabb7779aadf460d126851db5a3ce02c",
+    "runs/20261015T020607Z_scored_action_eval/s310003_a0_learned_no_action/result.json": "0ce988b89e5000f1ed4e6cdefa8c754a38282273819f2ffe9341315c79efab51",
+    "runs/20261015T020607Z_scored_action_eval/s310003_a0_fifo/result.json": "ae5f0930fab264698fa3b9787eca8470d25b75fa4d170eb32c8615a3dd9c52eb",
+    "runs/20261015T020607Z_scored_action_eval/s310003_a0_oldest/result.json": "26145820e5b7866b38d58c8b0666393e522b5f871b049677ac634d86536cce31",
+    "runs/20261015T020607Z_scored_action_eval/s310003_a0_action_rule/result.json": "9e4436662a9ea507293d211652ce0d21b00436068d1502be72a662e4f3b631e1",
+    "runs/20261015T020607Z_scored_action_eval/s310003_a0_archive/result.json": "bd59b41ae8deeb7af04c95e36a06013287e588f1b51ddcb803fe3065e569e590",
+    "runs/20261015T020607Z_scored_action_eval/s310003_a0_structured/result.json": "9771a3e34e1cc2c0a581df2642ec1d11d178eb08b2e8b8d2acdbfcbc5ed1f4c8",
+    "runs/20261015T020607Z_scored_action_eval/s310003_a3_learned_action/result.json": "5dbc378f18f01f5eace4022f8f4be3a42e1a726bec70d2cb995fa7a828b3daca",
+    "runs/20261015T020607Z_scored_action_eval/s310003_a3_learned_no_action/result.json": "f62e1fabc73025e4c2eebf8a0e8abc6513bf6d2c3323a072602daa545f4fc566",
+    "runs/20261015T020607Z_scored_action_eval/s310003_a3_fifo/result.json": "1111818652be283acd2155992814f7fc15fe031f7970194f62451729343e98fc",
+    "runs/20261015T020607Z_scored_action_eval/s310003_a3_oldest/result.json": "17e48cbaee58e0ddf0511859f4fde2ccdefbbd6fabb834fca2d8882aa895dd83",
+    "runs/20261015T020607Z_scored_action_eval/s310003_a3_action_rule/result.json": "a8862ce5dec056351d63d0672a193a09d53ecee2e2bfc792f10e5ff0820ae15e",
+    "runs/20261015T020607Z_scored_action_eval/s310003_a3_archive/result.json": "a160edacdec343f2e74f6b4fbc4fbd35a4b50a42e8d739e435c46c467d34b8b2",
+    "runs/20261015T020607Z_scored_action_eval/s310003_a3_structured/result.json": "0541e87bb307eb08dff9166e7c27def385c5b328c6ba42b26853bb4b52b20e75",
+    "third_party/EventVLA/RoboTwin-Mem/envs/cover_blocks_hard.py": "3dfba3cefa137a804093bc9ba21a2bbb0f4e3d3dbd8ea57552cf2b96b1775e77"
+  },
+  "limitations": [
+    "Four development families at one geometry; only one family in historical closed-loop comparison.",
+    "Priority diagnostic uses single-deletion labels; no claim about joint-deletion cost or globally optimal recovery cost.",
+    "Public motor matcher was checked offline; it was not rerun in a fresh closed-loop trial.",
+    "Symbolic inference assumes correct remaining colors and known generator; it is not EventVLA ability.",
+    "Four-image archive has more image storage; no equal-storage superiority claim.",
+    "Semantic payload excludes shared reader/skill code and runtime; task-specific representation suffices here.",
+    "No-go applies to scaling this simple-color construction, not the general research idea."
+  ]
+}

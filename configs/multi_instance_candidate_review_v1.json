@@ -1,0 +1,46 @@
+{
+  "version": "multi_instance_candidate_review_v1",
+  "status": "frozen_for_bounded_design_review_not_robot_evaluation",
+  "created_date": "2026-10-19",
+  "candidate": "multi_instance_visual_evidence_action_changes_access",
+  "source_task": "observe_and_pickup",
+  "design_v0": {
+    "evidence_count": 8,
+    "persistent_gpu_image_capacity": 4,
+    "query_count_per_episode": 1,
+    "query_distribution": "uniform over eight publicly indexed observation visits, disclosed after action",
+    "instance_information": "Public reference RGB; asset/model ID and true target identity excluded from policies",
+    "layout": "Eight named public visits; four behind each of two screen regions; enumerate all 70 left/right partitions",
+    "proposed_actions": ["close_left_screen", "close_right_screen"],
+    "action_timing": "Memory decision precedes physical motion; public layout/history identical within each action pair",
+    "after_action": "Screen side becomes inaccessible within remaining horizon; opposite side remains inspectable",
+    "normalised_miss_cost": {"inaccessible": 1.0, "inspectable": 0.1},
+    "oracle_diagnostic": "Enumerate all 70 retained subsets, expected cost of a single uniformly sampled query",
+    "public_rule": "Retain the four public visits behind the screen to be closed",
+    "full_archive": "Keep every delivered reference RGB on CPU/disk with public visit index; retrieve one reference per query",
+    "fairness": "Same current observations, executor and one recalled-reference read budget; all persistent payload counted separately",
+    "candidate_success_claim": "None; physical feasibility and perception are not evaluated by this symbolic model"
+  },
+  "single_revision_v1": {
+    "change": "Replace public visit query with a delayed visual-instance query that has no exact visit key",
+    "mandatory_baselines": ["public compact instance descriptors", "full raw-image archive with cached descriptors", "query-conditioned retrieval", "action-aware retrieval", "bounded action-conditioned memory"],
+    "unresolved": ["actual cross-view instance retrieval accuracy", "encoder and query inference cost", "whether actions add value beyond query relevance", "shared manipulation and recovery skill"],
+    "do_not_claim": "Cheap descriptor search does not establish correct visual retrieval or full pipeline latency",
+    "review_limit": "One design revision only; unresolved scientific admission does not trigger automatic large data collection"
+  },
+  "archive_cost_probe": {
+    "image_source": "Existing sixteen distinct mechanism RGB observations; reused only as byte-size and decode workloads",
+    "record_counts": [8, 32, 128],
+    "warmups": 5,
+    "timed_repetitions": 100,
+    "descriptor_width": 1024,
+    "descriptor_dtype": "float32",
+    "descriptor_source": "Synthetic normalized vectors for search cost only; no accuracy claim",
+    "storage_budget_sensitivity_MiB": [1, 2, 4, 16, 64],
+    "disk_reads": "Original encoded images; warm OS page cache only; no cold-disk or durability claim"
+  },
+  "gpu_jobs_max": 0,
+  "training_runs_max": 0,
+  "new_simulation_rollouts_max": 0,
+  "asset_categories": ["009_toycar", "010_mouse", "011_stapler", "012_bell", "013_playingcards"]
+}

@@ -1,0 +1,106 @@
+{
+  "requested_utc": "2026-10-19T08:44:43.491070+00:00",
+  "reason": "User explicitly requested stop and preserve records",
+  "run_dir": "/media/user/HDD_8T/eventvla_recoverability_phase1_20261014/runs/20261019T083752Z_evidence_failure_branches",
+  "before_status": "evaluating",
+  "completed_before_stop": [
+    "unchanged"
+  ],
+  "owned_processes_before": {
+    "pid": true,
+    "pacer_pid": true,
+    "server_pid": true,
+    "worker_pid": true
+  },
+  "signals": [
+    {
+      "key": "pid",
+      "pid": 4086728,
+      "signal": "SIGTERM"
+    }
+  ],
+  "owned_processes_after": {
+    "pid": false,
+    "pacer_pid": false,
+    "server_pid": false,
+    "worker_pid": false
+  },
+  "final_status": {
+    "status": "failed",
+    "pid": 4086728,
+    "gpu": 1,
+    "port": 39661,
+    "run_dir": "/media/user/HDD_8T/eventvla_recoverability_phase1_20261014/runs/20261019T083752Z_evidence_failure_branches",
+    "boot_id": "959409af-e593-4f9b-9986-871bbe82d43a",
+    "source": "/media/user/HDD_8T/eventvla_recoverability_phase1_20261014/runs/20261019T050314Z_evidence_native_census/rearrange_blocks_hard_520001",
+    "started_utc": "2026-10-19T08:37:52.880080+00:00",
+    "episodes": [
+      {
+        "name": "unchanged",
+        "native_success": false,
+        "native_failed": true,
+        "actions": 2,
+        "final_step": 532,
+        "final_state": {
+          "phase": "move_other_to_center",
+          "fail_flag": true,
+          "press_cnt": 3,
+          "press_flag": true,
+          "progress_index": 4,
+          "actual_first_block_id": 1,
+          "actual_other_block_id": 0,
+          "layout_restored_achieved": true,
+          "other_center_achieved": false,
+          "both_on_center": false,
+          "block_positions": [
+            [
+              0.020000044256448746,
+              -0.13887561857700348,
+              0.7620000839233398
+            ],
+            [
+              0.260503888130188,
+              -0.1363745927810669,
+              0.7620000243186951
+            ]
+          ],
+          "button_qpos": [
+            -0.00580274872481823
+          ],
+          "button_qvel": [
+            -0.004126910585910082
+          ]
+        },
+        "result_sha256": "93431896d94cf630e8994129324ba57b420977161f8dd5d0fe0c394797b10624",
+        "audit": {
+          "first_request_exact_except_declared_images": true,
+          "requests": 1,
+          "images": 13,
+          "metadata_semantics": "original_timestamps_held_fixed_actual_sources_explicitly_audited",
+          "deployed_retrieval_validated": false,
+          "unchanged_replay": {
+            "actions_exact": true,
+            "final_physics_exact": true,
+            "final_evaluator_exact": true,
+            "outcome_exact": true
+          }
+        }
+      }
+    ],
+    "source_hashes": {
+      "scripts/run_evidence_failure_branches.py": "4b833d9698314dba07f1a640ee0ab3c052e1c41882c42d4d9f47f0c7f97c468a",
+      "scripts/audit_evidence_failure_branch.py": "a3fff334c29345319fbdbbdb1425ff63010b5806f35e2e4866f1a2904765f07e",
+      "src/recoverability/evidence_branch_audit.py": "de8bee081eecc083b6caeec0e985cd69cde56135a6673578ac80010c19d9429f",
+      "scripts/pace_evidence_census.py": "3ace3a030d962bb9cbe17d77d5266cb317173d71fe46cef5cdd3af3f64a5fc55"
+    },
+    "manifest_sha256": "2fc7cbaafc823b5614d057227a7f9147a8fd7ace749dcb1cb3c1f4e38f0c09e9",
+    "formal_training_eligible": false,
+    "process_cleanup_completed": true,
+    "server_pid": 4086749,
+    "pacer_pid": 4086751,
+    "current_job": "/media/user/HDD_8T/eventvla_recoverability_phase1_20261014/runs/20261019T083752Z_evidence_failure_branches/second_press_witness.job.json",
+    "worker_pid": 4089239,
+    "error": "Traceback (most recent call last):\n  File \"/media/user/HDD_8T/eventvla_recoverability_phase1_20261014/scripts/run_evidence_failure_branches.py\", line 138, in main\n    time.sleep(2)\n  File \"/media/user/HDD_8T/eventvla_recoverability_phase1_20261014/scripts/run_evidence_failure_branches.py\", line 88, in interrupted\n    def interrupted(signum,frame):raise KeyboardInterrupt(str(signum))\nKeyboardInterrupt: 15\n"
+  },
+  "recorded_utc": "2026-10-19T08:44:44.493346+00:00"
+}

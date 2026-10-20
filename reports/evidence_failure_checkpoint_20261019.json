@@ -1,0 +1,167 @@
+{
+  "status": {
+    "status": "failed",
+    "pid": 4086728,
+    "gpu": 1,
+    "port": 39661,
+    "run_dir": "/media/user/HDD_8T/eventvla_recoverability_phase1_20261014/runs/20261019T083752Z_evidence_failure_branches",
+    "boot_id": "959409af-e593-4f9b-9986-871bbe82d43a",
+    "source": "/media/user/HDD_8T/eventvla_recoverability_phase1_20261014/runs/20261019T050314Z_evidence_native_census/rearrange_blocks_hard_520001",
+    "started_utc": "2026-10-19T08:37:52.880080+00:00",
+    "episodes": [
+      {
+        "name": "unchanged",
+        "native_success": false,
+        "native_failed": true,
+        "actions": 2,
+        "final_step": 532,
+        "final_state": {
+          "phase": "move_other_to_center",
+          "fail_flag": true,
+          "press_cnt": 3,
+          "press_flag": true,
+          "progress_index": 4,
+          "actual_first_block_id": 1,
+          "actual_other_block_id": 0,
+          "layout_restored_achieved": true,
+          "other_center_achieved": false,
+          "both_on_center": false,
+          "block_positions": [
+            [
+              0.020000044256448746,
+              -0.13887561857700348,
+              0.7620000839233398
+            ],
+            [
+              0.260503888130188,
+              -0.1363745927810669,
+              0.7620000243186951
+            ]
+          ],
+          "button_qpos": [
+            -0.00580274872481823
+          ],
+          "button_qvel": [
+            -0.004126910585910082
+          ]
+        },
+        "result_sha256": "93431896d94cf630e8994129324ba57b420977161f8dd5d0fe0c394797b10624",
+        "audit": {
+          "first_request_exact_except_declared_images": true,
+          "requests": 1,
+          "images": 13,
+          "metadata_semantics": "original_timestamps_held_fixed_actual_sources_explicitly_audited",
+          "deployed_retrieval_validated": false,
+          "unchanged_replay": {
+            "actions_exact": true,
+            "final_physics_exact": true,
+            "final_evaluator_exact": true,
+            "outcome_exact": true
+          }
+        }
+      }
+    ],
+    "source_hashes": {
+      "scripts/run_evidence_failure_branches.py": "4b833d9698314dba07f1a640ee0ab3c052e1c41882c42d4d9f47f0c7f97c468a",
+      "scripts/audit_evidence_failure_branch.py": "a3fff334c29345319fbdbbdb1425ff63010b5806f35e2e4866f1a2904765f07e",
+      "src/recoverability/evidence_branch_audit.py": "de8bee081eecc083b6caeec0e985cd69cde56135a6673578ac80010c19d9429f",
+      "scripts/pace_evidence_census.py": "3ace3a030d962bb9cbe17d77d5266cb317173d71fe46cef5cdd3af3f64a5fc55"
+    },
+    "manifest_sha256": "2fc7cbaafc823b5614d057227a7f9147a8fd7ace749dcb1cb3c1f4e38f0c09e9",
+    "formal_training_eligible": false,
+    "process_cleanup_completed": true,
+    "server_pid": 4086749,
+    "pacer_pid": 4086751,
+    "current_job": "/media/user/HDD_8T/eventvla_recoverability_phase1_20261014/runs/20261019T083752Z_evidence_failure_branches/second_press_witness.job.json",
+    "worker_pid": 4089239,
+    "error": "Traceback (most recent call last):\n  File \"/media/user/HDD_8T/eventvla_recoverability_phase1_20261014/scripts/run_evidence_failure_branches.py\", line 138, in main\n    time.sleep(2)\n  File \"/media/user/HDD_8T/eventvla_recoverability_phase1_20261014/scripts/run_evidence_failure_branches.py\", line 88, in interrupted\n    def interrupted(signum,frame):raise KeyboardInterrupt(str(signum))\nKeyboardInterrupt: 15\n"
+  },
+  "server.log": " \n                          closed                                                \n10/19 [16:42:25] INFO     | >> connection open                     server.py:531\n                 INFO     | >> Connection from    websocket_policy_server.py:120\n                          ('127.0.0.1', 48980)                                  \n                          opened                                                \n10/19 [16:44:43] INFO     | >> Connection from    websocket_policy_server.py:132\n                          ('127.0.0.1', 48980)                                  \n                          closed                                                \n",
+  "audit.log": "{\"first_request_exact_except_declared_images\": true, \"requests\": 1, \"images\": 13, \"metadata_semantics\": \"original_timestamps_held_fixed_actual_sources_explicitly_audited\", \"deployed_retrieval_validated\": false, \"unchanged_replay\": {\"actions_exact\": true, \"final_physics_exact\": true, \"final_evaluator_exact\": true, \"outcome_exact\": true}}\n",
+  "cooling.log": "Traceback (most recent call last):\n  File \"/media/user/HDD_8T/eventvla_recoverability_phase1_20261014/scripts/pace_evidence_census.py\", line 77, in <module>\n    if __name__=='__main__':main()\n  File \"/media/user/HDD_8T/eventvla_recoverability_phase1_20261014/scripts/pace_evidence_census.py\", line 63, in main\n    resume();time.sleep(5)\n  File \"/media/user/HDD_8T/eventvla_recoverability_phase1_20261014/scripts/pace_evidence_census.py\", line 47, in interrupted\n    raise KeyboardInterrupt('signal '+str(signum))\nKeyboardInterrupt: signal 15\n",
+  "resource": {
+    "time_utc": "2026-10-19T08:44:40.935364+00:00",
+    "memory": {
+      "MemTotal_KiB": 263379616,
+      "MemAvailable_KiB": 224446004,
+      "SwapTotal_KiB": 31250428,
+      "SwapFree_KiB": 31250428
+    },
+    "gpus": [
+      {
+        "index": "0",
+        "memory_MiB": "782",
+        "total_MiB": "73415",
+        "utilization": "1",
+        "temperature_C": "55",
+        "power_W": "67.70"
+      },
+      {
+        "index": "1",
+        "memory_MiB": "15529",
+        "total_MiB": "73415",
+        "utilization": "0",
+        "temperature_C": "63",
+        "power_W": "15.29"
+      }
+    ],
+    "alarms": []
+  },
+  "worker": {
+    "status": "running",
+    "job": {
+      "task": "rearrange_blocks_hard",
+      "seed": 520001,
+      "gpu": 1,
+      "port": 39661,
+      "output": "/media/user/HDD_8T/eventvla_recoverability_phase1_20261014/runs/20261019T083752Z_evidence_failure_branches/second_press_witness",
+      "source": "/media/user/HDD_8T/eventvla_recoverability_phase1_20261014/runs/20261019T050314Z_evidence_native_census/rearrange_blocks_hard_520001",
+      "mode": "paired",
+      "replacements": [
+        {
+          "slot": 0,
+          "source_step": 521
+        }
+      ]
+    },
+    "actions_executed": 0,
+    "candidate_saved": false,
+    "formal_training_eligible": false,
+    "native_step_limit": 1200,
+    "stage": "prefix_replay",
+    "replay_actions": 326
+  },
+  "worker_log": "ep: \u001b[92m310 / 1200\u001b[0m\nstep: \u001b[92m311 / 1200\u001b[0m\nstep: \u001b[92m312 / 1200\u001b[0m\nstep: \u001b[92m313 / 1200\u001b[0m\nstep: \u001b[92m314 / 1200\u001b[0m\nstep: \u001b[92m315 / 1200\u001b[0m\nstep: \u001b[92m316 / 1200\u001b[0m\nstep: \u001b[92m317 / 1200\u001b[0m\nstep: \u001b[92m318 / 1200\u001b[0m\nstep: \u001b[92m319 / 1200\u001b[0m\nstep: \u001b[92m320 / 1200\u001b[0m\nstep: \u001b[92m321 / 1200\u001b[0m\nstep: \u001b[92m322 / 1200\u001b[0m\nstep: \u001b[92m323 / 1200\u001b[0m\nstep: \u001b[92m324 / 1200\u001b[0m\nstep: \u001b[92m325 / 1200\u001b[0m\nstep: \u001b[92m326 / 1200\u001b[0m\nstep: \u001b[92m327 / 1200\u001b[0m\nstep: \u001b[92m328 / 1200\u001b[0m\nstep: \u001b[92m329 / 1200\u001b[0m\nstep: \u001b[92m330 / 1200\u001b[0m\nstep: \u001b[92m331 / 1200\u001b[0m\nstep: \u001b[92m332 / 1200\u001b[0m\nstep: \u001b[92m333 / 1200\u001b[0m\nstep: \u001b[92m334 / 1200\u001b[0m\nstep: \u001b[92m335 / 1200\u001b[0m\nstep: \u001b[92m336 / 1200\u001b[0m\n",
+  "native_action_hash_groups": {
+    "put_back_block_hard": {
+      "f2b224a7d8e57ae350d1e61a6cb8a5fc59e5fe03d2e026ca96229129849034a3": [
+        520000,
+        520001,
+        520002,
+        520003,
+        520004,
+        520005
+      ]
+    },
+    "rearrange_blocks_hard": {
+      "ff7d30623a4a5aadbdea1e804739dc13cf5846cbebc21998c7d3e228288d27b6": [
+        520000
+      ],
+      "b759bb520b2779fe2854dd2816dda6ec2e46edd3cc56acc0ad0bc5071264df75": [
+        520001
+      ],
+      "8650db2480bb743090fe2a2c866cc239f1990d4d5bb88633600dc84695b18451": [
+        520002
+      ],
+      "ad419b54826214977fabc84bc731be581e105c4550adb1f9bd9f76b80cd7d58b": [
+        520003
+      ],
+      "a7b3550793c03dbbf61a5daab7717e626bd883a828d183eb077accb9c594f492": [
+        520004
+      ],
+      "30210510383e03a8f8bb7ac3af2947232185c4722666e550ef863ac1c42c79a6": [
+        520005
+      ]
+    }
+  }
+}

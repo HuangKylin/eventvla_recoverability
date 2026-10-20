@@ -1,0 +1,167 @@
+{
+    "codebase_version": "v2.1",
+    "robot_type": "astribot",
+    "total_episodes": 100,
+    "total_frames": 27315,
+    "total_tasks": 41,
+    "total_videos": 0,
+    "total_chunks": 1,
+    "chunks_size": 1000,
+    "fps": 15,
+    "splits": {
+        "train": "0:100"
+    },
+    "data_path": "data/chunk-{episode_chunk:03d}/episode_{episode_index:06d}.parquet",
+    "video_path": null,
+    "features": {
+        "observation.state": {
+            "dtype": "float32",
+            "shape": [
+                18
+            ],
+            "names": [
+                [
+                    "left_arm_0",
+                    "left_arm_1",
+                    "left_arm_2",
+                    "left_arm_3",
+                    "left_arm_4",
+                    "left_arm_5",
+                    "left_arm_6",
+                    "left_gripper",
+                    "right_arm_0",
+                    "right_arm_1",
+                    "right_arm_2",
+                    "right_arm_3",
+                    "right_arm_4",
+                    "right_arm_5",
+                    "right_arm_6",
+                    "right_gripper",
+                    "torso_yaw",
+                    "head_2"
+                ]
+            ]
+        },
+        "action": {
+            "dtype": "float32",
+            "shape": [
+                18
+            ],
+            "names": [
+                [
+                    "left_arm_0",
+                    "left_arm_1",
+                    "left_arm_2",
+                    "left_arm_3",
+                    "left_arm_4",
+                    "left_arm_5",
+                    "left_arm_6",
+                    "left_gripper",
+                    "right_arm_0",
+                    "right_arm_1",
+                    "right_arm_2",
+                    "right_arm_3",
+                    "right_arm_4",
+                    "right_arm_5",
+                    "right_arm_6",
+                    "right_gripper",
+                    "torso_yaw",
+                    "head_2"
+                ]
+            ]
+        },
+        "observation.images.camera_head": {
+            "dtype": "image",
+            "shape": [
+                3,
+                480,
+                640
+            ],
+            "names": [
+                "channels",
+                "height",
+                "width"
+            ]
+        },
+        "subtask_index": {
+            "dtype": "int64",
+            "shape": [
+                1
+            ],
+            "names": [
+                "subtask_index"
+            ]
+        },
+        "subtask_instruction_index": {
+            "dtype": "int64",
+            "shape": [
+                1
+            ],
+            "names": [
+                "subtask_instruction_index"
+            ]
+        },
+        "stage": {
+            "dtype": "int64",
+            "shape": [
+                1
+            ],
+            "names": [
+                "stage"
+            ]
+        },
+        "subtask_keyframe": {
+            "dtype": "int64",
+            "shape": [
+                1
+            ],
+            "names": [
+                "subtask_keyframe"
+            ]
+        },
+        "motion_keyframe": {
+            "dtype": "int64",
+            "shape": [
+                1
+            ],
+            "names": [
+                "motion_keyframe"
+            ]
+        },
+        "timestamp": {
+            "dtype": "float32",
+            "shape": [
+                1
+            ],
+            "names": null
+        },
+        "frame_index": {
+            "dtype": "int64",
+            "shape": [
+                1
+            ],
+            "names": null
+        },
+        "episode_index": {
+            "dtype": "int64",
+            "shape": [
+                1
+            ],
+            "names": null
+        },
+        "index": {
+            "dtype": "int64",
+            "shape": [
+                1
+            ],
+            "names": null
+        },
+        "task_index": {
+            "dtype": "int64",
+            "shape": [
+                1
+            ],
+            "names": null
+        }
+    }
+}

@@ -1,0 +1,26 @@
+{
+  "status": "fixed_before_paired_outcomes",
+  "source": "runs/20261019T050314Z_evidence_native_census/rearrange_blocks_hard_520001",
+  "checkpoint": "/media/user/HDD_8T/eventvla_recoverability_phase1_20261014/checkpoints/runtime/EventVLA-RoboTwin-MeM/final_model/pytorch_model.pt",
+  "selection": "Only one of twelve complete native trials failed; selected without paired outcomes",
+  "native_failure": "Second press at transition 520 to 521; release by 530; new request at 530; third press before other block reaches center at 532",
+  "parent_step": 530,
+  "memory_event_slots": 1,
+  "original_event_step": 180,
+  "branches": [
+    {"name": "unchanged", "replacements": [], "purpose": "Exact original continuation must reproduce before any image intervention"},
+    {"name": "second_press_witness", "replacements": [{"slot": 0, "source_step": 521}], "purpose": "Evaluator-selected legal image immediately after the second press; diagnostic only"},
+    {"name": "public_recency", "replacements": [{"slot": 0, "source_step": 529}], "purpose": "Latest strictly past observed frame; no evaluator labels used by this rule"}
+  ],
+  "max_branches_this_parent": 3,
+  "max_parents_this_batch": 1,
+  "intervention_semantics": "Content-only diagnostic. Original event timestamp 180, confidence, slot and all first-request anchors are fixed. Actual replacement pixel provenance is separately audited as 521 or 529. This does not validate an authentic-timestamp retrieval implementation.",
+  "oracle_scope": "One candidate stage witness, not an exhaustive best-evidence oracle or certified upper bound",
+  "baseline_scope": "Recency is a simple reference, not a claim that all strongest public baselines were evaluated",
+  "interpretation": "Negative probes cannot prove no historical evidence could ever help. Stop this bounded task route if no interpretable control repair supports the hypothesized memory-selection problem.",
+  "training_allowed": false,
+  "task_expansion_allowed": false,
+  "numerical_settings": "Same checkpoint, BF16, SDPA, image resolution, rendering, step limits, natural parent and request-index RNG as native census",
+  "resource_profile": "configs/conservative_execution.json",
+  "cooling": "scripts/pace_evidence_census.py; wall-clock pauses only; one GPU worker at a time"
+}

@@ -1,0 +1,354 @@
+{
+  "latest_launch": {
+    "pid": 136050,
+    "log": "/media/user/HDD_8T/eventvla_recoverability_phase1_20261014/logs/evidence_failure_branches_20261020T013243Z.log",
+    "scope": "single_failure_at_most_three_completed_branches",
+    "remote_tests_passed": 12,
+    "resume": "runs/20261019T083752Z_evidence_failure_branches"
+  },
+  "latest_launch_process_exists": false,
+  "latest_launch_log": "{\"first_request_exact_except_declared_images\": true, \"requests\": 1, \"images\": 13, \"metadata_semantics\": \"original_timestamps_held_fixed_actual_sources_explicitly_audited\", \"deployed_retrieval_validated\": false, \"unchanged_replay\": {\"actions_exact\": true, \"final_physics_exact\": true, \"final_evaluator_exact\": true, \"outcome_exact\": true}}\n/media/user/HDD_8T/eventvla_recoverability_phase1_20261014/runs/20261020T013325Z_evidence_failure_branches\n",
+  "status": {
+    "status": "complete",
+    "pid": 136050,
+    "gpu": 1,
+    "port": 37189,
+    "run_dir": "/media/user/HDD_8T/eventvla_recoverability_phase1_20261014/runs/20261020T013325Z_evidence_failure_branches",
+    "boot_id": "6c6ec060-68dc-44c1-8a81-17f451a8a0cb",
+    "source": "/media/user/HDD_8T/eventvla_recoverability_phase1_20261014/runs/20261019T050314Z_evidence_native_census/rearrange_blocks_hard_520001",
+    "started_utc": "2026-10-20T01:33:25.428681+00:00",
+    "episodes": [
+      {
+        "name": "unchanged",
+        "native_success": false,
+        "native_failed": true,
+        "actions": 2,
+        "final_step": 532,
+        "final_state": {
+          "phase": "move_other_to_center",
+          "fail_flag": true,
+          "press_cnt": 3,
+          "press_flag": true,
+          "progress_index": 4,
+          "actual_first_block_id": 1,
+          "actual_other_block_id": 0,
+          "layout_restored_achieved": true,
+          "other_center_achieved": false,
+          "both_on_center": false,
+          "block_positions": [
+            [
+              0.020000044256448746,
+              -0.13887561857700348,
+              0.7620000839233398
+            ],
+            [
+              0.260503888130188,
+              -0.1363745927810669,
+              0.7620000243186951
+            ]
+          ],
+          "button_qpos": [
+            -0.00580274872481823
+          ],
+          "button_qvel": [
+            -0.004126910585910082
+          ]
+        },
+        "result_sha256": "93431896d94cf630e8994129324ba57b420977161f8dd5d0fe0c394797b10624",
+        "audit": {
+          "first_request_exact_except_declared_images": true,
+          "requests": 1,
+          "images": 13,
+          "metadata_semantics": "original_timestamps_held_fixed_actual_sources_explicitly_audited",
+          "deployed_retrieval_validated": false,
+          "unchanged_replay": {
+            "actions_exact": true,
+            "final_physics_exact": true,
+            "final_evaluator_exact": true,
+            "outcome_exact": true
+          }
+        },
+        "branch_dir": "/media/user/HDD_8T/eventvla_recoverability_phase1_20261014/runs/20261019T083752Z_evidence_failure_branches/unchanged",
+        "inherited_from": "/media/user/HDD_8T/eventvla_recoverability_phase1_20261014/runs/20261019T083752Z_evidence_failure_branches"
+      },
+      {
+        "name": "second_press_witness",
+        "native_success": false,
+        "native_failed": true,
+        "actions": 2,
+        "final_step": 532,
+        "final_state": {
+          "phase": "move_other_to_center",
+          "fail_flag": true,
+          "press_cnt": 3,
+          "press_flag": true,
+          "progress_index": 4,
+          "actual_first_block_id": 1,
+          "actual_other_block_id": 0,
+          "layout_restored_achieved": true,
+          "other_center_achieved": false,
+          "both_on_center": false,
+          "block_positions": [
+            [
+              0.020000044256448746,
+              -0.13887561857700348,
+              0.7620000839233398
+            ],
+            [
+              0.260503888130188,
+              -0.1363745927810669,
+              0.7620000243186951
+            ]
+          ],
+          "button_qpos": [
+            -0.006000000052154064
+          ],
+          "button_qvel": [
+            -0.0007915645837783813
+          ]
+        },
+        "result_sha256": "90306829c42142048b5323e40f9b0e2f084ac38623ffe1fd763bc5e14875bc14",
+        "audit": {
+          "first_request_exact_except_declared_images": true,
+          "requests": 1,
+          "images": 13,
+          "metadata_semantics": "original_timestamps_held_fixed_actual_sources_explicitly_audited",
+          "deployed_retrieval_validated": false
+        },
+        "branch_dir": "/media/user/HDD_8T/eventvla_recoverability_phase1_20261014/runs/20261020T013325Z_evidence_failure_branches/second_press_witness"
+      },
+      {
+        "name": "public_recency",
+        "native_success": false,
+        "native_failed": true,
+        "actions": 2,
+        "final_step": 532,
+        "final_state": {
+          "phase": "move_other_to_center",
+          "fail_flag": true,
+          "press_cnt": 3,
+          "press_flag": true,
+          "progress_index": 4,
+          "actual_first_block_id": 1,
+          "actual_other_block_id": 0,
+          "layout_restored_achieved": true,
+          "other_center_achieved": false,
+          "both_on_center": false,
+          "block_positions": [
+            [
+              0.020000044256448746,
+              -0.13887561857700348,
+              0.7620000839233398
+            ],
+            [
+              0.260503888130188,
+              -0.1363745927810669,
+              0.7620000243186951
+            ]
+          ],
+          "button_qpos": [
+            -0.006000000052154064
+          ],
+          "button_qvel": [
+            -0.0007931888103485107
+          ]
+        },
+        "result_sha256": "bfd5e19bbae4910b0fe7c0ce9ae2daae202e8991f7eeffbef034447fda392f4c",
+        "audit": {
+          "first_request_exact_except_declared_images": true,
+          "requests": 1,
+          "images": 13,
+          "metadata_semantics": "original_timestamps_held_fixed_actual_sources_explicitly_audited",
+          "deployed_retrieval_validated": false
+        },
+        "branch_dir": "/media/user/HDD_8T/eventvla_recoverability_phase1_20261014/runs/20261020T013325Z_evidence_failure_branches/public_recency"
+      }
+    ],
+    "source_hashes": {
+      "scripts/run_evidence_failure_branches.py": "cb90821d3f50c941f0092a401b11963660a648f0f3c352e0dde2777a06bade5f",
+      "scripts/audit_evidence_failure_branch.py": "a3fff334c29345319fbdbbdb1425ff63010b5806f35e2e4866f1a2904765f07e",
+      "src/recoverability/evidence_branch_audit.py": "de8bee081eecc083b6caeec0e985cd69cde56135a6673578ac80010c19d9429f",
+      "scripts/pace_evidence_census.py": "3ace3a030d962bb9cbe17d77d5266cb317173d71fe46cef5cdd3af3f64a5fc55",
+      "src/recoverability/evidence_branch_resume.py": "2681d1534e11003f9ed2a14345d4d2ba3eb8fbc8665f9d2dff13df09fb7d51e9"
+    },
+    "manifest_sha256": "2fc7cbaafc823b5614d057227a7f9147a8fd7ace749dcb1cb3c1f4e38f0c09e9",
+    "formal_training_eligible": false,
+    "process_cleanup_completed": true,
+    "resumed_from": "/media/user/HDD_8T/eventvla_recoverability_phase1_20261014/runs/20261019T083752Z_evidence_failure_branches",
+    "inherited_completed_branches": [
+      "unchanged"
+    ],
+    "server_pid": 136212,
+    "pacer_pid": 136213,
+    "current_job": "/media/user/HDD_8T/eventvla_recoverability_phase1_20261014/runs/20261020T013325Z_evidence_failure_branches/public_recency.job.json",
+    "worker_pid": 145240,
+    "completed_utc": "2026-10-20T01:42:52.035522+00:00",
+    "next_action": "interpret bounded probes; no automatic expansion or training"
+  },
+  "server.log": " \n                          closed                                                \n10/20 [09:40:31] INFO     | >> connection open                     server.py:531\n                 INFO     | >> Connection from    websocket_policy_server.py:120\n                          ('127.0.0.1', 35724)                                  \n                          opened                                                \n10/20 [09:42:49] INFO     | >> Connection from    websocket_policy_server.py:132\n                          ('127.0.0.1', 35724)                                  \n                          closed                                                \n",
+  "audit.log": "{\"first_request_exact_except_declared_images\": true, \"requests\": 1, \"images\": 13, \"metadata_semantics\": \"original_timestamps_held_fixed_actual_sources_explicitly_audited\", \"deployed_retrieval_validated\": false}\n{\"first_request_exact_except_declared_images\": true, \"requests\": 1, \"images\": 13, \"metadata_semantics\": \"original_timestamps_held_fixed_actual_sources_explicitly_audited\", \"deployed_retrieval_validated\": false}\n",
+  "cooling.log": "Traceback (most recent call last):\n  File \"/media/user/HDD_8T/eventvla_recoverability_phase1_20261014/scripts/pace_evidence_census.py\", line 77, in <module>\n    if __name__=='__main__':main()\n  File \"/media/user/HDD_8T/eventvla_recoverability_phase1_20261014/scripts/pace_evidence_census.py\", line 72, in main\n    time.sleep(2)\n  File \"/media/user/HDD_8T/eventvla_recoverability_phase1_20261014/scripts/pace_evidence_census.py\", line 47, in interrupted\n    raise KeyboardInterrupt('signal '+str(signum))\nKeyboardInterrupt: signal 15\n",
+  "resource": {
+    "time_utc": "2026-10-20T01:42:45.631601+00:00",
+    "memory": {
+      "MemTotal_KiB": 263379600,
+      "MemAvailable_KiB": 226437456,
+      "SwapTotal_KiB": 31250428,
+      "SwapFree_KiB": 31250428
+    },
+    "gpus": [
+      {
+        "index": "0",
+        "memory_MiB": "650",
+        "total_MiB": "73415",
+        "utilization": "0",
+        "temperature_C": "32",
+        "power_W": "17.59"
+      },
+      {
+        "index": "1",
+        "memory_MiB": "15529",
+        "total_MiB": "73415",
+        "utilization": "66",
+        "temperature_C": "50",
+        "power_W": "169.51"
+      }
+    ],
+    "alarms": []
+  },
+  "worker": {
+    "status": "complete",
+    "job": {
+      "task": "rearrange_blocks_hard",
+      "seed": 520001,
+      "gpu": 1,
+      "port": 37189,
+      "output": "/media/user/HDD_8T/eventvla_recoverability_phase1_20261014/runs/20261020T013325Z_evidence_failure_branches/public_recency",
+      "source": "/media/user/HDD_8T/eventvla_recoverability_phase1_20261014/runs/20261019T050314Z_evidence_native_census/rearrange_blocks_hard_520001",
+      "mode": "paired",
+      "replacements": [
+        {
+          "slot": 0,
+          "source_step": 529
+        }
+      ]
+    },
+    "actions_executed": 2,
+    "candidate_saved": false,
+    "formal_training_eligible": false,
+    "native_step_limit": 1200,
+    "stage": "paired_continuation",
+    "replay_actions": 526,
+    "parent_match": {
+      "physics": true,
+      "observation": true,
+      "evaluator_state": true
+    },
+    "before_events_hash": "a63a881bbe663f19bd05ad68e15bebd67e11d24c1aa0f64d75beb33d5a6290ab",
+    "after_events_hash": "7956ad99195c9d798706b1ca38902f63c9463c6b6d66cc3012a8f9c53c471cc8",
+    "parent_step": 530,
+    "replacement_semantics": "content_only_fixed_slot_metadata",
+    "inherited_request_index": 11,
+    "env_step": 532,
+    "latest_evaluator_state": {
+      "phase": "move_other_to_center",
+      "fail_flag": true,
+      "press_cnt": 3,
+      "press_flag": true,
+      "progress_index": 4,
+      "actual_first_block_id": 1,
+      "actual_other_block_id": 0,
+      "layout_restored_achieved": true,
+      "other_center_achieved": false,
+      "both_on_center": false,
+      "block_positions": [
+        [
+          0.020000044256448746,
+          -0.13887561857700348,
+          0.7620000839233398
+        ],
+        [
+          0.260503888130188,
+          -0.1363745927810669,
+          0.7620000243186951
+        ]
+      ],
+      "button_qpos": [
+        -0.006000000052154064
+      ],
+      "button_qvel": [
+        -0.0007931888103485107
+      ]
+    },
+    "native_success": false,
+    "native_failed": true,
+    "final_evaluator_state": {
+      "phase": "move_other_to_center",
+      "fail_flag": true,
+      "press_cnt": 3,
+      "press_flag": true,
+      "progress_index": 4,
+      "actual_first_block_id": 1,
+      "actual_other_block_id": 0,
+      "layout_restored_achieved": true,
+      "other_center_achieved": false,
+      "both_on_center": false,
+      "block_positions": [
+        [
+          0.020000044256448746,
+          -0.13887561857700348,
+          0.7620000839233398
+        ],
+        [
+          0.260503888130188,
+          -0.1363745927810669,
+          0.7620000243186951
+        ]
+      ],
+      "button_qpos": [
+        -0.006000000052154064
+      ],
+      "button_qvel": [
+        -0.0007931888103485107
+      ]
+    },
+    "forbidden_calls": 0,
+    "action_hash": "96a0d47277ac2c91b5017c390ee364ae5bf3800a896ea29cce102afd756770ea",
+    "final_physics_hash": "9c7f7a9437f955ca7a1e502f70764ba083b100a1cdf108fb6a5fe68c21d7061d",
+    "native_step_limit_reached": false,
+    "elapsed_seconds": 152.1493765579944
+  },
+  "worker_log": "ep: \u001b[92m506 / 1200\u001b[0m\nstep: \u001b[92m507 / 1200\u001b[0m\nstep: \u001b[92m508 / 1200\u001b[0m\nstep: \u001b[92m509 / 1200\u001b[0m\nstep: \u001b[92m510 / 1200\u001b[0m\nstep: \u001b[92m511 / 1200\u001b[0m\nstep: \u001b[92m512 / 1200\u001b[0m\nstep: \u001b[92m513 / 1200\u001b[0m\nstep: \u001b[92m514 / 1200\u001b[0m\nstep: \u001b[92m515 / 1200\u001b[0m\nstep: \u001b[92m516 / 1200\u001b[0m\nstep: \u001b[92m517 / 1200\u001b[0m\nstep: \u001b[92m518 / 1200\u001b[0m\nstep: \u001b[92m519 / 1200\u001b[0m\nstep: \u001b[92m520 / 1200\u001b[0m\nstep: \u001b[92m521 / 1200\u001b[0m\nstep: \u001b[92m522 / 1200\u001b[0m\nstep: \u001b[92m523 / 1200\u001b[0m\nstep: \u001b[92m524 / 1200\u001b[0m\nstep: \u001b[92m525 / 1200\u001b[0m\nstep: \u001b[92m526 / 1200\u001b[0m\nstep: \u001b[92m527 / 1200\u001b[0m\nstep: \u001b[92m528 / 1200\u001b[0m\nstep: \u001b[92m529 / 1200\u001b[0m\nstep: \u001b[92m530 / 1200\u001b[0m\nstep: \u001b[92m531 / 1200\u001b[0m\nstep: \u001b[92m532 / 1200\u001b[0m\n",
+  "native_action_hash_groups": {
+    "put_back_block_hard": {
+      "f2b224a7d8e57ae350d1e61a6cb8a5fc59e5fe03d2e026ca96229129849034a3": [
+        520000,
+        520001,
+        520002,
+        520003,
+        520004,
+        520005
+      ]
+    },
+    "rearrange_blocks_hard": {
+      "ff7d30623a4a5aadbdea1e804739dc13cf5846cbebc21998c7d3e228288d27b6": [
+        520000
+      ],
+      "b759bb520b2779fe2854dd2816dda6ec2e46edd3cc56acc0ad0bc5071264df75": [
+        520001
+      ],
+      "8650db2480bb743090fe2a2c866cc239f1990d4d5bb88633600dc84695b18451": [
+        520002
+      ],
+      "ad419b54826214977fabc84bc731be581e105c4550adb1f9bd9f76b80cd7d58b": [
+        520003
+      ],
+      "a7b3550793c03dbbf61a5daab7717e626bd883a828d183eb077accb9c594f492": [
+        520004
+      ],
+      "30210510383e03a8f8bb7ac3af2947232185c4722666e550ef863ac1c42c79a6": [
+        520005
+      ]
+    }
+  }
+}

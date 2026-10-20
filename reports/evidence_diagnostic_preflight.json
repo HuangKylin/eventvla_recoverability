@@ -1,0 +1,190 @@
+{
+  "observed_utc": "2026-10-19T05:03:14.966196+00:00",
+  "resource": {
+    "time_utc": "2026-10-19T05:02:33.467956+00:00",
+    "memory": {
+      "MemTotal_KiB": 263379616,
+      "MemAvailable_KiB": 232574032,
+      "SwapTotal_KiB": 31250428,
+      "SwapFree_KiB": 31250428
+    },
+    "load_average": [
+      0.3232421875,
+      0.3046875,
+      0.2294921875
+    ],
+    "gpus": [
+      {
+        "index": "0",
+        "memory_MiB": "248",
+        "total_MiB": "73415",
+        "utilization": "0",
+        "temperature_C": "37",
+        "power_W": "14.90"
+      },
+      {
+        "index": "1",
+        "memory_MiB": "15",
+        "total_MiB": "73415",
+        "utilization": "0",
+        "temperature_C": "34",
+        "power_W": "4.64"
+      }
+    ],
+    "temperatures": [
+      {
+        "device": "coretemp",
+        "label": "Core 40",
+        "celsius": 34.0
+      },
+      {
+        "device": "coretemp",
+        "label": "Core 24",
+        "celsius": 34.0
+      },
+      {
+        "device": "coretemp",
+        "label": "Core 34",
+        "celsius": 32.0
+      },
+      {
+        "device": "coretemp",
+        "label": "Core 4",
+        "celsius": 36.0
+      },
+      {
+        "device": "coretemp",
+        "label": "Core 44",
+        "celsius": 34.0
+      },
+      {
+        "device": "coretemp",
+        "label": "Core 11",
+        "celsius": 34.0
+      },
+      {
+        "device": "coretemp",
+        "label": "Core 15",
+        "celsius": 34.0
+      },
+      {
+        "device": "coretemp",
+        "label": "Core 8",
+        "celsius": 32.0
+      },
+      {
+        "device": "coretemp",
+        "label": "Core 35",
+        "celsius": 32.0
+      },
+      {
+        "device": "coretemp",
+        "label": "Core 28",
+        "celsius": 34.0
+      },
+      {
+        "device": "coretemp",
+        "label": "Core 12",
+        "celsius": 34.0
+      },
+      {
+        "device": "coretemp",
+        "label": "Core 38",
+        "celsius": 34.0
+      },
+      {
+        "device": "coretemp",
+        "label": "Core 32",
+        "celsius": 32.0
+      },
+      {
+        "device": "coretemp",
+        "label": "Core 16",
+        "celsius": 32.0
+      },
+      {
+        "device": "coretemp",
+        "label": "Core 9",
+        "celsius": 34.0
+      },
+      {
+        "device": "coretemp",
+        "label": "Core 36",
+        "celsius": 32.0
+      },
+      {
+        "device": "coretemp",
+        "label": "Package id 0",
+        "celsius": 36.0
+      },
+      {
+        "device": "coretemp",
+        "label": "Core 13",
+        "celsius": 34.0
+      },
+      {
+        "device": "coretemp",
+        "label": "Core 39",
+        "celsius": 34.0
+      },
+      {
+        "device": "coretemp",
+        "label": "Core 33",
+        "celsius": 32.0
+      },
+      {
+        "device": "coretemp",
+        "label": "Core 10",
+        "celsius": 32.0
+      },
+      {
+        "device": "coretemp",
+        "label": "Core 37",
+        "celsius": 34.0
+      },
+      {
+        "device": "coretemp",
+        "label": "Core 20",
+        "celsius": 36.0
+      },
+      {
+        "device": "coretemp",
+        "label": "Core 0",
+        "celsius": 34.0
+      },
+      {
+        "device": "coretemp",
+        "label": "Core 14",
+        "celsius": 34.0
+      }
+    ],
+    "alarms": [],
+    "execution_profile": "conservative_wall_clock_v1"
+  },
+  "checkpoint": "/media/user/HDD_8T/eventvla_recoverability_phase1_20261014/checkpoints/EventVLA/RoboTwin-MeM/final_model/pytorch_model.pt",
+  "checkpoint_sha256": "45878c1bb1c3ba7dab4718f6d6fef0ee0bad3d9a1925d1f24496240fcf665493",
+  "source_hashes": {
+    "scripts/evidence_diagnostic_worker.py": "8fe34ddf9901cfde9066ab544fb0c4b68cb79eff726c5b21b3b3e52d1fb32163",
+    "scripts/run_evidence_diagnostic.py": "09eeb635d05483199b4e02f5f75440dc16c26fcf2713e9a6a6a51f3492b445af",
+    "scripts/seeded_policy_server.py": "9598798113b48f0fb93200be96f524494059e916ffeb8d69acdb2b0af149e6dc",
+    "scripts/conservative_execution.py": "31a29f1ee54ecad1624197b508a3e6ae0e211e328659f29f2939c4140a82e6c3",
+    "scripts/resume_native_controls.py": "e0ab56dd0c83762042e593765726b94551c2494d5f8f0d894a6f6f974e873d0d",
+    "scripts/run_baseline.py": "fb8b61e85b45a94fd54bb168f8082fc55bddfee2ea20a789e7f84044a922cb9f",
+    "src/recoverability/evidence_diagnostic.py": "f51b7172269db88a1d7f47e30ee88d6c53c663b1f6703671ababa2adfeb8f3ce",
+    "src/recoverability/snapshot.py": "56b93ac9000b8f19a7a0c928a4e573efc5f2c2df4821ec5b7608206158065adf",
+    "src/recoverability/sim_runtime.py": "b1a213b8d44b89cc38665f03694fc7c69de4c7277adfa87b18b318c28fd56bee",
+    "src/recoverability/vla_intervention.py": "59e7683db95e84651717a8ba95645a70724090a778450999837487d0ffeecd15",
+    "configs/evidence_validity_diagnostic_v1.json": "90c100f5d52444b0e5aa082ea1f70f46242e2f66e19b5d32e0af05bc5e9b5e9b",
+    "configs/conservative_execution.json": "ae14ebdc2ff1cfc957799f58d36a2c820ebd680593bb20e0b1d9e0174681bbab",
+    "checkpoints/runtime/EventVLA-RoboTwin-MeM/config.yaml": "7c2caf0cdd9502059abd6dd95bbe83cf5708acda40b77085e91e9a82724d3994",
+    "checkpoints/runtime/EventVLA-RoboTwin-MeM/dataset_statistics.json": "6110f649e1355213512ec01af5d4d5559655bce8d580a448a0fa5aea5164fb4c",
+    "third_party/EventVLA/EventVLA/examples/RoboTwin-Mem/eval_files/model2robotwin_mem_interface.py": "7ea9d0bf0b42d3f8c89924346f91c678b7120560e56b1e4dcf757be216b619f2",
+    "third_party/EventVLA/RoboTwin-Mem/envs/_base_task.py": "8652ec7ac988863a556a7b27b4f151112c6594a26d98ca8950589b77968a80d4",
+    "third_party/EventVLA/RoboTwin-Mem/task_config/_eval_step_limit.yml": "d334a74b15d40212d7e931edc664b4d2ab9b9e39056a58dddeda5612f3082328",
+    "third_party/EventVLA/RoboTwin-Mem/envs/put_back_block_hard.py": "b7404e31eae6aa4e2ecce3b132bba242e09f743b60eb0eb4699a3f7746f44b35",
+    "third_party/EventVLA/RoboTwin-Mem/description/task_instruction/put_back_block_hard.json": "7fc82a52d7722cba04a5c1e3e7d16270f54cf365eba19ba918adf70cc7a9880f",
+    "third_party/EventVLA/RoboTwin-Mem/envs/rearrange_blocks_hard.py": "fc21192e9423ce52049b9be4bf54ad6a1f7aee2dcbd037e1384d9da1d5a3e4f4",
+    "third_party/EventVLA/RoboTwin-Mem/description/task_instruction/rearrange_blocks_hard.json": "bf3625f905f36376ff2e14f0a2c92e59ec3e4648e35959b66d66dbc8109b72c0"
+  },
+  "gpu_jobs_started": 0
+}

@@ -1,0 +1,7 @@
+{
+  "pid": 3988933,
+  "log": "/media/user/HDD_8T/eventvla_recoverability_phase1_20261014/logs/evidence_native_census_20261019T050233Z.log",
+  "started_utc": "20261019T050233Z",
+  "task": "bounded native census",
+  "gpu": 1
+}

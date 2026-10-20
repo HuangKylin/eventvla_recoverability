@@ -1,0 +1,8 @@
+{
+  "pid": 3992053,
+  "run_dir": "/media/user/HDD_8T/eventvla_recoverability_phase1_20261014/runs/20261019T050314Z_evidence_native_census",
+  "pause_at_C": 68,
+  "resume_at_C": 60,
+  "max_pause_seconds": 8,
+  "previous_pacer_pid": 3991430
+}

@@ -1,0 +1,277 @@
+{
+  "status": "complete",
+  "run_dir": "/media/user/HDD_8T/eventvla_recoverability_phase1_20261014/runs/20261019T050314Z_evidence_native_census",
+  "pid": 3988933,
+  "gpu": 1,
+  "port": 43729,
+  "boot_id": "959409af-e593-4f9b-9986-871bbe82d43a",
+  "source_hashes": {
+    "scripts/evidence_diagnostic_worker.py": "8fe34ddf9901cfde9066ab544fb0c4b68cb79eff726c5b21b3b3e52d1fb32163",
+    "scripts/run_evidence_diagnostic.py": "09eeb635d05483199b4e02f5f75440dc16c26fcf2713e9a6a6a51f3492b445af",
+    "scripts/seeded_policy_server.py": "9598798113b48f0fb93200be96f524494059e916ffeb8d69acdb2b0af149e6dc",
+    "scripts/conservative_execution.py": "31a29f1ee54ecad1624197b508a3e6ae0e211e328659f29f2939c4140a82e6c3",
+    "scripts/resume_native_controls.py": "e0ab56dd0c83762042e593765726b94551c2494d5f8f0d894a6f6f974e873d0d",
+    "scripts/run_baseline.py": "fb8b61e85b45a94fd54bb168f8082fc55bddfee2ea20a789e7f84044a922cb9f",
+    "src/recoverability/evidence_diagnostic.py": "f51b7172269db88a1d7f47e30ee88d6c53c663b1f6703671ababa2adfeb8f3ce",
+    "src/recoverability/snapshot.py": "56b93ac9000b8f19a7a0c928a4e573efc5f2c2df4821ec5b7608206158065adf",
+    "src/recoverability/sim_runtime.py": "b1a213b8d44b89cc38665f03694fc7c69de4c7277adfa87b18b318c28fd56bee",
+    "src/recoverability/vla_intervention.py": "59e7683db95e84651717a8ba95645a70724090a778450999837487d0ffeecd15",
+    "configs/evidence_validity_diagnostic_v1.json": "90c100f5d52444b0e5aa082ea1f70f46242e2f66e19b5d32e0af05bc5e9b5e9b",
+    "configs/conservative_execution.json": "ae14ebdc2ff1cfc957799f58d36a2c820ebd680593bb20e0b1d9e0174681bbab",
+    "checkpoints/runtime/EventVLA-RoboTwin-MeM/config.yaml": "7c2caf0cdd9502059abd6dd95bbe83cf5708acda40b77085e91e9a82724d3994",
+    "checkpoints/runtime/EventVLA-RoboTwin-MeM/dataset_statistics.json": "6110f649e1355213512ec01af5d4d5559655bce8d580a448a0fa5aea5164fb4c",
+    "third_party/EventVLA/EventVLA/examples/RoboTwin-Mem/eval_files/model2robotwin_mem_interface.py": "7ea9d0bf0b42d3f8c89924346f91c678b7120560e56b1e4dcf757be216b619f2",
+    "third_party/EventVLA/RoboTwin-Mem/envs/_base_task.py": "8652ec7ac988863a556a7b27b4f151112c6594a26d98ca8950589b77968a80d4",
+    "third_party/EventVLA/RoboTwin-Mem/task_config/_eval_step_limit.yml": "d334a74b15d40212d7e931edc664b4d2ab9b9e39056a58dddeda5612f3082328",
+    "third_party/EventVLA/RoboTwin-Mem/envs/put_back_block_hard.py": "b7404e31eae6aa4e2ecce3b132bba242e09f743b60eb0eb4699a3f7746f44b35",
+    "third_party/EventVLA/RoboTwin-Mem/description/task_instruction/put_back_block_hard.json": "7fc82a52d7722cba04a5c1e3e7d16270f54cf365eba19ba918adf70cc7a9880f",
+    "third_party/EventVLA/RoboTwin-Mem/envs/rearrange_blocks_hard.py": "fc21192e9423ce52049b9be4bf54ad6a1f7aee2dcbd037e1384d9da1d5a3e4f4",
+    "third_party/EventVLA/RoboTwin-Mem/description/task_instruction/rearrange_blocks_hard.json": "bf3625f905f36376ff2e14f0a2c92e59ec3e4648e35959b66d66dbc8109b72c0"
+  },
+  "checkpoint_sha256": "45878c1bb1c3ba7dab4718f6d6fef0ee0bad3d9a1925d1f24496240fcf665493",
+  "episodes": [
+    {
+      "native_success": true,
+      "native_failed": false,
+      "native_step_limit_reached": false,
+      "candidate_saved": true,
+      "candidate_step": 906,
+      "actions_executed": 1379,
+      "native_success_without_both_returns": false,
+      "elapsed_seconds": 667.541449523007,
+      "task": "put_back_block_hard",
+      "seed": 520000,
+      "result_file": "/media/user/HDD_8T/eventvla_recoverability_phase1_20261014/runs/20261019T050314Z_evidence_native_census/put_back_block_hard_520000/result.json",
+      "result_sha256": "a1679e944810633d1ce7a8fcb492a8cb080bde51de001f2f5cf3c1761d397ef7",
+      "requests": 29
+    },
+    {
+      "native_success": true,
+      "native_failed": false,
+      "native_step_limit_reached": false,
+      "candidate_saved": true,
+      "candidate_step": 906,
+      "actions_executed": 1379,
+      "native_success_without_both_returns": false,
+      "elapsed_seconds": 779.4846802550019,
+      "task": "put_back_block_hard",
+      "seed": 520001,
+      "result_file": "/media/user/HDD_8T/eventvla_recoverability_phase1_20261014/runs/20261019T050314Z_evidence_native_census/put_back_block_hard_520001/result.json",
+      "result_sha256": "69063974b234bebaa122b6cb6cb4692687a6a8b6c8cfc09cd51c3cbd0bd749e0",
+      "requests": 29
+    },
+    {
+      "native_success": true,
+      "native_failed": false,
+      "native_step_limit_reached": false,
+      "candidate_saved": true,
+      "candidate_step": 906,
+      "actions_executed": 1379,
+      "native_success_without_both_returns": false,
+      "elapsed_seconds": 780.0647748470074,
+      "task": "put_back_block_hard",
+      "seed": 520002,
+      "result_file": "/media/user/HDD_8T/eventvla_recoverability_phase1_20261014/runs/20261019T050314Z_evidence_native_census/put_back_block_hard_520002/result.json",
+      "result_sha256": "e3ab3d9e63008912619d8cc7b19ee731e990e88037ec8f7e24e2f155619e2100",
+      "requests": 29
+    },
+    {
+      "native_success": true,
+      "native_failed": false,
+      "native_step_limit_reached": false,
+      "candidate_saved": true,
+      "candidate_step": 906,
+      "actions_executed": 1379,
+      "native_success_without_both_returns": false,
+      "elapsed_seconds": 786.6063392030192,
+      "task": "put_back_block_hard",
+      "seed": 520003,
+      "result_file": "/media/user/HDD_8T/eventvla_recoverability_phase1_20261014/runs/20261019T050314Z_evidence_native_census/put_back_block_hard_520003/result.json",
+      "result_sha256": "6d2b0552de79a82a7376f50b066cc8d6b15bb63f8519d3b073d3abcd688b3006",
+      "requests": 29
+    },
+    {
+      "native_success": true,
+      "native_failed": false,
+      "native_step_limit_reached": false,
+      "candidate_saved": true,
+      "candidate_step": 906,
+      "actions_executed": 1379,
+      "native_success_without_both_returns": false,
+      "elapsed_seconds": 795.0323218230042,
+      "task": "put_back_block_hard",
+      "seed": 520004,
+      "result_file": "/media/user/HDD_8T/eventvla_recoverability_phase1_20261014/runs/20261019T050314Z_evidence_native_census/put_back_block_hard_520004/result.json",
+      "result_sha256": "80b4f3b9f09553dc345295f5be30f28cc40faf4dc4ee3515f6ec3f43699e8a3a",
+      "requests": 29
+    },
+    {
+      "native_success": true,
+      "native_failed": false,
+      "native_step_limit_reached": false,
+      "candidate_saved": true,
+      "candidate_step": 906,
+      "actions_executed": 1379,
+      "native_success_without_both_returns": false,
+      "elapsed_seconds": 789.1107367470104,
+      "task": "put_back_block_hard",
+      "seed": 520005,
+      "result_file": "/media/user/HDD_8T/eventvla_recoverability_phase1_20261014/runs/20261019T050314Z_evidence_native_census/put_back_block_hard_520005/result.json",
+      "result_sha256": "29e8e2d0af1a2588d3bbd736b1108758a73f3edd59d9bf63d6fc490ca887293d",
+      "requests": 29
+    },
+    {
+      "native_success": true,
+      "native_failed": false,
+      "native_step_limit_reached": false,
+      "candidate_saved": true,
+      "candidate_step": 529,
+      "actions_executed": 818,
+      "elapsed_seconds": 468.1442530140048,
+      "task": "rearrange_blocks_hard",
+      "seed": 520000,
+      "result_file": "/media/user/HDD_8T/eventvla_recoverability_phase1_20261014/runs/20261019T050314Z_evidence_native_census/rearrange_blocks_hard_520000/result.json",
+      "result_sha256": "e040715db6d56031f3cf9299582aa54cfb0aa7357f774b7466297a43034e47be",
+      "requests": 17
+    },
+    {
+      "native_success": false,
+      "native_failed": true,
+      "native_step_limit_reached": false,
+      "candidate_saved": true,
+      "candidate_step": 530,
+      "actions_executed": 532,
+      "elapsed_seconds": 283.85465544697945,
+      "task": "rearrange_blocks_hard",
+      "seed": 520001,
+      "result_file": "/media/user/HDD_8T/eventvla_recoverability_phase1_20261014/runs/20261019T050314Z_evidence_native_census/rearrange_blocks_hard_520001/result.json",
+      "result_sha256": "05bba69ecd076db971f9715defb116cbb95752d56d04ce8f6d5158bd87486fad",
+      "requests": 12
+    },
+    {
+      "native_success": true,
+      "native_failed": false,
+      "native_step_limit_reached": false,
+      "candidate_saved": true,
+      "candidate_step": 531,
+      "actions_executed": 824,
+      "elapsed_seconds": 451.5094500890118,
+      "task": "rearrange_blocks_hard",
+      "seed": 520002,
+      "result_file": "/media/user/HDD_8T/eventvla_recoverability_phase1_20261014/runs/20261019T050314Z_evidence_native_census/rearrange_blocks_hard_520002/result.json",
+      "result_sha256": "ab26c415235c50da55ca8cd6435caa36d3bf9d8ac750eaf0cb435830da7e7dcd",
+      "requests": 17
+    },
+    {
+      "native_success": true,
+      "native_failed": false,
+      "native_step_limit_reached": false,
+      "candidate_saved": true,
+      "candidate_step": 532,
+      "actions_executed": 816,
+      "elapsed_seconds": 451.79873688099906,
+      "task": "rearrange_blocks_hard",
+      "seed": 520003,
+      "result_file": "/media/user/HDD_8T/eventvla_recoverability_phase1_20261014/runs/20261019T050314Z_evidence_native_census/rearrange_blocks_hard_520003/result.json",
+      "result_sha256": "2db8696e545816bbfc5ba8d5818e3864986403726c936ef1b5bf9af5dc0645b1",
+      "requests": 17
+    },
+    {
+      "native_success": true,
+      "native_failed": false,
+      "native_step_limit_reached": false,
+      "candidate_saved": true,
+      "candidate_step": 636,
+      "actions_executed": 898,
+      "elapsed_seconds": 499.63106159100425,
+      "task": "rearrange_blocks_hard",
+      "seed": 520004,
+      "result_file": "/media/user/HDD_8T/eventvla_recoverability_phase1_20261014/runs/20261019T050314Z_evidence_native_census/rearrange_blocks_hard_520004/result.json",
+      "result_sha256": "9f56ab0cce04f967ca0cbb0558087d32db03c7f858766c483702a0aa365708e9",
+      "requests": 19
+    },
+    {
+      "native_success": true,
+      "native_failed": false,
+      "native_step_limit_reached": false,
+      "candidate_saved": true,
+      "candidate_step": 527,
+      "actions_executed": 813,
+      "elapsed_seconds": 467.0286165729922,
+      "task": "rearrange_blocks_hard",
+      "seed": 520005,
+      "result_file": "/media/user/HDD_8T/eventvla_recoverability_phase1_20261014/runs/20261019T050314Z_evidence_native_census/rearrange_blocks_hard_520005/result.json",
+      "result_sha256": "15c0e555c7c11226baf30bc9f1560f2fa6b1af1fa1e80fe634f38ba43516535c",
+      "requests": 17
+    }
+  ],
+  "jobs": [
+    [
+      "put_back_block_hard",
+      520000
+    ],
+    [
+      "put_back_block_hard",
+      520001
+    ],
+    [
+      "put_back_block_hard",
+      520002
+    ],
+    [
+      "put_back_block_hard",
+      520003
+    ],
+    [
+      "put_back_block_hard",
+      520004
+    ],
+    [
+      "put_back_block_hard",
+      520005
+    ],
+    [
+      "rearrange_blocks_hard",
+      520000
+    ],
+    [
+      "rearrange_blocks_hard",
+      520001
+    ],
+    [
+      "rearrange_blocks_hard",
+      520002
+    ],
+    [
+      "rearrange_blocks_hard",
+      520003
+    ],
+    [
+      "rearrange_blocks_hard",
+      520004
+    ],
+    [
+      "rearrange_blocks_hard",
+      520005
+    ]
+  ],
+  "execution_profile": {
+    "profile": "conservative_wall_clock_v1",
+    "inter_job_rest_seconds": 60,
+    "monitor_interval_seconds": 5,
+    "consecutive_alarm_limit": 2,
+    "gpu_temperature_stop_C": 75,
+    "cpu_temperature_stop_C": 85,
+    "minimum_host_available_GiB": 32,
+    "minimum_gpu_free_GiB": 8
+  },
+  "started_utc": "2026-10-19T05:03:14.997970+00:00",
+  "formal_training_eligible": false,
+  "diagnostic_branches_started": 0,
+  "phase": "native_census",
+  "process_cleanup_completed": true,
+  "server_pid": 3989193,
+  "current_job": "/media/user/HDD_8T/eventvla_recoverability_phase1_20261014/runs/20261019T050314Z_evidence_native_census/rearrange_blocks_hard_520005.job.json",
+  "worker_pid": 4053841,
+  "next_action": "review actual failures before admitting paired branches"
+}

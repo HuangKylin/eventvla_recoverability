@@ -14,6 +14,7 @@ import time
 import traceback
 from resume_native_controls import atomic_json,resource_sample
 from run_baseline import stop_group
+from conservative_execution import load_profile,conservative_sample,rest_between_jobs
 
 ROOT=Path(__file__).resolve().parents[1]
 sys.path.insert(0,str(ROOT/'src'))
@@ -26,6 +27,7 @@ def main():
     parser.add_argument('--parents',type=Path,required=True)
     parser.add_argument('--after',type=Path,required=True)
     args=parser.parse_args()
+    execution_profile=load_profile(ROOT)
     for path in (args.parents,args.after):
         if not path.resolve().is_relative_to(ROOT):raise ValueError('Manifest must be inside this project')
     old=json.loads(args.parents.read_text())
@@ -42,6 +44,7 @@ def main():
     run=ROOT/'runs'/(datetime.now(timezone.utc).strftime('%Y%m%dT%H%M%SZ')+'_native_slot_probe')
     run.mkdir()
     names=['scripts/run_native_slot_probe.py','scripts/native_slot_probe_worker.py','src/recoverability/slot_protocol.py',
+           'scripts/conservative_execution.py','configs/conservative_execution.json',
            'scripts/seeded_policy_server.py','scripts/resume_native_controls.py','scripts/run_baseline.py',
            'scripts/native_boundary_worker.py','src/recoverability/sim_runtime.py','src/recoverability/camera_capture.py',
            'src/recoverability/fixed_skills.py','src/recoverability/cue_reader.py','src/recoverability/native_boundary.py',
@@ -56,6 +59,7 @@ def main():
         dest=run/'source'/name;dest.parent.mkdir(parents=True,exist_ok=True);dest.write_bytes(content)
     state=dict(status='waiting_for_parent_collection',pid=os.getpid(),run_dir=str(run),gpu=args.gpu,
                started_utc=datetime.now(timezone.utc).isoformat(),source_hashes=hashes,
+               execution_profile=execution_profile,
                boot_id=Path('/proc/sys/kernel/random/boot_id').read_text().strip(),dependency=str(args.after.resolve()),
                parent_manifest=str(args.parents.resolve()),parent_sources={str(s):str(sources[s]) for s in seeds},
                seeds=seeds,conditions=CONDITIONS,protocol=PROTOCOL,episodes=[],formal_training_eligible=False)
@@ -69,6 +73,9 @@ def main():
         deadline=time.monotonic()+14400
         while True:
             dependency=json.loads(args.after.read_text())
+            if dependency['status']=='paused_by_user':raise RuntimeError('Predecessor paused by user; no automatic continuation')
+            if dependency['status']!='complete' and dependency.get('boot_id')!=state['boot_id']:
+                raise RuntimeError('Predecessor belongs to a different boot; do not wait on stale running status')
             if dependency['status']=='failed':raise RuntimeError('Parent collection failed; do not launch follow-on GPU work')
             if dependency['status']=='complete' and dependency.get('process_cleanup_completed'):break
             if time.monotonic()>deadline:raise TimeoutError('Parent collection did not finish within four hours')
@@ -83,7 +90,7 @@ def main():
             except BlockingIOError:
                 if time.monotonic()>lock_deadline:raise RuntimeError('Another project experiment owns the GPU lock')
                 time.sleep(1)
-        initial=resource_sample(args.gpu);gpu=next(g for g in initial['gpus'] if int(g['index'])==args.gpu)
+        initial=conservative_sample(resource_sample(args.gpu),args.gpu,execution_profile);gpu=next(g for g in initial['gpus'] if int(g['index'])==args.gpu)
         if initial['alarms'] or float(gpu['memory_MiB'])>2048 or float(gpu['utilization'])>10:
             raise RuntimeError('GPU unavailable after predecessor cleanup: '+json.dumps(initial))
         library=json.loads((ROOT/'reports/latest_shared_skill_library.json').read_text())['run_dir']+'/library.json'
@@ -95,10 +102,10 @@ def main():
         resources=(run/'resources.jsonl').open('a',buffering=1);last_sample=0.;alarms=0
         def check():
             nonlocal last_sample,alarms
-            if time.monotonic()-last_sample>=10:
-                sample=resource_sample(args.gpu);resources.write(json.dumps(sample)+'\n');resources.flush()
+            if time.monotonic()-last_sample>=execution_profile['monitor_interval_seconds']:
+                sample=conservative_sample(resource_sample(args.gpu),args.gpu,execution_profile);resources.write(json.dumps(sample)+'\n');resources.flush();os.fsync(resources.fileno())
                 alarms=alarms+1 if sample['alarms'] else 0;last_sample=time.monotonic()
-                if alarms>=3:raise RuntimeError('Resource guard: '+repr(sample['alarms']))
+                if alarms>=execution_profile['consecutive_alarm_limit']:raise RuntimeError('Resource guard: '+repr(sample['alarms']))
             if server is not None and server.poll() is not None:raise RuntimeError('Policy server exited')
         state.update(status='loading',port=port);save()
         with (run/'server.log').open('w') as log:
@@ -118,6 +125,10 @@ def main():
                 job=dict(seed=seed,gpu=args.gpu,port=port,condition='keep',slot_condition=condition,
                          source=str(sources[seed]),library=library,max_actions=300,fast_prefix=True,output=str(output))
                 path=output.with_suffix('.job.json');atomic_json(path,job)
+                if child is not None:raise RuntimeError('Simulation workers must remain serial')
+                state['execution_stage']='inter_job_rest';save()
+                rest_between_jobs(execution_profile['inter_job_rest_seconds'],check)
+                state.pop('execution_stage',None)
                 state.update(status='evaluating',current_job=str(path));save()
                 with output.with_suffix('.log').open('w') as log:
                     child=subprocess.Popen([str(ROOT/'envs/sim/bin/python'),'-u',str(ROOT/'scripts/native_slot_probe_worker.py'),str(path)],

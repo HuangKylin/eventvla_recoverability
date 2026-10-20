@@ -1,0 +1,63 @@
+{
+  "protocol": "shared_archive_readout_feasibility_v1",
+  "date": "2026-10-19",
+  "status": "interface_audited_research_benchmark_not_admitted",
+  "scope": "Test action-conditioned evidence access with a shared archive; original eviction goal remains unachieved",
+  "archive": {
+    "equal_delivered_observations": true,
+    "eviction": false,
+    "public_metadata": ["observation_id", "observed_step", "camera_view", "pixel_hash"],
+    "forbidden_selector_inputs": ["seed_as_semantic_hint", "target_slot", "simulator_truth", "future_observations", "evaluation_label"],
+    "full_online_capture_implemented": false,
+    "saved_fixture_scope": "snapshot_available_history_only"
+  },
+  "causal_comparison": {
+    "proposal_source": "same live anchor-only policy forward before selection",
+    "equal_prompt_state_model_rng": true,
+    "proposal_cost_charged_to_all_arms": true,
+    "controls_required": ["query_only", "query_plus_action", "query_plus_shuffled_action", "strong_public_action_rule"],
+    "cached_actions_allowed": false,
+    "proposal_forward_implemented": false
+  },
+  "deployment_comparison": {
+    "single_pass_query_retrieval_required": true,
+    "single_pass_all_history_when_feasible_required": true,
+    "force_baseline_to_pay_unneeded_proposal": false,
+    "match_total_budget_not_just_final_pass": true,
+    "report_quality_latency_pareto_curve": true
+  },
+  "costs": {
+    "mandatory": ["archive_write", "visual_encoder", "index_build", "query_encoder", "search", "proposal_forward", "final_forward", "data_transfer", "physical_reobservation"],
+    "count_repeated_anchor_images": true,
+    "count_actual_processor_visual_tokens": true,
+    "count_total_sequence_tokens": true,
+    "missing_cost": null,
+    "token_count_is_wall_time": false,
+    "shared_encoder_index_and_reobservation_controller": true
+  },
+  "current_cpu_audit": {
+    "fixture_parents": [410000, 410001, 410002],
+    "methods": ["recent", "uniform"],
+    "event_read_caps": [1, 2, 4],
+    "variants": 18,
+    "cuda_visible_devices": "",
+    "cpu_threads": 2,
+    "new_research_samples": 0,
+    "policy_forwards": 0,
+    "training_runs": 0
+  },
+  "next_admission": {
+    "candidate_source": "One existing public long-history task, inspect released observations before new simulation",
+    "required_evidence": [
+      "Distinct historical observations; duplicate frames do not create independent cases",
+      "Strong query retrieval has a reproducible decision-relevant error under an explicit total budget",
+      "An action-conditioned choice changes useful evidence beyond query identity and a simple public rule",
+      "No hidden history in the proposal; shuffled-action control specified",
+      "Total encoder/proposal/read cost leaves a plausible quality-cost benefit against single-pass archive baselines"
+    ],
+    "no_go": "If no admitted case, stop this route and report evidence; do not grow old color tasks or train a scorer",
+    "formal_training_allowed": false
+  },
+  "execution_profile": "configs/conservative_execution.json",
+  "quality_changes_permitted_for_hardware_stability": false
+}

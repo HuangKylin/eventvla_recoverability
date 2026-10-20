@@ -1,0 +1,56 @@
+{
+  "dataset": "leeibo/ActiveArena-Data",
+  "revision": "4fc698d7b3c1871c342181a5fa38f837da945a80",
+  "task": "place_cans_plasticbox_rotate_view",
+  "episodes": [
+    0,
+    1,
+    2
+  ],
+  "selection": "first_three_training_episode_indices_chosen_before_inspection",
+  "downloaded_utc": "2026-10-19T03:47:51.952181+00:00",
+  "files": [
+    {
+      "url": "https://huggingface.co/datasets/leeibo/ActiveArena-Data/resolve/4fc698d7b3c1871c342181a5fa38f837da945a80/place_cans_plasticbox_rotate_view/meta/info.json",
+      "path": "place_cans_plasticbox_rotate_view/meta/info.json",
+      "bytes": 4059,
+      "sha256": "6bc9de5d24a118e6a1b0dcab3a9ae69ad85db5e9842edb7acddcc3f7dbc6c038"
+    },
+    {
+      "url": "https://huggingface.co/datasets/leeibo/ActiveArena-Data/resolve/4fc698d7b3c1871c342181a5fa38f837da945a80/place_cans_plasticbox_rotate_view/meta/tasks.jsonl",
+      "path": "place_cans_plasticbox_rotate_view/meta/tasks.jsonl",
+      "bytes": 3613,
+      "sha256": "68ba45be0bde4a1ed2404d98d4b4347e9d014efcd6a8284dc09d465ed68358d6"
+    },
+    {
+      "url": "https://huggingface.co/datasets/leeibo/ActiveArena-Data/resolve/4fc698d7b3c1871c342181a5fa38f837da945a80/place_cans_plasticbox_rotate_view/meta/episodes.jsonl",
+      "path": "place_cans_plasticbox_rotate_view/meta/episodes.jsonl",
+      "bytes": 10856,
+      "sha256": "d8e85d4cbbf5feb9120410259fdcb3c94f2c4a22be61a5fd216896e79b16f0ca"
+    },
+    {
+      "url": "https://huggingface.co/datasets/leeibo/ActiveArena-Data/resolve/4fc698d7b3c1871c342181a5fa38f837da945a80/place_cans_plasticbox_rotate_view/meta/astribot_subtask_metadata.json",
+      "path": "place_cans_plasticbox_rotate_view/meta/astribot_subtask_metadata.json",
+      "bytes": 274758,
+      "sha256": "1c79153e6c9fbc443f41387b0d0c1299a5f3029bb085120eacb8f746c745ac39"
+    },
+    {
+      "url": "https://huggingface.co/datasets/leeibo/ActiveArena-Data/resolve/4fc698d7b3c1871c342181a5fa38f837da945a80/place_cans_plasticbox_rotate_view/data/chunk-000/episode_000000.parquet",
+      "path": "place_cans_plasticbox_rotate_view/data/chunk-000/episode_000000.parquet",
+      "bytes": 37519204,
+      "sha256": "b0d4e7d21b718d592617e60b0a3a450057684a9bccaa12502f744baba0474570"
+    },
+    {
+      "url": "https://huggingface.co/datasets/leeibo/ActiveArena-Data/resolve/4fc698d7b3c1871c342181a5fa38f837da945a80/place_cans_plasticbox_rotate_view/data/chunk-000/episode_000001.parquet",
+      "path": "place_cans_plasticbox_rotate_view/data/chunk-000/episode_000001.parquet",
+      "bytes": 37410863,
+      "sha256": "91ee25fffc6c75d166bfceff871edf805331816538c81d9a0fee307d73846f60"
+    },
+    {
+      "url": "https://huggingface.co/datasets/leeibo/ActiveArena-Data/resolve/4fc698d7b3c1871c342181a5fa38f837da945a80/place_cans_plasticbox_rotate_view/data/chunk-000/episode_000002.parquet",
+      "path": "place_cans_plasticbox_rotate_view/data/chunk-000/episode_000002.parquet",
+      "bytes": 39482784,
+      "sha256": "1a747cfcd1c345eb6fc85253d1ad1bbf862b7f6d69557bfcd91a3f10fdae5957"
+    }
+  ]
+}

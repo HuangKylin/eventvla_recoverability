@@ -1,0 +1,7 @@
+{
+  "pid": 136050,
+  "log": "/media/user/HDD_8T/eventvla_recoverability_phase1_20261014/logs/evidence_failure_branches_20261020T013243Z.log",
+  "scope": "single_failure_at_most_three_completed_branches",
+  "remote_tests_passed": 12,
+  "resume": "runs/20261019T083752Z_evidence_failure_branches"
+}

@@ -13,6 +13,7 @@ import time
 import traceback
 from resume_native_controls import atomic_json, resource_sample
 from run_baseline import stop_group
+from conservative_execution import load_profile,conservative_sample,rest_between_jobs
 
 ROOT = Path(__file__).resolve().parents[1]
 
@@ -23,11 +24,12 @@ def main():
     parser.add_argument('--seeds', type=int, nargs='+', default=list(range(410000,410020)))
     parser.add_argument('--resume', type=Path, help='Continue a cleaned-up failed batch in a new run directory')
     args = parser.parse_args()
+    execution_profile=load_profile(ROOT)
     if not args.seeds or len(set(args.seeds))!=len(args.seeds) or not set(args.seeds)<=set(range(410000,410020)):
         raise ValueError('Use unique predeclared fresh seeds 410000..410019')
     lock = (ROOT / 'runs/native_controls_resume.lock').open('a+')
     fcntl.flock(lock, fcntl.LOCK_EX | fcntl.LOCK_NB)
-    initial = resource_sample(args.gpu)
+    initial = conservative_sample(resource_sample(args.gpu),args.gpu,execution_profile)
     gpu = next(g for g in initial['gpus'] if int(g['index']) == args.gpu)
     if initial['alarms'] or float(gpu['memory_MiB']) > 2048 or float(gpu['utilization']) > 10:
         raise RuntimeError('GPU or system is not available: ' + json.dumps(initial))
@@ -35,6 +37,7 @@ def main():
     run = ROOT / 'runs' / (datetime.now(timezone.utc).strftime('%Y%m%dT%H%M%SZ') + '_native_parent_collection')
     run.mkdir()
     names = ['scripts/native_parent_worker.py', 'scripts/run_native_parent_collection.py',
+             'scripts/conservative_execution.py','configs/conservative_execution.json',
              'scripts/native_boundary_worker.py', 'src/recoverability/camera_capture.py',
              'src/recoverability/fixed_skills.py', 'src/recoverability/cue_reader.py',
              'src/recoverability/native_items.py','src/recoverability/native_recovery.py',
@@ -59,7 +62,7 @@ def main():
         if resume_state['seeds']!=args.seeds:
             raise ValueError('Resume must preserve the original seed list and order')
         changed=[name for name,old in resume_state['source_hashes'].items() if hashes.get(name)!=old]
-        if set(changed)-{'scripts/run_native_parent_collection.py'}:
+        if set(changed)-{'scripts/run_native_parent_collection.py','scripts/conservative_execution.py','configs/conservative_execution.json'}:
             raise ValueError('Resume cannot change worker or audit code: '+repr(changed))
         for row in resume_state['episodes']:
             if json.loads(Path(row['result_file']).read_text())['status']!='complete':
@@ -73,6 +76,7 @@ def main():
         sock.bind(('127.0.0.1', 0)); port = sock.getsockname()[1]
     state = dict(status='loading', run_dir=str(run), pid=os.getpid(), port=port, gpu=args.gpu,
                  started_utc=datetime.now(timezone.utc).isoformat(), source_hashes=hashes,
+                 execution_profile=execution_profile,
                  boot_id=Path('/proc/sys/kernel/random/boot_id').read_text().strip(), episodes=inherited,
                  seeds=args.seeds, conditions=['prepare','native'],
                  max_actions=1700, predeclared_seed_pool=list(range(410000,410020)), formal_training_eligible=False,
@@ -91,14 +95,20 @@ def main():
     resources = (run / 'resources.jsonl').open('a', buffering=1)
     def check():
         nonlocal last_sample, alarms
-        if time.monotonic() - last_sample >= 10:
-            sample = resource_sample(args.gpu); resources.write(json.dumps(sample)+'\n'); resources.flush()
+        if time.monotonic() - last_sample >= execution_profile['monitor_interval_seconds']:
+            sample = conservative_sample(resource_sample(args.gpu),args.gpu,execution_profile); resources.write(json.dumps(sample)+'\n'); resources.flush();os.fsync(resources.fileno())
             alarms = alarms + 1 if sample['alarms'] else 0; last_sample = time.monotonic()
-            if alarms >= 3: raise RuntimeError('Resource guard: ' + repr(sample['alarms']))
+            if alarms >= execution_profile['consecutive_alarm_limit']: raise RuntimeError('Resource guard: ' + repr(sample['alarms']))
         if server is not None and server.poll() is not None: raise RuntimeError('Policy server exited')
     def interrupt(signum, frame): raise KeyboardInterrupt('Signal ' + str(signum))
+    def rest():
+        if child is not None:raise RuntimeError('Rest is allowed only between simulation workers')
+        state['execution_stage']='inter_job_rest';save()
+        rest_between_jobs(execution_profile['inter_job_rest_seconds'],check)
+        state.pop('execution_stage',None);save()
     def auxiliary(argv,log_path):
         nonlocal child
+        if Path(argv[2]).name=='validate_fresh_parent_replay.py':rest()
         with log_path.open('w') as log:
             child=subprocess.Popen(argv,cwd=ROOT,env=env,stdout=log,stderr=subprocess.STDOUT,start_new_session=True)
             state['worker_pid']=child.pid;save();deadline=time.monotonic()+600
@@ -147,6 +157,7 @@ def main():
                     if not validation.get('passed'):raise ValueError('Fresh parent replay not validated')
                     job.update(condition='keep',source=str(prepared),library=library,max_actions=300,fast_prefix=True)
                 path = output.with_suffix('.job.json'); atomic_json(path, job)
+                rest()
                 state.update(status='evaluating', current_job=str(path)); save()
                 with output.with_suffix('.log').open('w') as log:
                     worker='native_parent_worker.py' if condition=='prepare' else 'native_recovery_vla_worker.py'

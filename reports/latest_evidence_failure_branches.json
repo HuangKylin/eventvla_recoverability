@@ -1,0 +1,177 @@
+{
+  "status": "complete",
+  "pid": 136050,
+  "gpu": 1,
+  "port": 37189,
+  "run_dir": "/media/user/HDD_8T/eventvla_recoverability_phase1_20261014/runs/20261020T013325Z_evidence_failure_branches",
+  "boot_id": "6c6ec060-68dc-44c1-8a81-17f451a8a0cb",
+  "source": "/media/user/HDD_8T/eventvla_recoverability_phase1_20261014/runs/20261019T050314Z_evidence_native_census/rearrange_blocks_hard_520001",
+  "started_utc": "2026-10-20T01:33:25.428681+00:00",
+  "episodes": [
+    {
+      "name": "unchanged",
+      "native_success": false,
+      "native_failed": true,
+      "actions": 2,
+      "final_step": 532,
+      "final_state": {
+        "phase": "move_other_to_center",
+        "fail_flag": true,
+        "press_cnt": 3,
+        "press_flag": true,
+        "progress_index": 4,
+        "actual_first_block_id": 1,
+        "actual_other_block_id": 0,
+        "layout_restored_achieved": true,
+        "other_center_achieved": false,
+        "both_on_center": false,
+        "block_positions": [
+          [
+            0.020000044256448746,
+            -0.13887561857700348,
+            0.7620000839233398
+          ],
+          [
+            0.260503888130188,
+            -0.1363745927810669,
+            0.7620000243186951
+          ]
+        ],
+        "button_qpos": [
+          -0.00580274872481823
+        ],
+        "button_qvel": [
+          -0.004126910585910082
+        ]
+      },
+      "result_sha256": "93431896d94cf630e8994129324ba57b420977161f8dd5d0fe0c394797b10624",
+      "audit": {
+        "first_request_exact_except_declared_images": true,
+        "requests": 1,
+        "images": 13,
+        "metadata_semantics": "original_timestamps_held_fixed_actual_sources_explicitly_audited",
+        "deployed_retrieval_validated": false,
+        "unchanged_replay": {
+          "actions_exact": true,
+          "final_physics_exact": true,
+          "final_evaluator_exact": true,
+          "outcome_exact": true
+        }
+      },
+      "branch_dir": "/media/user/HDD_8T/eventvla_recoverability_phase1_20261014/runs/20261019T083752Z_evidence_failure_branches/unchanged",
+      "inherited_from": "/media/user/HDD_8T/eventvla_recoverability_phase1_20261014/runs/20261019T083752Z_evidence_failure_branches"
+    },
+    {
+      "name": "second_press_witness",
+      "native_success": false,
+      "native_failed": true,
+      "actions": 2,
+      "final_step": 532,
+      "final_state": {
+        "phase": "move_other_to_center",
+        "fail_flag": true,
+        "press_cnt": 3,
+        "press_flag": true,
+        "progress_index": 4,
+        "actual_first_block_id": 1,
+        "actual_other_block_id": 0,
+        "layout_restored_achieved": true,
+        "other_center_achieved": false,
+        "both_on_center": false,
+        "block_positions": [
+          [
+            0.020000044256448746,
+            -0.13887561857700348,
+            0.7620000839233398
+          ],
+          [
+            0.260503888130188,
+            -0.1363745927810669,
+            0.7620000243186951
+          ]
+        ],
+        "button_qpos": [
+          -0.006000000052154064
+        ],
+        "button_qvel": [
+          -0.0007915645837783813
+        ]
+      },
+      "result_sha256": "90306829c42142048b5323e40f9b0e2f084ac38623ffe1fd763bc5e14875bc14",
+      "audit": {
+        "first_request_exact_except_declared_images": true,
+        "requests": 1,
+        "images": 13,
+        "metadata_semantics": "original_timestamps_held_fixed_actual_sources_explicitly_audited",
+        "deployed_retrieval_validated": false
+      },
+      "branch_dir": "/media/user/HDD_8T/eventvla_recoverability_phase1_20261014/runs/20261020T013325Z_evidence_failure_branches/second_press_witness"
+    },
+    {
+      "name": "public_recency",
+      "native_success": false,
+      "native_failed": true,
+      "actions": 2,
+      "final_step": 532,
+      "final_state": {
+        "phase": "move_other_to_center",
+        "fail_flag": true,
+        "press_cnt": 3,
+        "press_flag": true,
+        "progress_index": 4,
+        "actual_first_block_id": 1,
+        "actual_other_block_id": 0,
+        "layout_restored_achieved": true,
+        "other_center_achieved": false,
+        "both_on_center": false,
+        "block_positions": [
+          [
+            0.020000044256448746,
+            -0.13887561857700348,
+            0.7620000839233398
+          ],
+          [
+            0.260503888130188,
+            -0.1363745927810669,
+            0.7620000243186951
+          ]
+        ],
+        "button_qpos": [
+          -0.006000000052154064
+        ],
+        "button_qvel": [
+          -0.0007931888103485107
+        ]
+      },
+      "result_sha256": "bfd5e19bbae4910b0fe7c0ce9ae2daae202e8991f7eeffbef034447fda392f4c",
+      "audit": {
+        "first_request_exact_except_declared_images": true,
+        "requests": 1,
+        "images": 13,
+        "metadata_semantics": "original_timestamps_held_fixed_actual_sources_explicitly_audited",
+        "deployed_retrieval_validated": false
+      },
+      "branch_dir": "/media/user/HDD_8T/eventvla_recoverability_phase1_20261014/runs/20261020T013325Z_evidence_failure_branches/public_recency"
+    }
+  ],
+  "source_hashes": {
+    "scripts/run_evidence_failure_branches.py": "cb90821d3f50c941f0092a401b11963660a648f0f3c352e0dde2777a06bade5f",
+    "scripts/audit_evidence_failure_branch.py": "a3fff334c29345319fbdbbdb1425ff63010b5806f35e2e4866f1a2904765f07e",
+    "src/recoverability/evidence_branch_audit.py": "de8bee081eecc083b6caeec0e985cd69cde56135a6673578ac80010c19d9429f",
+    "scripts/pace_evidence_census.py": "3ace3a030d962bb9cbe17d77d5266cb317173d71fe46cef5cdd3af3f64a5fc55",
+    "src/recoverability/evidence_branch_resume.py": "2681d1534e11003f9ed2a14345d4d2ba3eb8fbc8665f9d2dff13df09fb7d51e9"
+  },
+  "manifest_sha256": "2fc7cbaafc823b5614d057227a7f9147a8fd7ace749dcb1cb3c1f4e38f0c09e9",
+  "formal_training_eligible": false,
+  "process_cleanup_completed": true,
+  "resumed_from": "/media/user/HDD_8T/eventvla_recoverability_phase1_20261014/runs/20261019T083752Z_evidence_failure_branches",
+  "inherited_completed_branches": [
+    "unchanged"
+  ],
+  "server_pid": 136212,
+  "pacer_pid": 136213,
+  "current_job": "/media/user/HDD_8T/eventvla_recoverability_phase1_20261014/runs/20261020T013325Z_evidence_failure_branches/public_recency.job.json",
+  "worker_pid": 145240,
+  "completed_utc": "2026-10-20T01:42:52.035522+00:00",
+  "next_action": "interpret bounded probes; no automatic expansion or training"
+}

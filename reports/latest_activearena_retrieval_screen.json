@@ -1,0 +1,1175 @@
+{
+  "status": "complete",
+  "run_dir": "/media/user/HDD_8T/eventvla_recoverability_phase1_20261014/runs/20261019T035744Z_activearena_retrieval_screen",
+  "protocol_sha256": "d3b6952e14f458d339c2bc6f572c74b0c9290160365a679744bb6ff196ac8c3d",
+  "script_sha256": "88b74829bb86f2552171da984253b4bcd076320613e3c55f574739dc458339a9",
+  "encoder_manifest": {
+    "repo": "google/siglip2-base-patch16-224",
+    "revision": "75de2d55ec2d0b4efc50b3e9ad70dba96a7b2fa2",
+    "files": [
+      {
+        "name": "README.md",
+        "bytes": 3375,
+        "sha256": "39ac3705d62af9ffa1a14675b8ccb220a75f2d81acd530e564a3b1e3dfe418d8"
+      },
+      {
+        "name": "config.json",
+        "bytes": 253,
+        "sha256": "fe8b5fe6d5734360678fd71c11c21e1ea3364bd8598d34295d9206335973ffd7"
+      },
+      {
+        "name": "model.safetensors",
+        "bytes": 1500800904,
+        "sha256": "612923381c76ec5a9bed335d1c48827e3f2e506ac31b044b63b2031fadee6a0b"
+      },
+      {
+        "name": "preprocessor_config.json",
+        "bytes": 394,
+        "sha256": "9b36b57ebaf20f09bf4c22100ccc21877ea6bfe5aead0c00c59f8af8ccefacfc"
+      },
+      {
+        "name": "special_tokens_map.json",
+        "bytes": 636,
+        "sha256": "baec30ea10906f16adb8c18af7a34023002c1746542612b8b41c9f09e1351351"
+      },
+      {
+        "name": "tokenizer.json",
+        "bytes": 34363039,
+        "sha256": "cb9140fae3ac5122c972d37adf83e1248471a38147ad76f8215c8872c6fd8322"
+      },
+      {
+        "name": "tokenizer_config.json",
+        "bytes": 47164,
+        "sha256": "14afe629fe4959b9e0d51e1852b8d9f7ad074f90a1a7125a4fcdd17f06e78fc8"
+      }
+    ]
+  },
+  "cpu_threads": 2,
+  "device": "cpu",
+  "dtype": "float32",
+  "model_load_seconds": 1.413921230006963,
+  "query_encode_seconds": 0.20504344798973761,
+  "query_count": 5,
+  "episodes": [
+    {
+      "episode": 0,
+      "raw_frames": 270,
+      "delivered_frames": 17,
+      "decode_seconds": 0.05624058799003251,
+      "archive_encode_seconds": 2.362235314998543,
+      "decoded_pixel_sha256": [
+        "4a24886e85929357bb4a7d9493d735ae64d0f7fd44a212e9e2641b27638127f8",
+        "1969b6c67e59d29b7214598c1db563d5647322f9bd852d4a3780fe5913ebbd2c",
+        "c6d1a63edf88f3390fd4fdfe950c899a4f59ee14743297080ba1d887086d33d9",
+        "6778ca2f2c70bb1f102c571a1791c3d0457314e4ebd17f452251a1c1d245ef52",
+        "489f9c70005995f7940e4ad0df9413a1f57d012ebf3dde617ca6b46aece99a51",
+        "42d676a753c3a76be56ad75fe31e0114b5252e29f12e610ae878f3a99d8abb3b",
+        "e2e4caa0bb8c3fb0955f19913279ddac565e610144fb027ef3cad2fdb4728e2c",
+        "ec7a998ad1d23bd40aea335b957abb3f9bd03daaf3d8676e838ea49b69edee5e",
+        "08f9863ecb8e7691299facf56c2ff8a05c27fbf29ae84b3bb5f8604a958ef55b",
+        "1b93c21008949a3ea1f49fd44bfe11b056150ee1587407ac21b7c54caf83051a",
+        "906e085a35037b988545170fdc26687c68dc66ce7f55bb12d26e2a5b4ea998bb",
+        "7c0c6e81b059ce6134ba8a8acd8e475468e2eb338e192108e94532abe68e949c",
+        "9bf24d920050a8c923fcec4320af30f268e203280893b9e1e55f08e546e5aea5",
+        "3620fc9ac82eb752120033f9d6e783e21fe183bd54bdbf5e0b18659b282f2503",
+        "edbbb915635c5d068d11ed0be19f0b6e2b97973a145dc223bedcb47e2b5b5de2",
+        "d44846d90f78c2d01b6b99e730f0e60ca7882e42d3ef446428999483613f0f23",
+        "19d4470ca30993ae7446ec64d47516b332e26554e890ad2e20d8b03984417f2a"
+      ],
+      "raw_parquet_sha256": "b0d4e7d21b718d592617e60b0a3a450057684a9bccaa12502f744baba0474570"
+    },
+    {
+      "episode": 1,
+      "raw_frames": 269,
+      "delivered_frames": 17,
+      "decode_seconds": 0.05160783699830063,
+      "archive_encode_seconds": 2.362676675984403,
+      "decoded_pixel_sha256": [
+        "b51f67f3237217ae8c68165a39f2168a87dd84fd21b93dd641b7e2a770912a0c",
+        "5c596e32288177575de176895527df4fe9721406772a60f672bb8f86a3a26811",
+        "c653fb2dee79a85cc7c804c461179e37b0ebbfbd850c1109e3e9ec8b66464aff",
+        "9138739f47fa16070275935183fbf0efa282e4a05457c0ebc2f6c632cdc42bfd",
+        "471686e721308b44db8b0219d74326a362e4dc4f6a50e2fd72bde7140db1e440",
+        "2d43d9df8a29a3af1d331ce7067aad1c0964b8e767948688728f5d2f88b4e618",
+        "93efb2323bb6222759f9a138f3911d06e424456a3690284809fce48a061d49a2",
+        "7e37558c48c9454869f88b625093d1fbace8e842b57eae4d2cabe9f2c456a74e",
+        "827fde24b67a33ae490dd559c39c59d539dfc110af81326db5f3f28cd708c9c2",
+        "cca1222d3c706898b14c43486291f91d4909bbf811a9cbbadf4887c339f2ff51",
+        "0b4795b537d73be5480ab4231a0712bb0efdb531066955a55f471ebc537512dc",
+        "f3ba2e4d7dc4b05fce3da6cc1e293aefee45bcc854bf467b0263a9003f2af9dd",
+        "74d1a63e7e851dd91e4e5310bfca3d73ff8e695100fced11ee2b898b90aece07",
+        "27bfcb6548867b32f907a167877a61a1709825428c65f1884576678d956c161a",
+        "514469665bd6c6c972f3d8d75e282b9a7e3dbbda7932254b89f92333c5149b8c",
+        "2b54123ff737eba9a1480e2928151d1de5abaefdd7747477e265384aa4459a70",
+        "877a9043ca95abad562edd4c7492655e6f509df155f26ba94ee5cf6e2969bb5d"
+      ],
+      "raw_parquet_sha256": "91ee25fffc6c75d166bfceff871edf805331816538c81d9a0fee307d73846f60"
+    },
+    {
+      "episode": 2,
+      "raw_frames": 285,
+      "delivered_frames": 18,
+      "decode_seconds": 0.054753239994170144,
+      "archive_encode_seconds": 2.4838046149816364,
+      "decoded_pixel_sha256": [
+        "a47099b10a9b5cb455dfcb8b3b15bac03e2d0e029d000054a548e7492d4179ab",
+        "8d8af49ef536c746ac00d97ad865275d8907a72cef98f41d8e52d0bce45c9f08",
+        "96aeef736a714a05e4bd2c8296551b67c1e5c4d7f24da647a7890e961fcefe18",
+        "7b3942279e4bf75ee5347394169b097d8b0bbf2dcd5e08076c355dacba4005da",
+        "04dbbfcbb24a85ff8a6be6f8d4a8cb15ea298055b381267222517e729a4076c7",
+        "a67d4b017efccaee827273431cc0b9ce3c0c817137c1ecb707f381941ddbf4da",
+        "6f81795cf98b5058a5548ca1700018d971fdc84ecfb9bde684a1e0c0dab09968",
+        "5674d1b8c52377f7c25291fee8e9b97252a7bcb62973f2685075b20be6c56e97",
+        "84b1074a2437d2b6ac4bdd3458a298ac31a811c6266a5d59181164192cf93e99",
+        "eea879624e4ca0466ce18f03a526ac01b0f6ca0144d3212683aeb00e1a657dff",
+        "91f7a13ca412f920b19c132c284caa79f49ef26c74dbf3f52ef8af350fea3fb5",
+        "0d5639a7a7deba18e9bf0cd713ac891bcc28bba4c553d5c637d17b75a5052713",
+        "8e68c8863581b5504ac3b5ad1a09e4e8a99a961233b666c86e12a52e25915acd",
+        "96346d01b17616983bdd5963de743c38e8a6080601a1506ddc79658073b73746",
+        "59e1c6176bc27b4bb52cb3c03724d9f01ee2810dcc1912781821a270aae755cb",
+        "bd8c6eca2c8b071d50ac7e0941b973e7216e63157ba11d41c9b55fd17b8fea37",
+        "adf3203699ed1a1e38a93deaf8fb5e8134da059883064f8c298f5faadd5825bc",
+        "b54e4745d5d8699ca2217fc2ea619b8d2ca45ea8ddabe2e8fee7dd742d5d8f2a"
+      ],
+      "raw_parquet_sha256": "1a747cfcd1c345eb6fc85253d1ad1bbf862b7f6d69557bfcd91a3f10fdae5957"
+    }
+  ],
+  "checks": {
+    "ep0_phase2_causal_archive": true,
+    "ep0_phase3_causal_archive": true,
+    "ep0_phase4_causal_archive": true,
+    "ep1_phase2_causal_archive": true,
+    "ep1_phase3_causal_archive": true,
+    "ep1_phase4_causal_archive": true,
+    "ep2_phase2_causal_archive": true,
+    "ep2_phase3_causal_archive": true,
+    "ep2_phase4_causal_archive": true
+  },
+  "records": [
+    {
+      "episode": 0,
+      "decision_frame": 64,
+      "evaluator_subtask": 2,
+      "method": "recent",
+      "query_kind": null,
+      "public_gripper_state": null,
+      "evaluator_target": "box",
+      "history_images": 4,
+      "relevant_past_frames": [
+        16,
+        32,
+        48
+      ],
+      "historically_answerable": true,
+      "current_view_sufficient": true,
+      "selected_frames": [
+        48,
+        32
+      ],
+      "hit_at_1": true,
+      "hit_at_2": true,
+      "search_dot_and_sort_seconds": 2.053013304248452e-06,
+      "oracle_query": false
+    },
+    {
+      "episode": 0,
+      "decision_frame": 64,
+      "evaluator_subtask": 2,
+      "method": "siglip_global_instruction",
+      "query_kind": null,
+      "public_gripper_state": null,
+      "evaluator_target": "box",
+      "history_images": 4,
+      "relevant_past_frames": [
+        16,
+        32,
+        48
+      ],
+      "historically_answerable": true,
+      "current_view_sufficient": true,
+      "selected_frames": [
+        32,
+        48
+      ],
+      "hit_at_1": true,
+      "hit_at_2": true,
+      "search_dot_and_sort_seconds": 4.0444982005283237e-05,
+      "oracle_query": false
+    },
+    {
+      "episode": 0,
+      "decision_frame": 64,
+      "evaluator_subtask": 2,
+      "method": "siglip_public_gripper_query",
+      "query_kind": "box",
+      "public_gripper_state": {
+        "left_closed_seen": true,
+        "left_reopened": false,
+        "current_left_gripper": 0.0,
+        "current_right_gripper": 1.0
+      },
+      "evaluator_target": "box",
+      "history_images": 4,
+      "relevant_past_frames": [
+        16,
+        32,
+        48
+      ],
+      "historically_answerable": true,
+      "current_view_sufficient": true,
+      "selected_frames": [
+        16,
+        48
+      ],
+      "hit_at_1": true,
+      "hit_at_2": true,
+      "search_dot_and_sort_seconds": 6.42400118522346e-06,
+      "oracle_query": false
+    },
+    {
+      "episode": 0,
+      "decision_frame": 64,
+      "evaluator_subtask": 2,
+      "method": "oracle_subtask_query_diagnostic_only",
+      "query_kind": null,
+      "public_gripper_state": null,
+      "evaluator_target": "box",
+      "history_images": 4,
+      "relevant_past_frames": [
+        16,
+        32,
+        48
+      ],
+      "historically_answerable": true,
+      "current_view_sufficient": true,
+      "selected_frames": [
+        16,
+        48
+      ],
+      "hit_at_1": true,
+      "hit_at_2": true,
+      "search_dot_and_sort_seconds": 3.722991095855832e-06,
+      "oracle_query": true
+    },
+    {
+      "episode": 0,
+      "decision_frame": 144,
+      "evaluator_subtask": 3,
+      "method": "recent",
+      "query_kind": null,
+      "public_gripper_state": null,
+      "evaluator_target": "second_can",
+      "history_images": 9,
+      "relevant_past_frames": [],
+      "historically_answerable": false,
+      "current_view_sufficient": false,
+      "selected_frames": [
+        128,
+        112
+      ],
+      "hit_at_1": null,
+      "hit_at_2": null,
+      "search_dot_and_sort_seconds": 6.720074452459812e-07,
+      "oracle_query": false
+    },
+    {
+      "episode": 0,
+      "decision_frame": 144,
+      "evaluator_subtask": 3,
+      "method": "siglip_global_instruction",
+      "query_kind": null,
+      "public_gripper_state": null,
+      "evaluator_target": "second_can",
+      "history_images": 9,
+      "relevant_past_frames": [],
+      "historically_answerable": false,
+      "current_view_sufficient": false,
+      "selected_frames": [
+        128,
+        112
+      ],
+      "hit_at_1": null,
+      "hit_at_2": null,
+      "search_dot_and_sort_seconds": 9.709008736535907e-06,
+      "oracle_query": false
+    },
+    {
+      "episode": 0,
+      "decision_frame": 144,
+      "evaluator_subtask": 3,
+      "method": "siglip_public_gripper_query",
+      "query_kind": "can",
+      "public_gripper_state": {
+        "left_closed_seen": true,
+        "left_reopened": true,
+        "current_left_gripper": 1.0,
+        "current_right_gripper": 1.0
+      },
+      "evaluator_target": "second_can",
+      "history_images": 9,
+      "relevant_past_frames": [],
+      "historically_answerable": false,
+      "current_view_sufficient": false,
+      "selected_frames": [
+        128,
+        48
+      ],
+      "hit_at_1": null,
+      "hit_at_2": null,
+      "search_dot_and_sort_seconds": 5.807989509776235e-06,
+      "oracle_query": false
+    },
+    {
+      "episode": 0,
+      "decision_frame": 144,
+      "evaluator_subtask": 3,
+      "method": "oracle_subtask_query_diagnostic_only",
+      "query_kind": null,
+      "public_gripper_state": null,
+      "evaluator_target": "second_can",
+      "history_images": 9,
+      "relevant_past_frames": [],
+      "historically_answerable": false,
+      "current_view_sufficient": false,
+      "selected_frames": [
+        128,
+        48
+      ],
+      "hit_at_1": null,
+      "hit_at_2": null,
+      "search_dot_and_sort_seconds": 4.658999387174845e-06,
+      "oracle_query": true
+    },
+    {
+      "episode": 0,
+      "decision_frame": 224,
+      "evaluator_subtask": 4,
+      "method": "recent",
+      "query_kind": null,
+      "public_gripper_state": null,
+      "evaluator_target": "box",
+      "history_images": 14,
+      "relevant_past_frames": [
+        16,
+        32,
+        48,
+        64,
+        80,
+        96,
+        112,
+        128,
+        144
+      ],
+      "historically_answerable": true,
+      "current_view_sufficient": false,
+      "selected_frames": [
+        208,
+        192
+      ],
+      "hit_at_1": false,
+      "hit_at_2": false,
+      "search_dot_and_sort_seconds": 4.809990059584379e-07,
+      "oracle_query": false
+    },
+    {
+      "episode": 0,
+      "decision_frame": 224,
+      "evaluator_subtask": 4,
+      "method": "siglip_global_instruction",
+      "query_kind": null,
+      "public_gripper_state": null,
+      "evaluator_target": "box",
+      "history_images": 14,
+      "relevant_past_frames": [
+        16,
+        32,
+        48,
+        64,
+        80,
+        96,
+        112,
+        128,
+        144
+      ],
+      "historically_answerable": true,
+      "current_view_sufficient": false,
+      "selected_frames": [
+        128,
+        112
+      ],
+      "hit_at_1": true,
+      "hit_at_2": true,
+      "search_dot_and_sort_seconds": 0.02525937298196368,
+      "oracle_query": false
+    },
+    {
+      "episode": 0,
+      "decision_frame": 224,
+      "evaluator_subtask": 4,
+      "method": "siglip_public_gripper_query",
+      "query_kind": "box",
+      "public_gripper_state": {
+        "left_closed_seen": true,
+        "left_reopened": true,
+        "current_left_gripper": 1.0,
+        "current_right_gripper": 0.0
+      },
+      "evaluator_target": "box",
+      "history_images": 14,
+      "relevant_past_frames": [
+        16,
+        32,
+        48,
+        64,
+        80,
+        96,
+        112,
+        128,
+        144
+      ],
+      "historically_answerable": true,
+      "current_view_sufficient": false,
+      "selected_frames": [
+        176,
+        128
+      ],
+      "hit_at_1": false,
+      "hit_at_2": true,
+      "search_dot_and_sort_seconds": 4.4724991312250495e-05,
+      "oracle_query": false
+    },
+    {
+      "episode": 0,
+      "decision_frame": 224,
+      "evaluator_subtask": 4,
+      "method": "oracle_subtask_query_diagnostic_only",
+      "query_kind": null,
+      "public_gripper_state": null,
+      "evaluator_target": "box",
+      "history_images": 14,
+      "relevant_past_frames": [
+        16,
+        32,
+        48,
+        64,
+        80,
+        96,
+        112,
+        128,
+        144
+      ],
+      "historically_answerable": true,
+      "current_view_sufficient": false,
+      "selected_frames": [
+        176,
+        128
+      ],
+      "hit_at_1": false,
+      "hit_at_2": true,
+      "search_dot_and_sort_seconds": 2.9610993806272745e-05,
+      "oracle_query": true
+    },
+    {
+      "episode": 1,
+      "decision_frame": 64,
+      "evaluator_subtask": 2,
+      "method": "recent",
+      "query_kind": null,
+      "public_gripper_state": null,
+      "evaluator_target": "box",
+      "history_images": 4,
+      "relevant_past_frames": [
+        16,
+        32,
+        48
+      ],
+      "historically_answerable": true,
+      "current_view_sufficient": true,
+      "selected_frames": [
+        48,
+        32
+      ],
+      "hit_at_1": true,
+      "hit_at_2": true,
+      "search_dot_and_sort_seconds": 2.2389867808669806e-06,
+      "oracle_query": false
+    },
+    {
+      "episode": 1,
+      "decision_frame": 64,
+      "evaluator_subtask": 2,
+      "method": "siglip_global_instruction",
+      "query_kind": null,
+      "public_gripper_state": null,
+      "evaluator_target": "box",
+      "history_images": 4,
+      "relevant_past_frames": [
+        16,
+        32,
+        48
+      ],
+      "historically_answerable": true,
+      "current_view_sufficient": true,
+      "selected_frames": [
+        0,
+        32
+      ],
+      "hit_at_1": false,
+      "hit_at_2": true,
+      "search_dot_and_sort_seconds": 2.0001025404781103e-05,
+      "oracle_query": false
+    },
+    {
+      "episode": 1,
+      "decision_frame": 64,
+      "evaluator_subtask": 2,
+      "method": "siglip_public_gripper_query",
+      "query_kind": "box",
+      "public_gripper_state": {
+        "left_closed_seen": true,
+        "left_reopened": false,
+        "current_left_gripper": 0.0,
+        "current_right_gripper": 1.0
+      },
+      "evaluator_target": "box",
+      "history_images": 4,
+      "relevant_past_frames": [
+        16,
+        32,
+        48
+      ],
+      "historically_answerable": true,
+      "current_view_sufficient": true,
+      "selected_frames": [
+        16,
+        48
+      ],
+      "hit_at_1": true,
+      "hit_at_2": true,
+      "search_dot_and_sort_seconds": 5.720998160541058e-06,
+      "oracle_query": false
+    },
+    {
+      "episode": 1,
+      "decision_frame": 64,
+      "evaluator_subtask": 2,
+      "method": "oracle_subtask_query_diagnostic_only",
+      "query_kind": null,
+      "public_gripper_state": null,
+      "evaluator_target": "box",
+      "history_images": 4,
+      "relevant_past_frames": [
+        16,
+        32,
+        48
+      ],
+      "historically_answerable": true,
+      "current_view_sufficient": true,
+      "selected_frames": [
+        16,
+        48
+      ],
+      "hit_at_1": true,
+      "hit_at_2": true,
+      "search_dot_and_sort_seconds": 3.662018571048975e-06,
+      "oracle_query": true
+    },
+    {
+      "episode": 1,
+      "decision_frame": 144,
+      "evaluator_subtask": 3,
+      "method": "recent",
+      "query_kind": null,
+      "public_gripper_state": null,
+      "evaluator_target": "second_can",
+      "history_images": 9,
+      "relevant_past_frames": [],
+      "historically_answerable": false,
+      "current_view_sufficient": false,
+      "selected_frames": [
+        128,
+        112
+      ],
+      "hit_at_1": null,
+      "hit_at_2": null,
+      "search_dot_and_sort_seconds": 6.580085027962923e-07,
+      "oracle_query": false
+    },
+    {
+      "episode": 1,
+      "decision_frame": 144,
+      "evaluator_subtask": 3,
+      "method": "siglip_global_instruction",
+      "query_kind": null,
+      "public_gripper_state": null,
+      "evaluator_target": "second_can",
+      "history_images": 9,
+      "relevant_past_frames": [],
+      "historically_answerable": false,
+      "current_view_sufficient": false,
+      "selected_frames": [
+        112,
+        128
+      ],
+      "hit_at_1": null,
+      "hit_at_2": null,
+      "search_dot_and_sort_seconds": 1.1012976756319404e-05,
+      "oracle_query": false
+    },
+    {
+      "episode": 1,
+      "decision_frame": 144,
+      "evaluator_subtask": 3,
+      "method": "siglip_public_gripper_query",
+      "query_kind": "can",
+      "public_gripper_state": {
+        "left_closed_seen": true,
+        "left_reopened": true,
+        "current_left_gripper": 1.0,
+        "current_right_gripper": 1.0
+      },
+      "evaluator_target": "second_can",
+      "history_images": 9,
+      "relevant_past_frames": [],
+      "historically_answerable": false,
+      "current_view_sufficient": false,
+      "selected_frames": [
+        128,
+        112
+      ],
+      "hit_at_1": null,
+      "hit_at_2": null,
+      "search_dot_and_sort_seconds": 5.437992513179779e-06,
+      "oracle_query": false
+    },
+    {
+      "episode": 1,
+      "decision_frame": 144,
+      "evaluator_subtask": 3,
+      "method": "oracle_subtask_query_diagnostic_only",
+      "query_kind": null,
+      "public_gripper_state": null,
+      "evaluator_target": "second_can",
+      "history_images": 9,
+      "relevant_past_frames": [],
+      "historically_answerable": false,
+      "current_view_sufficient": false,
+      "selected_frames": [
+        128,
+        112
+      ],
+      "hit_at_1": null,
+      "hit_at_2": null,
+      "search_dot_and_sort_seconds": 4.727975465357304e-06,
+      "oracle_query": true
+    },
+    {
+      "episode": 1,
+      "decision_frame": 224,
+      "evaluator_subtask": 4,
+      "method": "recent",
+      "query_kind": null,
+      "public_gripper_state": null,
+      "evaluator_target": "box",
+      "history_images": 14,
+      "relevant_past_frames": [
+        16,
+        32,
+        48,
+        64,
+        80,
+        96,
+        112,
+        128,
+        144
+      ],
+      "historically_answerable": true,
+      "current_view_sufficient": false,
+      "selected_frames": [
+        208,
+        192
+      ],
+      "hit_at_1": false,
+      "hit_at_2": false,
+      "search_dot_and_sort_seconds": 5.00993337482214e-07,
+      "oracle_query": false
+    },
+    {
+      "episode": 1,
+      "decision_frame": 224,
+      "evaluator_subtask": 4,
+      "method": "siglip_global_instruction",
+      "query_kind": null,
+      "public_gripper_state": null,
+      "evaluator_target": "box",
+      "history_images": 14,
+      "relevant_past_frames": [
+        16,
+        32,
+        48,
+        64,
+        80,
+        96,
+        112,
+        128,
+        144
+      ],
+      "historically_answerable": true,
+      "current_view_sufficient": false,
+      "selected_frames": [
+        112,
+        176
+      ],
+      "hit_at_1": true,
+      "hit_at_2": true,
+      "search_dot_and_sort_seconds": 1.844298094511032e-05,
+      "oracle_query": false
+    },
+    {
+      "episode": 1,
+      "decision_frame": 224,
+      "evaluator_subtask": 4,
+      "method": "siglip_public_gripper_query",
+      "query_kind": "box",
+      "public_gripper_state": {
+        "left_closed_seen": true,
+        "left_reopened": true,
+        "current_left_gripper": 1.0,
+        "current_right_gripper": 0.0
+      },
+      "evaluator_target": "box",
+      "history_images": 14,
+      "relevant_past_frames": [
+        16,
+        32,
+        48,
+        64,
+        80,
+        96,
+        112,
+        128,
+        144
+      ],
+      "historically_answerable": true,
+      "current_view_sufficient": false,
+      "selected_frames": [
+        128,
+        112
+      ],
+      "hit_at_1": true,
+      "hit_at_2": true,
+      "search_dot_and_sort_seconds": 1.4778022887185216e-05,
+      "oracle_query": false
+    },
+    {
+      "episode": 1,
+      "decision_frame": 224,
+      "evaluator_subtask": 4,
+      "method": "oracle_subtask_query_diagnostic_only",
+      "query_kind": null,
+      "public_gripper_state": null,
+      "evaluator_target": "box",
+      "history_images": 14,
+      "relevant_past_frames": [
+        16,
+        32,
+        48,
+        64,
+        80,
+        96,
+        112,
+        128,
+        144
+      ],
+      "historically_answerable": true,
+      "current_view_sufficient": false,
+      "selected_frames": [
+        128,
+        112
+      ],
+      "hit_at_1": true,
+      "hit_at_2": true,
+      "search_dot_and_sort_seconds": 1.4389981515705585e-05,
+      "oracle_query": true
+    },
+    {
+      "episode": 2,
+      "decision_frame": 64,
+      "evaluator_subtask": 2,
+      "method": "recent",
+      "query_kind": null,
+      "public_gripper_state": null,
+      "evaluator_target": "box",
+      "history_images": 4,
+      "relevant_past_frames": [
+        16,
+        32,
+        48
+      ],
+      "historically_answerable": true,
+      "current_view_sufficient": true,
+      "selected_frames": [
+        48,
+        32
+      ],
+      "hit_at_1": true,
+      "hit_at_2": true,
+      "search_dot_and_sort_seconds": 1.8400023691356182e-06,
+      "oracle_query": false
+    },
+    {
+      "episode": 2,
+      "decision_frame": 64,
+      "evaluator_subtask": 2,
+      "method": "siglip_global_instruction",
+      "query_kind": null,
+      "public_gripper_state": null,
+      "evaluator_target": "box",
+      "history_images": 4,
+      "relevant_past_frames": [
+        16,
+        32,
+        48
+      ],
+      "historically_answerable": true,
+      "current_view_sufficient": true,
+      "selected_frames": [
+        16,
+        32
+      ],
+      "hit_at_1": true,
+      "hit_at_2": true,
+      "search_dot_and_sort_seconds": 1.8552003894001245e-05,
+      "oracle_query": false
+    },
+    {
+      "episode": 2,
+      "decision_frame": 64,
+      "evaluator_subtask": 2,
+      "method": "siglip_public_gripper_query",
+      "query_kind": "box",
+      "public_gripper_state": {
+        "left_closed_seen": true,
+        "left_reopened": false,
+        "current_left_gripper": 0.0,
+        "current_right_gripper": 1.0
+      },
+      "evaluator_target": "box",
+      "history_images": 4,
+      "relevant_past_frames": [
+        16,
+        32,
+        48
+      ],
+      "historically_answerable": true,
+      "current_view_sufficient": true,
+      "selected_frames": [
+        16,
+        32
+      ],
+      "hit_at_1": true,
+      "hit_at_2": true,
+      "search_dot_and_sort_seconds": 5.687004886567593e-06,
+      "oracle_query": false
+    },
+    {
+      "episode": 2,
+      "decision_frame": 64,
+      "evaluator_subtask": 2,
+      "method": "oracle_subtask_query_diagnostic_only",
+      "query_kind": null,
+      "public_gripper_state": null,
+      "evaluator_target": "box",
+      "history_images": 4,
+      "relevant_past_frames": [
+        16,
+        32,
+        48
+      ],
+      "historically_answerable": true,
+      "current_view_sufficient": true,
+      "selected_frames": [
+        16,
+        32
+      ],
+      "hit_at_1": true,
+      "hit_at_2": true,
+      "search_dot_and_sort_seconds": 3.542983904480934e-06,
+      "oracle_query": true
+    },
+    {
+      "episode": 2,
+      "decision_frame": 160,
+      "evaluator_subtask": 3,
+      "method": "recent",
+      "query_kind": null,
+      "public_gripper_state": null,
+      "evaluator_target": "second_can",
+      "history_images": 10,
+      "relevant_past_frames": [],
+      "historically_answerable": false,
+      "current_view_sufficient": false,
+      "selected_frames": [
+        144,
+        128
+      ],
+      "hit_at_1": null,
+      "hit_at_2": null,
+      "search_dot_and_sort_seconds": 5.899928510189056e-07,
+      "oracle_query": false
+    },
+    {
+      "episode": 2,
+      "decision_frame": 160,
+      "evaluator_subtask": 3,
+      "method": "siglip_global_instruction",
+      "query_kind": null,
+      "public_gripper_state": null,
+      "evaluator_target": "second_can",
+      "history_images": 10,
+      "relevant_past_frames": [],
+      "historically_answerable": false,
+      "current_view_sufficient": false,
+      "selected_frames": [
+        16,
+        32
+      ],
+      "hit_at_1": null,
+      "hit_at_2": null,
+      "search_dot_and_sort_seconds": 9.432988008484244e-06,
+      "oracle_query": false
+    },
+    {
+      "episode": 2,
+      "decision_frame": 160,
+      "evaluator_subtask": 3,
+      "method": "siglip_public_gripper_query",
+      "query_kind": "can",
+      "public_gripper_state": {
+        "left_closed_seen": true,
+        "left_reopened": true,
+        "current_left_gripper": 1.0,
+        "current_right_gripper": 1.0
+      },
+      "evaluator_target": "second_can",
+      "history_images": 10,
+      "relevant_past_frames": [],
+      "historically_answerable": false,
+      "current_view_sufficient": false,
+      "selected_frames": [
+        16,
+        32
+      ],
+      "hit_at_1": null,
+      "hit_at_2": null,
+      "search_dot_and_sort_seconds": 5.740002961829305e-06,
+      "oracle_query": false
+    },
+    {
+      "episode": 2,
+      "decision_frame": 160,
+      "evaluator_subtask": 3,
+      "method": "oracle_subtask_query_diagnostic_only",
+      "query_kind": null,
+      "public_gripper_state": null,
+      "evaluator_target": "second_can",
+      "history_images": 10,
+      "relevant_past_frames": [],
+      "historically_answerable": false,
+      "current_view_sufficient": false,
+      "selected_frames": [
+        16,
+        32
+      ],
+      "hit_at_1": null,
+      "hit_at_2": null,
+      "search_dot_and_sort_seconds": 4.990026354789734e-06,
+      "oracle_query": true
+    },
+    {
+      "episode": 2,
+      "decision_frame": 240,
+      "evaluator_subtask": 4,
+      "method": "recent",
+      "query_kind": null,
+      "public_gripper_state": null,
+      "evaluator_target": "box",
+      "history_images": 15,
+      "relevant_past_frames": [
+        16,
+        32,
+        48,
+        64,
+        80,
+        96,
+        112,
+        128,
+        144,
+        160
+      ],
+      "historically_answerable": true,
+      "current_view_sufficient": false,
+      "selected_frames": [
+        224,
+        208
+      ],
+      "hit_at_1": false,
+      "hit_at_2": false,
+      "search_dot_and_sort_seconds": 4.870234988629818e-07,
+      "oracle_query": false
+    },
+    {
+      "episode": 2,
+      "decision_frame": 240,
+      "evaluator_subtask": 4,
+      "method": "siglip_global_instruction",
+      "query_kind": null,
+      "public_gripper_state": null,
+      "evaluator_target": "box",
+      "history_images": 15,
+      "relevant_past_frames": [
+        16,
+        32,
+        48,
+        64,
+        80,
+        96,
+        112,
+        128,
+        144,
+        160
+      ],
+      "historically_answerable": true,
+      "current_view_sufficient": false,
+      "selected_frames": [
+        16,
+        32
+      ],
+      "hit_at_1": true,
+      "hit_at_2": true,
+      "search_dot_and_sort_seconds": 0.0001657450047787279,
+      "oracle_query": false
+    },
+    {
+      "episode": 2,
+      "decision_frame": 240,
+      "evaluator_subtask": 4,
+      "method": "siglip_public_gripper_query",
+      "query_kind": "box",
+      "public_gripper_state": {
+        "left_closed_seen": true,
+        "left_reopened": true,
+        "current_left_gripper": 1.0,
+        "current_right_gripper": 0.0
+      },
+      "evaluator_target": "box",
+      "history_images": 15,
+      "relevant_past_frames": [
+        16,
+        32,
+        48,
+        64,
+        80,
+        96,
+        112,
+        128,
+        144,
+        160
+      ],
+      "historically_answerable": true,
+      "current_view_sufficient": false,
+      "selected_frames": [
+        16,
+        160
+      ],
+      "hit_at_1": true,
+      "hit_at_2": true,
+      "search_dot_and_sort_seconds": 8.870993042364717e-06,
+      "oracle_query": false
+    },
+    {
+      "episode": 2,
+      "decision_frame": 240,
+      "evaluator_subtask": 4,
+      "method": "oracle_subtask_query_diagnostic_only",
+      "query_kind": null,
+      "public_gripper_state": null,
+      "evaluator_target": "box",
+      "history_images": 15,
+      "relevant_past_frames": [
+        16,
+        32,
+        48,
+        64,
+        80,
+        96,
+        112,
+        128,
+        144,
+        160
+      ],
+      "historically_answerable": true,
+      "current_view_sufficient": false,
+      "selected_frames": [
+        16,
+        160
+      ],
+      "hit_at_1": true,
+      "hit_at_2": true,
+      "search_dot_and_sort_seconds": 8.575996616855264e-06,
+      "oracle_query": true
+    }
+  ],
+  "summary": {
+    "recent": {
+      "probes": 9,
+      "historically_answerable": 6,
+      "historical_evidence_absent": 3,
+      "hit_at_1": 3,
+      "hit_at_2": 3,
+      "current_view_sufficient": 3,
+      "history_needed_probes": 3,
+      "history_needed_hit_at_1": 0,
+      "history_needed_hit_at_2": 0
+    },
+    "siglip_global_instruction": {
+      "probes": 9,
+      "historically_answerable": 6,
+      "historical_evidence_absent": 3,
+      "hit_at_1": 5,
+      "hit_at_2": 6,
+      "current_view_sufficient": 3,
+      "history_needed_probes": 3,
+      "history_needed_hit_at_1": 3,
+      "history_needed_hit_at_2": 3
+    },
+    "siglip_public_gripper_query": {
+      "probes": 9,
+      "historically_answerable": 6,
+      "historical_evidence_absent": 3,
+      "hit_at_1": 5,
+      "hit_at_2": 6,
+      "current_view_sufficient": 3,
+      "history_needed_probes": 3,
+      "history_needed_hit_at_1": 2,
+      "history_needed_hit_at_2": 3
+    },
+    "oracle_subtask_query_diagnostic_only": {
+      "probes": 9,
+      "historically_answerable": 6,
+      "historical_evidence_absent": 3,
+      "hit_at_1": 5,
+      "hit_at_2": 6,
+      "current_view_sufficient": 3,
+      "history_needed_probes": 3,
+      "history_needed_hit_at_1": 2,
+      "history_needed_hit_at_2": 3
+    }
+  },
+  "task_success_measured": false,
+  "action_conditioned_method_evaluated": false,
+  "causal_action_pairs": 0,
+  "formal_training_eligible": false,
+  "annotation_limit": "Single assistant visual annotation, no independent adjudication. Training-demo screening only.",
+  "efficiency_limit": "Precomputed embeddings are used for semantic screening; full-episode index encode time reported, no online or GPU latency claim."
+}

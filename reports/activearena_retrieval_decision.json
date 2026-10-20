@@ -1,0 +1,70 @@
+{
+  "saved_utc": "2026-10-19T04:00:52.824006+00:00",
+  "status": "bounded_public_task_screen_complete_no_go",
+  "decision": "do_not_scale_or_train_action_conditioned_readout_on_this_task",
+  "empirical_disproof_of_general_method": false,
+  "original_goal_achieved": false,
+  "run_dir": "/media/user/HDD_8T/eventvla_recoverability_phase1_20261014/runs/20261019T035744Z_activearena_retrieval_screen",
+  "report_sha256": "1e703e566cf2672c23f4b52f00bd50a177e0d41102f78050f7e81356fa4c1c3a",
+  "development_episodes": 3,
+  "raw_frames": 824,
+  "delivered_chunk_frames": 52,
+  "evaluation_probes": 9,
+  "independent_test_episodes": 0,
+  "formal_training_eligible": false,
+  "evidence_summary": {
+    "recent": {
+      "probes": 9,
+      "historically_answerable": 6,
+      "historical_evidence_absent": 3,
+      "hit_at_1": 3,
+      "hit_at_2": 3,
+      "current_view_sufficient": 3,
+      "history_needed_probes": 3,
+      "history_needed_hit_at_1": 0,
+      "history_needed_hit_at_2": 0
+    },
+    "siglip_global_instruction": {
+      "probes": 9,
+      "historically_answerable": 6,
+      "historical_evidence_absent": 3,
+      "hit_at_1": 5,
+      "hit_at_2": 6,
+      "current_view_sufficient": 3,
+      "history_needed_probes": 3,
+      "history_needed_hit_at_1": 3,
+      "history_needed_hit_at_2": 3
+    },
+    "siglip_public_gripper_query": {
+      "probes": 9,
+      "historically_answerable": 6,
+      "historical_evidence_absent": 3,
+      "hit_at_1": 5,
+      "hit_at_2": 6,
+      "current_view_sufficient": 3,
+      "history_needed_probes": 3,
+      "history_needed_hit_at_1": 2,
+      "history_needed_hit_at_2": 3
+    },
+    "oracle_subtask_query_diagnostic_only": {
+      "probes": 9,
+      "historically_answerable": 6,
+      "historical_evidence_absent": 3,
+      "hit_at_1": 5,
+      "hit_at_2": 6,
+      "current_view_sufficient": 3,
+      "history_needed_probes": 3,
+      "history_needed_hit_at_1": 2,
+      "history_needed_hit_at_2": 3
+    }
+  },
+  "limitations": [
+    "assistant_visual_annotations_not_independently_adjudicated",
+    "training_demonstrations_only",
+    "evidence_visibility_not_control_success",
+    "no_counterfactual_action_pairs",
+    "stride16_observation_contract_not_full15Hz_readout"
+  ],
+  "automatic_next_task_search": false,
+  "next_action": "Review and redefine the research claim before further experiments; do not automatically switch tasks, grow this dataset or train"
+}

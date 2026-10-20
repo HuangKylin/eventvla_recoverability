@@ -1,0 +1,261 @@
+{
+  "status": "complete_posthoc_development_audit",
+  "reused_episodes": 3,
+  "reused_correlated_probes": 9,
+  "new_episodes": 0,
+  "new_model_forwards": 0,
+  "new_rollouts": 0,
+  "new_training_runs": 0,
+  "public_query_answerability_crosstab": {
+    "box": {
+      "present": 6
+    },
+    "can": {
+      "absent": 3
+    }
+  },
+  "posthoc_query_only_shortcut": {
+    "correct": 9,
+    "total": 9,
+    "rule": "predict history evidence present iff public query_kind is box",
+    "held_out": false,
+    "learned": false
+  },
+  "occupancy_records": [
+    {
+      "episode": 0,
+      "decision_frame": 224,
+      "method": "recent",
+      "selected_frames": [
+        208,
+        192
+      ],
+      "frame_categories": [
+        "target_box_not_visible",
+        "target_box_not_visible"
+      ],
+      "box_visible_at_2": false,
+      "deposited_can_evidence_at_2": false,
+      "only_empty_box_evidence": false
+    },
+    {
+      "episode": 0,
+      "decision_frame": 224,
+      "method": "siglip_global_instruction",
+      "selected_frames": [
+        128,
+        112
+      ],
+      "frame_categories": [
+        "first_can_deposited",
+        "first_can_deposited"
+      ],
+      "box_visible_at_2": true,
+      "deposited_can_evidence_at_2": true,
+      "only_empty_box_evidence": false
+    },
+    {
+      "episode": 0,
+      "decision_frame": 224,
+      "method": "siglip_public_gripper_query",
+      "selected_frames": [
+        176,
+        128
+      ],
+      "frame_categories": [
+        "target_box_not_visible",
+        "first_can_deposited"
+      ],
+      "box_visible_at_2": true,
+      "deposited_can_evidence_at_2": true,
+      "only_empty_box_evidence": false
+    },
+    {
+      "episode": 0,
+      "decision_frame": 224,
+      "method": "oracle_subtask_query_diagnostic_only",
+      "selected_frames": [
+        176,
+        128
+      ],
+      "frame_categories": [
+        "target_box_not_visible",
+        "first_can_deposited"
+      ],
+      "box_visible_at_2": true,
+      "deposited_can_evidence_at_2": true,
+      "only_empty_box_evidence": false
+    },
+    {
+      "episode": 1,
+      "decision_frame": 224,
+      "method": "recent",
+      "selected_frames": [
+        208,
+        192
+      ],
+      "frame_categories": [
+        "target_box_not_visible",
+        "target_box_not_visible"
+      ],
+      "box_visible_at_2": false,
+      "deposited_can_evidence_at_2": false,
+      "only_empty_box_evidence": false
+    },
+    {
+      "episode": 1,
+      "decision_frame": 224,
+      "method": "siglip_global_instruction",
+      "selected_frames": [
+        112,
+        176
+      ],
+      "frame_categories": [
+        "first_can_deposited",
+        "target_box_not_visible"
+      ],
+      "box_visible_at_2": true,
+      "deposited_can_evidence_at_2": true,
+      "only_empty_box_evidence": false
+    },
+    {
+      "episode": 1,
+      "decision_frame": 224,
+      "method": "siglip_public_gripper_query",
+      "selected_frames": [
+        128,
+        112
+      ],
+      "frame_categories": [
+        "first_can_deposited",
+        "first_can_deposited"
+      ],
+      "box_visible_at_2": true,
+      "deposited_can_evidence_at_2": true,
+      "only_empty_box_evidence": false
+    },
+    {
+      "episode": 1,
+      "decision_frame": 224,
+      "method": "oracle_subtask_query_diagnostic_only",
+      "selected_frames": [
+        128,
+        112
+      ],
+      "frame_categories": [
+        "first_can_deposited",
+        "first_can_deposited"
+      ],
+      "box_visible_at_2": true,
+      "deposited_can_evidence_at_2": true,
+      "only_empty_box_evidence": false
+    },
+    {
+      "episode": 2,
+      "decision_frame": 240,
+      "method": "recent",
+      "selected_frames": [
+        224,
+        208
+      ],
+      "frame_categories": [
+        "target_box_not_visible",
+        "target_box_not_visible"
+      ],
+      "box_visible_at_2": false,
+      "deposited_can_evidence_at_2": false,
+      "only_empty_box_evidence": false
+    },
+    {
+      "episode": 2,
+      "decision_frame": 240,
+      "method": "siglip_global_instruction",
+      "selected_frames": [
+        16,
+        32
+      ],
+      "frame_categories": [
+        "previously_empty",
+        "previously_empty"
+      ],
+      "box_visible_at_2": true,
+      "deposited_can_evidence_at_2": false,
+      "only_empty_box_evidence": true
+    },
+    {
+      "episode": 2,
+      "decision_frame": 240,
+      "method": "siglip_public_gripper_query",
+      "selected_frames": [
+        16,
+        160
+      ],
+      "frame_categories": [
+        "previously_empty",
+        "first_can_deposited"
+      ],
+      "box_visible_at_2": true,
+      "deposited_can_evidence_at_2": true,
+      "only_empty_box_evidence": false
+    },
+    {
+      "episode": 2,
+      "decision_frame": 240,
+      "method": "oracle_subtask_query_diagnostic_only",
+      "selected_frames": [
+        16,
+        160
+      ],
+      "frame_categories": [
+        "previously_empty",
+        "first_can_deposited"
+      ],
+      "box_visible_at_2": true,
+      "deposited_can_evidence_at_2": true,
+      "only_empty_box_evidence": false
+    }
+  ],
+  "occupancy_summary": {
+    "recent": {
+      "probes": 3,
+      "box_visible_at_2": 0,
+      "deposited_can_evidence_at_2": 0,
+      "only_empty_box_evidence": 0
+    },
+    "siglip_global_instruction": {
+      "probes": 3,
+      "box_visible_at_2": 3,
+      "deposited_can_evidence_at_2": 2,
+      "only_empty_box_evidence": 1
+    },
+    "siglip_public_gripper_query": {
+      "probes": 3,
+      "box_visible_at_2": 3,
+      "deposited_can_evidence_at_2": 3,
+      "only_empty_box_evidence": 0
+    },
+    "oracle_subtask_query_diagnostic_only": {
+      "probes": 3,
+      "box_visible_at_2": 3,
+      "deposited_can_evidence_at_2": 3,
+      "only_empty_box_evidence": 0
+    }
+  },
+  "annotation_limit": "Added after seeing retrieval outputs. Not independently adjudicated. Coarse first-can-deposited evidence, not exact current pose or action sufficiency.",
+  "metric_note": "Visual evidence for a coarse predicate, not action sufficiency or control success.",
+  "learned_gate_headroom_established": false,
+  "stale_memory_caused_control_failure_established": false,
+  "phase_confound_prevents_sufficiency_training": true,
+  "decision": "no_training_admission; retain one conditional evidence-validity hypothesis only",
+  "inputs": {
+    "configs/evidence_claim_audit_v1.json": "7113a318f4aef5cc299a163cfab0bd52f55f44056cdb8f573f8d941706770f9d",
+    "reports/latest_activearena_retrieval_screen.json": "1e703e566cf2672c23f4b52f00bd50a177e0d41102f78050f7e81356fa4c1c3a",
+    "configs/activearena_can_retrieval_pilot_v1.json": "d3b6952e14f458d339c2bc6f572c74b0c9290160365a679744bb6ff196ac8c3d",
+    "scripts/audit_evidence_claim.py": "6aa3bb0aaa9b82ce0fd0a503a159b5f9f0099dc300932825749d490c30258cab"
+  },
+  "contact_sheet_sha256": {
+    "0": "cb6585510679fe96d1f52be51e7c3a725c1e2c17dfff9dfdadd33c6218702d0b",
+    "1": "7605f93a7bccddba63404a771e3e4fdf28749150b4c77b21f87d38fe272d2648",
+    "2": "89bcde7c6f1dc92d07bcab37a4b9ea3a26cf29389830de00f430350da877c5c2"
+  }
+}

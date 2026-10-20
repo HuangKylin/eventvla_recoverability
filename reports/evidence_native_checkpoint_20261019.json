@@ -1,0 +1,318 @@
+{
+  "observed_utc": "2026-10-19T05:20:30.892547+00:00",
+  "status": "evaluating",
+  "run_dir": "/media/user/HDD_8T/eventvla_recoverability_phase1_20261014/runs/20261019T050314Z_evidence_native_census",
+  "completed_episodes": 1,
+  "episodes": [
+    {
+      "native_success": true,
+      "native_failed": false,
+      "native_step_limit_reached": false,
+      "candidate_saved": true,
+      "candidate_step": 906,
+      "actions_executed": 1379,
+      "native_success_without_both_returns": false,
+      "elapsed_seconds": 667.541449523007,
+      "task": "put_back_block_hard",
+      "seed": 520000,
+      "result_file": "/media/user/HDD_8T/eventvla_recoverability_phase1_20261014/runs/20261019T050314Z_evidence_native_census/put_back_block_hard_520000/result.json",
+      "result_sha256": "a1679e944810633d1ce7a8fcb492a8cb080bde51de001f2f5cf3c1761d397ef7",
+      "requests": 29
+    }
+  ],
+  "latest_resource": {
+    "time_utc": "2026-10-19T05:20:30.306841+00:00",
+    "memory": {
+      "MemTotal_KiB": 263379616,
+      "MemAvailable_KiB": 224512864,
+      "SwapTotal_KiB": 31250428,
+      "SwapFree_KiB": 31250428
+    },
+    "load_average": [
+      0.9326171875,
+      0.857421875,
+      0.65283203125
+    ],
+    "gpus": [
+      {
+        "index": "0",
+        "memory_MiB": "264",
+        "total_MiB": "73415",
+        "utilization": "0",
+        "temperature_C": "40",
+        "power_W": "14.83"
+      },
+      {
+        "index": "1",
+        "memory_MiB": "16101",
+        "total_MiB": "73415",
+        "utilization": "96",
+        "temperature_C": "69",
+        "power_W": "165.13"
+      }
+    ],
+    "temperatures": [
+      {
+        "device": "coretemp",
+        "label": "Core 40",
+        "celsius": 36.0
+      },
+      {
+        "device": "coretemp",
+        "label": "Core 24",
+        "celsius": 36.0
+      },
+      {
+        "device": "coretemp",
+        "label": "Core 34",
+        "celsius": 36.0
+      },
+      {
+        "device": "coretemp",
+        "label": "Core 4",
+        "celsius": 58.0
+      },
+      {
+        "device": "coretemp",
+        "label": "Core 44",
+        "celsius": 36.0
+      },
+      {
+        "device": "coretemp",
+        "label": "Core 11",
+        "celsius": 34.0
+      },
+      {
+        "device": "coretemp",
+        "label": "Core 15",
+        "celsius": 36.0
+      },
+      {
+        "device": "coretemp",
+        "label": "Core 8",
+        "celsius": 34.0
+      },
+      {
+        "device": "coretemp",
+        "label": "Core 35",
+        "celsius": 34.0
+      },
+      {
+        "device": "coretemp",
+        "label": "Core 28",
+        "celsius": 40.0
+      },
+      {
+        "device": "coretemp",
+        "label": "Core 12",
+        "celsius": 36.0
+      },
+      {
+        "device": "coretemp",
+        "label": "Core 38",
+        "celsius": 38.0
+      },
+      {
+        "device": "coretemp",
+        "label": "Core 32",
+        "celsius": 34.0
+      },
+      {
+        "device": "coretemp",
+        "label": "Core 16",
+        "celsius": 34.0
+      },
+      {
+        "device": "coretemp",
+        "label": "Core 9",
+        "celsius": 34.0
+      },
+      {
+        "device": "coretemp",
+        "label": "Core 36",
+        "celsius": 34.0
+      },
+      {
+        "device": "coretemp",
+        "label": "Package id 0",
+        "celsius": 59.0
+      },
+      {
+        "device": "coretemp",
+        "label": "Core 13",
+        "celsius": 36.0
+      },
+      {
+        "device": "coretemp",
+        "label": "Core 39",
+        "celsius": 34.0
+      },
+      {
+        "device": "coretemp",
+        "label": "Core 33",
+        "celsius": 34.0
+      },
+      {
+        "device": "coretemp",
+        "label": "Core 10",
+        "celsius": 34.0
+      },
+      {
+        "device": "coretemp",
+        "label": "Core 37",
+        "celsius": 36.0
+      },
+      {
+        "device": "coretemp",
+        "label": "Core 20",
+        "celsius": 36.0
+      },
+      {
+        "device": "coretemp",
+        "label": "Core 0",
+        "celsius": 36.0
+      },
+      {
+        "device": "coretemp",
+        "label": "Core 14",
+        "celsius": 36.0
+      }
+    ],
+    "alarms": [],
+    "execution_profile": "conservative_wall_clock_v1"
+  },
+  "peak_gpu_1_temperature_C": 73.0,
+  "resource_alarm_samples": 0,
+  "boot_id": "959409af-e593-4f9b-9986-871bbe82d43a",
+  "processes": {
+    "pid": {
+      "pid": 3988933,
+      "exists": true
+    },
+    "server_pid": {
+      "pid": 3989193,
+      "exists": true
+    },
+    "worker_pid": {
+      "pid": 3995654,
+      "exists": true
+    }
+  },
+  "analysis_watcher.json": {
+    "status": "watching",
+    "pid": 3996428,
+    "run_dir": "/media/user/HDD_8T/eventvla_recoverability_phase1_20261014/runs/20261019T050314Z_evidence_native_census",
+    "audited_completed_episodes": 1,
+    "updated_utc": "2026-10-19T05:17:50.635282+00:00"
+  },
+  "analysis.json": {
+    "status": "partial",
+    "run_dir": "/media/user/HDD_8T/eventvla_recoverability_phase1_20261014/runs/20261019T050314Z_evidence_native_census",
+    "completed_native_episodes": 1,
+    "planned_native_episodes": 12,
+    "summaries": {
+      "put_back_block_hard": {
+        "completed": 1,
+        "planned": 6,
+        "native_success": 1,
+        "candidates_saved": 1,
+        "categories": {
+          "native_success_no_control_failure_to_repair": 1
+        }
+      },
+      "rearrange_blocks_hard": {
+        "completed": 0,
+        "planned": 6,
+        "native_success": 0,
+        "candidates_saved": 0,
+        "categories": {}
+      }
+    },
+    "episodes": [
+      {
+        "task": "put_back_block_hard",
+        "seed": 520000,
+        "category": "native_success_no_control_failure_to_repair",
+        "native_success": true,
+        "candidate_saved": true,
+        "candidate_step": 906,
+        "actions": 1379,
+        "requests": 29,
+        "images_verified_against_observed_rgb": 388,
+        "final_phase": "success",
+        "final_press_cnt": 3,
+        "elapsed_seconds": 667.541449523007,
+        "result_file": "/media/user/HDD_8T/eventvla_recoverability_phase1_20261014/runs/20261019T050314Z_evidence_native_census/put_back_block_hard_520000/result.json"
+      }
+    ],
+    "audited_policy_requests": 29,
+    "images_verified_against_observed_rgb": 388,
+    "diagnostic_branches_executed": 0,
+    "memory_causation_established": false,
+    "training_eligible": false,
+    "original_research_goal_achieved": false,
+    "note": "Seeds are repeated development trials, not twelve independent task families. put_back has fixed geometry.",
+    "next_action": "Inspect first eligible actual control failures; otherwise stop this bounded diagnostic route."
+  },
+  "execution_additions.json": {
+    "watcher_pid": 3996428,
+    "source_additions": {
+      "scripts/pace_evidence_census.py": "3ace3a030d962bb9cbe17d77d5266cb317173d71fe46cef5cdd3af3f64a5fc55",
+      "scripts/watch_evidence_census.py": "d3552ee1a5009a743b4c48db3dfd82288a79db921c289c42b3eaba6f0252148e",
+      "scripts/analyze_evidence_census.py": "f4310d3216b586857049fe150f84499ade7d9c4513ebbb2f3e6ef1d3f57be8d9",
+      "src/recoverability/evidence_input_audit.py": "151ec9ee24e90c503fba66f754ae5e3e882faf5e87fe21a52f6651e1df257338"
+    },
+    "native_source_unchanged": true,
+    "saved_utc": "2026-10-19T05:17:49.847245+00:00"
+  },
+  "current_job": {
+    "task": "put_back_block_hard",
+    "seed": 520001,
+    "gpu": 1,
+    "port": 43729,
+    "output": "/media/user/HDD_8T/eventvla_recoverability_phase1_20261014/runs/20261019T050314Z_evidence_native_census/put_back_block_hard_520001",
+    "mode": "native"
+  },
+  "current_worker": {
+    "status": "running",
+    "actions_executed": 430,
+    "candidate_saved": false,
+    "formal_training_eligible": false,
+    "native_step_limit": 1800,
+    "stage": "native_rollout",
+    "env_step": 430,
+    "latest_evaluator_state": {
+      "phase": "in_progress",
+      "fail_flag": false,
+      "press_cnt": 1,
+      "press_flag": true,
+      "progress_index": 7,
+      "actual_first_visit_side_ids": [
+        1,
+        null
+      ],
+      "first_center_return_achieved": true,
+      "second_center_return_achieved": false,
+      "both_on_center": true,
+      "block_positions": [
+        [
+          0.1418893188238144,
+          -0.025183891877532005,
+          0.7620002627372742
+        ],
+        [
+          0.14000022411346436,
+          -0.16999992728233337,
+          0.7619997262954712
+        ]
+      ],
+      "button_qpos": [
+        0.0
+      ],
+      "button_qvel": [
+        0.004082277417182922
+      ]
+    },
+    "requests": 10
+  }
+}

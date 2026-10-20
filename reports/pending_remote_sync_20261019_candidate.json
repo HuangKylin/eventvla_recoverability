@@ -1,0 +1,35 @@
+{
+  "saved_utc": "2026-10-19T02:59:41.087459+00:00",
+  "status": "resolved_hash_verified",
+  "reason": "Final metadata sync exited 255; read-only retry returned SSH connection timeout on 192.168.1.20:22.",
+  "files": [
+    {
+      "path": "docs/research_scope_proposal_20261019.md",
+      "bytes": 3953,
+      "sha256": "dfc50208e133a07497fece55e80504b7b75302efd62b31155be2816835ef6092"
+    },
+    {
+      "path": "docs/research_priorities_20261019.md",
+      "bytes": 8730,
+      "sha256": "836871bd6ac7e654675102876a3ba3ad3c00f781bbb990e33bfc6b09e3648ac3"
+    },
+    {
+      "path": "docs/implementation_status.md",
+      "bytes": 12144,
+      "sha256": "75ea5e281b9eb1859a97f068d530afacc6105829a12972becf1cb2d6ae5a4f2d"
+    },
+    {
+      "path": "docs/implementation_backlog.md",
+      "bytes": 5235,
+      "sha256": "4acf7c0e952844cbe526ed724f9d0739a05a58f1f27ffe60623fd2df13bf131e"
+    },
+    {
+      "path": "reports/research_priority_state.json",
+      "bytes": 4395,
+      "sha256": "1c3c9fbfedd8cd7209f192f450f10ef22726733d425eec1c11d1269e18195b07"
+    }
+  ],
+  "retry": "Resolved; do not retry or restart old experiments.",
+  "resolved_utc": "2026-10-19T03:38:24.866561+00:00",
+  "resolution": "The five recorded file versions were uploaded and hash verified after SSH returned; current versions were subsequently updated for the shared archive feasibility investigation."
+}

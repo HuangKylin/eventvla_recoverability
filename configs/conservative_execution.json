@@ -1,0 +1,10 @@
+{
+  "profile": "conservative_wall_clock_v1",
+  "inter_job_rest_seconds": 60,
+  "monitor_interval_seconds": 5,
+  "consecutive_alarm_limit": 2,
+  "gpu_temperature_stop_C": 75,
+  "cpu_temperature_stop_C": 85,
+  "minimum_host_available_GiB": 32,
+  "minimum_gpu_free_GiB": 8
+}

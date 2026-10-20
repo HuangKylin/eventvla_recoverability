@@ -1,0 +1,59 @@
+{
+  "status": "scope_fixed_not_run_runner_not_implemented",
+  "claim_status": "conditional_hypothesis_not_admitted_to_training",
+  "claim": "Action requirements may determine which historical predicates remain useful and which require revalidation; test actual control benefit over strong public rules.",
+  "tasks": ["put_back_block_hard", "rearrange_blocks_hard"],
+  "development_seeds_per_task": [520000, 520001, 520002, 520003, 520004, 520005],
+  "max_native_episodes": 12,
+  "max_diagnostic_parent_states": 4,
+  "max_branches_per_parent": 3,
+  "max_total_completed_trajectories_or_branches": 24,
+  "engineering_setup_limit_work_sessions": 2,
+  "task_expansion_allowed": false,
+  "automatic_launch": false,
+  "training_allowed": false,
+  "checkpoint": "existing EventVLA RoboTwin-MeM; verify hash and native task compatibility before run",
+  "native_task_list": "third_party/EventVLA/EventVLA/examples/RoboTwin-Mem/eval_batch/run_batch_eval.sh",
+  "native_task_list_sha256": "cebee4cd9f0acd503734e2a88b15eccf2c791b61007dae04f3631ca5bc0a18fa",
+  "candidate_selection": "first qualifying states in fixed task/seed/time order; record all exclusion reasons; no outcome-based replacement",
+  "primary_measure": "actual executed control error and paired continuation outcome, not retrieval image hit",
+  "diagnostic_branches": [
+    "unchanged continuation replay",
+    "same-width evidence selected from legal pre-decision observed history by an evaluator, diagnostic only",
+    "best applicable nonlearned public evidence/state baseline selected without paired branch outcomes"
+  ],
+  "candidate_baselines": [
+    "native EventVLA",
+    "complete compact history if it fits deployment input budget",
+    "semantic similarity retrieval",
+    "recency",
+    "public gripper or executed-stage rule",
+    "compact object state table",
+    "fixed-prompt evidence sufficiency check with full cost accounting"
+  ],
+  "required_pairing": [
+    "same physics parent, current observations, instructions and anchor inputs",
+    "same event count, positions and timestamp handling; document evidence replacements",
+    "RNG indexed by paired policy request rather than elapsed physical time",
+    "no hidden original history or stale action chunk bypass",
+    "oracle annotations stay in evaluator and diagnostic upper bound",
+    "count full inference, retrieval and physical reobservation costs"
+  ],
+  "training_entry": [
+    "reproducible native control failures attributable to evidence use",
+    "better legal evidence changes actual paired control outcomes",
+    "strong public baselines leave a concrete unresolved case pattern",
+    "positive and negative evidence cases within the same query kind and task stage",
+    "state a specific distinction from closest published methods"
+  ],
+  "stop_when": [
+    "setup session limit or rollout limit reached without interpretable evidence",
+    "only proxy retrieval errors but no control consequence",
+    "better evidence does not repair control failures",
+    "simple public state rules or full small archive cover observed cases"
+  ],
+  "resource_profile": "configs/conservative_execution.json",
+  "max_concurrent_gpu_jobs": 1,
+  "precision_resolution_and_scientific_budgets": "unchanged; slow execution is acceptable",
+  "interpretation": "Development decision only. No power or publication claim from these small samples. Original K/R labels are not evidence-validity labels."
+}

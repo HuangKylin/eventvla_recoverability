@@ -1,0 +1,22 @@
+{
+  "status": "posthoc_development_audit_not_preregistered_experiment",
+  "source_report": "reports/latest_activearena_retrieval_screen.json",
+  "source_report_sha256": "1e703e566cf2672c23f4b52f00bd50a177e0d41102f78050f7e81356fa4c1c3a",
+  "source_protocol": "configs/activearena_can_retrieval_pilot_v1.json",
+  "annotation_author": "assistant_visual_review",
+  "annotation_limit": "Added after seeing retrieval outputs. Not independently adjudicated. Coarse first-can-deposited evidence, not exact current pose or action sufficiency.",
+  "predicate": "first_can_visibly_deposited_in_target_box",
+  "predicate_probe_subtask": 4,
+  "episodes": {
+    "0": {"empty_box_frames": [16, 32, 48], "deposited_can_frames": [112, 128, 144]},
+    "1": {"empty_box_frames": [16, 32, 48], "deposited_can_frames": [112, 128, 144]},
+    "2": {"empty_box_frames": [16, 32, 48, 64], "deposited_can_frames": [128, 144, 160]}
+  },
+  "unsupported_inferences": [
+    "a retrieved empty-box frame caused a robot control failure",
+    "box occupancy evidence is necessary for successful placement in this task",
+    "an unseen target in the stride-16 delivered history was absent from all raw frames",
+    "a phase-only rule generalizes to another task or observation schedule",
+    "a learned evidence-validity gate has established headroom over public rules"
+  ]
+}

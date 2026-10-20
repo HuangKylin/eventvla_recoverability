@@ -1,0 +1,33 @@
+{
+  "protocol": "activearena_can_retrieval_screen_v1",
+  "dataset_revision": "4fc698d7b3c1871c342181a5fa38f837da945a80",
+  "task": "place_cans_plasticbox_rotate_view",
+  "episodes": [0, 1, 2],
+  "split": "train_development_only",
+  "observation_stride": 16,
+  "archive_scope": "all_chunk_boundary_observations_from_episode_start; raw intermediate frames retained but not delivered to any method",
+  "query_points": "first stride-16 observation at or after each transition to subtasks 2,3,4; evaluator schedules only",
+  "methods": ["recent", "siglip_global_instruction", "siglip_public_gripper_query", "oracle_subtask_query_diagnostic_only"],
+  "read_top_k": [1, 2],
+  "public_query_rule": "Count completed left-hand close/open cycle using past and current gripper state; if carrying a can query box, otherwise query a can outside the box. No future action is read.",
+  "query_texts": {
+    "can": "a can resting on the table outside the plastic box",
+    "box": "the plastic box on the table where a can can be placed"
+  },
+  "visual_annotation": {
+    "source": "assistant visual inspection of all stride-16 contact sheets before any retriever output; not independent human ground truth",
+    "criterion": "box: its placement footprint is sufficiently in view; second_can: second target still on table before grasp, identifiable in the sequence",
+    "role": "evaluator_only_never_model_input",
+    "episodes": {
+      "0": {"box_frames": [16,32,48,64,80,96,112,128,144,240,256], "second_can_frames": [160,176]},
+      "1": {"box_frames": [16,32,48,64,80,96,112,128,144,240,256], "second_can_frames": [160,176]},
+      "2": {"box_frames": [16,32,48,64,80,96,112,128,144,160,256,272], "second_can_frames": [176,192]}
+    }
+  },
+  "metrics": ["evidence_hit_at_k_conditional_on_historical_answerability", "unanswerable_queries_separate", "current_view_already_sufficient", "index_encode_seconds", "query_encode_seconds", "search_seconds"],
+  "invalid_claims": ["task_success", "action_conditioned_method_advantage", "formal_K_R_labels", "heldout_generalization", "learning_is_necessary", "GPU_latency"],
+  "encoder": "google/siglip2-base-patch16-224",
+  "encoder_revision": "75de2d55ec2d0b4efc50b3e9ad70dba96a7b2fa2",
+  "execution": {"device": "cpu", "dtype": "float32", "cpu_threads": 2, "batch_size": 4, "train": false},
+  "stop_condition": "No qualifying action-specific failure beyond query/state rules means do not admit this task to formal scorer training; do not auto-expand the dataset or switch tasks."
+}

@@ -1,0 +1,26 @@
+{
+  "version": "research_headroom_gate_v1",
+  "date": "2026-10-19",
+  "status": "frozen_for_retrospective_audit_not_preregistered_confirmatory_evaluation",
+  "purpose": "Decide whether to expand the current simple-color task before more VLA calibration or training",
+  "data_scope": "Existing four mechanism development families and existing held-out-family closed-loop evaluation; no new independent samples",
+  "collection_report": "reports/latest_action_pairs.json",
+  "evaluation_report": "reports/latest_scored_action_eval.json",
+  "library": "runs/20261014T111504Z_shared_skill_library/library.json",
+  "rule_input": "16 motor-target samples matched against the shared frozen library; no action_slot/job/scene truth input",
+  "rule_tolerance": 1e-8,
+  "diagnostic": "Rank each candidate by its measured single-drop J(R)-J(K); do not compose multi-drop outcomes",
+  "stop_current_task_scaleup_if": [
+    "public-action rule chooses a maximum-cost candidate in every observed group",
+    "existing action-rule closed-loop evaluation has no query errors",
+    "RGB-only compact records reproduce every distinct saved prefix answer",
+    "existing structured closed-loop evaluation has no query errors"
+  ],
+  "native_schema_check": "Enumerate all 24 unique-color assignments and four single deletions; compare with independent-color mechanism",
+  "interpretation": "Practical development stop decision; not a statistical rejection of the broader research hypothesis",
+  "gpu_jobs_max": 0,
+  "mutate_historical_data": false,
+  "resume_old_20_parent_batch": false,
+  "resume_old_24_slot_batch": false,
+  "formal_training_authorized_by_this_gate": false
+}
